@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # Sayfa URL'si
-url = "https://aday.pirireis.edu.tr/sikca-sorulan-sorular/"  # Gerçek linkle değiştir
+url = "https://aday.pirireis.edu.tr/sikca-sorulan-sorular/"  
 
 headers = {
     "User-Agent": "Mozilla/5.0"
