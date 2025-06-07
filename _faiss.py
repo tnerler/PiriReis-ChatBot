@@ -4,38 +4,43 @@ from langchain_community.vectorstores import FAISS
 from openai_clients import embeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os 
+from load_docs import compute_hash
+
+
+def get_existing_hashes(vector_store) -> set:
+
+    """
+    Var olan FAISS veritabanındaki tüm belgelerin hash değerlerini toplar.
+    Böylece yeni belge eklerken aynı olanları eklemekten kaçınabiliriz.
+    """
+
+    hashes = set()
+    for doc in vector_store.docstore._dict.values():
+        doc_hash = doc.metadata.get("hash")
+        if doc_hash:
+            hashes.add(doc_hash)
+    return hashes
+
+
+
 def build_store(docs, persist_path='vector_db') : 
+
     """
-    ### Aciklama:
-
-    Belgeleri alır, eğer vektör veritabanı kayıtlıysa onu yükler.
-    Kayıtlı değilse yeni FAISS index oluşturur, embedding hesaplar ve kaydeder.
-
-    ### Degiskenler:
-
-    **embedding_dim**: Bu değişken, embedding modelimizin vektör boyutunu öğrenmek için kullanılır. 
-    İçine yazılan metin önemli değildir; sadece vektörün kaç boyutlu olduğunu tespit etmek amacıyla kullanılır. 
-    **Suan ki embed modelimizin dimension'i 1536 ---> embedding_dim == 1536**
-
-    **index**: Burada FAISS indexi oluşturuluyor.
-    IndexFlatIP yapısı, vektörler arasında benzerliği inner product (yani dot product veya cosine similarity) kullanarak hesaplar.
-    Indexin boyutu ise embedding vektörünün dimension sayısına eşittir.
-
-    **vector_store**:   [
-
-    *embedding_function*: Vektörleri hesaplamak için kullanılacak embedding modeli.
-
-    *index*: FAISS’in IndexFlatIP tipi indexi burada kullanılıyor.
-
-    *docstore*: Vektörlerle ilişkilendirilen gerçek doküman içerikleri bellekte (RAM) saklanacak.
-
-    *index_to_docstore_id*: Her vektörün hangi dokümana ait olduğunu gösteren bir eşleme (başlangıçta boş olacak).
-
-    ]
+    Belgeleri alır ve FAISS veritabanını oluşturur veya yükler.
+    
+    Eğer daha önce kaydedilmiş bir veritabanı varsa onu yükler.
+    Yoksa yeni bir FAISS veritabanı oluşturur ve belgelerin embeddinglerini hesaplayarak ekler.
+    
+    datayi_guncelle=True olursa, yeni belgeleri mevcut veritabanına ekler.
+    Bu eklemede belge tekrarlarını önlemek için hash kontrolü yapılır.
+    
+    Sonuçta güncel veya yeni FAISS veritabanını döner.
     """
+
     if os.path.exists(persist_path):
         print(f"[i] Kayıtlı FAISS veritabanı bulundu, yükleniyor: {persist_path}")
         vector_store = FAISS.load_local(persist_path, embeddings, allow_dangerous_deserialization=True)
+        existing_hashes = get_existing_hashes(vector_store)
     else: 
 
         # Yeni FAISS index oluşturuluyor
@@ -50,9 +55,20 @@ def build_store(docs, persist_path='vector_db') :
             index_to_docstore_id={}
         )
     
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-        all_splits = text_splitter.split_documents(docs)
-        
-        vector_store.add_documents(all_splits)
+        existing_hashes = set()
+
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    all_splits = text_splitter.split_documents(docs)
+
+    for split in all_splits:
+        if "hash" not in split.metadata:
+            split.metadata["hash"] = compute_hash(split.page_content)
+    
+    new_docs = [doc for doc in all_splits if doc.metadata["hash"] not in existing_hashes]
+    if new_docs: 
+        print(f"[+] {len(new_docs)} yeni belge bulundu, veritabani guncelleniyor...")
+        vector_store.add_documents(new_docs)
         vector_store.save_local(persist_path)
+    else:
+        print("[i] Yeni belge yok, guncelleme yapilmadi.")
     return vector_store

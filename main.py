@@ -1,8 +1,12 @@
 from langgraph.graph import START, StateGraph
 from retrieve_and_generate import build_chatbot, State
 from langchain_core.prompts import PromptTemplate
+import os 
 
 
+# LangSmith sitesinde loglari gormemizi saglar. Hangi cevap hangi documentten geldi? Kac token harcandi? gibi...
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
 
 template = """Soruyu cevaplamak için aşağıdaki bağlam parçalarını kullanın.
 Cevabı bilmiyorsanız, bilmediğinizi söyleyin, bir cevap uydurmaya çalışmayın.

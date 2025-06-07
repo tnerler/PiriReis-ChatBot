@@ -1,5 +1,16 @@
 import json
 from langchain.schema import Document
+import hashlib
+
+def compute_hash(content: str) -> str : 
+    """
+    Duplicate sorununu ortadan kaldirmak icin (dataya her yeni veri
+    geldikten sonra guncelledigimizde eski datalarin tekrar
+    yuklenmemesini saglamak icin) her dataya bir id atiyor hash ile.
+    """
+    return hashlib.sha256(content.encode("utf-8")).hexdigest()
+
+
 
 def load_docs() : 
     """
@@ -19,19 +30,25 @@ def load_docs() :
     - Diğer tipler ise mutlaka "context" alanına sahiptir.
 
     Returns:
-        List[Document]: İçeriğinde soru-cevap veya bilgi metinleri bulunan Document nesneleri listesi.
+        List[Document]: İçeriğinde soru-cevap veya bilgi metinleri ve hash id'lerin bulundugu Document nesneleri listesi.
     """
 
-
-    with open("get_data/data.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+    try: 
+        with open("get_data/data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError: 
+        print("Dosya Bulunamadi.")
 
     # Her soru-cevap cifti icin Document olustur
     docs = []
     for item in data:
         if item.get("type") == "soru-cevap":
             content= f"Soru: {item['soru']}\nCevap: {item['cevap']}"
+    
         else:
             content=f"Bilgi: {item['context']}"
-        docs.append(Document(page_content=content))
+        
+        doc_hash = compute_hash(content)
+        docs.append(Document(page_content=content, metadata={"hash": doc_hash, 
+                                                             "type": item.get("type")}))
     return docs 
