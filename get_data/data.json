@@ -1,151 +1,226 @@
 [
   {
     "type": "soru-cevap",
+    "tags": ["kayıt", "şartlar", "üniversite", "yerleştirme", "öğrenci"],
     "soru": "1-Piri Reis Üniversitesi’ne kayıt koşulları nelerdir?",
     "cevap": "ÖSYM tarafından düzenlenen Yükseköğretim Kurumları Sınavı (YKS) nda puanına göre, İktisadi İdari Bilimler Fakültesi ve Hukuk Fakültesine Eşit Ağırlık puanı ile, Denizcilik Fakültesi, Mühendislik Fakültesi Sayısal Puanı ile diğer bölümlere ise Kontenjan Kılavuzda yayınlandığı türde puan ile YKS (bknz 2020 ÖSYS Kılavuz) öğrenci alan programları tercih etmeleri ve bu programlardan herhangi birine ÖSYM tarafından yerleştirilmeleri durumunda üniversitemizde öğrenim görmeye hak kazanırlar. Tüm Akademik Birimlerin kayıt koşulları ÖSYM Kılavuzunda yayınlanır."
   },
   {
     "type": "soru-cevap",
+    "tags": ["kayıt", "tarih", "geç kayıt", "süre", "öğrenci"],
     "soru": "2- Kayıt tarihleri içinde kaydımı tamamlamam mümkün değil. Daha önce veya sonra kayda gelsek, kayıt işlemlerimiz yapılamaz mı?",
     "cevap": "ÖSYM ‘nin belirlediği tarihler içinde kayıtlarını tamamlamayan adaylar, Üniversiteye kayıt haklarını kaybedecektir. Bu tarihler ÖSYM tarafından ilan edilmekte olup, Üniversitemiz tarafından değişiklik yapılması mümkün değildir."
   },
   {
     "type": "soru-cevap",
+    "tags": ["kayıt", "vekalet", "öğrenci", "kayıt işlemleri", "yetki"],
     "soru": "3- Şahsen kayda kendim gelemeyeceğim. Bir başkası benim yerime kayıt yaptırabilir mi?",
     "cevap": "Öğrencilerin kayıt işlemlerini şahsen yapmaları gerekir. Kayıt yaptıracak öğrencinin kayda gelememesi durumunda öğrenci 18 yaşından küçük ise, anne veya babası kayıt işlemlerini gerçekleştirebilir. Herhangi başka bir akraba vb. bir kişi, vekaletnamesi olmadığı takdirde bu işlemi yapamaz. 18 yaş ve üzerindeki öğrencilerin kayıt işlemlerini bir başkasının yapabilmesi için, o kişiye noter tasdikli vekaletname vermesi gerekmektedir. Öğrenci yerine kayda gelen kişilerin yanlarında nüfus cüzdanlarını bulundurmaları gerekmektedir."
   },
   {
     "type": "soru-cevap",
+    "tags": ["lisans", "programlar", "kontenjan", "bölümler", "üniversite"],
     "soru": "4- Piri Reis Üniversitesi’nde hangi Lisans programları bulunmaktadır, öğrenci kontenjanı nedir?",
     "cevap": "Lisans programlarımıza öğrenci kabulü üniversitemiz tarafından önerilen ve Yükseköğretim Kurulu (YÖK) tarafından onaylanan kontenjanlar dahilinde yapılır. Tercihleriniz arasında göstermek istediğiniz programlarımızın kod numaralarını 2023 ÖSYS Yükseköğretim Programları ve Kontenjanları Kılavuzundan yayınlandığında kontrol etmenizi öneririz. (www.osym.gov.tr) (www.pirireis.edu.tr)Fakülte ve Bölümler\nDenizcilik FakültesiDeniz Ulaştırma İşletme Mühendisliği\nGemi Makineleri İşletme Mühendisliğiİktisadi ve İdari Bilimler FakültesiUluslararası Ticaret ve İşletmecilik Bölümü\nEkonomi ve Finans Bölümü\nDenizcilik İşlet. Yönetimi Bölümü\nLojistik Yönetimi Bölümü\nYönetim Bilişim Sistemleri BölümüMühendislik FakültesiGemi İnşaatı ve Gemi Makineleri Mühendisliği\nMakine Mühendisliği Bölümü\nElektrik-Elektronik Mühendisliği\nEndüstri Mühendisliği\nBilişim Sistemleri MühendisliğiHukuk Fakültesi\nHukuk"
   },
   {
     "type": "soru-cevap",
+    "tags": ["ön lisans", "programlar", "denizlik meslek yüksekokulu", "bölümler"],
     "soru": "5- Piri Reis Üniversitesinde ön lisans programları var mı?",
-    "cevap": "2020-2021   akademik yılında ön lisans düzeyinde Denizcilik Meslek Yüksekokulu olarak 10  adet programımız bulunmaktadır. Eğitim dili %30 ve %100  İngilizce olan Denizcilik Meslek Yüksek Okulunun Bölümleri,Deniz Ulaştırma İşletme Programı (% 30 İngilizce)\nGemi Makineleri İşletme Programı(% 30 İngilizce)\nGemi İnşaatı Programı(% 30 İngilizce)\nDeniz ve Liman İşletmeciliği Programı(% 30 İngilizce)\nMarina ve Yat İşletmeciliği Programı (Yat Kaptanlığı)(% 30 İngilizce)\nDeniz Brokerliği Programı(% 30 İngilizce)\nMekatronik Programı(% 30 İngilizce)\nLojistik Programı(% 30 İngilizce)\nBilgisayar Programcılığı Programı(% 30 İngilizce)\nAşçılık Programı(% 100 İngilizce)\nSualtı Teknolojisi Programı( %100 İngilizce)"
+    "cevap": "2020-2021 akademik yılında ön lisans düzeyinde Denizcilik Meslek Yüksekokulu olarak 10 adet programımız bulunmaktadır. Eğitim dili %30 ve %100 İngilizce olan Denizcilik Meslek Yüksek Okulunun Bölümleri,Deniz Ulaştırma İşletme Programı (% 30 İngilizce)\nGemi Makineleri İşletme Programı(% 30 İngilizce)\nGemi İnşaatı Programı(% 30 İngilizce)\nDeniz ve Liman İşletmeciliği Programı(% 30 İngilizce)\nMarina ve Yat İşletmeciliği Programı (Yat Kaptanlığı)(% 30 İngilizce)\nDeniz Brokerliği Programı(% 30 İngilizce)\nMekatronik Programı(% 30 İngilizce)\nLojistik Programı(% 30 İngilizce)\nBilgisayar Programcılığı Programı(% 30 İngilizce)\nAşçılık Programı(% 100 İngilizce)\nSualtı Teknolojisi Programı( %100 İngilizce)"
   },
   {
     "type": "soru-cevap",
+    "tags": ["kayıt", "öğrenci", "yerleştirme", "öSYM", "lisans"],
     "soru": "6- Piri Reis Üniversitesi lisans programlarına ÖSYM’nin yapacağı yerleştirme dışında kayıt olabilmem mümkün mü?",
-    "cevap": "Hayır, tüm  üniversitelerin lisans / ön lisans programlarına öğrenci  kabulü ÖSYM Başkanlığı tarafından merkezi olarak yapılmaktadır. Üniversitemize başka bir yerleştirme şekli yoktur."
+    "cevap": "Hayır, tüm üniversitelerin lisans / ön lisans programlarına öğrenci kabulü ÖSYM Başkanlığı tarafından merkezi olarak yapılmaktadır. Üniversitemize başka bir yerleştirme şekli yoktur."
   },
   {
     "type": "soru-cevap",
+    "tags": ["misafir öğrenci", "kayıt", "üniversite", "ders", "öğrenci"],
     "soru": "7- Üniversitenizde misafir öğrenci olabiliyor muyum?",
     "cevap": "Bir yükseköğretim kurumu mezunu veya öğrencisi olan adayların herhangi bir programda kayıtlı olmadan, bilgi edinmek amacıyla, üniversitemizde sunulan dersleri “Misafir Öğrenci” statüsünde almaları mümkündür. Misafir öğrenci kabulü, YÖK’ün ilgili mevzuat hükümleri ve Yönetmelik tarafından belirlenen esaslar çerçevesinde yapılıyor. Misafir öğrencilere, misafir öğrenci kimliği ile aldıkları dersleri ve notları gösteren bir belge verilir. Diploma verilmez. Üniversitemizde misafir öğrenci olarak kayıt yaptıran kişiler, öğrenimleri süresince öğrencilik haklarından yararlanamaz."
   },
   {
     "type": "soru-cevap",
+    "tags": ["danışmanlık", "üniversite", "öğrenci", "rehberlik"],
     "soru": "8- Üniversiteniz de danışmanlık sistemi var mı?",
     "cevap": "Üniversitemizde danışmanlık sistemi bulunmaktadır."
   },
   {
     "type": "soru-cevap",
+    "tags": ["ek kontenjan", "kayıt", "öğrenci", "öSYM", "yerleştirme"],
     "soru": "9-Piri Reis Üniversitesi’nde Ek kontenjan ile kayıt yaptırabilir miyim?",
     "cevap": "İlk yerleştirme sonrasında ek kontenjanlarla ilgili bilgileri ÖSYM tarafından hazırlanan Ek Yerleştirme Kılavuzu’ndan takip edebilirsiniz. Daha önce ilk yerleştirmede bir programa yerleştirilmediyseniz, ek yerleştirme ile Üniversitemizde ‘’açık kontenjan var ise’’ yerleştirilme olanağınız olabilir. Bu konuda inisiyatif tamamen ÖSYM Başkanlığındadır. Bu süreç için ÖSYM Başkanlığının Ek Kontenjan kılavuz kitapçığı takip edilmelidir."
   },
   {
     "type": "soru-cevap",
+    "tags": ["yabancı öğrenci", "kontenjan", "uluslararası", "kayıt", "üniversite"],
     "soru": "10-Piri Reis Üniversitesi’nde Yabancı uyruklu öğrenci kontenjanı var mı?",
-    "cevap": "2020 – 2021 Eğitim – Öğretim yılı için Yabancı Uyruklu öğrenci kontenjanımız bulunmaktadır.Lisans programlarımıza yabancı uyruklu öğrenci kabulü, YÖK’ün ilgili yönetmelik hükümleri ve Senato tarafından belirlenen esaslar ve kontenjanlar çerçevesinde yapılır. Yabancı Uyruklu öğrenci kontenjanlarına, başvuru tarih ve koşullarına  www.pirireis.edu.tr web sayfasından Öğrenci İşleri Müdürlüğü Linkinin altından ulaşabilirsiniz."
+    "cevap": "2020 – 2021 Eğitim – Öğretim yılı için Yabancı Uyruklu öğrenci kontenjanımız bulunmaktadır.Lisans programlarımıza yabancı uyruklu öğrenci kabulü, YÖK’ün ilgili yönetmelik hükümleri ve Senato tarafından belirlenen esaslar ve kontenjanlar çerçevesinde yapılır. Yabancı Uyruklu öğrenci kontenjanlarına, başvuru tarih ve koşullarına www.pirireis.edu.tr web sayfasından Öğrenci İşleri Müdürlüğü Linkinin altından ulaşabilirsiniz."
   },
   {
     "type": "soru-cevap",
+    "tags": ["dikey geçiş", "öğrenci kabulü", "kontenjan", "üniversite", "programlar"],
     "soru": "11-Dikey Geçiş ile Piri Reis Üniversitesi’nde öğrenim görmek mümkün mü?",
-    "cevap": "Üniversitemiz dikey geçiş yolu ile öğrenci kabul etmektedir. Kontenjanlar ve puanlarla ilgili bilgileri ÖSYM tarafından hazırlanan Dikey Geçiş Kılavuzu’ndan kontenjanlarımızı ise www.pirireis.edu.tr sayfamızdan  Öğrenci İşleri Müdürlüğü linki altından takip edebilirsiniz. Kontenjan ve koşullar 2020  DGS Kılavuzunda yayınlanacaktır.DGS ile öğrenci alınacak bölümlerimiz;Denizcilik  FakültesiDeniz Ulaştırma İşletme Mühendisliği\nGemi Makineleri İşletme Mühendisliği\nMühendislik FakültesiGemi İnşaatı ve Gemi Makineleri Mühendisliği\nMakine Mühendisliği\nElektrik-Elektronik Mühendisliği\nEndüstri Mühendisliği\nİktisadi İdari Bilimler FakültesiUluslararası Ticaret ve İşletme\nEkonomi ve Finans\nDeniz İşletmeciliği ve Yönetimi\nLojistik Yönetimi\nYönetim Bilişim Sistemleri"
+    "cevap": "Üniversitemiz dikey geçiş yolu ile öğrenci kabul etmektedir. Kontenjanlar ve puanlarla ilgili bilgileri ÖSYM tarafından hazırlanan Dikey Geçiş Kılavuzu’ndan kontenjanlarımızı ise www.pirireis.edu.tr sayfamızdan Öğrenci İşleri Müdürlüğü linki altından takip edebilirsiniz. Kontenjan ve koşullar 2020 DGS Kılavuzunda yayınlanacaktır.DGS ile öğrenci alınacak bölümlerimiz;Denizcilik FakültesiDeniz Ulaştırma İşletme Mühendisliği\nGemi Makineleri İşletme Mühendisliği\nMühendislik FakültesiGemi İnşaatı ve Gemi Makineleri Mühendisliği\nMakine Mühendisliği\nElektrik-Elektronik Mühendisliği\nEndüstri Mühendisliği\nİktisadi İdari Bilimler FakültesiUluslararası Ticaret ve İşletme\nEkonomi ve Finans\nDeniz İşletmeciliği ve Yönetimi\nLojistik Yönetimi\nYönetim Bilişim Sistemleri"
   },
   {
     "type": "soru-cevap",
+    "tags": ["yatay geçiş", "kontenjan", "yurt içi", "yurt dışı", "üniversite"],
     "soru": "12-Başka bir üniversiteden Piri Reis Üniversitesi’ne yatay geçiş koşulları nelerdir?",
     "cevap": "YÖK tarafından denkliği belirlenen yurtiçi veya yurtdışı bir yükseköğretim kurumunun eşdeğer bir lisans programından ya da merkezi puan ile yatay geçiş yolu ile öğrenci kabulü, YÖK’ün “Yükseköğretim Kurumları Arasında Ön lisans ve Lisans Düzeyinde Yatay Geçiş Esaslarına İlişkin Yönetmelik” hükümleri dikkate alınarak, Yönetmelik tarafından belirlenen esaslar ve kontenjanlar çerçevesinde yapılır.Yatay Geçiş Kontenjanları her Akademik senenin başında www.pirireis.edu.tr sayfasında yayınlanır.2020-21 Yatay Geçişleri Güz yy için 2020-2021 yılı Akademik Takvimde belirtilen süreç içinde gerçekleşecektir."
   },
   {
     "type": "soru-cevap",
+    "tags": ["öğrenim dili", "İngilizce", "hazırlık sınıfı", "üniversite", "eğitim"],
     "soru": "13- Üniversitenin öğrenim dili nedir? Öğrenim dili neden İngilizce?",
-    "cevap": "Üniversitemizde öğrenim dili Fakültelerde, lisans programlarında  %100 İngilizcedir. Denizcilik Meslek Yüksek Okulunda ise eğitim dili %30 ve %100 İngilizcedir. Üniversiteye kayıt olan öğrencilerin  öğrenimlerine başlayabilmeleri için İngilizce yeterliliklerini kanıtlamaları gerekir.Bu yeterliğe haiz olan öğrenciler Hazırlık sınıfını atlayarak, normal öğrenime başlayabilirler. Bu yeterliği olmayan her öğrenci için Lisans/Ön lisans sınıfları öncesi, Hazırlık Sınıfı zorunludur.Uluslararası bir dil olan İngilizceyi, iyi derecede konuşabilen gerçek mezunlar ve öğrenciler yetiştirmek başlıca amacımızdır."
+    "cevap": "Üniversitemizde öğrenim dili Fakültelerde, lisans programlarında %100 İngilizcedir. Denizcilik Meslek Yüksek Okulunda ise eğitim dili %30 ve %100 İngilizcedir. Üniversiteye kayıt olan öğrencilerin öğrenimlerine başlayabilmeleri için İngilizce yeterliliklerini kanıtlamaları gerekir.Bu yeterliğe haiz olan öğrenciler Hazırlık sınıfını atlayarak, normal öğrenime başlayabilirler. Bu yeterliği olmayan her öğrenci için Lisans/Ön lisans sınıfları öncesi, Hazırlık Sınıfı zorunludur.Uluslararası bir dil olan İngilizceyi, iyi derecede konuşabilen gerçek mezunlar ve öğrenciler yetiştirmek başlıca amacımızdır."
   },
   {
     "type": "soru-cevap",
+    "tags": ["çift ana dal", "yan dal", "double major", "minor", "lisans"],
     "soru": "14- Piri Reis Üniversitesi’nde Çift Ana dal ve Yan dal Programlarınız var mı?",
     "cevap": "Üniversitemiz, öğrencilerine ana lisans programlarına ek olarak ikinci bir dalda lisans diploması alma, ya da bir yan dal programında öğrenim görme olanağı tanımıştır. Piri Reis Üniversitesi lisans öğrencileri, istedikleri ve gerekli koşulları yerine getirdikleri takdirde “Çift Ana dal” (double major) ve “Yan dal” (minor) programlarına girebilmektedirler."
   },
   {
     "type": "soru-cevap",
+    "tags": ["çift ana dal", "yan dal", "bölümler", "lisans", "üniversite"],
     "soru": "15- Hangi bölümlerle Çap- Yandal yapabilirim?",
     "cevap": "Üniversitemizde Çift anadal yapabileceğiniz bölümler için Detaylı Bilgi İçin; www.pirireis.edu.tr sayfamızı ziyaret edilebilirsiniz."
   },
   {
     "type": "soru-cevap",
+    "tags": ["çift ana dal", "yan dal", "not ortalaması", "akademik koşullar", "devam"],
     "soru": "16- Çift Anadal ve Yandala devam edebilmek için genel not ortalamasının en az kaç olması gerekiyor?",
-    "cevap": "Çift anadal öğrenimi süresince öğrencinin ikinci anadal genel not ortalaması bir defaya mahsus olmak üzere 2.50’ye kadar düşebilir. Genel not ortalaması ikinci kez 2.50’nin altına düşen öğrencinin ikinci anadal diploma programından kaydı silinir.Öğrencinin yandal programına devam edebilmesi için anadal programındaki genel not ortalamasının en az 2.30 olması şarttır. Bu şartı sağlayamayan öğrencinin yandal programından kaydı silinir."
+    "cevap": "Çift anadal öğrenimi süresince öğrencinin ikinci anadal genel not ortalaması bir defaya mahsus olmak üzere 2.50’ye kadar düşebilir. Genel not ortalaması ikinci kez 2.50’nin altına düşen öğrencinin ikinci anadal diploma programından kaydı silinir. Öğrencinin yandal programına devam edebilmesi için anadal programındaki genel not ortalamasının en az 2.30 olması şarttır. Bu şartı sağlayamayan öğrencinin yandal programından kaydı silinir."
   },
   {
     "type": "soru-cevap",
+    "tags": ["çift ana dal", "yan dal", "bırakma", "programdan ayrılma", "öğrenci"],
     "soru": "17- Öğrenciler çift anadal ve yandal programlarını istedikleri taktirde bırakabilirler mi?",
     "cevap": "Öğrenci çift anadal ya da dal programını kendi isteğiyle ya da lisans yönetmeliklerinde öngörülen koşullarda bırakabilir. Öğrenci, çift anadal ya da yan dal programından ayrılması halinde, başarısız olduğu çift anadal ya da yan dal programındaki dersleri tekrarlamak zorunda değildir."
   },
   {
-    "type": "soru-cevap",
-    "soru": "18- Exchange / Erasmus Öğrenci Değişim Programları Nedir? Üniversite bünyenizde bu programlar var mıdır?",
-    "cevap": "Erasmus programı, yükseköğretim kurumlarının birbirleri ile işbirliği yapmalarını teşvik etmeye yönelik bir Avrupa Birliği Yaşam boyu Öğrenme (LLP) programıdır. Yükseköğretim kurumlarının birbirleri ile ortak projeler üretip hayata geçirmeleri; kısa süreli öğrenci ve personel değişimi yapabilmeleri için karşılıksız mali destek sağlamaktadır. Bunun yanı sıra yükseköğretim sistemini iş dünyasının gereksinimlerine uygun olarak geliştirmek ve üniversite mezunlarının iş dünyasında istihdam edilebilirliğini arttırmak amacıyla yükseköğretim kurumları ile çalışma çevreleri arasındaki ilişkilerin ve işbirliğinin arttırılmasını da teşvik etmektedir.Piri Reis Üniversitesi uluslararası standartlarda bir yüksek öğretim kurumu olmayı hedeflediği için, AB Komisyonu Yürütme ajansı tarafından verilen genişletilmiş üyelik (EUCX) hakkını ilk akademik yılında kazanan Türkiye’de ilk üniversite olmuştur. Standart Erasmus üyeliğinden (EUC) farklı olan EUCX üyeliği Avrupa Birliği içinde her üniversite ile uzun dönem öğrenci, öğretim üyesi değişimi yapılabilmesine, ortak Avrupa Birliği projeleri yürütülmesine olanak vermektedir.Erasmus programı çerçevesinde Piri Reis Üniversitesi ile aşağıda isimleri belirtilen Avrupa yükseköğretim kurumları arasında ikili işbirliği anlaşmaları imzalanmıştır.Denizcilik Fakültesi:LatvianMaritimeAcademy/Letonya\nUniversitateaMaritimaConstanta/Romanya\nMirceaCelBatran”NavalAcademy/Romanya\nUniversityofRijeka/Hırvatistan**ProgramHırvatça’dır\nNikolaVaptsarov”NavalAcademy/Bulgaristan\nUniversityofCantabria**Programİspanyolca’dır\nJadeUniversityofAppliedSciences/Almanya**ProgramAlmanca’dır\nMühendislik Fakültesi:WestPomerianUniversityofTechnology/Polonya\nUniversity of Trieste/İtalya\nUniversity of Genova/İtalya\nBremenUniversityofAppliedSciences/Almanya\nUniversitatPolitecnicaDeCatalunya/İspanya**Programİspanyolca’dır.İktisadi ve İdari Bilimler Fakültesi:UniversityofFreiburg/Almanya*ProgramAlmanca’dır.\nUniversityofLodz/Polonya*ProgramLehçe’dir.\nUniversityofUjep/ÇekCumhuriyeti\nMirceaCelBatranNavalAcademy /Romanya\nTransilvaniaUniversityofBrasov/Romanya\nTechnisheUniversitatDresden /Almanya\nUniversityofMotenegro /Montenegro\nUniversity of Piraeus/ Yunanistan\nJade University/AlmanyaÜniversitemizde 2011-2012 öğretim yılı Bahar döneminde Denizcilik Fakültesi öğrencilerimizin Latvian Maritime Academy’de öğrenim görmesiyle başlayan Erasmus öğrenim hareketliliği 2017-18 öğretim yılında, artan sayıda öğrencimizin katılımıyla devam etmektedir. Bunun yanında Erasmus kapsamında 2012-2013; 2013-2014; 2014-2015; 2015-2016; 2016-2017; 2017-2018-2019 öğretim yılında yurt dışından değişim programı çerçevesinde anlaşmalı olduğumuz üniversitelerden gelip,  Üniversitemizde birer dönem öğrenim gören öğrencilerimiz de bizim için ayrı birer gurur kaynağı olmuşlardır."
-  },
+  "type": "soru-cevap",
+  "tags": ["Erasmus", "Değişim Programları", "Uluslararası Eğitim", "Piri Reis Üniversitesi", "Avrupa Birliği", "Öğrenci Değişimi"],
+  "soru": "18- Exchange / Erasmus Öğrenci Değişim Programları Nedir? Üniversite bünyenizde bu programlar var mıdır?",
+  "cevap": "Erasmus programı, yükseköğretim kurumlarının birbirleri ile işbirliği yapmalarını teşvik etmeye yönelik bir Avrupa Birliği Yaşam boyu Öğrenme (LLP) programıdır. Yükseköğretim kurumlarının birbirleri ile ortak projeler üretip hayata geçirmeleri; kısa süreli öğrenci ve personel değişimi yapabilmeleri için karşılıksız mali destek sağlamaktadır. Bunun yanı sıra yükseköğretim sistemini iş dünyasının gereksinimlerine uygun olarak geliştirmek ve üniversite mezunlarının iş dünyasında istihdam edilebilirliğini arttırmak amacıyla yükseköğretim kurumları ile çalışma çevreleri arasındaki ilişkilerin ve işbirliğinin arttırılmasını da teşvik etmektedir. Piri Reis Üniversitesi uluslararası standartlarda bir yüksek öğretim kurumu olmayı hedeflediği için, AB Komisyonu Yürütme ajansı tarafından verilen genişletilmiş üyelik (EUCX) hakkını ilk akademik yılında kazanan Türkiye’de ilk üniversite olmuştur. Standart Erasmus üyeliğinden (EUC) farklı olan EUCX üyeliği Avrupa Birliği içinde her üniversite ile uzun dönem öğrenci, öğretim üyesi değişimi yapılabilmesine, ortak Avrupa Birliği projeleri yürütülmesine olanak vermektedir. Erasmus programı çerçevesinde Piri Reis Üniversitesi ile aşağıda isimleri belirtilen Avrupa yükseköğretim kurumları arasında ikili işbirliği anlaşmaları imzalanmıştır. Denizcilik Fakültesi: Latvian Maritime Academy/Letonya, Universitatea Maritima Constanta/Romanya, Mircea Cel Batran Naval Academy/Romanya, University of Rijeka/Hırvatistan (Program Hırvatça’dır), Nikola Vaptsarov Naval Academy/Bulgaristan, University of Cantabria (Program İspanyolca’dır), Jade University of Applied Sciences/Almanya (Program Almanca’dır). Mühendislik Fakültesi: West Pomerian University of Technology/Polonya, University of Trieste/İtalya, University of Genova/İtalya, Bremen University of Applied Sciences/Almanya, Universitat Politecnica De Catalunya/İspanya (Program İspanyolca’dır). İktisadi ve İdari Bilimler Fakültesi: University of Freiburg/Almanya (Program Almanca’dır), University of Lodz/Polonya (Program Lehçe’dir), University of Ujep/Çek Cumhuriyeti, Mircea Cel Batran Naval Academy/Romanya, Transilvania University of Brasov/Romanya, Technishe Universitat Dresden/Almanya, University of Motenegro/Montenegro, University of Piraeus/Yunanistan, Jade University/Almanya. Üniversitemizde 2011-2012 öğretim yılı Bahar döneminde Denizcilik Fakültesi öğrencilerimizin Latvian Maritime Academy’de öğrenim görmesiyle başlayan Erasmus öğrenim hareketliliği 2017-18 öğretim yılında, artan sayıda öğrencimizin katılımıyla devam etmektedir. Bunun yanında Erasmus kapsamında 2012-2013; 2013-2014; 2014-2015; 2015-2016; 2016-2017; 2017-2018-2019 öğretim yılında yurt dışından değişim programı çerçevesinde anlaşmalı olduğumuz üniversitelerden gelip, Üniversitemizde birer dönem öğrenim gören öğrencilerimiz de bizim için ayrı birer gurur kaynağı olmuşlardır."
+},
+
   {
-    "type": "soru-cevap",
-    "soru": "19- Piri Reis Üniversitesi’nde İngilizce dışında hangi yabancı dilleri öğrenebilirim?",
-    "cevap": "Üniversitemizde İngilizce dışında bu sene İspanyolca/ Almanca/Rusça/Çince/Fransızca dili talep halinde seçmeli ders olarak konulmaktadır."
-  },
+  "type": "soru-cevap",
+  "tags": ["Yabancı Dil", "Dil Eğitimi", "İspanyolca", "Almanca", "Rusça", "Çince", "Fransızca", "Piri Reis Üniversitesi"],
+  "soru": "19- Piri Reis Üniversitesi’nde İngilizce dışında hangi yabancı dilleri öğrenebilirim?",
+  "cevap": "Üniversitemizde İngilizce dışında bu sene İspanyolca, Almanca, Rusça, Çince, Fransızca dilleri talep halinde seçmeli ders olarak konulmaktadır."
+},
   {
-    "type": "soru-cevap",
-    "soru": "20- Kayıt dondurma (izinli) yapılabilir mi?",
-    "cevap": "Öğrenciler, özel durumlarını belgelemek koşulu ile sağlık, askerlik, maddi, aile, kişisel, akademik, yurtdışında eğitim, beklenmedik zorunlu olaylar gibi nedenlerle izinli sayılma/dondurma başvurusunda bulunabilirler. İlk kez kayıt yapacak yeni öğrenciler ise, ancak üniversiteye kayıt işlemlerini tamamladıktan sonra izinli sayılma başvurusunda bulunabilirler."
-  },
+  "type": "soru-cevap",
+  "tags": ["Kayıt Dondurma", "İzinli Sayılma", "Öğrenci Hakları", "Piri Reis Üniversitesi", "Akademik İşlemler"],
+  "soru": "20- Kayıt dondurma (izinli) yapılabilir mi?",
+  "cevap": "Öğrenciler, özel durumlarını belgelemek koşulu ile sağlık, askerlik, maddi, aile, kişisel, akademik, yurtdışında eğitim, beklenmedik zorunlu olaylar gibi nedenlerle izinli sayılma/dondurma başvurusunda bulunabilirler. İlk kez kayıt yapacak yeni öğrenciler ise, ancak üniversiteye kayıt işlemlerini tamamladıktan sonra izinli sayılma başvurusunda bulunabilirler."
+},
   {
-    "type": "soru-cevap",
-    "soru": "21- Üniversitenizde hangi koşullarda burs verilmektedir?",
-    "cevap": "03.01.20202020 ÖSYS YÜKSEKÖĞRETİM PROGRAMLARI VE KONTENJANLARI KILAVUZUNDA YER ALACAK PİRİ REİS ÜNİVERSİTESİNE AİT BİLGİLERBK:3- Zorunlu hazırlık sınıfı dahil (İsteğe bağlı hazırlık sınıfları hariç) olmak üzere verilecek olan burslarda, Burslu: öğrenim ücretinin tamamını; %75 İndirimli: öğrenim ücretinin dörtte üçünü; %50 İndirimli: öğrenim ücretinin yarısını ve %25 İndirimli: öğrenim ücretinin dörtte birini kapsamakta olup, öğrenciler öğrenim ücretinin geri kalan kısmını ödeyeceklerdir. Burslu/İndirimli programlarda burslar/indirimler, hazırlık sınıfında bir yıl ve programın normal öğretim süresi kadar (öğrenimine ve derslere devam etmesi şartıyla) devam ederek bu sürenin sonuna kadar kesilmez. Burslu/İndirimli programlarda burslar/indirimler karşılıksız olup öğrencinin öğrenimine devam etmeyerek programdan ayrılması durumunda ayrılan öğrencilerden bursluluk/indirim oranına göre ayrıca öğrenim ücreti istenemez.BK:15 – Bir yıl süreli zorunlu İngilizce Hazırlık Programı uygulanır. Hazırlık sınıfı, öğretim süresi sütununda gösterilen yıllara dahil değildir. İngilizce yeterlik sınavını başaranlar doğrudan birinci sınıfa alınırlar. Öğrencilere, “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik” hükümleri uygulanır.BK:16- Mühendislik programlarına (Orman, Ziraat, Su Ürünleri Fakülteleri programları ile Ağaç İşleri Endüstri Mühendisliği programları hariç; Ziraat Fakültelerinin Gıda Mühendisliği programları dâhil) programın yerleştirme puan türünde başarı sırası 300 bininci sırada olan adayın yerleştirme puanının altında yerleştirme puanına sahip adaylar yerleştirilmeyecektir. Bu şartı sağlamayan adaylar ilgili programı tercih edemeyeceklerdir. Bu şartı sağlayamayan adayların, tercih yapmış olsalar bile ilgili tercihleri yerleştirme işlemine alınmayacaktır. (Okul birincisi kontenjanları dâhil)BK:17 – Bu programa kayıt yaptıran ve yabancı dil hazırlık sınıfına devam etmesine rağmen hazırlık sınıfını iki yıl içinde başarıyla tamamlayamayan öğrencilerin programdan ilişiği kesilir. Hazırlık sınıfında başarısız olarak programdan ilişiği kesilen öğrenciler, varsa kendi yükseköğretim kurumlarında öğretim dili Türkçe olan eşdeğer bir programa kayıt yaptırabilirler. Ancak bu öğrenciler, talep etmeleri durumunda Ölçme, Seçme ve Yerleştirme Merkezi Başkanlığı tarafından bir defaya mahsus olmak üzere kayıt yaptırdığı yıl itibarıyla, öğrencinin YKS puanlarından ilgili olan puanı, yerleştirileceği programa kayıt yaptırmak için aranan taban puanından düşük olmaması şartıyla öğretim dili Türkçe olan programlardan birine merkezî olarak yerleştirilebilirler.BK:28 -Öğretim dili İngilizcedir.BK:32- Yükseköğretim kurumlarında yer alan denizcilik eğitimi veren kurumlar yıl bazında Ulaştırma ve Altyapı Bakanlığı Deniz ve İçsular Düzenleme Genel Müdürlüğü tarafından değerlendirmeye tabi tutulmaktadır. Bu kapsamda Gemiadamlarının Eğitim Belgelendirme ve Vardiya Standartları Hakkında Uluslararası Sözleşme (STCW) gereği Denizcilik eğitimi veren eğitim kurum/kuruluşlarında, eğitim ve öğretim gören öğrenciler ile mezunların gemiadamı cüzdanı ve/veya yeterlik belgesi alabilmeleri, eğitim kurum/kuruluşlarının denetim raporlarının uygun olması halinde mümkündür. İlgili yükseköğretim kurumlarının yetki durumları hakkındaki rapora https://gbs.udhb.gov.tr/  Gemiadamları Eğitimi Bilgi Sisteminden ulaşılabilecektir. İlgili gemiadamı yeterliğini almak için Gemiadamları ve Kılavuz Kaptanlar Eğitim ve Sınav Yönergesinde belirtilen İngilizce Başarı Esaslarına göre İngilizce yeterliliğini sağlamak gerekmektedir. Adayların tercih yapmadan önce bu sistemden programın yetki belgesini kontrol etmelerinde ve ilgili eğitim ve sınav yönergesini incelemelerinde yarar görülmektedir.BK:60- Yükseköğretim kurumu Mütevelli Heyeti tarafından verilen indirim ve imkânlar (öğrenim ücreti muafiyeti, burs, para, yurt, yemek vb.), öğretim ücretini ödeme koşulları, taksitli veya peşin ödeme imkânları, diğer ücretler, sonraki yıllarda ücretlerde yapılacak artışlar, burslu programlara ilişkin ayrıca verilecek burs süreleri ile eğitim öğretime ilişkin diğer hususlar, ilgili yükseköğretim kurumunun internet sayfasından öğrencilere duyurulacaktır.BK:76- *Piri Reis Üniversitesi’ne 2020-2021 Eğitim Öğretim yılı itibari ile yerleşip kayıt olan öğrencilere ait,2020-2021 Eğitim-Öğretim yılı ücreti;Hukuk Fakültesi dâhil Lisans ve Önlisans İngilizce Hazırlık Sınıfı Öğrenim                               Ücreti: 35.000 TL+ KDVLisans (Denizcilik Fakültesi, İktisadi ve İdari Bilimler Fakültesi, Mühendislik Fakültesi) Öğrenim Ücreti 55.000 TL+ KDVHukuk Fakültesi (Lisans) Öğrenim Ücreti: 62.000 TL+ KDVÖnlisans (Denizcilik Meslek Yüksekokulu) Öğretim Ücreti: 35.000 TL+ KDV’dir.BK:86  – Bu programdaki öğrenim dili en az %30 İngilizcedir.BK:168- Bu programa başvurabilmek için yükseköğretim kurumunun aradığı bütün koşullara ek olarak; adayların normal sağlık raporu yerine, Gemi Adamları Sağlık Yönergesi kapsamında yetkilendirilmiş hastanelerden “Gemi Adamı Olur” ibareli rapor alarak, Hudut ve Sahiller Sağlık Genel Müdürlüğü’nden onaylı belge almaları ve kesin kayıtta ibraz etmeleri gerekir. Öğrencilerin 31.07.2012 tarih ve 24832 sayılı Resmi Gazetede yayımlanan Gemi adamları Yönetmeliği’nin Gemi adamı olabilme koşulları ile ilgili Madde 50-a,c ve d’ de yer alan yasal koşulları sağlamaları gerekmektedir.Bu programa kayıt olan öğrenciler, mesleğin gerektirdiği uygun üniformayı giymek zorundadırlar. Öğrenciler üniformasını kendi temin edecektir.ÖSYS ile üniversitedeki bölüm ve programlara yerleşen öğrencilere normal öğrenim döneminde aşağıda belirtilen oranlarda indirimler uygulanır.\nSıralama olarak ilgili puan türlerinden ilk 30.000 dilimi içinde olup, ilk iki tercihten Üniversitemizin; Deniz Ulaştırma İşletme Mühendisliği Bölümü, Gemi Makineleri İşletme Mühendisliği Bölümü,  Gemi İnşaatı ve Gemi Makineleri Mühendisliği Bölümü ve Denizcilik İşletmeleri Yönetimi Bölümlerine girenlere normal öğrenim süresince her yıl 9 ay süreyle ayda 500.00 (Beş yüz) TL nakit burs desteği sağlanır.\nŞehit ve gazilerimizin birinci derece yakınlarına %50 oranında ücret indirimi yapılır.\nÜniversitemizdeki spor branşlarında üstün başarılı olduklarını belgeleyen ve üniversitemiz takımlarında oynamaya hak kazanan öğrencilere ilgili Yönergede belirlenen kriterlere göre ek olarak %10 ile % 100 arasında sporcu indirimi yapılır.\nKız öğrencilerimize ayrıca %10 indirim yapılır.\nİkisi de Üniversitemizde okuduğu sürece kardeş öğrencilere her birine ayrıca %5 er indirim yapılır.\nÖğretim ücretinin tamamını akademik yılbaşında ödeyenlere %5 indirim yapılır.\nAnadolu Denizcilik Meslek Lisesi ve Anadolu Denizcilik Teknik Meslek Lisesi mezunu olup Lisans ve Ön lisans programlarına tercih sırasına bakılmaksızın; ücretli yerleşen öğrencilere, %25, %50 burslu yerleşen öğrencilere %10’u indirim yapılır.\nÜcretli ve kısmi burslu/indirimli öğrencilere üniversite hazırlık sınıfı hariç her akademik yılsonunda yapılacak değerlendirmeye göre Genel Ağırlıklı Not Ortalamasını 4.00 üzerinden 3.00 ve üstüne çıkaran her öğrenciye o yılı izleyen öğretim yılı ücretinden Mütevelli Heyetince akademik yılın başında ilan edilen kriterlere göre % 10 , % 40 , %75 oranlarında indirim yapılır. Bu bursun süresi bir (1) yıldır.\nÖğrenci, tercih bursu indirimi ile g ve/veya h bentlerinde yer alan indirimlerinden yalnızca en yüksek olanından faydalanır. Öğretim ücretinin ilk taksiti kayıt sırasında, geri kalan 7 taksiti ise, kaydı takip eden aylarda peş peşe 7 (yedi) eşit taksit olarak ödenmek üzere taahhüt edilerek banka aracılığı ile öğrenci tarafından ödenecektir.Üniversitemizde kayıtlı iken ikinci bir burslu programa yerleşenler, sadece tercih edeceği bir programın bursundan yararlanabilirler.KarŞılıksız olan burslar ve indirimler Hazırlık Sınıfından sonra normal öğrenim süresiyle sınırlı olup, Lisansta (8 dönem), Ön lisansta (4 dönem) devam eder.Vadeli Öğrenim Ücreti ve İş Garantisi\nAşağıdaki Bölüm ve Programlara  %100  burslu kontenjanlara yerleşenler ve toplam burs ve indirim oranı %70’i geçenler hariç;Denizcilik Fakültesinin; Deniz Ulaştırma İşletme Mühendisliği Bölümü ile Gemi Makineleri İşletme Mühendisliği Bölümü öğrencileri, Vadeli Öğrenim Ücreti ve iş garantisi için,\nDenizcilik Meslek Yüksekokulunun; tüm program öğrencileri sadece vadeli öğrenim ücreti için,\nİktisadi ve İdari Bilimler Fakültesinin ‘Denizcilik İşletmeleri Yönetimi’ Bölümü’ öğrencileri sadece vadeli öğrenim ücreti için,\nRektörlüğe başvurabilirler.İlgili Eğitim-Öğretim yılına ait Vadeli Öğrenim Ücretinin oranı Rektörlük yetkisinde belirlenmektedir. Rektörlükçe belirlenecek oran üzerinden Vadeli Öğrenim Ücreti kullandırılır. Kalan tutarın ilk taksiti peşin, geri kalanı 7 eşit taksitte ödenir.Vadeli Öğrenim Ücretinden yararlanan ve Türk Deniz Eğitim Vakfı Kariyer Planlama İktisadi İşletmesi ile Kariyer Planlama anlaşması imzalayan Denizcilik Fakültesi bölüm öğrencileri, öğrenim süresince Vadeli öğrenim ücreti ve Kariyer Planlama Anlaşması şartlarına uyduğu takdirde, Kariyer Planlama Anlaşması çerçevesinde bir işe yerleştirilir. Öğrencinin iş garantisi imkanından yararlanıp yararlanmayacağı hususu, Kariyer Planlama Anlaşmasında belirtilen kriterlerin yanı sıra; Öğrencinin her akademik yıl sonundaki kümülatif GNO’larını 2.00’nin altına düşürmemeleri,  ilgili Yüksek Öğretim Mevzuatları ve Disiplin Yönetmeliği çerçevesinde, disiplin cezası almamış olması, derslere devamı, denizcilik örf ve adetlerine uyumu, staj dönemindeki başarısı gibi durumlarına da bakılarak, mezuniyet not ortalamalarından oluşan sıralamaya göre belirlenir."
-  },
+  "type": "soru-cevap",
+  "tags": ["Burs", "Burs Koşulları", "Piri Reis Üniversitesi", "Öğrenci Destekleri", "Akademik İşlemler"],
+  "soru": "21- Üniversitenizde hangi koşullarda burs verilmektedir?",
+  "cevap": "03.01.2020 ÖSYS Yükseköğretim Programları ve Kontenjanları Kılavuzunda Piri Reis Üniversitesi'ne ait bilgiler: Burslu programlarda öğrenim ücretinin tamamı, %75 indirimli programlarda dörtte üçü, %50 indirimli programlarda yarısı, %25 indirimli programlarda dörtte biri burs olarak karşılanmakta; öğrenciler geri kalan kısmı öder. Burslar, hazırlık dahil program süresince devam eder. Burslar karşılıksızdır; programdan ayrılanlardan burslu oranına göre ayrıca ücret talep edilmez. Şehit ve gazilerin birinci derece yakınlarına %50 indirim yapılır. Spor branşlarında üstün başarı gösterenlere %10-100 arasında indirim, kız öğrencilere %10 indirim, kardeş öğrenciler için %5'er indirim uygulanır. Ayrıca erken ödeme ve diğer özel durumlarda indirimler mevcuttur. Detaylı şartlar ve bölümlerle ilgili bilgilere üniversitenin resmi sayfasından ulaşılabilir. Ayrıca bazı bölümlerde vadeli öğrenim ücreti ve iş garantisi imkanları sunulmaktadır."
+},
   {
-    "type": "soru-cevap",
-    "soru": "22- Üniversitenizde kardeş indirimi yapılıyor mu?",
-    "cevap": "İkisi de Üniversitemizde okuduğu sürece kardeş öğrencilere her birine ayrıca %5 er indirim yapılır."
-  },
+  "type": "soru-cevap",
+  "soru": "22- Üniversitenizde kardeş indirimi yapılıyor mu?",
+  "cevap": "İkisi de Üniversitemizde okuduğu sürece kardeş öğrencilere her birine ayrıca %5 er indirim yapılır.",
+  "tags": ["Kardeş İndirimi", "Burs", "İndirim", "Piri Reis Üniversitesi", "Öğrenci Destekleri"]
+},
   {
-    "type": "soru-cevap",
-    "soru": "23- Üniversitenizde okurken alabileceğimiz burslar var mı? Varsa şartları hakkında bilgi alabilir miyim?",
-    "cevap": "Üniversitemize yerleştikten sonra gerekli şartları yerine getiren öğrencilere Başarı Bursları verilmektedir. Üniversite içi başarı bursu, Piri Reis Üniversitesine yerleşip üniversite üst kurulu tarafından belirlenen şartlar doğrultusunda ilgili yarıyılda belli bir not ortalamasının üzerinde olan öğrenciye bir sonraki öğretim yılı burs verilir. Bu burs, ait olduğu öğretim yılı sonu itibariyle sona erer."
-  },
+  "type": "soru-cevap",
+  "soru": "23- Üniversitenizde okurken alabileceğimiz burslar var mı? Varsa şartları hakkında bilgi alabilir miyim?",
+  "cevap": "Üniversitemize yerleştikten sonra gerekli şartları yerine getiren öğrencilere Başarı Bursları verilmektedir. Üniversite içi başarı bursu, Piri Reis Üniversitesine yerleşip üniversite üst kurulu tarafından belirlenen şartlar doğrultusunda ilgili yarıyılda belli bir not ortalamasının üzerinde olan öğrenciye bir sonraki öğretim yılı burs verilir. Bu burs, ait olduğu öğretim yılı sonu itibariyle sona erer.",
+  "tags": ["Burs", "Başarı Bursu", "Öğrenci Destekleri", "Piri Reis Üniversitesi"]
+},
   {
-    "type": "soru-cevap",
-    "soru": "24-Üniversitenizde Sağlık sorunum olduğunda başvurabileceğim bir yer var mı?",
-    "cevap": "Öğrencilerimiz herhangi bir sağlık problemi ile karşılaştıklarında her iki yerleşkemiz içindeki bir uzman doktor ve iki hemşiresi bulunan revirimize başvurabilirler.Ayrıca her iki kampüste dönüşümlü olarak hizmet veren üç uzman psikoloğumuzun bulunduğu, psikolojik danışma servisimiz mevcuttur."
-  },
-  {
-    "type": "soru-cevap",
-    "soru": "25-Üniversitenizde askerlik işlemleri nasıl yapılır?",
-    "cevap": "– Askerlik sevk işlemleri 1111 Sayılı Askerlik Kanununa göre yapılır.– Üniversiteye kayıtlı olan öğrencilerin askerlik işlemleri Öğrenci İşleri Müdürlüğü (ÖİM) tarafından yürütülür.– Askerlik sevk tehir işlemi öğrencinin Hazırlık/Ön lisans-Lisans programına kayıt yaptırmasından itibaren en geç iki ay içinde EK-C2 belgesi düzenlenerek, ÖİM tarafından Askerlik Şubelerine bildirilir. Bu işlem öğrencinin öğrenimi süresince bir defaya mahsus olmak üzere yapılır. Yeni yönetmelikler gereği 2018 yılından itibaren EK-C-2 belgesi ayrıca gönderilmeyecek olup, aktif öğrencilik durumları YÖKSİS üzerinden MSB ca takip edilecektir.– Mezuniyet, kendi isteği ile kayıt sildirme, kayda gelmeme, başarısızlık nedeniyle ilişik kesilme, izinli sayılma, lisans programında azami öğrenim süresinin dolması nedenleri ile öğrenciliğin sona ermesi durumunda, en geç iki ay içinde EK-C2 Belgesi düzenlenerek ÖİM tarafından Askerlik Şubelerine bildirilir. EK-C2 Belgeleri iadeli taahhütlü posta ile ya da Kargo ile gönderilir. Teslim alındı belgeleri öğrencilik süresince saklanır.– Öğrencinin askerlik nedeni ile Yeni yönetmelikler gereği 2018 yılından itibaren EK-C-2 belgesi ayrıca gönderilmeyecek olup, aktif öğrencilik durumları YÖKSİS üzerinden MSB ca takip edilecektir.veya jandarma tarafından aranması durumunda, öğrencinin ÖİM’ne ,  ardından Askerlik Birimine başvurması gerekir."
-  },
-  {
-    "type": "soru-cevap",
-    "soru": "26-Üniversitenizde Harçsız Pasaport işlemleri nasıl yapılır?",
-    "cevap": "Yurt dışına EĞİTİM amacı ile çıkmak için pasaport çıkartmak isteyen öğrenciler Üniversite adına eğitime katılıyorlar ise, (staj, fuar vs.) öğrenci belgesi alarak,  İstanbul Valiliği İL Emniyet Müdürlüğü’ ne teslim ederler.Ayrıca Devlet Politikaları kapsamında Üniversitede öğrenci olduğunu belgeleyen, 21 yaşını geçmemiş her öğrenci harçsız pasaport çıkarabilmektedir."
-  },
-  {
-    "type": "soru-cevap",
-    "soru": "27-Üniversitenizde Üniforma işlemleri nasıl uygulanır? Hangi Bölümlere üniforma giyme zorunluluğu vardır.",
-    "cevap": "Üniversitemizde gemi adamı olabilme koşulu istediğimiz bölüm ve programlarımızda üniforma giyme zorunludur.Üniforma Hazırlık sınıfında serbest olup, hazırlık sınıfı ertesi ön lisans ve lisans sınıflarında zorunlu hale getirilmiştir.Üniforma giyme zorunluluğu bulunan bölüm ve programlarımız;Denizcilik Fakültesi;Deniz Ulaştırma İşletme Mühendisliği\nGemi Makineleri İşletme Mühendisliği\nDenizcilik Meslek Yüksek Okulu;Deniz Ulaştırma İşletme (%30 İngilizce)\nGemi Makineleri İşletme (%30 İngilizce)\nMekatronik (%30 İngilizce)\nDeniz Liman İşletmeciliği (%30 İngilizce)\nAşçılık (%100 İngilizce)\nMarina ve Yat İşletmeciliği (%30 İngilizce)"
-  },
-  {
-    "type": "soru-cevap",
-    "soru": "28-Üniversitenizde Mülakat işlemleri nasıl uygulanır? Hangi Bölümlere mülakat’a katılma ve başarılı olma zorunluluğu vardır.",
-    "cevap": "Üniversitemizde gemi adamı olabilme koşulu istediğimiz bölüm ve programlarımızda mülakat zorunludur.Mülakat zorunluluğu bulunan bölüm ve programlarımız;Denizcilik Fakültesi;Deniz Ulaştırma İşletme Mühendisliği\nGemi Makineleri İşletme Mühendisliği\nDenizcilik Meslek Yüksek Okulu;Deniz Ulaştırma İşletme (%30 İngilizce)\nGemi Makineleri İşletme (%30 İngilizce)\nMekatronik (%30 İngilizce)\nDeniz Liman İşletmeciliği (%30 İngilizce)\nAşçılık (%100 İngilizce)\nMarina ve Yat İşletmeciliği (%30 İngilizce)\nMülakatlar, Akademik Birimlerin ilgili komisyonlarınca YKS ve DGS ilk kayıtta gerçekleşir. Gemi adamı olabilme koşulu ile birlikte adaylardan mülakatta başarılı olmaları istenir. Komisyonlar tarafından sözlü sınav şeklinde değerlendirilen sonuca göre adayın başarılı olması halinde kayıt ve kabul işlemi gerçekleşir. Komisyonlar konuya vakıf en az bir başkan ve üç kişiden oluşmaktadır. Mülakatlarda başarısız olunması halinde, öğrenci adayı kayıtlanmadan ÖSYM Başkanlığına durumu bildirilir ve Devlet Politikaları kapsamında öğrencinin başka bir programa yerleşmesi için resmi yazı yazılır.Mülakatlarda aday öğrencilerden özel bir kıyafet ile gelmeleri istenmez. Mülakatlar sohbet ortamında, bedensel testler olmaksızın gerçekleşmektedir.Başarılı olan aday öğrencilerin kayıt kabul işlemleri gerçekleşir."
-  },
-  {
-    "type": "soru-cevap",
-    "soru": "29- Yaz Okulu zorunlu mu?",
-    "cevap": "Yaz eğitimine devam etmek zorunlu değildir. İsteğe bağlıdır."
+  "type": "soru-cevap",
+  "soru": "24-Üniversitenizde Sağlık sorunum olduğunda başvurabileceğim bir yer var mı?",
+  "cevap": "Öğrencilerimiz herhangi bir sağlık problemi ile karşılaştıklarında her iki yerleşkemiz içindeki bir uzman doktor ve iki hemşiresi bulunan revirimize başvurabilirler. Ayrıca her iki kampüste dönüşümlü olarak hizmet veren üç uzman psikoloğumuzun bulunduğu, psikolojik danışma servisimiz mevcuttur.",
+  "tags": ["Sağlık Hizmetleri", "Psikolojik Destek", "Revir", "Piri Reis Üniversitesi"]
+},
+{
+  "type": "soru-cevap",
+  "soru": "25-Üniversitenizde askerlik işlemleri nasıl yapılır?",
+  "cevap": "– Askerlik sevk işlemleri 1111 Sayılı Askerlik Kanununa göre yapılır. – Üniversiteye kayıtlı olan öğrencilerin askerlik işlemleri Öğrenci İşleri Müdürlüğü (ÖİM) tarafından yürütülür. – Askerlik sevk tehir işlemi öğrencinin Hazırlık/Ön lisans-Lisans programına kayıt yaptırmasından itibaren en geç iki ay içinde EK-C2 belgesi düzenlenerek, ÖİM tarafından Askerlik Şubelerine bildirilir. Bu işlem öğrencinin öğrenimi süresince bir defaya mahsus olmak üzere yapılır. Yeni yönetmelikler gereği 2018 yılından itibaren EK-C-2 belgesi ayrıca gönderilmeyecek olup, aktif öğrencilik durumları YÖKSİS üzerinden MSB ca takip edilecektir. – Mezuniyet, kendi isteği ile kayıt sildirme, kayda gelmeme, başarısızlık nedeniyle ilişik kesilme, izinli sayılma, lisans programında azami öğrenim süresinin dolması nedenleri ile öğrenciliğin sona ermesi durumunda, en geç iki ay içinde EK-C2 Belgesi düzenlenerek ÖİM tarafından Askerlik Şubelerine bildirilir. EK-C2 Belgeleri iadeli taahhütlü posta ile ya da Kargo ile gönderilir. Teslim alındı belgeleri öğrencilik süresince saklanır. – Öğrencinin askerlik nedeni ile Yeni yönetmelikler gereği 2018 yılından itibaren EK-C-2 belgesi ayrıca gönderilmeyecek olup, aktif öğrencilik durumları YÖKSİS üzerinden MSB ca takip edilecektir. veya jandarma tarafından aranması durumunda, öğrencinin ÖİM’ne, ardından Askerlik Birimine başvurması gerekir.",
+  "tags": ["Askerlik İşlemleri", "Öğrenci İşleri Müdürlüğü", "EK-C2 Belgesi", "YÖKSİS", "Milli Savunma Bakanlığı"]
+},
+{
+  "type": "soru-cevap",
+  "soru": "26-Üniversitenizde Harçsız Pasaport işlemleri nasıl yapılır?",
+  "cevap": "Yurt dışına EĞİTİM amacı ile çıkmak için pasaport çıkartmak isteyen öğrenciler Üniversite adına eğitime katılıyorlar ise, (staj, fuar vs.) öğrenci belgesi alarak, İstanbul Valiliği İL Emniyet Müdürlüğü’ne teslim ederler. Ayrıca Devlet Politikaları kapsamında Üniversitede öğrenci olduğunu belgeleyen, 21 yaşını geçmemiş her öğrenci harçsız pasaport çıkarabilmektedir.",
+   "tags": ["Harçsız Pasaport", "Öğrenci Belgesi", "İstanbul Valiliği", "Pasaport İşlemleri", "Yurt Dışı Eğitim"]
+},
+{
+  "type": "soru-cevap",
+  "soru": "27-Üniversitenizde Üniforma işlemleri nasıl uygulanır? Hangi Bölümlere üniforma giyme zorunluluğu vardır.",
+  "cevap": "Üniversitemizde gemi adamı olabilme koşulu istediğimiz bölüm ve programlarımızda üniforma giyme zorunludur. Üniforma Hazırlık sınıfında serbest olup, hazırlık sınıfı ertesi ön lisans ve lisans sınıflarında zorunlu hale getirilmiştir. Üniforma giyme zorunluluğu bulunan bölüm ve programlarımız; Denizcilik Fakültesi; Deniz Ulaştırma İşletme Mühendisliği, Gemi Makineleri İşletme Mühendisliği; Denizcilik Meslek Yüksek Okulu; Deniz Ulaştırma İşletme (%30 İngilizce), Gemi Makineleri İşletme (%30 İngilizce), Mekatronik (%30 İngilizce), Deniz Liman İşletmeciliği (%30 İngilizce), Aşçılık (%100 İngilizce), Marina ve Yat İşletmeciliği (%30 İngilizce).",
+  "tags": ["Üniforma", "Denizcilik Fakültesi", "Öğrenci Kıyafetleri", "Gemi Adamı Koşulu", "Denizcilik Meslek Yüksekokulu"]
+},
+{
+  "type": "soru-cevap",
+  "soru": "28-Üniversitenizde Mülakat işlemleri nasıl uygulanır? Hangi Bölümlere mülakat’a katılma ve başarılı olma zorunluluğu vardır.",
+  "cevap": "Üniversitemizde gemi adamı olabilme koşulu istediğimiz bölüm ve programlarımızda mülakat zorunludur. Mülakat zorunluluğu bulunan bölüm ve programlarımız; Denizcilik Fakültesi; Deniz Ulaştırma İşletme Mühendisliği, Gemi Makineleri İşletme Mühendisliği; Denizcilik Meslek Yüksek Okulu; Deniz Ulaştırma İşletme (%30 İngilizce), Gemi Makineleri İşletme (%30 İngilizce), Mekatronik (%30 İngilizce), Deniz Liman İşletmeciliği (%30 İngilizce), Aşçılık (%100 İngilizce), Marina ve Yat İşletmeciliği (%30 İngilizce). Mülakatlar, Akademik Birimlerin ilgili komisyonlarınca YKS ve DGS ilk kayıtta gerçekleşir. Gemi adamı olabilme koşulu ile birlikte adaylardan mülakatta başarılı olmaları istenir. Komisyonlar tarafından sözlü sınav şeklinde değerlendirilen sonuca göre adayın başarılı olması halinde kayıt ve kabul işlemi gerçekleşir. Komisyonlar konuya vakıf en az bir başkan ve üç kişiden oluşmaktadır. Mülakatlarda başarısız olunması halinde, öğrenci adayı kayıtlanmadan ÖSYM Başkanlığına durumu bildirilir ve Devlet Politikaları kapsamında öğrencinin başka bir programa yerleşmesi için resmi yazı yazılır. Mülakatlarda aday öğrencilerden özel bir kıyafet ile gelmeleri istenmez. Mülakatlar sohbet ortamında, bedensel testler olmaksızın gerçekleşmektedir. Başarılı olan aday öğrencilerin kayıt kabul işlemleri gerçekleşir.",
+  "tags": ["Mülakat", "Denizcilik Fakültesi", "Gemi Adamı Koşulu", "Sözlü Sınav", "Kayıt İşlemleri"]
+},
+{
+  "type": "soru-cevap",
+  "soru": "29- Yaz Okulu zorunlu mu?",
+  "cevap": "Yaz eğitimine devam etmek zorunlu değildir. İsteğe bağlıdır.",
+  "tags": ["Yaz Okulu", "Eğitim", "Devam Zorunluluğu", "Öğrenci Seçenekleri"]
+},
+{
+  "type": "bilgi",
+  "context": "Bilgisayar mühendisliği, bilgisayar sistemlerinin ve yazılımlarının tasarımı, geliştirilmesi ve yönetilmesiyle ilgilenen bir mühendislik disiplinidir. Bu alan, modern teknolojinin temellerini oluşturur ve yaşamın birçok alanında yenilikçi çözümler sunar. Bilgisayar mühendisleri, karmaşık problemleri çözmek için bilimsel ve matematiksel prensipleri kullanır, teknolojik gelişmeleri takip eder ve toplumun ihtiyaçlarına uygun projeler geliştirir. Günümüzde yaşamın hemen her alanında kullanılan bilgi ve iletişim teknolojileri hızla değişmekte, gelişmekte ve yaygınlaşmaktadır. Bu çerçevede, ilgili sektörlerin ihtiyaç duyduğu yetişmiş insan gücü profili de değişkenlik göstermekte ve klasik müfredat programları bu ihtiyacı karşılayamamaktadır. Bölümümüz, özellikle gelişen ve değişen bilişim teknolojileri gereksinimlerini ve beklentilerini karşılama donanımına sahip insan gücünün yetiştirilmesi için öncü ve yenilikçi bir eğitim programı uygulamak amacıyla kurulmuştur. Pîrî Reis Üniversitesi Bilgisayar Mühendisliği Bölümünde nitelikli mühendisler yetiştirilmesi ve bu alandaki akademik araştırmalara katkıda bulunulması temel vizyon olarak kabul edilmektedir. Bu amaçla, güncel bilişim teknolojilerini kapsayan dersler, Türkiye’de ve yurt dışındaki Bilgisayar Mühendisliği örneklerinin ders programları ve programlarda yer alan ders içerikleri dikkatle incelenerek hazırlanmıştır. Hazırlanan güncel müfredatta yer alan derslerin alanla ilgili son gelişmeleri ve bölüm mezunlarının iş hayatında ihtiyaç duyacakları bilgi ve becerileri mümkün olduğunca kapsamasına özen gösterilmiştir. Çağdaş bilgi teknolojilerini kullanarak bilişim sistemlerini geliştirebilen ve bu teknolojileri insanlığın ihtiyaçları doğrultusunda ve dünya standartlarında bilimsel olarak yönlendirebilen mühendisler yetiştirmek ise bölümümüzün ana misyonunu oluşturmaktadır. Mezunları uluslararası seviyede aranan, bilimsel araştırmalar, projeler ve eğitim konularında ülkemizde ve dünyada önde gelen Bilgisayar Mühendisliği bölümlerinden biri olmayı hedeflemekteyiz. Bölümümüzdeki akademisyenler, sektöre yön veren araştırma projelerine liderlik etmekte ve bilimsel çalışmalara katkı sağlamaktadır. Bu sayede, teknoloji ve inovasyon alanında yeni fırsatlar yaratma ve toplumun ihtiyaçlarına çözümler üretme hedefini takip ediyoruz. Bilgisayar Mühendisliği bölümümüz, öğrencilere disiplinlerarası iş birliği yapma ve iletişim becerilerini geliştirme fırsatı da sunmaktadır. Böylelikle, bölüm mezunlarımız farklı sektörlerde ve disiplinler arası projelerde liderlik yapabilecek ve toplumsal sorunları çözme konusunda etkin rol alabilecek yetkinliklere sahip olmaktadırlar. Teknolojinin her alanda yer alması ve mesleğin çalışma konularının çeşitli ve çok olması mezunlarımıza iş bulma kolaylığı sağlamaktadır. Bilişim, İletişim, Sağlık, Enerji, Otomotiv, Savunma sanayi, Telekomünikasyon ve Finans gibi sektörlerde; Bilgisayar Mühendisliği, Yazılım Mühendisliği, Robotik Mühendisliği, Yapay Zeka Mühendisliği, Veri tabanı Yöneticisi, Veri Analisti, Grafik Tasarımcı, Web Tasarımcı ve Bilgi Teknolojileri Yöneticisi (IT Manager) olarak çalışabilirler.",
+  "tags": ["Bilgisayar Mühendisliği", "Yazılım", "Teknoloji", "Eğitim", "İnovasyon", "Akademik Araştırma", "Bilişim Sektörü", "Disiplinlerarası İş Birliği", "Kariyer Olanakları"]
   },
   {
     "type": "bilgi",
-    "context": "Bilgisayar mühendisliği, bilgisayar sistemlerinin ve yazılımlarının tasarımı, geliştirilmesi ve yönetilmesiyle ilgilenen bir mühendislik disiplinidir. Bu alan, modern teknolojinin temellerini oluşturur ve yaşamın birçok alanında yenilikçi çözümler sunar. Bilgisayar mühendisleri, karmaşık problemleri çözmek için bilimsel ve matematiksel prensipleri kullanır, teknolojik gelişmeleri takip eder ve toplumun ihtiyaçlarına uygun projeler geliştirir. Günümüzde yaşamın hemen her alanında kullanılan bilgi ve iletişim teknolojileri hızla değişmekte, gelişmekte ve yaygınlaşmaktadır. Bu çerçevede, ilgili sektörlerin ihtiyaç duyduğu yetişmiş insan gücü profili de değişkenlik göstermekte ve klasik müfredat programları bu ihtiyacı karşılayamamaktadır. Bölümümüz, özellikle gelişen ve değişen bilişim teknolojileri gereksinimlerini ve beklentilerini karşılama donanımına sahip insan gücünün yetiştirilmesi için öncü ve yenilikçi bir eğitim programı uygulamak amacıyla kurulmuştur. Pîrî Reis Üniversitesi Bilgisayar Mühendisliği Bölümünde nitelikli mühendisler yetiştirilmesi ve bu alandaki akademik araştırmalara katkıda bulunulması temel vizyon olarak kabul edilmektedir. Bu amaçla, güncel bilişim teknolojilerini kapsayan dersler, Türkiye’de ve yurt dışındaki Bilgisayar Mühendisliği örneklerinin ders programları ve programlarda yer alan ders içerikleri dikkatle incelenerek hazırlanmıştır. Hazırlanan güncel müfredatta yer alan derslerin alanla ilgili son gelişmeleri ve bölüm mezunlarının iş hayatında ihtiyaç duyacakları bilgi ve becerileri mümkün olduğunca kapsamasına özen gösterilmiştir. Çağdaş bilgi teknolojilerini kullanarak bilişim sistemlerini geliştirebilen ve bu teknolojileri insanlığın ihtiyaçları doğrultusunda ve dünya standartlarında bilimsel olarak yönlendirebilen mühendisler yetiştirmek ise bölümümüzün ana misyonunu oluşturmaktadır. Mezunları uluslararası seviyede aranan, bilimsel araştırmalar, projeler ve eğitim konularında ülkemizde ve dünyada önde gelen Bilgisayar Mühendisliği bölümlerinden biri olmayı hedeflemekteyiz. Bölümümüzdeki akademisyenler, sektöre yön veren araştırma projelerine liderlik etmekte ve bilimsel çalışmalara katkı sağlamaktadır. Bu sayede, teknoloji ve inovasyon alanında yeni fırsatlar yaratma ve toplumun ihtiyaçlarına çözümler üretme hedefini takip ediyoruz. Bilgisayar Mühendisliği bölümümüz, öğrencilere disiplinlerarası iş birliği yapma ve iletişim becerilerini geliştirme fırsatı da sunmaktadır. Böylelikle, bölüm mezunlarımız farklı sektörlerde ve disiplinler arası projelerde liderlik yapabilecek ve toplumsal sorunları çözme konusunda etkin rol alabilecek yetkinliklere sahip olmaktadırlar. Teknolojinin her alanda yer alması ve mesleğin çalışma konularının çeşitli ve çok olması mezunlarımıza iş bulma kolaylığı sağlamaktadır. Bilişim, İletişim, Sağlık, Enerji, Otomotiv, Savunma sanayi, Telekomünikasyon ve Finans gibi sektörlerde; Bilgisayar Mühendisliği, Yazılım Mühendisliği, Robotik Mühendisliği, Yapay Zeka Mühendisliği, Veri tabanı Yöneticisi, Veri Analisti, Grafik Tasarımcı, Web Tasarımcı ve Bilgi Teknolojileri Yöneticisi (IT Manager) olarak çalışabilirler."
-  }
+    "tags": ["okul", "hakkında", "vizyon", "misyon", "kuruluş"],
+    "context": "Kurucu vakfımız Türk Deniz Eğitim Vakfı (TÜDEV), Türkiye'de ihtiyaç duyulan gemiadamı ihtiyacını karşılamak, mevcut denizcilik ile ilgili eğitim kurumlarına yardımcı olmak, gemiadamı yetiştiren bir eğitim kurumu faaliyete geçirmek ve şartlar uygun olduğunda bir üniversite kurmak amacıyla yola çıkmıştır. Bu hedef doğrultusunda, Denizcilik Fakülteleri ve diğer denizcilik eğitim kurumlarına maddi destek sağlamış ve bu destekler hâlen devam etmektedir.\n\nTÜDEV, Mart 1995’te kendi eğitim merkezi olan Tüdev Deniz Eğitim Merkezi’ni kurmuş, bugüne kadar bu merkezde 2100 zabitan yetiştirilmiştir.\n\n 4 Aralık 2003 tarihinde yapılan olağanüstü genel kurul toplantısında, bu merkezin yükseköğretim düzeyinde 'Türk Denizcilik Üniversitesi' olarak faaliyet göstermesi kararı alınmış ve gerekli çalışmalar başlatılmıştır.\n\nUzun süren çalışmaların ardından, 8 Şubat 2008 tarihinde Resmî Gazete'de yayımlanan kanun ile T.C. Pîrî Reis Üniversitesi kurulmuş ve Türk ile dünya denizciliğine kazandırılmıştır.\n\nT.C. Pîrî Reis Üniversitesi’nin vizyonu; denizcilikle ilgili her alanda eğitim ve araştırmada mükemmeli hedefleyerek, sektöre değer katan, Türkiye’de öncü ve dünyada saygın bir ihtisas üniversitesi olmaktır.\n\nMisyonu ise; tüm paydaşlarıyla iş birliği içinde, evrensel standartlarda öğrenci odaklı eğitim sunarak, 21. yüzyıl yetkinliklerine sahip, liderlik özellikleri olan, sürdürülebilir kalkınma hedeflerini benimsemiş, Atatürk ilkelerine bağlı, akıl ve bilimi rehber edinen, denizcilik kültürünü özümsemiş, yüksek ahlaki değerlere sahip bireyler yetiştirmektir. Ayrıca, denizcilik sektörünün gelişimi için bilgi üretmek, bu bilgiyi ürüne dönüştürmek ve yaymak amacıyla araştırma ve proje geliştirme faaliyetleri yürütmek ve 'denizci millet denizci ülke' hedefine katkı sağlamak amacıyla topluma hizmet etmektir."
+},
+{
+  "type": "bilgi",
+  "tags": [
+  "lisans programları",
+  "önlisans programları",
+  "mühendislik",
+  "hukuk",
+  "denizcilik",
+  "burslu bölümler",
+  "ücretli programlar",
+  "EA", "SAY", "TYT"
+],
+  "context": [
+    "Deniz Ulaştırma İşletme Mühendisliği",
+    "Gemi Makineleri İşletme Mühendisliği",
+    "Bilgisayar Mühendisliği",
+    "Elektrik-Elektronik Mühendisliği",
+    "Endüstri Mühendisliği",
+    "Gemi İnşaatı ve Gemi Makineleri Mühendisliği",
+    "Makine Mühendisliği",
+    "Hukuk",
+    "Uluslararası Ticaret ve İşletmecilik",
+    "Ekonomi ve Finans",
+    "Denizcilik İşletmeleri Yönetimi",
+    "Lojistik Yönetimi",
+    "Yönetim Bilişim Sistemleri",
+    "Aşçılık",
+    "Bilgisayar Programcılığı",
+    "Deniz Brokerliği",
+    "Deniz Ulaştırma ve İşletme",
+    "Deniz ve Liman İşletmeciliği",
+    "Gemi İnşaatı",
+    "Gemi Makineleri İşletmeciliği",
+    "Lojistik",
+    "Marina ve Yat İşletmeciliği",
+    "Mekatronik",
+    "Su Altı Teknolojisi"
+  ]
+}
 ]

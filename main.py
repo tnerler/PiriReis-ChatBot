@@ -10,7 +10,7 @@ os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
 
 template = """Soruyu cevaplamak için aşağıdaki bağlam parçalarını kullanın.
 Cevabı bilmiyorsanız, bilmediğinizi söyleyin, bir cevap uydurmaya çalışmayın.
-En fazla üç cümle kullanın ve cevabı olabildiğince öz tutun.
+Cevabı olabildiğince öz tutun.
 
 Bağlam:
 {context}
@@ -33,5 +33,8 @@ print("PiriX: Merhabalar, Ben PiriX, senin Yardımcı Asistanınım.\nSana nası
 question = input("Sen:")
 
 result = graph.invoke({"question": question})
-print(f"\n\nContext: {result['context']}\n\n")
 print(f"PiriX: {result['answer']}")
+
+print("Contexts:")
+for doc in result["context"]: 
+    print("\n", doc.page_content)

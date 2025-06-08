@@ -47,8 +47,14 @@ def load_docs() :
     
         else:
             content=f"Bilgi: {item['context']}"
-        
+
+        # İçeriğin hash değerini hesapla (tekrarları önlemek için)
         doc_hash = compute_hash(content)
+        # Varsa tag listesini al, yoksa boş liste
+        tags = item.get("tags", [])
+        
+        # Document nesnesi oluştur, sayfa içeriği ve metadata (hash, taglar, tip) ekle
         docs.append(Document(page_content=content, metadata={"hash": doc_hash, 
+                                                             "tags": tags,
                                                              "type": item.get("type")}))
     return docs 
