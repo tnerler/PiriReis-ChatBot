@@ -35,6 +35,6 @@ question = input("Sen:")
 result = graph.invoke({"question": question})
 print(f"PiriX: {result['answer']}")
 
-print("Contexts:")
+print("Context:")
 for doc in result["context"]: 
     print("\n", doc.page_content)

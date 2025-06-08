@@ -92,8 +92,8 @@ def build_chatbot(prompt):
 
                 # Kullanıcının sorgusunun embedding'i ile tag embedding'i arasındaki benzerliği hesapla
                 similarity = cosine_similarity(query_embedding, tag_embedding)
-
-                if similarity > 0.8:
+                print(f"Tag: {tag}, Similarity: {similarity}")
+                if similarity > 0.35:
                     # Tag benzerliği sebebiyle dokümanın skorunu 0.2 azalt burada tag_scoreunu arttiriyoruz digerki satirda dusurecegiz (skor düştükçe doküman daha iyi)
                     tag_score += 0.2
             # Iste burada final_score'u azaltiyoruz tag_score kadar (score = distance olarak hesaplandigi icin ne kadar dusuk distance o kadar iyi bu yuzden dusuruyoruz skoru)
@@ -101,7 +101,7 @@ def build_chatbot(prompt):
             boosted_docs.append((doc, final_score))
         
         # Dokümanları, skorlarına göre küçükten büyüğe sırala (daha düşük skor = daha iyi eşleşme)
-        boosted_docs.sort(key=lambda x: x[1]) # x[0] == doc, x[1] == score
+        boosted_docs.sort(key=lambda x: x[1]) # x[0] == doc, x[1] == final score
         # Ilk 3 en iyi documenti aliyoruz 
         top_docs = [doc for doc, _ in boosted_docs[:3]]
         return {"context": top_docs}
