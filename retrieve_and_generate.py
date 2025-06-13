@@ -68,7 +68,9 @@ def build_chatbot():
 
     # Kullanıcının geçmiş mesajlarını hafızada tutmak için ConversationBufferMemory kullanıyoruz.
     # Bu, çok turlu sohbetlerde önceki mesajları hatırlamamıza yardımcı olur.
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    # input_key="question" yaptikki konusmalari sadece sorulara gore hatirlasin asagida contextide verdigimiz icin
+    # kafasi karisiyor ve uydurabiliyor.(contexte gore)
+    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True, input_key='question')
 
 
 
