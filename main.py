@@ -8,33 +8,25 @@ import os
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
 
-template = """Soruyu cevaplamak için aşağıdaki bağlam parçalarını kullanın.
-Cevabı bilmiyorsanız, bilmediğinizi söyleyin, bir cevap uydurmaya çalışmayın.
-Cevabı olabildiğince öz tutun.
 
-Bağlam:
-{context}
-
-Soru:
-{question}
-
-Cevap:
-"""
-
-
-custom_prompt = PromptTemplate.from_template(template)
-retrieve, generate = build_chatbot(custom_prompt)
-
+retrieve, generate = build_chatbot()
 graph_builder = StateGraph(State).add_sequence([retrieve, generate])
 graph_builder.add_edge(START, "retrieve")
 graph = graph_builder.compile()
 
+
+print("Uyarı: Daha iyi cevap verebilmesi için lütfen türkçe karakter ve güzel prompt yazmaya özen gösterin.")
+print("\nKonuşmadan çıkmak isterseniz 'q' basmanız yeterli.\n")
 print("PiriX: Merhabalar, Ben PiriX, senin Yardımcı Asistanınım.\nSana nasıl yardımcı olabilirim?")
-question = input("Sen:")
 
-result = graph.invoke({"question": question})
-print(f"PiriX: {result['answer']}")
 
-print("Context:")
-for doc in result["context"]: 
-    print("\n", doc.page_content)
+while True : 
+
+    question = input("Sen:")
+    if question == "q":
+        print("PiriX: Görüşmek üzere!")
+        break
+
+    result = graph.invoke({"question": question})
+    print(f"PiriX: {result['answer']}")
+
