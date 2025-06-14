@@ -2,6 +2,64 @@ import json
 from langchain.schema import Document
 import hashlib
 
+def soru_cevap(item) : 
+    content = f"Soru: {item['soru']}\nCevap: {item['cevap']}"
+    return content
+
+def bolum(item) : 
+    content = f"Bölüm:{item['name']}\nLink:{item['link']}"
+    return content
+
+def comp_kadro(item) : 
+    content = f"Bilgisayar Mühendisliği Kadrosu: {item['context']}"
+    return content
+
+def bilgi(item) : 
+    content=f"Bilgi: {item['context']}"
+    return content
+
+def staj(item) : 
+    content = f"Bölüm: {item['bolum']}\nBilgi:{item['context']}"
+    return content
+
+def comp_ders_icerigi(item) : 
+    content = f"{item['bolum']} Bölümü Ders İçerikleri:\n\n" + "\n".join(item['lines'])
+    return content
+
+def universite_kadrosu(item): 
+    content = "Üniversite Kadrosu:\n\n" + "\n".join(item["context"])
+    return content
+
+def comp_ders_icerigi(item):
+    bolum_adi = item.get("bolum_adi", "Bölüm Bilgisi Yok")
+    fakulte_adi = item.get("fakulte_adi", "")
+    universite_adi = item.get("universite_adi", "")
+    content = f"{universite_adi} - {fakulte_adi} - {bolum_adi} Ders İçerikleri:\n"
+
+    for yariyil in item.get("yariyillar", []):
+        content += f"\n📘 {yariyil['yariyil_no']}. Yarıyıl\n"
+        for ders in yariyil.get("dersler", []):
+            content += (
+                f"\n🔹 {ders['ders_kodu']} - {ders['ders_adi']} ({ders['kredi']}) | AKTS: {ders['akts']}\n"
+                f"İçerik: {ders['ders_icerigi']}\n"
+            )
+            kaynaklar = ders.get("kaynaklar", {})
+            ders_kitaplari = kaynaklar.get("ders_kitaplari", [])
+            yardimci_kitaplar = kaynaklar.get("yardimci_kitaplar", [])
+            
+            if ders_kitaplari:
+                content += "📚 Ders Kitapları:\n"
+                for kitap in ders_kitaplari:
+                    content += f"- {kitap}\n"
+
+            if yardimci_kitaplar:
+                content += "📖 Yardımcı Kaynaklar:\n"
+                for kitap in yardimci_kitaplar:
+                    content += f"- {kitap}\n"
+
+    return content
+
+
 def compute_hash(content: str) -> str : 
     """
     Duplicate sorununu ortadan kaldirmak icin (dataya her yeni veri
@@ -40,13 +98,24 @@ def load_docs() :
         print("Dosya Bulunamadi.")
 
     # Her soru-cevap cifti icin Document olustur
+    handlers = {
+    "soru-cevap": soru_cevap,
+    "bolum": bolum,
+    "comp_kadro": comp_kadro,
+    "bilgi": bilgi,
+    "staj": staj,
+    "comp_ders_icerigi" : comp_ders_icerigi,
+    "universite_kadrosu" : universite_kadrosu,
+    }
     docs = []
     for item in data:
-        if item.get("type") == "soru-cevap":
-            content= f"Soru: {item['soru']}\nCevap: {item['cevap']}"
-    
-        else:
-            content=f"Bilgi: {item['context']}"
+        t = item.get("type")
+        handler = handlers.get(t)
+
+        if handler: 
+            content = handler(item)
+        else : 
+            content = f"Bilinmeyen tipte veri {t}"
 
         # İçeriğin hash değerini hesapla (tekrarları önlemek için)
         doc_hash = compute_hash(content)

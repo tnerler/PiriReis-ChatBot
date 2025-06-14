@@ -1,0 +1,28 @@
+[
+
+  {
+    "type": "bolum",
+    "name": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği",
+    "link": "https://muhendislik.pirireis.edu.tr/bolumler/gemi-insaati-ve-gemi-makineleri-muhendisligi/"
+  },
+  {
+    "type": "bolum",
+    "name": "Makine Mühendisliği",
+    "link": "https://muhendislik.pirireis.edu.tr/bolumler/makine-muhendisligi/"
+  },
+  {
+    "type": "bolum",
+    "name": "Elektrik – Elektronik Mühendisliği",
+    "link": "https://muhendislik.pirireis.edu.tr/bolumler/elektrik-elektronik-muhendisligi/"
+  },
+  {
+    "type": "bolum",
+    "name": "Endüstri Mühendisliği",
+    "link": "https://muhendislik.pirireis.edu.tr/bolumler/endustri-muhendisligi/"
+  },
+  {
+    "type": "bolum",
+    "name": "Bilgisayar Mühendisliği",
+    "link": "https://muhendislik.pirireis.edu.tr/bolumler/bilgisayar-muhendisligi/"
+  }
+]

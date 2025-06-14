@@ -70,7 +70,7 @@ def build_chatbot():
     # Bu, çok turlu sohbetlerde önceki mesajları hatırlamamıza yardımcı olur.
     # input_key="question" yaptikki konusmalari sadece sorulara gore hatirlasin asagida contextide verdigimiz icin
     # kafasi karisiyor ve uydurabiliyor.(contexte gore)
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True, input_key='question')
+    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True, input_key='question', output_key="answer")
 
 
 
