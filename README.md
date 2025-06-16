@@ -19,28 +19,20 @@ PIRIX/
 ├── .gitignore             # Versiyon kontrolü dışında bırakılan dosyalar
 └── requirements.txt       # Gerekli Python paketleri
 ```
-## Kurulum
+## ⚙️ Ortam Değişkenleri (.env)
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+LANGSMITH_TRACING=true # Opsiyonel
+LANGSMITH_API_KEY=your_langsmith_api_key # Opsiyonel
 ```
-git clone https://github.com/tnerler/PiriReis-ChatBot.git
-cd pirix # senin klasor yolun (proje hangi klasordeyse)
-python -m venv venv
-source venv/bin/activate  # Windows: .\venv\Scripts\activate
-pip install -r requirements.txt
-```
-.env(proje klasorun icinde) dosyasını oluştur:
-```
-OPENAI_API_KEY=your_api_key_here
-```
-eger langsmith'te modelin ciktilarini track etmek istersen .env dosyasina sunlari da ekleyebilirsin.
-```
-LANGSMITH_TRACING=true
-LANGSMITH_API_KEY=your_langsmith_api_key
-```
+**Langsmith ile model çıktılarınızı takip etmek için LANGSMITH_TRACING=true ve API anahtarınızı eklemeyi unutmayın.**
 ## Kullanım
 ```
 python main.py
 ```
 **Bu komut, dökümanları yükler, vektör veritabanını hazırlar, OpenAI ile soruları cevaplayan sistemi başlatır.**
+
 ## Teknolojiler
 * LangChain – Döküman işleme ve RAG pipeline yönetimi
 
