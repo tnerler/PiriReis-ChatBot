@@ -6,9 +6,15 @@ def soru_cevap(item) :
     content = f"Soru: {item['soru']}\nCevap: {item['cevap']}"
     return content
 
-def bolum(item) : 
-    content = f"Bölüm:{item['name']}\nLink:{item['link']}"
-    return content
+def bolumler(item):
+    bolum_listesi = item.get("departments", [])
+    tum_bolumler = []
+
+    for bolum in bolum_listesi:
+        content = f"Bölüm: {bolum['name']}\n {bolum['name']} hakkında daha fazla bilgi için Link: {bolum['link']}"
+        tum_bolumler.append(content)
+
+    return "\n\n".join(tum_bolumler)
 
 def comp_kadro(item) : 
     content = f"Bilgisayar Mühendisliği Kadrosu: {item['context']}"
@@ -22,10 +28,6 @@ def staj(item) :
     content = f"Bölüm: {item['bolum']}\nBilgi:{item['context']}"
     return content
 
-def comp_ders_icerigi(item) : 
-    content = f"{item['bolum']} Bölümü Ders İçerikleri:\n\n" + "\n".join(item['lines'])
-    return content
-
 def universite_kadrosu(item): 
     content = "Üniversite Kadrosu:\n\n" + "\n".join(item["context"])
     return content
@@ -34,30 +36,43 @@ def comp_ders_icerigi(item):
     bolum_adi = item.get("bolum_adi", "Bölüm Bilgisi Yok")
     fakulte_adi = item.get("fakulte_adi", "")
     universite_adi = item.get("universite_adi", "")
+    
+    # Başlık kısmı
     content = f"{universite_adi} - {fakulte_adi} - {bolum_adi} Ders İçerikleri:\n"
 
+    # Yarıyılları gez
     for yariyil in item.get("yariyillar", []):
-        content += f"\n📘 {yariyil['yariyil_no']}. Yarıyıl\n"
+        content += f"\n{yariyil['yariyil_no']}. Yarıyıl\n"
+        
+        # Her bir dersin bilgilerini ekle
         for ders in yariyil.get("dersler", []):
             content += (
-                f"\n🔹 {ders['ders_kodu']} - {ders['ders_adi']} ({ders['kredi']}) | AKTS: {ders['akts']}\n"
-                f"İçerik: {ders['ders_icerigi']}\n"
+                f"\n{ders['ders_kodu']} - {ders['ders_adi']} ({ders['kredi']}) | AKTS: {ders['akts']}\n"
+                f"Ders İçeriği: {ders['ders_icerigi']}\n"
             )
+            
+            # Kaynaklar kısmını ekle
             kaynaklar = ders.get("kaynaklar", {})
             ders_kitaplari = kaynaklar.get("ders_kitaplari", [])
             yardimci_kitaplar = kaynaklar.get("yardimci_kitaplar", [])
             
+            # Ders kitaplarını listele
             if ders_kitaplari:
-                content += "📚 Ders Kitapları:\n"
+                content += "Ders Kitapları:\n"
                 for kitap in ders_kitaplari:
                     content += f"- {kitap}\n"
 
+            # Yardımcı kitapları listele
             if yardimci_kitaplar:
-                content += "📖 Yardımcı Kaynaklar:\n"
+                content += "Yardımcı Kaynaklar:\n"
                 for kitap in yardimci_kitaplar:
                     content += f"- {kitap}\n"
 
     return content
+
+def duyurular(item):
+    return f"Duyuru: {item['title']}\nLink: {item['link']}"
+
 
 
 def compute_hash(content: str) -> str : 
@@ -92,7 +107,7 @@ def load_docs() :
     """
 
     try: 
-        with open("get_data/data.json", "r", encoding="utf-8") as f:
+        with open("get_data/main_data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError: 
         print("Dosya Bulunamadi.")
@@ -100,12 +115,13 @@ def load_docs() :
     # Her soru-cevap cifti icin Document olustur
     handlers = {
     "soru-cevap": soru_cevap,
-    "bolum": bolum,
+    "bolumler": bolumler,
     "comp_kadro": comp_kadro,
     "bilgi": bilgi,
     "staj": staj,
     "comp_ders_icerigi" : comp_ders_icerigi,
     "universite_kadrosu" : universite_kadrosu,
+    "duyurular": duyurular,
     }
     docs = []
     for item in data:
