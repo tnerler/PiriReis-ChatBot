@@ -4,3 +4,4 @@ venv/
 __pycache__/
 vector_db/
 tag_embeddings/
+kullanici_loglari/

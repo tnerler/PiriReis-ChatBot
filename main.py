@@ -14,11 +14,12 @@ graph_builder = StateGraph(State).add_sequence([retrieve, generate])
 graph_builder.add_edge(START, "retrieve")
 graph = graph_builder.compile()
 
-
+print("----------------------------------------------------------------------------------------------------")
 print("Uyarı: Daha iyi cevap verebilmesi için lütfen türkçe karakter ve güzel prompt yazmaya özen gösterin.")
 print("\nKonuşmadan çıkmak isterseniz 'q' basmanız yeterli.\n")
+print("Eğer PiriX sorularınıza cevabı yanlış verdiyse 'Cevap yanlış' butonuna, eksik verdiyse 'Eksik cevap' butonuna veya cevap veremediyse 'Cevap yok' butonuna tıklamanız\nmodeli iyileştirmemize olanak sağlayacaktır.\n\n")
 print("PiriX: Merhabalar, Ben PiriX, senin Yardımcı Asistanınım.\nSana nasıl yardımcı olabilirim?")
-
+print("----------------------------------------------------------------------------------------------------")
 
 while True : 
 
