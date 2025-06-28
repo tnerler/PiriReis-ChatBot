@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piri Reis ChatBot</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/Piri Reis-Logo.png') }}" />
+  </head>
+  <body>
+    <!-- ✨ Chatbot Buton -->
+    <div class="chatbot-toggle" onclick="toggleChat()">
+      <!-- 💬 Konuşma Balonu -->
+      <div class="chat-bubble" id="resize-handle">Merhaba! Size nasıl yardımcı olabilirim?</div>
+      <img src="{{ url_for('static', filename='img/bot-logo2.png') }}" alt="ChatBot Logo" />
+    </div>
+
+    <!-- 📢 Chat Kutusu -->
+    <div class="chatbox" id="chatbox">
+      <button class="maximize-btn" onclick="toggleMaximize()">
+        <span id="maximize-icon">🗖</span>
+      </button>
+      <button class="close-btn" onclick="closeChatbox()">✖</button>
+      <div class="chat-header" id="resize-handle">
+        💬 Piri Reis ChatBot
+        <div class="designer-link">
+          <a href="https://www.instagram.com/prubilisim/" target="_blank">
+            Designed by Compru
+          </a>
+        </div>
+      </div>
+      <div class="chat-messages" id="messages"></div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Bir şeyler yazın..." />
+        <button onclick="sendMessage()">Gönder</button>
+      </div>
+    </div>
+
+    <!-- 🔹 Uygulama Javascript'i -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

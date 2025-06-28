@@ -1,0 +1,42 @@
+[
+  {
+    "type": "kadro",
+    "isim": "Prof. Dr. Yıldıray Yalman",
+    "unvan": "Bölüm Başkanı"
+  },
+  {
+    "type": "kadro",
+    "isim": "Prof. Dr. Nafiz Arıca",
+    "unvan": "Öğretim Üyesi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Dr. Öğr. Üyesi Erdem Bilgili",
+    "unvan": "Öğretim Üyesi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Dr. Öğr. Üyesi Ezgi Özer",
+    "unvan": "Öğretim Üyesi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Dr. Öğr. Üyesi Füsun Er",
+    "unvan": "Öğretim Üyesi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Arş. Gör. Dilek Gün",
+    "unvan": "Araştırma Görevlisi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Arş. Gör. Nurullah Öztürk",
+    "unvan": "Araştırma Görevlisi"
+  },
+  {
+    "type": "kadro",
+    "isim": "Arş. Gör. Fikret Onur Özdil",
+    "unvan": "Araştırma Görevlisi"
+  }
+]
