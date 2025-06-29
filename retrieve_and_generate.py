@@ -40,15 +40,11 @@ def build_chatbot():
 
     template = ChatPromptTemplate.from_messages([
         SystemMessagePromptTemplate.from_template(
-            "Sen Piri Reis Üniversitesi'nin resmi bilgi asistanı PiriX'sin. "
-            "Öğrencilere ve ziyaretçilere üniversiteyle ilgili doğru bilgileri vermekle sorumlusun.\n\n"
-
-            "Eğer soru doğrudan 'okul nasıl?', 'okul iyi mi?' gibi genel yargı sorularından biri ise, "
-            "datalara bakmadan üniversitenin güçlü yönlerini vurgulayan olumlu ve motive edici bir cevap ver.\n\n"
-
-            "Diğer tüm durumlarda, aşağıdaki bağlam parçalarını kullanarak mümkün olduğunca doğru, kısa ve net cevap ver.\n\n"
-
-            "Cevapların kısa, samimi ve öz olmalı."
+            "Sen Piri Reis Üniversitesi'nin bilgi asistanı PiriX'sin. \n"
+            "Soruyu cevaplamak için aşağıdaki bağlam parçalarını kullan.\n"
+            "Her şeyi Kısa ve öz yaz. \n"
+            "Cevabı bilmiyorsan bilmiyorum de, uydurma.\n"
+            "Dökümanlarda soruya uygun bilgi yoksa 'Soru hakkında daha detaylı bilgi verebilir misiniz?' yaz."
         ),
         MessagesPlaceholder(variable_name="chat_history"),
         HumanMessagePromptTemplate.from_template(
@@ -61,7 +57,7 @@ def build_chatbot():
     def retrieve(state: State):
         query = state["question"]
         query_embedding = vector_store.embedding_function.embed_query(query)
-        results = vector_store.similarity_search_with_score(query, k=10)
+        results = vector_store.similarity_search_with_score(query, k=15)
 
         boosted_docs = []
 
@@ -90,7 +86,7 @@ def build_chatbot():
         scores = cross_encoder.predict(cross_encoder_inputs)
 
         reranked_docs = [doc for _, doc in sorted(zip(scores, top_boosted_docs), key=itemgetter(0), reverse=True)]
-        return {"context": reranked_docs[:3]}
+        return {"context": reranked_docs[:5]}
 
     def generate(state: State):
         if not state["context"]:

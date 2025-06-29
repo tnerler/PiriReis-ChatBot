@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()  # .env dosyasını yükle
 
 llm = init_chat_model(
-    model="gpt-4o",                     # veya "gpt-4o-mini" çalışıyorsa
+    model="gpt-4o",                    
     model_provider="openai",
-    api_key=os.getenv("OPENAI_API_KEY")  # ✅ DOĞRU kullanım bu!
+    api_key=os.getenv("OPENAI_API_KEY")  
 )
-embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
+embedding_model = OpenAIEmbeddings(model="text-embedding-3-large", api_key=os.getenv("OPENAI_API_KEY"))

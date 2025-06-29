@@ -84,19 +84,61 @@ def compute_hash(content: str) -> str :
     return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
 def pru_ders_koordinasyonu_yönetmeliği(item) : 
-    return f"Ders koordinasyonu yonetmeligi : {item['context']}"
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir
+    return f"Ders koordinasyonu yonetmeligi : {context_text}"
 
 def pru_EK_sınav_hakkı(item) : 
-    return f"EK_sınav_hakkı: {item['context']}"
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir
+    return f"EK_sınav_hakkı: {context_text}"
 
-def pru_ingilizce_hazırlık_yönetmeliği(item) : 
-    return f"ingilizce_hazırlık_yönetmeliği: {item['context']}"
+def pru_ingilizce_hazırlık_yönetmeliği(item) :
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir 
+    return f"ingilizce_hazırlık_yönetmeliği: {context_text}"
 
 def pru_lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği(item) : 
-    return f"lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği: {item['context']}"
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir
+    return f"lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği: {context_text}"
 
 def pru_Üniforma_yönetmeliği(item) : 
-    return f"Üniforma_yönetmeliği: {item['context']}"
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir
+    return f"Üniforma_yönetmeliği: {context_text}"
+
+def piri_reis_brosur(item) : 
+    context_list = item["context"]
+    context_text = " ".join(context_list)  # Listeyi düz metne çevir
+    return f"Piri Reis Öğrenci Broşürü: {context_text}"
+
+
+
+def fakulte_dersleri_0(json_data):
+    """
+    Tüm fakülte ders bilgilerini otomatik olarak load_docs listesine ekler
+    """
+    load_docs =[]
+    for fakulte_key, fakulte_data in json_data.items():
+        if 'fakulte_adi' in fakulte_data and 'dersler' in fakulte_data:
+            content = f"Fakülte: {fakulte_data['fakulte_adi']}\n\n"
+            content += "DERS LİSTESİ:\n"
+            content += "=" * 50 + "\n\n"
+            
+            for ders in fakulte_data['dersler']:
+                content += f"Ders Kodu: {ders['ders_kodu']}\n"
+                content += f"Ders Adı: {ders['ders_adi']}\n"
+                content += f"Teorik (T): {ders['T']} saat\n"
+                content += f"Uygulama (U): {ders['U']} saat\n"
+                content += f"Laboratuvar (L): {ders['L']} saat\n"
+                content += f"Kredi: {ders['kredi']}\n"
+                content += f"AKTS: {ders['akts']}\n"
+                content += "-" * 30 + "\n\n"
+            
+            load_docs.append(content)
+    return load_docs
+
 
 
 
@@ -121,12 +163,21 @@ def load_docs() :
     Returns:
         List[Document]: İçeriğinde soru-cevap veya bilgi metinleri ve hash id'lerin bulundugu Document nesneleri listesi.
     """
-
+    
     try: 
         with open("get_data/main_data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError: 
         print("Dosya Bulunamadi.")
+
+
+    try:
+        with open("get_data/ders_kredileri.json", "r", encoding="utf-8") as f:
+            ders_data = json.load(f)
+
+    except FileNotFoundError:
+        print("fakulte_dersleri.json dosyası bulunamadı.")
+        ders_data = {}
 
     # Her soru-cevap cifti icin Document olustur
     handlers = {
@@ -143,8 +194,9 @@ def load_docs() :
     "PRU_ingilizce_hazırlık_yönetmeliği" : pru_ingilizce_hazırlık_yönetmeliği,
     "PRU_lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği": pru_lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği,
     "PRU_Üniforma_yönetmeliği" : pru_Üniforma_yönetmeliği,
-
+    "piri_reis_brosur": piri_reis_brosur,
     }
+
     docs = []
     for item in data:
         t = item.get("type")
@@ -164,4 +216,12 @@ def load_docs() :
         docs.append(Document(page_content=content, metadata={"hash": doc_hash, 
                                                              "tags": tags,
                                                              "type": item.get("type")}))
+        
+    
+
+    ders_metni_listesi = fakulte_dersleri_0(ders_data)
+    for metin in ders_metni_listesi:
+        doc_hash = compute_hash(metin)
+        docs.append(Document(page_content=metin, metadata={"hash": doc_hash, "tags": ["ders"], "type": "fakulte_dersleri"}))
+        
     return docs 

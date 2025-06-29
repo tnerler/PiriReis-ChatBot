@@ -7,7 +7,7 @@ from _faiss import compute_hash
 
 cache_folder = "tag_embeddings"
 cache_path = os.path.join(cache_folder, "tag_embeddings_cache.pkl")
-os.makedirs(cache_folder, exist_ok=True)  # ✅ klasörü oluştur, varsa sorun yok
+os.makedirs(cache_folder, exist_ok=True) 
 
 
 """
