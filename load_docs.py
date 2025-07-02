@@ -2,6 +2,16 @@ import json
 from langchain.schema import Document
 import hashlib
 
+
+def compute_hash(content: str) -> str : 
+    """
+    Duplicate sorununu ortadan kaldirmak icin (dataya her yeni veri
+    geldikten sonra guncelledigimizde eski datalarin tekrar
+    yuklenmemesini saglamak icin) her dataya bir id atiyor hash ile.
+    """
+    return hashlib.sha256(content.encode("utf-8")).hexdigest()
+
+
 def soru_cevap(item) : 
     content = f"Soru: {item['soru']}\nCevap: {item['cevap']}"
     return content
@@ -74,15 +84,6 @@ def duyurular(item):
     return f"Duyuru: {item['title']}\nLink: {item['link']}"
 
 
-
-def compute_hash(content: str) -> str : 
-    """
-    Duplicate sorununu ortadan kaldirmak icin (dataya her yeni veri
-    geldikten sonra guncelledigimizde eski datalarin tekrar
-    yuklenmemesini saglamak icin) her dataya bir id atiyor hash ile.
-    """
-    return hashlib.sha256(content.encode("utf-8")).hexdigest()
-
 def pru_ders_koordinasyonu_yönetmeliği(item) : 
     context_list = item["context"]
     context_text = " ".join(context_list)  # Listeyi düz metne çevir
@@ -140,8 +141,33 @@ def fakulte_dersleri_0(json_data):
     return load_docs
 
 
+def denizcilik_fakultesi(item) : 
+    content = item["context"]
+    return content
 
+def denizcilik_meslek_yuksekokulu(item) : 
+    content = item["context"]
+    return content
 
+def hukuk_fakultesi(item) : 
+    content = item["context"]
+    return content
+
+def bilgisayar_muhendisligi(item) : 
+    content = item["context"]
+    return content
+
+def elektrik_elektronik_muhendisligi(item) : 
+    content = item["context"]
+    return content
+
+def endustri_muhendisligi(item) : 
+    content = item["context"]
+    return content
+
+def muhendislik_fakultesi(item) : 
+    content = item["context"]
+    return content
 
 def load_docs() : 
     """
@@ -195,6 +221,13 @@ def load_docs() :
     "PRU_lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği": pru_lisans_önlisans_eğitim_öğretim_sınav_yönetmeliği,
     "PRU_Üniforma_yönetmeliği" : pru_Üniforma_yönetmeliği,
     "piri_reis_brosur": piri_reis_brosur,
+    "Denizcilik_Fakültesi_pdf.docx" : denizcilik_fakultesi,
+    "Denizcilik_Meslek_Yüksekokulu_pdf.docx" : denizcilik_meslek_yuksekokulu,
+    "Hukuk_Fakültesi_pdf.docx" : hukuk_fakultesi,
+    "Lisans_BilgisayarMühendisliği_pdf.docx" : bilgisayar_muhendisligi,
+    "Lisans_ElektrikElektronikMühendisliği_pdf.docx" : elektrik_elektronik_muhendisligi,
+    "Lisans_Endüstri_Mühendisliği_pdf.docx" : endustri_muhendisligi,
+    "Mühendislik_Fakültesi_pdf.docx" : muhendislik_fakultesi,
     }
 
     docs = []
