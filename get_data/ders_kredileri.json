@@ -1,0 +1,1047 @@
+{
+  "denizcilik_fakultesi": {
+    "fakulte_adi": "Denizcilik Fakültesi",
+    "dersler": [
+      {
+        "ders_kodu": "MATH111",
+        "ders_adi": "Mathematics-I",
+        "T": 3,
+        "U": 2,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "KIM1001",
+        "ders_adi": "Denizcilik Kimyası",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "FIZ2001",
+        "ders_adi": "Temel Fizik 2 (Elk.Elk manyetik) (Seçmeli Ders)",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 3
+      },
+      {
+        "ders_kodu": "ATAC01",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi- I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATAC02",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi -II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TURC01",
+        "ders_adi": "Türk Dili-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TURC02",
+        "ders_adi": "Türk Dili-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "MAT1006",
+        "ders_adi": "Temel Matematik-II",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "TURC001",
+        "ders_adi": "Turkish-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TURC01",
+        "ders_adi": "Turkish-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATF101",
+        "ders_adi": "Academic Turkish for Foreign Students",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "ATF001",
+        "ders_adi": "Academic Turkish for Foreign Students",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATAC01",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATAC001",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HFS001",
+        "ders_adi": "Maritime History for Foreign Students-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "CHEM115",
+        "ders_adi": "Chemistry",
+        "T": 3,
+        "U": 0,
+        "L": 2,
+        "kredi": 4,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "CHEM114",
+        "ders_adi": "Chemistry",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "CHEM114L",
+        "ders_adi": "Chemistry Lab.",
+        "T": 0,
+        "U": 0,
+        "L": 2,
+        "kredi": 1,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "PHYS113",
+        "ders_adi": "Physics-I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 4,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "PHYS 111",
+        "ders_adi": "Physics-I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "PHYS 111L",
+        "ders_adi": "Physics-I Lab.",
+        "T": 0,
+        "U": 0,
+        "L": 2,
+        "kredi": 1,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "MATH215",
+        "ders_adi": "Engineering Mathematics",
+        "T": 4,
+        "U": 0,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "TURC02",
+        "ders_adi": "Turkish-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATAC02",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "MATH214",
+        "ders_adi": "Linear Algebra",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "MATH224",
+        "ders_adi": "Probability and Statistics",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "MATH121",
+        "ders_adi": "Mathematics-II",
+        "T": 3,
+        "U": 2,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "PHYS123",
+        "ders_adi": "Physics-II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 4,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "PHYS 121",
+        "ders_adi": "Physics-II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "PHYS 121L",
+        "ders_adi": "Physics-II Lab.",
+        "T": 0,
+        "U": 0,
+        "L": 2,
+        "kredi": 1,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "MRE121",
+        "ders_adi": "Material Science and Technology",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "SMME122",
+        "ders_adi": "Material Science",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "CARC01",
+        "ders_adi": "Career Planning",
+        "T": 1,
+        "U": 0,
+        "L": 0,
+        "kredi": 1,
+        "akts": 0
+      },
+      {
+        "ders_kodu": "CARC001",
+        "ders_adi": "Career Planning",
+        "T": 1,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "TURC002",
+        "ders_adi": "Turkish-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATF002",
+        "ders_adi": "Academic Turkish for Foreign Students - II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "MATH223",
+        "ders_adi": "Differential Equations",
+        "T": 4,
+        "U": 0,
+        "L": 0,
+        "kredi": 4,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ATAC002",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HFS002",
+        "ders_adi": "Maritime History for foreign Students -II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HSS 005",
+        "ders_adi": "Engineering Ethics",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HSS 013",
+        "ders_adi": "Introduction to Management",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HSS 017",
+        "ders_adi": "Maritime History and Culture",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HSS 002",
+        "ders_adi": "Philosophy and Science",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "HSS 003",
+        "ders_adi": "History of Culture",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      }
+    ]
+  },
+  "muhendislik_fakultesi": {
+    "fakulte_adi": "Mühendislik Fakültesi",
+    "dersler": [
+      {
+        "ders_kodu": "ATAC001",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATAC002",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "CARC01",
+        "ders_adi": "Career Planning",
+        "T": 1,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 1
+      },
+      {
+        "ders_kodu": "CHM 113",
+        "ders_adi": "Chemistry",
+        "T": 3,
+        "U": 0,
+        "L": 2,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "COMP 126",
+        "ders_adi": "Discrete Mathematics",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "ENF 216",
+        "ders_adi": "Differential Equations",
+        "T": 4,
+        "U": 0,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "ENF 225",
+        "ders_adi": "Applied Engineering Mathematics",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "MATE 113",
+        "ders_adi": "Linear Algebra",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "MATE112",
+        "ders_adi": "Mathematics-I",
+        "T": 3,
+        "U": 2,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "MATE 122",
+        "ders_adi": "Mathematics-II",
+        "T": 3,
+        "U": 2,
+        "L": 0,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "PHYE 112",
+        "ders_adi": "Physics-I",
+        "T": 3,
+        "U": 0,
+        "L": 2,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "PHYE 122",
+        "ders_adi": "Physics-II",
+        "T": 3,
+        "U": 0,
+        "L": 2,
+        "kredi": 4,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "TURC001",
+        "ders_adi": "Turkish Language-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TURC002",
+        "ders_adi": "Turkish Language-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "CHN 101",
+        "ders_adi": "Basic Chinese I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 111",
+        "ders_adi": "Academic English I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 121",
+        "ders_adi": "Academic English II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 122",
+        "ders_adi": "Business English I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 311",
+        "ders_adi": "Physical Training",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 311",
+        "ders_adi": "Law",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 313",
+        "ders_adi": "Economics",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 321",
+        "ders_adi": "Fine Arts",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENF 322",
+        "ders_adi": "Law",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "FRA 102",
+        "ders_adi": "French I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 001",
+        "ders_adi": "Humanity and Society",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 002",
+        "ders_adi": "Philosophy of Science",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 003",
+        "ders_adi": "History of Culture",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 004",
+        "ders_adi": "History of Science and Technology",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 005",
+        "ders_adi": "Maritime History and Culture",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 006",
+        "ders_adi": "History of Civilization",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 007",
+        "ders_adi": "International Relations and Globalization",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HM 008",
+        "ders_adi": "Science and Society in Modern Times",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "RUS 101",
+        "ders_adi": "Basic Russian I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "SPN 101",
+        "ders_adi": "Spanish I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "VL 001",
+        "ders_adi": "Volunteering Practices",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HSS 016",
+        "ders_adi": "International Trade",
+        "T": 1,
+        "U": 1,
+        "L": 0,
+        "kredi": 1.5,
+        "akts": 2
+      }
+    ]
+  },
+  "iktisadi_idari_bilimler_fakultesi": {
+    "fakulte_adi": "İktisadi ve İdari Bilimler Fakültesi",
+    "dersler": [
+      {
+        "ders_kodu": "EF124",
+        "ders_adi": "Mathematics II",
+        "T": 3,
+        "U": 1,
+        "L": 0,
+        "kredi": 3.6,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "EF114",
+        "ders_adi": "Mathematics I",
+        "T": 3,
+        "U": 1,
+        "L": 0,
+        "kredi": 3.6,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "EF214",
+        "ders_adi": "Statistics",
+        "T": 3,
+        "U": 1,
+        "L": 0,
+        "kredi": 3.6,
+        "akts": 6
+      },
+      {
+        "ders_kodu": "TUR C01",
+        "ders_adi": "Turkish Language-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATA C01",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TUR C02",
+        "ders_adi": "Turkish Language-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATA C02",
+        "ders_adi": "Atatürk's Principles and History of Turkish Revolution-II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 0,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "CAR C01",
+        "ders_adi": "Career Planning",
+        "T": 1,
+        "U": 0,
+        "L": 0,
+        "kredi": 1,
+        "akts": 0
+      },
+      {
+        "ders_kodu": "HUM111",
+        "ders_adi": "Humanity and Society I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM121",
+        "ders_adi": "Humanity and Society II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM112",
+        "ders_adi": "Philosophy of Science I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM122",
+        "ders_adi": "Philosophy of Science II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM212",
+        "ders_adi": "Culturel History-I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM222",
+        "ders_adi": "History of Culture-II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "HUM213",
+        "ders_adi": "Introduction to International Relations",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENG100",
+        "ders_adi": "Business English I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "ENG120",
+        "ders_adi": "Business English II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "FRA102",
+        "ders_adi": "French I",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      },
+      {
+        "ders_kodu": "FRA122",
+        "ders_adi": "French II",
+        "T": 3,
+        "U": 0,
+        "L": 0,
+        "kredi": 3,
+        "akts": 5
+      }
+    ]
+  },
+  "hukuk_fakultesi": {
+    "fakulte_adi": "Hukuk Fakültesi",
+    "dersler": [
+      {
+        "ders_kodu": "TUR C01",
+        "ders_adi": "Türk Dili I",
+        "T": 0,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATA C01",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi I",
+        "T": 0,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "TUR C02",
+        "ders_adi": "Türk Dili II",
+        "T": 0,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "ATA C02",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi II",
+        "T": 0,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts": 2
+      },
+      {
+        "ders_kodu": "CAR C01",
+        "ders_adi": "Kariyer Planlama",
+        "T": 1,
+        "U": 0,
+        "L": 0,
+        "kredi": 1,
+        "akts": 0
+      }
+    ]
+  },
+  "denizcilik_meslek_yuksekokulu": {
+    "fakulte_adi": "Denizcilik Meslek Yüksekokulu",
+    "dersler": [
+      {
+        "ders_kodu": "MAT1005",
+        "ders_adi": "Temel Matematik-I",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "FIZ1005",
+        "ders_adi": "Temel Fizik",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts": 4
+      },
+      {
+        "ders_kodu": "FIZ1025",
+        "ders_adi": "Fiziğin Temelleri",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts" : 4},
+        {
+        "ders_kodu": "KIM1001",
+        "ders_adi": "Denizcilik Kimyası",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts" : 4},
+        {
+        "ders_kodu": "FIZ2001",
+        "ders_adi": "Temel Fizik 2 (Elk.Elk manyetik) (Seçmeli Ders)",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts" : 3},
+      {
+        "ders_kodu": "ATAC01",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi- I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts" : 2},
+      {
+        "ders_kodu": "ATAC02",
+        "ders_adi": "Atatürk İlkeleri ve İnkılap Tarihi -II",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts" : 2},
+      {
+        "ders_kodu": "TURC01 ",
+        "ders_adi": "Türk Dili-I",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts" : 2},
+      {
+        "ders_kodu": "TURC02",
+        "ders_adi": "Türk Dili-II ",
+        "T": 2,
+        "U": 0,
+        "L": 0,
+        "kredi": 2,
+        "akts" : 2},
+      {
+        "ders_kodu": "MAT1006",
+        "ders_adi": "Temel Matematik-II",
+        "T": 2,
+        "U": 1,
+        "L": 0,
+        "kredi": 2.5,
+        "akts" : 4}
+    ]
+}
+}
+
+    
