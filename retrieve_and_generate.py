@@ -11,7 +11,16 @@ from operator import itemgetter
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, MessagesPlaceholder, SystemMessagePromptTemplate
 
-cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2")
+cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L12-v2")
+
+# Tag embeddinglerini güncelle ve önbellekten al
+tag_embeddings_cache = update_and_get_tag_embeddings()
+
+# Kosinüs benzerliğini hesaplar
+def cosine_similarity(vec1, vec2) -> float:
+    vec1 = np.array(vec1).reshape(-1)
+    vec2 = np.array(vec2).reshape(-1)
+    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 # Kosinüs benzerliğini hesaplar
 def cosine_similarity(vec1, vec2) -> float:
@@ -60,7 +69,11 @@ def build_chatbot():
     def retrieve(state: State):
         query = state["question"]
         query_embedding = vector_store.embedding_function.embed_query(query)
+<<<<<<< HEAD
         results = vector_store.similarity_search_with_score(query, k=20)
+=======
+        results = vector_store.similarity_search_with_score(query, k=10)
+>>>>>>> 1a9da20669938f90798e47175fa007104895bfeb
 
         boosted_docs = []
 
@@ -76,20 +89,32 @@ def build_chatbot():
                 tag_embedding = np.array(cached_tag["embedding"])
                 similarity = cosine_similarity(query_embedding, tag_embedding)
 
+<<<<<<< HEAD
                 if similarity > 0.45:
+=======
+                if similarity > 0.30:
+>>>>>>> 1a9da20669938f90798e47175fa007104895bfeb
                     tag_score += (similarity - 0.3) * 0.3
 
             final_score = score - tag_score
             boosted_docs.append((doc, final_score))
 
         boosted_docs.sort(key=lambda x: x[1])
+<<<<<<< HEAD
         top_boosted_docs = [doc for doc, _ in boosted_docs[:15]]
+=======
+        top_boosted_docs = [doc for doc, _ in boosted_docs[:10]]
+>>>>>>> 1a9da20669938f90798e47175fa007104895bfeb
 
         cross_encoder_inputs = [(query, doc.page_content) for doc in top_boosted_docs]
         scores = cross_encoder.predict(cross_encoder_inputs)
 
         reranked_docs = [doc for _, doc in sorted(zip(scores, top_boosted_docs), key=itemgetter(0), reverse=True)]
+<<<<<<< HEAD
         return {"context": reranked_docs[:5]}
+=======
+        return {"context": reranked_docs[:3]}
+>>>>>>> 1a9da20669938f90798e47175fa007104895bfeb
 
     def generate(state: State):
         if not state["context"]:
