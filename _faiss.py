@@ -5,7 +5,7 @@ from openai_clients import embedding_model
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os 
 from load_docs import compute_hash
-
+import time
 
 def get_existing_hashes(vector_store) -> set:
 
@@ -27,62 +27,66 @@ def get_existing_hashes(vector_store) -> set:
 
 
 
-def build_store(docs, persist_path='vector_db') : 
-
+def build_store(docs, persist_path='vector_db', batch_size=250):
     """
     FAISS vektör veritabanını oluşturur veya var olanı yükler.
-    Yeni belgeleri önceki veritabanına ekler, aynı belgeleri hash ile kontrol eder.
-    Güncel veritabanını diske kaydeder ve döner.
+    Yeni belgeleri hash ile kontrol eder, embeddingleri batch halinde ekler.
+    Her aşama loglanır ve süreleri ölçülür.
     """
 
+    total_start = time.time()
+
+    # 1. FAISS veritabanı yükleniyor veya oluşturuluyor
     if os.path.exists(persist_path):
         print(f"[i] Kayıtlı FAISS veritabanı bulundu, yükleniyor: {persist_path}")
-
-        # Var olan veritabanı yükleniyor ve embedding_model ile isleniyor.
         vector_store = FAISS.load_local(persist_path, embedding_model, allow_dangerous_deserialization=True)
-
-        # Mevcut veritabanındaki belgelerin hash'leri toplanıyor
         existing_hashes = get_existing_hashes(vector_store)
-    else: 
-
-        # Yeni FAISS index oluşturuluyor
+    else:
         print("[i] FAISS veritabanı bulunamadı, yeni oluşturuluyor...")
-
-        # Embedding boyutunu belirlemek için örnek sorgu embed ediliyor
         embedding_dim = len(embedding_model.embed_query("deneme123"))
-        # FAISS index (Inner Product tabanlı) oluşturuluyor
         index = faiss.IndexFlatIP(embedding_dim)
-
-         # Boş bir FAISS veritabanı
         vector_store = FAISS(
-            embedding_function=embedding_model,     # Embedding (gömme) fonksiyonu: metni vektöre çeviren model
-            index=index,                           # FAISS'in vektörleri sakladığı ve sorguladığı ana yapı (index)
-            docstore=InMemoryDocstore(),          # Belgeleri (dokümanları) hafızada tutan depo (anahtar-değer yapısı)
-            index_to_docstore_id={}                # FAISS index ile docstore arasındaki id eşlemesi (boş başlatılıyor)
+            embedding_function=embedding_model,
+            index=index,
+            docstore=InMemoryDocstore(),
+            index_to_docstore_id={}
         )
+        existing_hashes = set()
 
-    
-        existing_hashes = set() # Henüz kayıtlı belge yok
-
-    # Belgeleri daha küçük parçalara bölmek için text splitter tanımlanıyor
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=150)
-    # Belgeler chunk'lara bölünüyor
+    # 2. Belgeleri küçük parçalara bölüyoruz
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     all_splits = text_splitter.split_documents(docs)
 
-
-    # Her parçaya hash değeri atanıyor, yoksa hesaplanıyor
     for split in all_splits:
         if "hash" not in split.metadata:
             split.metadata["hash"] = compute_hash(split.page_content)
-    
-    # Daha önce veritabanında olmayan, yani yeni parçalar filtreleniyor
+
     new_docs = [doc for doc in all_splits if doc.metadata["hash"] not in existing_hashes]
 
-    if new_docs: 
-        print(f"[+] {len(new_docs)} yeni belge bulundu, veritabani guncelleniyor...")
-        vector_store.add_documents(new_docs)
-        # Güncellenmiş veritabanı diske kaydediliyor
-        vector_store.save_local(persist_path)
-    else:
-        print("[i] Yeni belge yok, guncelleme yapilmadi.")
+    if not new_docs:
+        print("[i] Yeni belge yok, güncelleme yapılmadı.")
+        return vector_store
+
+    print(f"[+] {len(new_docs)} yeni belge bulundu, veritabanı güncelleniyor...")
+
+    # 3. Batch halinde embedding
+    embed_start = time.time()
+    for i in range(0, len(new_docs), batch_size):
+        batch = new_docs[i:i+batch_size]
+        print(f"  ↪️ Batch {i}-{i+len(batch)} embedleniyor...")
+        batch_start = time.time()
+        vector_store.add_documents(batch)
+        batch_end = time.time()
+        print(f"    ⏱️ Batch süresi: {batch_end - batch_start:.2f} sn")
+
+    embed_end = time.time()
+    print(f"[✓] Tüm embedding işlemi tamamlandı ({embed_end - embed_start:.2f} sn)")
+
+    # 4. Veritabanını kaydet
+    vector_store.save_local(persist_path)
+    print(f"[✓] FAISS veritabanı kaydedildi → {persist_path}")
+
+    total_end = time.time()
+    print(f"[✓] build_store toplam süre: {total_end - total_start:.2f} sn")
+
     return vector_store
