@@ -1,0 +1,11 @@
+.env
+venv/
+*.pyc
+__pycache__/
+vector_db/
+tag_embeddings/
+CHATBOT/
+Dosyalar/
+Veri_setleri_14.06.2025/
+chatbot_feedback.db
+type_embeddings_cache.pkl
