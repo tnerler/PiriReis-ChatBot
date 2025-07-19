@@ -27,9 +27,15 @@ if not secret_key:
 
 app.secret_key = secret_key
 
+
+@app.before_request
+def ensure_session_id():
+    if "session_id" not in session:
+        session["session_id"] = str(uuid.uuid4)
+
 # Veritabanı başlatma (eğer yoksa tabloyu oluşturur)
 def init_db():
-    conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+    conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -57,9 +63,6 @@ graph = graph_builder.compile()
 
 @app.route("/")
 def home():
-    # Kullanıcıya özel session_id ataması
-    if "session_id" not in session:
-        session["session_id"] = str(uuid.uuid4())
     return render_template("index.html")
 
 @app.route("/ask", methods=["POST"])
@@ -75,10 +78,10 @@ def ask():
     # Her soruyu kaydet
     feedback_id = None
     try:
-        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
         cursor = conn.cursor()
         
-        print(f"Veritabanına kaydediliyor: session_id={session_id}, question={question[:20]}...")
+        print(f"Veritabanına kaydediliyor: session_id={session_id}, question={question[:5000]}...")
         
         # feedback_type artık 'pending' olarak başlıyor
         cursor.execute('''
@@ -119,7 +122,7 @@ def save_feedback():
         if not feedback_id or not feedback_type:
             return jsonify({"error": "feedback_id ve feedback_type gerekli"}), 400
 
-        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
         cursor = conn.cursor()
 
         # ID ile direkt güncelle
@@ -146,7 +149,7 @@ def save_feedback():
 @app.route("/feedback-stats")
 def feedback_stats():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
         cursor = conn.cursor()
 
         # Toplam kayıt sayısı
@@ -186,7 +189,7 @@ def feedback_stats():
 @app.route("/debug-db")
 def debug_db():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
         cursor = conn.cursor()
         
         # Tablo var mı kontrol et
@@ -213,7 +216,7 @@ def debug_db():
 @app.route("/debug-feedback")
 def debug_feedback():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=5000)
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM feedback ORDER BY timestamp DESC")
         all_feedback = cursor.fetchall()
@@ -229,6 +232,7 @@ def debug_feedback():
 
 crt_path="./pirireis.edu.tr.crt.key"
 key_path="./pirireis.edu.tr.key"
+
 
 
 if __name__ == "__main__":
