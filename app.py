@@ -12,7 +12,7 @@ from flask_cors import CORS
 load_dotenv()
 
 # LangSmith izleme/loglama ayarları
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_TRACING_V2"] = "false"
 os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
@@ -29,7 +29,7 @@ app.secret_key = secret_key
 
 # Veritabanı başlatma (eğer yoksa tabloyu oluşturur)
 def init_db():
-    conn = sqlite3.connect('chatbot_feedback.db')
+    conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -75,7 +75,7 @@ def ask():
     # Her soruyu kaydet
     feedback_id = None
     try:
-        conn = sqlite3.connect('chatbot_feedback.db')
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
         cursor = conn.cursor()
         
         print(f"Veritabanına kaydediliyor: session_id={session_id}, question={question[:20]}...")
@@ -119,7 +119,7 @@ def save_feedback():
         if not feedback_id or not feedback_type:
             return jsonify({"error": "feedback_id ve feedback_type gerekli"}), 400
 
-        conn = sqlite3.connect('chatbot_feedback.db')
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
         cursor = conn.cursor()
 
         # ID ile direkt güncelle
@@ -146,7 +146,7 @@ def save_feedback():
 @app.route("/feedback-stats")
 def feedback_stats():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db')
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
         cursor = conn.cursor()
 
         # Toplam kayıt sayısı
@@ -186,7 +186,7 @@ def feedback_stats():
 @app.route("/debug-db")
 def debug_db():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db')
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
         cursor = conn.cursor()
         
         # Tablo var mı kontrol et
@@ -213,7 +213,7 @@ def debug_db():
 @app.route("/debug-feedback")
 def debug_feedback():
     try:
-        conn = sqlite3.connect('chatbot_feedback.db')
+        conn = sqlite3.connect('chatbot_feedback.db',timeout=20)
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM feedback ORDER BY timestamp DESC")
         all_feedback = cursor.fetchall()
@@ -232,5 +232,4 @@ key_path="./pirireis.edu.tr.key"
 
 
 if __name__ == "__main__":
-    from waitress import serve
-    serve(host="0.0.0.0", port=443, ssl_context=(crt_path,key_path))
+    app.run(host="0.0.0.0", port=443, ssl_context=(crt_path,key_path))

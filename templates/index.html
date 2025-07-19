@@ -21,7 +21,7 @@
     <link
       rel="icon"
       type="image/png"
-      href="{{ url_for('static', filename='img/Piri Reis-Logo.png') }}"
+      href="{{ url_for('static', filename='./img/piri_reis_logo.png') }}"
     />
     <link
       rel="stylesheet"
@@ -36,7 +36,7 @@
         Merhaba! Size nasıl yardımcı olabilirim?
       </div>
       <img
-        src="{{ url_for('static', filename='maskot/denizci-yunus-maskot.png') }}"
+        src="{{ url_for('static', filename='./maskot/denizci-yunus-maskot.png') }}"
         alt="ChatBot Logo"
       />
     </div>
@@ -51,7 +51,7 @@
         💬 PiriX - Yapay Zeka Asistanı
         <div class="designer-link">
           <a href="https://www.instagram.com/prubilisim/" target="_blank">
-            Designed by Compru
+            Designed by COMPRU
           </a>
         </div>
       </div>
@@ -66,10 +66,10 @@
        PiriX hata yapabilir. Önemli bilgileri kontrol edin.
     </p>
   </div>
-  <button onclick="sendMessage()">Gönder</button>
+  <button id="send-button" onclick="sendMessage()">Gönder</button>
 </div>
-
-
+    <!-- MarkDown Efekti -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <!-- 🔹 Uygulama Javascript'i -->
     <script src="{{ url_for('static', filename='app.js') }}"></script>
   </body>

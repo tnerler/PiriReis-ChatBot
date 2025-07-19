@@ -1,7 +1,7 @@
 import faiss
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.vectorstores import FAISS
-from openai_clients import embedding_model
+from openai_clients import get_embedding_model
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os 
 from load_docs import compute_hash
@@ -24,6 +24,8 @@ def get_existing_hashes(vector_store) -> set:
     return hashes
 
 def build_store(docs, persist_path='vector_db', batch_size=250):
+    embedding_model = get_embedding_model()
+
     """
     FAISS vektör veritabanını oluşturur veya var olanı yükler.
     Yeni belgeleri hash ile kontrol eder, embeddingleri batch halinde ekler.

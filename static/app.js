@@ -4,22 +4,37 @@ function toggleChat() {
 
   if (chatbox.style.display === "block" || chatbox.style.display === "flex") {
     chatbox.style.display = "none";
-    chatbox.classList.remove("maximized"); // Kapattığında büyütme modunu iptal et
+    chatbox.classList.remove("maximized");
   } else {
     chatbox.style.display = "flex";
 
-    if (!messages.innerHTML.includes("PiriX")) {
-      showTypingEffect(
-        "Merhaba, ben Piri Reis Üniversitesinin Yapay Zeka Asistanı, PiriX! Size nasıl yardımcı olabilirim? ⚓", false
-      );
+    if (!messages.innerHTML.includes("Piri Reis ChatBot")) {
+      showBotMessage("Merhaba, ben Piri Reis Üniversitesinin Yapay Zeka Asistanı **PiriX** Size nasıl yardımcı olabilirim? ⚓", false);
     }
   }
 }
 
+let controller = null;
+let isBotResponding = false;
+
 function sendMessage() {
+  if (isBotResponding) return; // Spam önleme kontrolü
+
   const input = document.getElementById("user-input");
+  const sendBtn = document.getElementById("send-button");
   const msg = input.value.trim();
   if (!msg) return;
+
+  // Gönder butonunu devre dışı bırak
+  if (sendBtn) {
+    sendBtn.disabled = true;
+    sendBtn.classList.add("blocked");
+  }
+  isBotResponding = true;
+
+  // Önceki isteği iptal et
+  if (controller) controller.abort();
+  controller = new AbortController();
 
   const messages = document.getElementById("messages");
   messages.innerHTML += `<div class="chat-message user">${msg}</div>`;
@@ -37,66 +52,77 @@ function sendMessage() {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({ question: msg }),
+    signal: controller.signal,
   })
     .then((res) => res.json())
     .then((data) => {
+      const rawMarkdown = data.answer;
+      const feedbackId = data.feedback_id;
+      const html = marked.parse(rawMarkdown);
+      
       typingDiv.innerHTML = "";
-      typingDiv.setAttribute("data-feedback-id", data.feedback_id);  // ✅ feedback ID'yi DOM'a ekliyoruz
+      typingDiv.setAttribute("data-feedback-id", feedbackId);
 
+      // Typewriter efekti için HTML'i karakter karakter yazdır
       let i = 0;
-      const text = data.answer;
-      const typingInterval = setInterval(() => {
-        if (i < text.length) {
-          typingDiv.innerHTML += text.charAt(i);
+      const typewriterInterval = setInterval(() => {
+        if (i < html.length) {
+          typingDiv.innerHTML = html.substring(0, i + 1);
           i++;
           messages.scrollTop = messages.scrollHeight;
         } else {
-          clearInterval(typingInterval);
-          addFeedbackButtons(typingDiv);  // Butonlar bu div'e eklendiği için ID burada olmalı
+          clearInterval(typewriterInterval);
+          addFeedbackButtons(typingDiv);
+          
+          // Bot yanıtı tamamlandıktan sonra kontrolü serbest bırak
+          if (sendBtn) {
+            sendBtn.disabled = false;
+            sendBtn.classList.remove("blocked");
+          }
+          input.focus();
+          isBotResponding = false;
         }
-      }, 30);
+      }, 30); // 40ms aralıklarla yazdır (hızı ayarlanabilir)
     })
     .catch((err) => {
-      typingDiv.innerHTML = "Bir hata oluştu. Lütfen tekrar deneyin.";
-      console.error("Hata:", err);
+      if (err.name === "AbortError") {
+        typingDiv.remove();
+      } else {
+        typingDiv.innerHTML = "Bir hata oluştu. Lütfen tekrar deneyin.";
+        console.error("Hata:", err);
+      }
+      
+      // Hata durumunda da kontrolü serbest bırak
+      if (sendBtn) {
+        sendBtn.disabled = false;
+        sendBtn.classList.remove("blocked");
+      }
+      isBotResponding = false;
     });
 }
 
-
-function showTypingEffect(text, showFeedback = true) {
+function showBotMessage(markdownText, showFeedback = false) {
   const messages = document.getElementById("messages");
 
-  const typingDiv = document.createElement("div");
-  typingDiv.classList.add("chat-message", "bot");
-  typingDiv.innerHTML = `<span class="typing-dots">Yazıyor<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></span>`;
-  messages.appendChild(typingDiv);
+  const messageDiv = document.createElement("div");
+  messageDiv.classList.add("chat-message", "bot");
+
+  const html = marked.parse(markdownText);
+  messageDiv.innerHTML = html;
+
+  if (showFeedback) {
+    addFeedbackButtons(messageDiv);
+  }
+
+  messages.appendChild(messageDiv);
   messages.scrollTop = messages.scrollHeight;
-
-  setTimeout(() => {
-    typingDiv.innerHTML = "";
-    let i = 0;
-    const typingInterval = setInterval(() => {
-      if (i < text.length) {
-        typingDiv.innerHTML += text.charAt(i);
-        i++;
-        messages.scrollTop = messages.scrollHeight;
-      } else {
-        clearInterval(typingInterval);
-        if(showFeedback) {
-          addFeedbackButtons(typingDiv);
-        }
-      }
-    }, 30);
-  }, 700);
 }
-
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const userInput = document.getElementById("user-input");
   if (userInput) {
     userInput.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
+      if (e.key === "Enter" && !isBotResponding) {
         sendMessage();
       }
     });
@@ -173,7 +199,6 @@ let isDragging = false;
 let startY = 0;
 
 const resizeHandle = document.getElementById("resize-handle");
-const chatbox = document.getElementById("chatbox");
 
 if (resizeHandle) {
   resizeHandle.addEventListener("mousedown", (e) => {
@@ -195,7 +220,7 @@ if (resizeHandle) {
     isDragging = false;
   });
 }
-// Feedback butonlarını ekleyen yardımcı fonksiyon
+
 function addFeedbackButtons(elem) {
   const feedback = document.createElement("div");
   feedback.classList.add("feedback");
@@ -212,40 +237,39 @@ function addFeedbackButtons(elem) {
   dislikeBtn.setAttribute("data-tooltip", "Yanıtı beğenmedim");
   dislikeBtn.innerHTML = '<i class="fa-regular fa-thumbs-down"></i>';
 
-  // Get the feedback_id from the parent div (typingDiv)
   const feedbackId = elem.getAttribute("data-feedback-id");
 
   likeBtn.addEventListener("click", () => {
-  if (likeBtn.disabled) return;
+    if (likeBtn.disabled) return;
 
-  likeBtn.disabled = true;
-  likeBtn.classList.add("active");
+    likeBtn.disabled = true;
+    likeBtn.classList.add("active");
 
-  dislikeBtn.disabled = false;
-  dislikeBtn.classList.remove("active");
+    dislikeBtn.disabled = false;
+    dislikeBtn.classList.remove("active");
 
-  if (feedbackId) {
-    sendFeedback(feedbackId, "like");
-  }
+    if (feedbackId) {
+      sendFeedback(feedbackId, "like");
+    }
 
-  showThankYouToast();
-});
+    showThankYouToast();
+  });
 
-dislikeBtn.addEventListener("click", () => {
-  if (dislikeBtn.disabled) return;
+  dislikeBtn.addEventListener("click", () => {
+    if (dislikeBtn.disabled) return;
 
-  dislikeBtn.disabled = true;
-  dislikeBtn.classList.add("active");
+    dislikeBtn.disabled = true;
+    dislikeBtn.classList.add("active");
 
-  likeBtn.disabled = false;
-  likeBtn.classList.remove("active");
+    likeBtn.disabled = false;
+    likeBtn.classList.remove("active");
 
-  if (feedbackId) {
-    sendFeedback(feedbackId, "dislike");
-  }
+    if (feedbackId) {
+      sendFeedback(feedbackId, "dislike");
+    }
 
-  showThankYouToast();
-});
+    showThankYouToast();
+  });
 
   feedback.append(likeBtn, dislikeBtn);
   elem.appendChild(feedback);
@@ -284,8 +308,6 @@ function showThankYouToast() {
     toast.style.pointerEvents = "none";
     setTimeout(() => {
       toast.style.display = "none";
-    }, 300); // transition süresinden sonra gizle
+    }, 300);
   }, 3000);
 }
-
- 

@@ -2,7 +2,7 @@ from typing_extensions import List, TypedDict
 from langchain.schema import Document
 from _faiss import build_store
 from load_docs import load_docs
-from openai_clients import llm
+from openai_clients import get_llm
 import numpy as np 
 import pickle 
 from sentence_transformers import CrossEncoder
@@ -35,24 +35,15 @@ def build_chatbot():
 
     template = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(
+        """Sen Bilişim Kulübü COMPRU tarafından oluşturulmuş, Piri Reis Üniversitesi'nin aday öğrenciler için oluşturulmuş resmi bilgi asistanı PiriX'sin.
+        Öğrencilere ve ziyaretçilere üniversite ile ilgili doğru bilgileri herkesin anlayabileceği kısa ve öz cevap vermekle sorumlusun. Kullanıcı soruları 
+        genel yargı içeren sorularsa ('okul nasıl?', 'okul iyi mi?'), üniversitenin güçlü yönlerini vurgulayan, pozitif, motive edici, herkesin anlayabileceği kısa 
+        ve öz cevap ver. Eğer kullanıcı senden herhangi bir konuda liste (kulüpler, bölümler, öğretim üyeleri vb.) istiyorsa, sağlanan bağlamdaki maddelerin tamamını
+        eksiksiz, numaralı ya da madde işaretli biçimde listele; bağlamda olmayan maddeleri ekleme. Diğer tüm durumlarda, yalnızca verilen bağlamı kullanarak kısa,
+        net ve kendi içinde tamamlanmış cevaplar sun. Bağlam dışında yer almayan hiçbir bilgiyi ekleme ve kullanıcıyı ek kaynaklara yönlendirme. Tüm cevapların, 
+        her zaman Üniversite hakkında ikne edici herkesin anlayabileceği kısa ve öz bir cevap üretmen gerekiyor.""",
 
-        "Sen Piri Reis Üniversitesi'nin resmi bilgi asistanı PiriX'sin."
-        "Öğrencilere ve ziyaretçilere üniversiteyle ilgili doğru bilgileri vermekle sorumlusun."
 
-        "Eğer soru 'okul nasıl?', 'okul iyi mi?' gibi genel yargı sorularından biri ise,"
-        "datalara bakmadan üniversitenin güçlü yönlerini vurgulayan olumlu ve motive edici bir cevap ver."
-
-        "Diğer tüm durumlarda, aşağıdaki bağlam parçalarını kullanarak mümkün olduğunca aptala anlatır gibi basit ve kısaca anlat."
-
-        "Eğer soruda liste isteniyorsa (örneğin kulüpler, öğretim üyeleri, bölümler, programlar),"
-        "verilen verideki tüm maddeleri eksiksiz ve madde madde yaz."
-        "Liste uzun olsa bile tamamını belirt."
-
-        "❗ Veride açıkça yer almayan bir bilgi varsa uydurma yapma."
-        "Sadece verilen bilgiler doğrultusunda cevap ver."
-
-        "❗ Cevapların tamamlanmış ve anlaşılır ve kısa olmalı."
-        "Cevabın kendi içinde yeterli olsun; 'daha fazla bilgi için...' gibi ifadeler kullanma."
     ),
     MessagesPlaceholder(variable_name="chat_history"),
     HumanMessagePromptTemplate.from_template(
@@ -61,14 +52,14 @@ def build_chatbot():
 ])
 
 
-    chain = template | llm
+    chain = template |get_llm()
 
     def retrieve(state: State):
         query = state["question"]
         
 
         query_embedding = vector_store.embedding_function.embed_query(query)
-        results = vector_store.similarity_search_with_score(query, k=50)
+        results = vector_store.similarity_search_with_score(query, k=25)
 
 
         boosted_docs = []
@@ -99,7 +90,7 @@ def build_chatbot():
             boosted_docs.append((doc, final_score))
         
         boosted_docs.sort(key=lambda x: x[1])
-        top_boosted_docs = [doc for doc, _ in boosted_docs[:25]]
+        top_boosted_docs = [doc for doc, _ in boosted_docs[:15]]
 
         cross_encoder_inputs = [(query, doc.page_content) for doc in top_boosted_docs]
         scores = cross_encoder.predict(cross_encoder_inputs)
@@ -109,7 +100,7 @@ def build_chatbot():
         ]
 
         return {
-        "context": reranked_docs[:10],
+        "context": reranked_docs[:5],
         "question": query
         }
 
