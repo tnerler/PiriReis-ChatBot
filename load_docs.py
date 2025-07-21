@@ -44,8 +44,9 @@ def load_docs():
         print(f"[DEBUG] main_data.json'dan {len(data)} item yüklendi")
 
         for item in data:
-            text = bilgiyi_al(item).strip()
+            text = f"{item.get('type', '')}: {bilgiyi_al(item).strip()}"
             text = " ".join(text.split())
+
 
             if not text:
                 continue

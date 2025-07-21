@@ -12,7 +12,7 @@ from flask_cors import CORS
 load_dotenv()
 
 # LangSmith izleme/loglama ayarları
-os.environ["LANGCHAIN_TRACING_V2"] = "false"
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
 
 app = Flask(__name__, static_folder='static', template_folder='templates')

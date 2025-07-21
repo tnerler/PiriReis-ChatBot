@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 from sklearn.metrics.pairwise import cosine_similarity
 from type_embedding import load_embedding_cache, save_embedding_cache
 
-cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2")
+cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L12-v2")
 cache_path = "type_embeddings_cache.pkl"
 type_embeddings_cache = load_embedding_cache(cache_path)  
 
@@ -24,6 +24,7 @@ class State(TypedDict):
 
 def build_chatbot():  
     docs = load_docs()
+
     vector_store = build_store(docs)
 
     memory = ConversationBufferMemory(
@@ -41,7 +42,8 @@ def build_chatbot():
         ve öz cevap ver. Eğer kullanıcı senden herhangi bir konuda liste (kulüpler, bölümler, öğretim üyeleri vb.) istiyorsa, sağlanan bağlamdaki maddelerin tamamını
         eksiksiz, numaralı ya da madde işaretli biçimde listele; bağlamda olmayan maddeleri ekleme. Diğer tüm durumlarda, yalnızca verilen bağlamı kullanarak kısa,
         net ve kendi içinde tamamlanmış cevaplar sun. Bağlam dışında yer almayan hiçbir bilgiyi ekleme ve kullanıcıyı ek kaynaklara yönlendirme. Tüm cevapların, 
-        her zaman Üniversite hakkında ikne edici herkesin anlayabileceği kısa ve öz bir cevap üretmen gerekiyor.""",
+        her zaman Üniversite hakkında ikne edici herkesin anlayabileceği kısa ve öz bir cevap üretmen gerekiyor. Fiyatlar konusunda kesinlikle bilgi ver, verilerde tüm fiyat durumları gözüküyor, Fiyatlar senelik ve 2025-2026 dönemini kapsar.
+        Bilgin olmayan sorularda şu şekilde cevap ver: "Bu konuda şu anda elimde bilgi yok. Detaylı bilgi için çağrı merkezimizi arayabilirsiniz: **+90 216 581 00 50**."""
 
 
     ),
@@ -59,7 +61,7 @@ def build_chatbot():
         
 
         query_embedding = vector_store.embedding_function.embed_query(query)
-        results = vector_store.similarity_search_with_score(query, k=25)
+        results = vector_store.similarity_search_with_score(query, k=30)
 
 
         boosted_docs = []
@@ -81,16 +83,15 @@ def build_chatbot():
                     np.array(type_embedding).reshape(1, -1)
                 )[0][0]
 
-                if similarity > 0.45:
+                if similarity > 0.6:
                     type_boost += 0.35
-
 
             final_score = score - type_boost
 
             boosted_docs.append((doc, final_score))
         
         boosted_docs.sort(key=lambda x: x[1])
-        top_boosted_docs = [doc for doc, _ in boosted_docs[:15]]
+        top_boosted_docs = [doc for doc, _ in boosted_docs[:20]]
 
         cross_encoder_inputs = [(query, doc.page_content) for doc in top_boosted_docs]
         scores = cross_encoder.predict(cross_encoder_inputs)
@@ -100,7 +101,7 @@ def build_chatbot():
         ]
 
         return {
-        "context": reranked_docs[:5],
+        "context": reranked_docs[:8],
         "question": query
         }
 
