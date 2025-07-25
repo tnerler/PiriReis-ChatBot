@@ -22,20 +22,38 @@ def detect_ranking_query(query):
     """
     Sorgunun sıralama tabanlı olup olmadığını tespit eder ve sıralamayı çıkarır.
     """
-    ranking_keywords = ['sıralama', 'sıralama', 'ranking', 'siralama', 'yerleştirme']
+    ranking_keywords = ['sıralama', 'sıralama', 'ranking', 'siralama', 'yerleştirme', 'sıralam']
     has_ranking_keyword = any(keyword in query.lower() for keyword in ranking_keywords)
     
-    # Sayısal sıralama değeri çıkar
-    ranking_numbers = re.findall(r'\b(\d{1,6})\b', query)
+    # Sayısal sıralama değeri çıkar - çeşitli formatları destekle
     extracted_ranking = None
     
-    if ranking_numbers and has_ranking_keyword:
-        # En makul sıralama değerini seç (genellikle en büyük sayı)
+    if has_ranking_keyword:
+        # Normal sayılar
+        ranking_numbers = re.findall(r'\b(\d{1,6})\b', query)
         for num_str in ranking_numbers:
             num = int(num_str)
-            if 1000 <= num <= 500000:  # Makul sıralama aralığı
+            if 1000 <= num <= 500000:
                 extracted_ranking = num
                 break
+        
+        # "bin" formatı (150bin, 85 bin)
+        if not extracted_ranking:
+            bin_matches = re.findall(r'(\d{1,3})\s*bin\b', query.lower())
+            for match in bin_matches:
+                num = int(match) * 1000
+                if 1000 <= num <= 500000:
+                    extracted_ranking = num
+                    break
+        
+        # "k" formatı (150k)
+        if not extracted_ranking:
+            k_matches = re.findall(r'(\d{1,3})k\b', query.lower())
+            for match in k_matches:
+                num = int(match) * 1000
+                if 1000 <= num <= 500000:
+                    extracted_ranking = num
+                    break
     
     return has_ranking_keyword, extracted_ranking
 
