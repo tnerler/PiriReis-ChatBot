@@ -1,0 +1,555 @@
+{
+  "title": "Öğrenciler için Genel Bilgi",
+  "sections": [
+    {
+      "title": "İstanbul Hakkında",
+      "content": "Dünyanın merkezinde yer alan İstanbul, tarihi abideleri ve şahane doğal manzaraları ile çok önemli bir megapoldür. Asya ile Avrupa Kıtalarının dar bir deniz geçidi ile ayrıldığı yerde, iki kıta üzerinde kurulu ve dünya üzerinde burada deniz geçen tek şehirdir. 2500 yılı aşan bir tarihe sahip olan İstanbul, deniz ve karaların kucaklaştığı bu ipte kuruluşunu takiben önemli bir ticaret merkezi olmuştu. Tarihi İstanbul şehri üç tarafını Marmara Denizi, Boğaziçi ve Haliç'in sardığı bir yarım ada üzerinde yer alır.\n\nİstanbul, üç imparatorluğa başkentlik yapma özelliğinin yanı sıra, her dönem ekonomik merkez olma özelliği de koruyan az şehirden biri. Şehir, 1923'te kurulan yeni cumhuriyete siyasi çevrede olmamasına rağmen, ekonomik merkez olma özelliği her zaman sürdürmüş ve ülkenin kaderini belirleyen yazı asla kaybetmemiştir.\n\nİstanbul hem iç hem de dış ticarette merkezi bir öneme sahip. Kentin ekonomisine ve iş yaşamına kısaca bakacak olursak, bugün İstanbul'un Türkiye GSMH'sindeki payı yaklaşık yüzde 23 tahmini.\n\nŞehirde dünya sanayinin yedek parçaları ile finans, turizm, hizmet ve bankacılık gibi sektörler aldı. Sanayideki bu duruma karşılık para piyasalarının kalbi artan bir tempoyla hep İstanbul'da atıyor. Coğrafi çevrede İstanbul'da ilk 4 mesai saati Asya ülkeleriyle, diğer 4 saati Avrupa ülkeleriyle çakışıyor. Bu da İstanbul'a doğal bir finansal merkez olma dışarı çıktı.\n\nİstanbul, ülke taşımacılığının da merkezi durumundadır. İstanbul Havaalanı'nın yanı sıra sıra Anadolu yakasında da Pendik Sabiha Gökçen Havaalanı da İstanbul'a hizmet veriyor. Türkiye'de sayıları 153 olan müzelerin 14'ü İstanbul'da ve bu müzelerde bulunan 2 milyon 400 bin mevcut eserin yüzde 34'ü İstanbul müzelerinde sergileniyor."
+    },
+    {
+      "title": "Barınma",
+      "subsections": [
+        {
+          "title": "Yurt Bilgisi",
+          "content": "İstanbul Anadolu Yakasında Bulunan Kredi Yurtlar Kurumu'na Bağlı Yurtlar",
+          "yurtlar": [
+            {
+              "name": "Piri Reis KYK Kız Öğrenci Yurdu (KYK Devlet Yurdudur)",
+              "district": "Tuzla",
+              "address": "İstasyon Mah. Hatboyu Cad. No:53 Tuzla/ İstanbul",
+              "phone": ""
+            },
+            {
+              "name": "Anadolu Hisarı Yurdu",
+              "district": "Anadolu Hisarı",
+              "address": "Göksu Cad. Cuma Yolu Sokak MAR.Ü.BED.EĞT.VE SPOR Y.O.KAM. ANADOLU HİSAR",
+              "phone": "02163082618-19"
+            },
+            {
+              "name": "Akkadin H. M. Tarman Kız Yurdu",
+              "district": "Kadıköy",
+              "address": "Merdivenköy Mah. Çömlekçi Çukuru Sokak No: 75 Kadıköy/İSTANBUL",
+              "phone": "02165658006"
+            },
+            {
+              "name": "Ataşehir Kız Öğrenci Yurdu",
+              "district": "Ataşehir",
+              "address": "Ercüment Batanay Cad. No:27 Örnek Mahallesi",
+              "phone": ""
+            },
+            {
+              "name": "İst.Vilhiz.Bir.Vali Muammer Güler Öğr. Yurdu",
+              "district": "Küçükbakkalköy",
+              "address": "Girne Caddesi No:2 Küçükbakkalköy",
+              "phone": "02164568772"
+            },
+            {
+              "name": "Mimar Sinan Erkek Öğrenci Yurdu",
+              "district": "Maltepe",
+              "address": "Zümrütevler, Emek Cd. No:91, 34848",
+              "phone": "02163710191"
+            }
+          ]
+        },
+        {
+          "title": "İstanbul Anadolu Yakasında Bulunan MEB'e Bağlı Özel Yurtlar",
+          "yurtlar": [
+            {
+              "name": "HAN YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Maltepe",
+              "address": "Cevizli, Bağdat Cd. no:607, 34846 Maltepe/İstanbul",
+              "phone": "02164260428, 05327623949"
+            },
+            {
+              "name": "HAN YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "Hasanpaşa, Abdülhalim Memduh Sk. No:3, 34722 Kadıköy/İstanbul",
+              "phone": "0532 762 3949"
+            },
+            {
+              "name": "HAN YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Göztepe",
+              "address": "Eğitim, Hakkı Bey Sk. no.7, 34722 Kadıköy/İstanbul",
+              "phone": "0216 426 2426"
+            },
+            {
+              "name": "ÜSKÜDAR – ÖZEL GÜMÜŞSU YÜKSEK ÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Üsküdar",
+              "address": "ALEMDAĞ CAD..YANYOL NAMAZGAH MEVKI NO 89/B",
+              "phone": "0216 461 2736"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL KADIKÖY YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "OSMANAĞA MAHALLESİ ÇİLEK SOKAK NO/38 KADIKÖY",
+              "phone": "0216 346 9231"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL KARDELEN YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "OSMANAĞA MAHALLESİ SÖĞÜTLÜÇEŞME CADDESİ VİŞNE SOKAK NO/13",
+              "phone": "0216 348 9284"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL İNCİ YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "OSMANAĞA MAH. SOĞÜTLÜÇEŞME CAD. MÜRVER ÇİÇEĞİ NO:7-KADIKÖY",
+              "phone": "0216 700 1600"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL ARC AKADEMİ YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "RASİMPAŞA MAH.RIHTIM CAD.NEMLİZADE SOK.NO:6",
+              "phone": "0216 550 8072"
+            },
+            {
+              "name": "ATAŞEHİR – ÖZEL YENİSAHRA YÜKSEK ÖĞRETİM ERKEK ÖĞRNECİ YURDU",
+              "district": "Ataşehir",
+              "address": "FATIH CAD.NO:103 YENISAHRA",
+              "phone": "0216 324 4410"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL KADIKÖY ARI YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "OSMANAĞA MAHALLESİ RIHTIM CADDESİ MİSAK-I MİLLİ SOKAK NO/70",
+              "phone": "0216 337 8143"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL KADIKÖY ATA YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "OSMANAĞA MAH.TULUMBACI ASIM SOK.NO:12 KADIKÖY/İSTANBUL",
+              "phone": "0216 330 7830"
+            },
+            {
+              "name": "KADIKÖY – ÖZEL ŞERMİN HANIM YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Kadıköy",
+              "address": "HIZIRBEY CADDESİ VOLKAN SOKAK NO/4",
+              "phone": "0216 565 8917"
+            },
+            {
+              "name": "PENDİK – ÖZEL MİHRİMAH YÜKSEKÖĞRETİM KIZ ÖĞRENCİ YURDU",
+              "district": "Pendik",
+              "address": "KURTKÖY MAH.ESENTEPE MEVKİİ YILDIZ SOK.NO:3",
+              "phone": "0216 595 4080"
+            },
+            {
+              "name": "PENDİK – ÖZEL SANCAK YÜKSEKÖĞRETİM ERKEK ÖĞRENCİ YURDU",
+              "district": "Pendik",
+              "address": "YENİ MAHALLE PLEVNE CADDESİ HAMİDİYE SOKAK NO/20",
+              "phone": "0216 390 1215"
+            },
+            {
+              "name": "BOSTANCI GAZİ KIZ ÖĞRENCİ YURDU",
+              "district": "Ataşehir",
+              "address": "İçerenköy, Ertaç Sk. No:6, 34752 Ataşehir/İstanbul",
+              "phone": "0216 575 0003/ 0506 386 2839"
+            },
+            {
+              "name": "MEDENİYET KIZ ÖĞRENCİ YURDU",
+              "district": "KARTAL",
+              "address": "Esentepe Mahallesi İnönü Caddesi No 138 Kartal/ İstanbul",
+              "phone": "0216 353 66 99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SAĞLIK HİZMETLERİ",
+      "content": "Kaza ve hastalık durumlarında ilk yardım ve tedavi hizmeti verilmektedir. Toplumda sık rastlanan rahatsızlıklar; örneğin gribal enfeksiyon, alerji ve mide rahatsızlıkları için ilaçlar bulunmakta ve ilk doz temin edilmektedir. Kısa süreli istirahat gerektiren durumlarda hasta, sağlık biriminde bulunan müşahede odasına alınabilmektedir.\n\nGerekli görüldüğü durumlarda; hasta/yara, ileri tetkik/tedavi için yakın çevrede bulunan hastaneye sevk edilmektedir. Günlük takip gerektiren hastalıklara bağlı kontroller (tansiyon, ateş, vs.), enjeksiyon, pansuman yapılmaktadır. Ekibimiz 1 doktor ve 3 hemşire ile hafta içi 08.30-17.00 saatleri arasında Deniz Kampüsü B-Blok 0. katta ve Hazırlık Kampüsü'nde hizmet vermektedir.\n\nAcil Durum Hattı: 0 (216) 581 00 11"
+    },
+    {
+      "title": "KARİYER MERKEZİ",
+      "content": "Öğrencilerin eğitimleri sırasında kendilerini tanımalarında, kariyerlerinin planlanmasında destek sağlamak, iş dünyasının beklentileri hakkında bilgi vermek ve mezuniyet sonrası kendilerini geliştirebilecekleri işlere yerleştirilmelerinde yol göstermektir. Kariyer Merkezinin, iş dünyasıyla geliştirdiği İşbirlikleri ile Üniversitemiz öğrencileri, akademik programlarının uygunluğuna bağlı olarak, eğitimlerini sürdürürken iş birliğimizin olduğu firmalarda kısmi zamanlı olarak çalışma veya staj yapma imkanına sahiptirler."
+    },
+    {
+      "title": "SİGORTA",
+      "content": "Üniversitemiz öğrencileri mevcut yasa çerçevesinde aileleri tarafından yapılandırılan SGK hizmetlerinden yararlanmaktadırlar. Üniversite dışındaki hastanelerde yapılan tüm tedavilerin masrafları öğrencilerin kendi özel sağlık sigortaları veya ailelerinin sosyal güvenlik sistemleri tarafından karşılanır. Üniversitenin sağlık hizmetleri, öğrencilerin ve personelin doğrudan Üniversitenin sağlık merkezine başvurarak ücretsiz muayene edilip, gerektiğinde sağlık kurumlarına sevk edilmesi ile yürütülmektedir. Bu işlemler için Piri Reis Üniversitesi öğrencilerin sigortalı olup olmadığa bakmamaktadır. Üniversite öğrencileri ve personelinin tüm muayene ve acil yardım hizmetleri ücretsiz yapılmaktadır. Acil durumlarda ilk müdahaleden sonra gerekirse ileri tedavi hizmeti veren hastanelere nakil sağlanmaktadır. Erasmus değişim öğrencileri ve uluslararası öğrencilere, Türkiye'de geçerli olacak ve sağlık masraflarını karşılayacak uygun bir sağlık sigortası yaptırmaları tavsiye edilmektedir. Bu öğrenciler de Üniversitenin sunduğu sağlık hizmetlerinden üniversite sınırları içinde ücretsiz olarak yararlanabilirler."
+    },
+    {
+      "title": "Öğrenci İşleri",
+      "content": "Üniversitemizin kalite düzeyine yaraşır bir hizmet sunmaktır.\n\nÖğrencilerin kayıt ve kabullerinin yapılması, ders ve sınav programlarının hazırlanması, duyurulması, Öğrenci kimliği düzenlenmesi, burs ve günlük öğrenci işlemleri, Akademik Takvim'de belirlenen tarihlerde derse yazılma ve dersten çekilme işlemlerinin takibi, sınıf ve sınav listelerinin hazırlanması ve ilan edilmesi, not cetvelleri ile sınav evraklarının korunması ve ilan edilmesi, İETT tarafından verilen indirimli kimlik kartlarının temin ve teslim edilmesi, Erkek öğrencilerin askerlik işlemleri, Not Dökümü (Transcript), Diploma ve mezuniyet sonrası büro işlemlerinin yürütülmesi.\n\nÜniversitenin bütün fakülteleri ile programlarında görevleri ile ilgili alanlarda ihtiyaç duyulan destek hizmeti verir. Fakülte ve fakülte programlarından gelen kapsam dahili büro işlemleri, ve benzeri görevleri yapar.\n\nÖğrencilerin kampüs içerisinde ve kampüs dışında huzurlu ve başarılı bir öğrencilik geçirmeleri için yardımcı olur, rehberlik hizmeti almalarını sağlar. Ailemize dahil olan öğrencilerimize özel yaşamlarında yol göstericiliği ile fahri ebeveyni olur. Öğrenci, öğrenci aileleri ve üniversitenin diğer birimleri arasında kendi alanında köprü görevi görür."
+    },
+    {
+      "title": "Değişim Öğrencileri için Pratik Bilgiler",
+      "subsections": [
+        {
+          "title": "Erasmus+ Program",
+          "content": "Erasmus+ program is a European Union education and training program which aims to increase the quality of higher education in Europe. To achieve this, the Program promotes the co-operations between higher education institutions in Europe. The partnerships and mobility activities are financially supported by the Program.\n\nBesides HEI co-operations, Erasmus+ program promotes the cooperation between HEIs and labor market so that universities may meet the need of the labor market and graduates may have better employability opportunities. The European Commission is responsible for the overall implementation of Erasmus+ Program. Actions are managed by national agencies in the 33 participating countries or by the Executive Agency for Education, Audiovisual and Culture based in Brussels.",
+          "documents": [
+            "ECHE",
+            "Erasmus Policy Statement",
+            "2023 Programme Guide"
+          ],
+          "additional_info": "Detailed information about Erasmus+ program can be found on the EU Commission's web page linked below:\nhttps://erasmus-plus.ec.europa.eu/",
+          "contact": "Email: erasmus@pirireis.edu.tr"
+        }
+      ]
+    },
+    {
+      "title": "STAJ",
+      "subsections": [
+        {
+          "title": "KURUMSAL STAJ OFİSİ",
+          "staff": [
+            {
+              "name": "Müge Kaya Gündüz",
+              "position": "Birim Yöneticisi",
+              "email": "mgunduz@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1454"
+            },
+            {
+              "name": "Ayşenur Zeynep Kalkan",
+              "position": "Uzman Yardımcısı",
+              "email": "azkalkan@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1697"
+            },
+            {
+              "name": "Tuğçe Güntürkün",
+              "position": "Uzman Yardımcısı",
+              "email": "tgunturkun@pirireis.edu.tr",
+              "phone": "0216 581 00 50 - 1651"
+            }
+          ]
+        },
+        {
+          "title": "Öğrencilerimiz İçin Staj Başvuru Evrakları",
+          "content": "Başvuru sırasında gereken evraklar:",
+          "documents": [
+            {
+              "name": "EK-1: Staj Başvuru Formu",
+              "url": "https://www.pirireis.edu.tr/wp-content/uploads/2024/10/STAJ-BASVURU-FORMU_08.10.2024.pdf"
+            },
+            {
+              "name": "EK-2: Nüfus Cüzdanı ya da Yeni Kimlik Kartı Fotokopisi",
+              "url": ""
+            },
+            {
+              "name": "EK-3: E-Devlet üzerinden alınacak İkametgah Belgesi",
+              "url": ""
+            },
+            {
+              "name": "EK-4: 2 Adet Vesikalık veya Biyometrik Fotoğraf",
+              "url": ""
+            },
+            {
+              "name": "EK-5 A: Denizcilik Fakültesi GMİM öğrencilerinden kara stajı yapacak olanların teslim etmesi gereken atölye stajı evrakları",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/04/3-PROTOKOL-BOL-1-ATOLYE.docx"
+            },
+            {
+              "name": "EK-5 B: Denizcilik Fakültesi GMİM öğrencilerinden kara stajı yapacak olanların teslim etmesi gereken bakım-tutum stajı evrakları",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/04/3-PROTOKOL-BOL-2-BAKIM-TUTUM.docx"
+            },
+            {
+              "name": "EK-6 Gemiye Katılış Ordinosu ( Sadece deniz stajı yapacak Denizcilik Fakültesi ve DMYO öğrencileri staj yapacakları şirketten kaşeli ve ıslak imzalı olarak temin edeceklerdir.)",
+              "url": ""
+            },
+            {
+              "name": "Staj Sigortası Sonlandırma Belgesi",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/06/STAJ-SIGORTASI-SONLANDIRMA-BELGESI-ORNEGI.docx"
+            }
+          ]
+        },
+        {
+          "title": "DMYO Mezunları Staj Başvuru Evrakları",
+          "content": "Mezun Öğrencilerimiz,\n\nKurumsal Staj ofisine başvuruda bulunurken beraberinde 'BÖLÜMÜ İLE İLGİLİ STAJ DEFTERİNİN FOTOKOPİSİNİ VE AŞAĞIDA BELİRTİLEN BAŞVURU SIRASINDA İSTENİLEN EVRAKLARI' getirmeleri istenmektedir. Staj başvuru evrakları ve Staj defterlerine aşağıdaki ilgili sekmelerden erişebilirsiniz.\n\nMakine Zabiti ve Mekatronik bölümü mezun öğrencilerimiz, Atölye ve Bakım -Tutum stajları ile ilgili staj defterleri ile beraber Atölye/Bakım-Tutum staj protokolü formlarını staj yapacakları firmaya kaşe ve ıslak imzalı olarak doldurtup kurumsal staj ofisine getirmeleri gerekmektedir.\n\nMezun öğrencilerimiz, Atölye ve Bakım -Tutum stajları ile ilgili staj defterleri ile beraber Atölye/Bakım-Tutum staj protokolü formlarını staj yapacakları firmaya kaşe ve ıslak imzalı olarak doldurtup kurumsal staj ofisine getirmeleri gerekmektedir.",
+          "documents": [
+            {
+              "name": "DMYO Mezunları Staj Başvuru Formu",
+              "url": "https://dmyo.pirireis.edu.tr/wp-content/uploads/2024/11/STAJ-BASVURU-FORMU-DMYO-MEZUN-OGRENCILER.pdf"
+            },
+            {
+              "name": "Atölye Staj Protokolü Formu",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2024/11/Atolye-Staj-Protokolu-Formu-.docx"
+            },
+            {
+              "name": "Bakım Tutum Staj Protokolü Formu",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2024/11/Bakim-Tutum-Staj-Protokolu-Formu-.docx"
+            }
+          ],
+          "required_documents": [
+            "EK-1: DMYO Mezun Öğrenci Staj Başvuru Formu",
+            "EK-2: 3 adet vesikalık veya biyometrik fotoğraf",
+            "EK-3: DMYO mezunlarına ait kara stajı yapacak olanların teslim etmesi gereken atölye stajı evrakları",
+            "EK-4: DMYO mezunlarına ait kara stajı yapacak olanların teslim etmesi gereken bakım-tutum stajı evrakları",
+            "EK-5: Gemiye Katılış Ordinosu (Sadece deniz stajına çıkacak olan DMYO mezunları staj yapacakları şirketten kaşeli ve ıslak imzalı olarak temin edeceklerdir.)",
+            "EK-6: Türk Bayraklı Gemilerde deniz stajı yapacak mezunlarımızın mutlaka katılış ordinosunda yazılı gemiye katılış tarihi itibari ile sigortalandıklarını gösterir işe giriş bildirgesi. (İşe giriş bildirgesi geminin bağlı bulunduğu şirket tarafından verilecektir.)",
+            "EK-7: Kara stajı (atölye ve/veya bakım-tutum) yapacak mezunlarımızın mutlaka staj başvuru formları ve diğer evraklarında beyan edilen staja başlama tarihi itibari ile sigortalandıklarını gösterir işe giriş bildirgesi. (İşe giriş bildirgesi staj yapılacak şirket tarafından verilecektir.)"
+          ],
+          "note": "Yabancı bayraklı gemilerde staj yapacak mezunlarımız için sigorta işe giriş bildirgesi gerekmemektedir."
+        },
+        {
+          "title": "STAJ DEFTERLERİ",
+          "content": "Staj Defterleri\n\nStaj ile ilgili tüm dosyalara bu bağlantıdan ulaşabilirsiniz.",
+          "url": "https://pirireis.edu.tr/hakkimizda/idari-birimler/kurumsal-staj-ofisi/staj-dosyalari/",
+          "dmyo_mezunlari_staj_defterleri": [
+            {
+              "name": "Güverte Vardiya Zabitliği Deniz Stajı Eğitim Defteri Bölüm-I",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Guverte-Vardiya-Zabitligi-Deniz-Staji-Egitim-Defteri-Bolum-I-2-1.pdf"
+            },
+            {
+              "name": "Makine Zabiti Atölye Becerilerini Geliştirme Eğitimi Bölüm-I Atölye Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Makine-Zabiti-Atolye-Becerilerini-Gelistirme-Egitimi-Bolum-I-Atolye-Staji-Egitim-Defteri-1-2.pdf"
+            },
+            {
+              "name": "Makine Zabiti Bölüm 2 Bakım Tutum Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Makine-Zabiti-Bolum-2-Bakim-Tutum-Staji-Egitim-Defteri-1-3.pdf"
+            },
+            {
+              "name": "Makine Zabiti Deniz Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Makine-Zabiti-Deniz-Staji-Egitim-Defteri-1-2.pdf"
+            },
+            {
+              "name": "Mekatronik ( Elektro Teknik Zabiti ) Atölye Becerilerini Geliştirme Eğitimi Bölüm I Atölye Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Mekatronik-Elektro-Teknik-Zabiti-Atolye-Becerilerini-Gelistirme-Egitimi-Bolum-I-Atolye-Staji-Egitim-Defteri-1-2.pdf"
+            },
+            {
+              "name": "Mekatronik ( Elektro Teknik Zabiti ) Atölye Becerilerini Geliştirme Eğitimi Bölüm II Bakım Tutum Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Mekatronik-Elektro-Teknik-Zabiti-Atolye-Becerilerini-Gelistirme-Egitimi-Bolum-II-Bakim-Tutum-Staji-Egitim-Defteri-1-2.pdf"
+            },
+            {
+              "name": "Mekatronik (Elektro-Teknik Zabiti) Deniz Stajı Eğitim Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Mekatronik-Elektro-Teknik-Zabiti-Deniz-Staji-Egitim-Defteri-2.pdf"
+            },
+            {
+              "name": "Deniz ve Liman İşletmeciliği Programı Deniz Stajı Eğitim Defteri Bölüm-I",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Deniz-ve-Liman-Isletmeciligi-Programi-Deniz-Staji-Egitim-Defteri-Bolum-I-1-2.pdf"
+            },
+            {
+              "name": "Yat Kaptanı Deniz Stajı Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/07/Yat-Isletme-ve-Yonetimi-Programi-Yat-Kaptani-Deniz-Staji-Egitim-Defteri-1-4.pdf"
+            }
+          ],
+          "dmyo_ogrencileri_staj_defterleri": [
+            {
+              "name": "DMYO Normal Öğrenci İşyeri Staj Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/DMYO-ISYERI-STAJ-DEFTERI-20.02.2024-2.docx"
+            }
+          ],
+          "iktisadi_idari_bilimler_fakultesi_staj_defterleri": [
+            {
+              "name": "İktisadi ve İdari Bilimler Fakültesi Staj Defteri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Iktisadi-ve-Idari-Bilimler-Fakultesi-Staj-Defteri-2.doc"
+            }
+          ],
+          "muhendislik_fakultesi_staj_defterleri": [
+            {
+              "name": "Elektrik Elektronik Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Elektrik-Elektronik-Muhendisligi-Staj-Defteri-ve-Degerlendirme-Formu-Kapali-Zarf-Icinde-5-1.doc"
+            },
+            {
+              "name": "Endüstri Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Endustri-Muhendisligi-Staj-Defteri-ve-Degerlendirme-Formu-Kapali-Zarf-Icinde-2.doc"
+            },
+            {
+              "name": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Gemi-Insaati-ve-Gemi-Makineleri-Muhendisligi-Staj-Defteri-ve-Degerlendirme-Formu-Kapali-Zarf-Icinde-2.doc"
+            },
+            {
+              "name": "Makine Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Makine-Muhendisligi-Staj-Defteri-ve-Degerlendirme-Formu-Kapali-Zarf-Icinde-1.doc"
+            },
+            {
+              "name": "Bilgisayar Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Bilgisayar-Muhendisligi-Staj-Defteri-1.doc"
+            },
+            {
+              "name": "Bilişim Sistemleri Mühendisliği Staj Defteri ve Değerlendirme Formu (Kapalı Zarf İçinde)",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Bilisim-Sistemleri-Muhendisligi-Staj-Defteri-1.doc"
+            }
+          ],
+          "denizcilik_fakultesi_staj_defterleri": [
+            {
+              "name": "Deniz Ulaştırma İşletme Mühendisliği Açık Deniz Stajı Eğitim Defteri Bölüm 1",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Deniz-Ulastirma-Isletme-Muhendisligi-Acik-Deniz-Staji-Egitim-Defteri-Bolum-1-1.docx"
+            },
+            {
+              "name": "Deniz Ulaştırma İşletme Mühendisliği Açık Deniz Stajı Eğitim Defteri Bölüm 2",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Deniz-Ulastirma-Isletme-Muhendisligi-Acik-Deniz-Staji-Egitim-Defteri-Bolum-2-1.docx"
+            },
+            {
+              "name": "Gemi Makineleri İşletme Mühendisliği Açık Deniz Staj Defterleri",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Gemi-Makineleri-Isletme-Muhendisligi-Acik-Deniz-Staj-Defterleri-2.docx"
+            },
+            {
+              "name": "Gemi Makineleri İşletme Mühendisliği Atölye Stajı Eğitim Defteri Bölüm-I",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Gemi-Makineleri-Isletme-Muhendisligi-Atolye-Staji-Egitim-Defteri-Bolum-I-2.docx"
+            },
+            {
+              "name": "Gemi Makineleri İşletme Mühendisliği Bakım-Tutum Stajı Eğitim Defteri Bölüm-II",
+              "url": "https://pirireis.edu.tr/wp-content/uploads/2025/05/Gemi-Makineleri-Isletme-Muhendisligi-Bakim-Tutum-Staji-Egitim-Defteri-Bolum-II-3.docx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spor ve Sosyal Yaşam",
+      "subsections": [
+        {
+          "title": "Sağlık, Kültür ve Spor Hizmetleri Müdürlüğü Kadro",
+          "staff": [
+            {
+              "name": "T. Necmettin Özçelik",
+              "position": "Müdür",
+              "email": "tnozcelik@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1698"
+            },
+            {
+              "name": "Sevil Acıpınar",
+              "position": "Kültür Koordinatörü",
+              "email": "sacipinar@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1349"
+            },
+            {
+              "name": "Özgül Gözükara",
+              "position": "İşyeri Hekimi",
+              "email": "ogozukara@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1607"
+            },
+            {
+              "name": "Kıvanç Çeliksu",
+              "position": "Spor Koordinatörü",
+              "email": "kceliksu@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1790"
+            },
+            {
+              "name": "Merve Çevirici",
+              "position": "Hemşire",
+              "email": "mcevirici@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 1236"
+            },
+            {
+              "name": "Zümrüt Demirci",
+              "position": "Hemşire",
+              "email": "zdemirci@pirireis.edu.tr",
+              "phone": "0216 581 0050 - 2127"
+            },
+            {
+              "name": "Ece Demir",
+              "position": "Uzman Klinik Psikolog",
+              "email": "edemir@pirireis.edu.tr",
+              "phone": "0216 581 00 50 - 1789"
+            },
+            {
+              "name": "Fırat Tokat",
+              "position": "Uzman Klinik Psikolog",
+              "email": "ftokat@pirireis.edu.tr",
+              "phone": "0216 581 00 50 - 2132"
+            },
+            {
+              "name": "Dilşad ERARSLAN",
+              "position": "Spor Uzmanı",
+              "email": "derarslan@pirireis.edu.tr",
+              "phone": "0216 581 00 50 - 1343"
+            },
+            {
+              "name": "Aleyna Üçkumru",
+              "position": "Spor Uzmanı",
+              "email": "auckumru@pirireis.edu.tr",
+              "phone": "0216 581 00 50 - 1385"
+            },
+            {
+              "name": "Emine GENCEL",
+              "position": "Hemşire",
+              "email": "egencel@pirireis.edu.tr",
+              "phone": "0216 581 00 50 -"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Psikolojik Danışma ve Rehberlik Birimi",
+      "content": "♦ Yükseköğretim gençliği, kişinin yaşamında, ergenlik çağının son dönemini yaşamakta olduğu bir süreci kapsar.\n\n♦ Bu dönem gençlerin ev ve aile ortamından uzaklaştığı, kendi başına kararlar aldığı ve sonuçlarının sorumluluğunu yüklendiği; barınma, beslenme, akademik başarı, arkadaşlık ilişkileri, flört, mali destek, sağlık gibi sorunlarla uğraştığı, kişilik bütünlüğü ve kimlik kazanma, seçtiği meslek için kendini yetiştirme gibi sorunları en uygun biçimde çözümlemekle yükümlü olduğu bir dönemdir.\n\n♦ Bu dönemdeki genç kendisinin, toplumun ve insanlığın sosyolojik, politik ve ekonomik sorunlarıyla daha yakından ilgilenmekte ve bu sorunlar üzerine düşünmektedir. Örf ve adetler, değerler, inançlar, tavırlar, davranışlar üzerinde daha bilinçli bir biçimde kafa yormaktadır. Seçmiş olduğu meslekte başarılı bir şekilde eğitimini tamamlama ve mezuniyet sonrası iş bulma kaygısını yaşamaktadır. Bu süreç içerisinde de kimliğini bulmaya çalışmaktadır. Elbette bu sorunların çözüm, karar ve planlarında sorumlu olan kişi, gencin kendisidir. Ama bu sancılı dönemde gencin desteğe ihtiyacı vardır. İşte bu süreç içerisinde REHBERLİK;\n\n♦ Bireye kendini tanıması, yaşamda karşılaştığı sorunları çözmesi, kendisi ile ilgili gerçekçi kararlar alması, kapasitesini en üst düzeyde geliştirmesi, çevresi ile dengeli ve sağlıklı iletişim kurup uyum sağlaması ve kendini gerçekleştirmesi için verilen profesyonel bir yardımdır.\n\n♦ Piri Peis Üniversitesinde öğrencilerin bilişsel, duygusal ve sosyal açıdan tutarlı ve sağlıklı bir bütün olarak gelişimine katkıda bulunmak amaçlanır. Rehberlik ve Psikolojik Danışmanlık Servisimizde Klinik Psikolog tarafından çalışmalar yapılmaktadır. Görüşmelerin sağlıklı yürütülmesi doğrultusunda randevu alınması önem taşımaktadır.\n\n♦ Bu süreç içerisinde gizlilik, güven ve kişilik haklarına saygı çercevesinde görüşmeleri devam ettirmek, ihtiyaç duyulan her konuda yargılamadan, koşulsuz kabul ederek dinleyip, öğrenciye açık ve dürüst davranılarak, karşılaştıkları soruları çözmede yardımcı olmak esastır.",
+      "application_info": {
+        "title": "Başvuru Yapmadan Önce Aşağıdaki Açıklamaları Mutlaka Okuyunuz!",
+        "points": [
+          "► Rehberlik ve Psikolojik Danışmanlık Servisi Deniz Kampüsü B Blok Zemin Katta yer almaktadır (B-Z12).",
+          "► Psikolojik Danışma görüşmelerinde GİZLİLİK ilkesi esastır. Psikolojik Danışma görüşmelerinde konuşulanlar öğrenci ile beraber çalıştığı uzman arasında kalır.",
+          "► Öğrencinin kendisine ya da bir başkasına zarar verme riski söz konusuysa, koruma amacı ile bu bilgi, ilgili mevzuatlar gereğince gerekli kişiler ile paylaşılır. Bu durum öğrencinin bilgisi ve onayı dahilinde gerçekleşir.",
+          "► Her bir görüşme ortalama 45 dakika sürer.",
+          "► Görüşmelerin süresine ve sıklığına yaşanan sıkıntının yoğunluğu, kişinin beklentisi ve uzmanın klinik değerlendirmesi sonucunda karar verilir. Görüşmeler belli bir probleme odaklı ve kısa süreli olabileceği gibi uzun süreli de olabilir.",
+          "► Görüşmeleri takip etme sorumluluğu danışana aittir. Görüşme iptal etmek istendiğinde en az bir gün önceden haber verilmesi gerekmektedir.",
+          "► Psikolojik Danışme ve Rehberlik Biriminden randevu almak için bizlere telefon, e-posta veya internet sitemizde yer alan \"randevu al\" sekmesi aracılığıyla, ayrıca yüz yüze başvurarak ulaşabilirsiniz. 2020 – 2021 Akademik Yılında COVID – 19 salgını nedeniyle çalışma koşullarımız değişiklik gösterebilir. Bundan dolayı başvurularınızı öncelikle e – posta aracılığıyla yapmanızı rica ederiz. Birimimize ftokat@pirireis.edu.tr veya edemir@pirireis.edu.tr e – posta adreslerinden ulaşabilirsiniz."
+        ],
+        "contacts": [
+          {
+            "name": "Ece Demir",
+            "email": "edemir@pirireis.edu.tr",
+            "phone": "(0216) 581- 0050 Dahili: 1789"
+          },
+          {
+            "name": "Fırat Tokat",
+            "email": "ftokat@pirireis.edu.tr",
+            "phone": "(0216) 581- 0050 Dahili: 2132"
+          }
+        ]
+      },
+      "footer": "Bizi sosyal medyadan takip edin!\n\n© 2025 PRU. Tüm hakları saklıdır.\nDeniz Ticaret Odası TÜDEV Kişisel Verilerin Korunması Kanunu Gizlilik Politikası"
+    },
+    {
+      "title": "Sağlık Hizmetleri Birimi",
+      "content": "Kaza ve hastalık durumlarında ilkyardım ve tedavi hizmeti verilmektedir.\n\nToplumda sık rastlanan rahatsızlıklar; örneğin gribal enfeksiyon, alerji, mide rahatsızlıkları vb. için ilaçlar bulunmakta ve ilk doz temin edilmektedir.\n\nKısa süreli istirahat gerektiren durumlarda hasta, sağlık biriminde bulunan müşahede odasına alınabilmektedir.\n\nGerekli görüldüğü durumlarda; hasta / yaralı, ileri tetkik / tedavi için yakın çevrede bulunan hastaneye sevk edilmektedir Günlük takip gerektiren hastalıklara bağlı kontroller (tansiyon, ateş, vs.), enjeksiyon, pansuman yapılmaktadır.\n\nEkibimiz 1 doktor ve 2 hemşire ile hafta içi 08:30-17:00 saatleri arasında hizmet vermektedir.\n\nAcil Durum Hattı : 0 (216) 581 00 11"
+    },
+    {
+      "title": "Piri Reis Üniversitesi'nde Spor",
+      "content": "Piri Reis Üniversitesi, sporun birçok branşında faaliyet göstermektedir. Üniversitemizdeki spor çalışmaları öğrencilerin, beceri ve yeteneklerini geliştirmeyi hedeflediği gibi kaliteli zaman geçirmelerini, eğitim-öğretim ve kültürel faliyetleri dışındaki fiziksel yeteneklerini geliştirip, beden sağlığı gelişmelerine katkıda bulunmayı amaçlar.\n\nSpor çalışmaları üniversitemizde, branşlarında uzman antrenörler tarafından üç ayrı alanda gerçekleştirilir:\n\n• Üniversite takımları çalışmaları\n• Serbest çalışmalar\n• Üniversitelerarası organizasyonlar\n\nBir adet çok amaçlı spor odası, Basketbol, Voleybol, Hentbol branşlarında nizami ölçülere sahip kapalı spor salonu, 1 adet Basketbol ve Voleybol branşlarında açık alan spor sahası, 1 adet yüzme havuzu ile öğencilerimizin ve Piri Reis Üniversitesi personelinin hizmetindedir. Tesislerimizde ayrıca 3 Bayan ve 5 Erkek soyunma odaları mevcuttur.\n\nÜniversite Spor Takımlarımız; Basketbol, Voleybol, Futsal(Salon Futbolu), Masa Tenisi, Yüzme, Sutopu branşlarında çalışmalarını antrenörler eşliğinde eğitim öğretim yılı boyunca devam ettirir. Ferdi branşlarda öğrencilerimiz yeterlilik gösterirse Türkiye Üniversite Sporları Federasyonu'nun müsabakalarına katılmasına imkan sağlanır.\n\n2018-2019 Eğtim Öğretim yılında üniversite takımlarımızda yer alan 112 sporcu öğrencimiz, sporcu bursumuzdan yararlanmaya hak kazanmışlardır. Ayrıca Gençlik ve Spor Bakanlığı ile imzalanan % 100 Milli Sporcu Bursu protokolünden 3 yeni kayıt öğrencimiz hak kazanmış, eğitim öğretim hayatlarına üniversitemizde devam etmeye karar vermiştir."
+    },
+    {
+      "title": "Öğrenci Kulüpleri",
+      "clubs": [
+        {"name": "Atatürkçü Düşünce Kulübü", "instagram": "https://www.instagram.com/pruadk/"},
+        {"name": "COMPRU Bilişim Kulübü", "instagram": "https://www.instagram.com/prubilisim/"},
+        {"name": "Dans Kulübü", "instagram": "https://www.instagram.com/prudanskulubu/"},
+        {"name": "Motosiklet Kulübü", "instagram": "https://www.instagram.com/prumoto"},
+        {"name": "Yelken Kulübü", "instagram": "https://www.instagram.com/pruyelken/"},
+        {"name": "Deniz Brokerliği Kulübü", "instagram": "https://www.instagram.com/prudenizbrokerligi/"},
+        {"name": "Deniz Elçileri Kulübü", "instagram": "https://www.instagram.com/denizelcileripru/"},
+        {"name": "Deniz Hukuku Kulübü", "instagram": "https://www.instagram.com/prudehuk/"},
+        {"name": "Denizcilik Kulübü", "instagram": "https://www.instagram.com/prudenizcilikkulubu/"},
+        {"name": "Ekonomi Finans Kulübü", "instagram": "https://www.instagram.com/pruekon/"},
+        {"name": "Endüstri Mühendisliği Kulübü", "instagram": "https://www.instagram.com/pruemk_/#"},
+        {"name": "Felsefe Kulübü", "instagram": "https://www.instagram.com/pruodek"},
+        {"name": "Gastromarin Kulübü", "instagram": "https://www.instagram.com/prugastromarine/"},
+        {"name": "Gemi ve Deniz Teknolojileri Kulübü", "instagram": "https://www.instagram.com/gemtekpru/"},
+        {"name": "Gezi ve Organizasyon Kulübü", "instagram": "https://www.instagram.com/pru.gezi/"},
+        {"name": "Hayvanları ve Doğal Yaşamı Koruma Kulübü Kulübü", "instagram": "https://www.instagram.com/pruhaydok/"},
+        {"name": "International Law Kulübü", "instagram": "https://www.instagram.com/pru_ilaws/"},
+        {"name": "Afet, Arama ve Kurtarma Kulübü", "instagram": "https://www.instagram.com/pirireis.prusar/"},
+        {"name": "İnovasyon Kulübü Kulübü", "instagram": "https://www.instagram.com/pruinovasyon/"},
+        {"name": "İşletmecilik ve Girişimcilik Kulübü", "instagram": "https://www.instagram.com/pruigk/"},
+        {"name": "Lojistik Kulübü Kulübü", "instagram": "https://www.instagram.com/prulojistikulubu/"},
+        {"name": "Makine Mühendisliği Kulübü", "instagram": "https://www.instagram.com/pruodek"},
+        {"name": "Mavi Kelebekler Çocuk Hakları Kulübü", "instagram": "https://www.instagram.com/prumavikelebekler/"},
+        {"name": "Müzik Kulübü", "instagram": "https://www.instagram.com/prumuzik/"},
+        {"name": "Pru Sname Gemi ve İnşaatı ve Gemi mak. Müh. Kulübü", "instagram": "https://www.instagram.com/pru_sname/"},
+        {"name": "PRU-Tech Kulübü Kulübü", "instagram": "https://www.instagram.com/prutekclub/"},
+        {"name": "Robot Kulübü Kulübü", "instagram": "https://www.instagram.com/pruroboticss/"},
+        {"name": "Sanat Kulübü", "instagram": "https://www.instagram.com/prusanat/"},
+        {"name": "Savunma Sanatları ve Fitness Kulübü", "instagram": "https://www.instagram.com/prufitnessmartialarts/"},
+        {"name": "Scuba Dalış Kulübü", "instagram": "https://www.instagram.com/pru.scuba/"},
+        {"name": "Sosyal Girişimcilik Kulübü", "instagram": "https://www.instagram.com/prusosyalgirisimcilik/"},
+        {"name": "TOG Kulübü", "instagram": "https://www.instagram.com/prutog/"},
+        {"name": "Yatçılık Kulübü", "instagram": "https://www.instagram.com/pruyachtclub/"},
+        {"name": "PRUBJK", "instagram": "https://www.instagram.com/prubjk1903/"},
+        {"name": "Piri Reis UNIGFB", "instagram": "https://www.instagram.com/pirireisunigfb/"},
+        {"name": "ultrAslanUNI Piri Reis", "instagram": "https://www.instagram.com/uaunipirireis/"}
+      ]
+    },
+    {
+      "title": "Faydalı Telefon Numaraları",
+      "contacts": [
+        {"name": "Çağrı Merkezi", "phone": "+90 216 581 0050"},
+        {"name": "Öğrenci Dekanlığı", "phone": "+90 216 581 0050 (1354)"},
+        {"name": "Öğrenci İşleri", "phone": "+90 216 581 0050"},
+        {"name": "Lisansüstü Eğitim Enstitüsü", "phone": "+90 216 581 0050 (1229)"},
+        {"name": "Mali İşler", "phone": "+90 216 581 0050"}
+      ]
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-07-29 10:17:25",
+    "created_by": "tnerler",
+    "file_name": "Öğrenciler için genel bilgi.txt"
+  }
+}

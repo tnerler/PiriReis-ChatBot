@@ -1,0 +1,160 @@
+{
+  "document_title": "Erasmus için Piri Reis Üniversitesi'nin Anlaşmalı Olduğu Üniversiteler",
+  "departments": [
+    {
+      "department_name": "Denizcilik Fakültesi",
+      "universities": [
+        {
+          "name": "Latvian Maritime Academy of Riga Technical University",
+          "country": "Letonya"
+        },
+        {
+          "name": "Universitatea Maritima Constanta",
+          "country": "Romanya"
+        },
+        {
+          "name": "Mircea Cel Batran Naval Academy",
+          "country": "Romanya"
+        },
+        {
+          "name": "Aegean University",
+          "country": "Yunanistan"
+        },
+        {
+          "name": "Nikola Vaptsarov Naval Academy",
+          "country": "Bulgaristan"
+        },
+        {
+          "name": "Antwerp University",
+          "country": "Belçika"
+        },
+        {
+          "name": "Estonian Maritime Academy - TallTech",
+          "country": "Estonya"
+        },
+        {
+          "name": "University of Ljubljana",
+          "country": "Slovenya"
+        },
+        {
+          "name": "University of Split",
+          "country": "Hırvatistan"
+        },
+        {
+          "name": "University of Dubrovnik",
+          "country": "Hırvatistan"
+        },
+        {
+          "name": "University of Rijeka",
+          "country": "Hırvatistan"
+        }
+      ]
+    },
+    {
+      "department_name": "Mühendislik Fakültesi",
+      "universities": [
+        {
+          "name": "West Pomerian University of Technology",
+          "country": "Polonya"
+        },
+        {
+          "name": "University of Ruse Angle Kanchev",
+          "country": "Bulgaristan"
+        },
+        {
+          "name": "University of Genova",
+          "country": "İtalya"
+        },
+        {
+          "name": "Technical University of Varna",
+          "country": "Bulgaristan"
+        },
+        {
+          "name": "Politechnika Gdanska",
+          "country": "Polonya"
+        },
+        {
+          "name": "Univerza V Mariboru",
+          "country": "Slovenya"
+        }
+      ]
+    },
+    {
+      "department_name": "İktisadi ve İdari Bilimler Fakültesi",
+      "universities": [
+        {
+          "name": "University of Freiburg",
+          "country": "Almanya"
+        },
+        {
+          "name": "University of Lodz",
+          "country": "Polonya"
+        },
+        {
+          "name": "University of Ujep",
+          "country": "Çek Cumhuriyeti"
+        },
+        {
+          "name": "Transilvania University of Brasov",
+          "country": "Romanya"
+        },
+        {
+          "name": "Technische Universität Dresden",
+          "country": "Almanya"
+        },
+        {
+          "name": "University of National and World Academy",
+          "country": "Bulgaristan"
+        },
+        {
+          "name": "ECEMA",
+          "country": "Fransa"
+        }
+      ]
+    },
+    {
+      "department_name": "Hukuk Fakültesi",
+      "universities": [
+        {
+          "name": "Academia de Studii Economice din Bucuresti",
+          "country": "Romanya"
+        },
+        {
+          "name": "Universidade de Coimbra",
+          "country": "Portekiz"
+        },
+        {
+          "name": "Universita degli Studi di Palermo",
+          "country": "İtalya"
+        },
+        {
+          "name": "Universitatea Babes Bolyai",
+          "country": "Romanya"
+        },
+        {
+          "name": "Università degli studi dell'Insubria",
+          "country": "İtalya"
+        },
+        {
+          "name": "Uniwersytet Gdanski",
+          "country": "Polonya"
+        },
+        {
+          "name": "Uniwersytet Marii Curie-Sklodowskiej",
+          "country": "Polonya"
+        },
+        {
+          "name": "Ss. Cyril and Methodius University in Skopje",
+          "country": "Kuzey Makedonya"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-07-25",
+    "university": "Piri Reis Üniversitesi",
+    "document_type": "Erasmus Anlaşmalı Üniversiteler Listesi",
+    "total_universities": 32,
+    "total_countries": 14
+  }
+}

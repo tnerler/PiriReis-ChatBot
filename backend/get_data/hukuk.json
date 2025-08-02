@@ -1,0 +1,437 @@
+{
+  "faculty_name": "Hukuk Fakültesi",
+  "sections": {
+    "about": {
+      "title": "Hakkımızda",
+      "content": "Pîrî Reis Üniversitesi Hukuk Fakültesi olarak, konusunda alanının önde gelen, gerek yurt içinde ve gerekse de yurt dışında akademik hüviyetini ispatlamış akademisyenlerden oluşan kadromuz ile birlikte öğrencilerimize kamu hukukunun ve özel hukukun bütün alanlarında kaliteli ve üst düzeyde eğitim vermeyi amaçlamaktayız.\nBunun yanı sıra, Türkiye'nin ilk ve tek denizcilik ihtisas üniversitesi olan Pîrî Reis Üniversitesi'nde temel hukuk eğitimi ile birlikte, özellikle ''Deniz Hukuku'' alanında uzmanlaşmak esas hedefimiz olarak belirlenmiştir. Ülkemizin Denizcilik ile ilgili büyük alâka ve menfaatleri ile Üniversitemizin Türkiye'nin denizcilik alanında en donanımlı ve yetkin akademik kadrosuna sahip bir yüksek öğretim kurumu niteliği de dikkate alınarak, ''Ulusal ve Uluslararası Deniz Hukuku''na özel olarak önem vermek ve deniz kamu ve özel hukuku alanlarında uzman hukukçular yetiştirmek başlıca amaçlarımızdandır.\nBu doğrultuda vereceğimiz eğitim sonrasında, ülkemize, ulusal ve uluslararası plâtformlarda görev alabilecek, çağdaş ve yaratıcı düşünce yapısına ve muhakeme gücüne sahip, sosyal nitelikleri güçlü ve çevreye duyarlı hukukçular kazandıracağız.\nFakültemiz, Avrupa Hukuk Fakülteleri Birliği'nin (ELFA - European Law Faculties Association) ve Avrupa Hukuk Enstitüsü'nün (ELI - European Law Institute) üyelerindendir."
+    },
+    "history": {
+      "title": "Tarihçe",
+      "content": "Pîrî Reis Üniversitesi Hukuk Fakültesi'nin 2017 yılında Bakanlar Kurulu Kararı ile kurulmuş olduğu, 2018 yılında Resmi Gazete'de ilan edilmiştir. 2019-2020 Akademik yılı güz yarıyılında eğitim öğretime başlanmıştır."
+    },
+    "mission": {
+      "title": "Misyon",
+      "content": "Ulusal ve uluslararası düzeyde görev alabilecek, çağdaş ve yaratıcı düşünce yapısına ve muhakeme gücüne sahip, kendini sürekli geliştirme ve daha iyiye götürme azmini kazanmış, eleştirel ve sistemli düşünebilen, sosyal nitelikleri güçlü, çevreye duyarlı ve bilimsel araştırma yapabilecek hukukçular yetiştirmek."
+    },
+    "vision": {
+      "title": "Vizyon",
+      "content": "Lisans, yüksek lisans, doktora öğrencilerine, çağdaş bir eğitim kültürü gözeterek verdiği nitelikli hukuk eğitimi geliştirdiği bilimsel ve uygulamalı araştırmalar ile ulusal ve uluslararası düzeyde kabul gören, Türkiye'nin önder yükseköğretim kurumlarından biri olmaktır."
+    },
+    "quality": {
+      "title": "Kalite",
+      "content": ""
+    },
+    "research": {
+      "title": "Araştırmalar",
+      "content": ""
+    },
+    "internationalization": {
+      "title": "Uluslararasılaşma",
+      "content": "Fakültemiz, Avrupa Hukuk Fakülteleri Birliği'nin (ELFA - European Law Faculties Association) ve Avrupa Hukuk Enstitüsü'nün (ELI - European Law Institute) üyelerindendir."
+    },
+    "management": {
+      "title": "Fakülte Yönetimi",
+      "members": [
+        {
+          "name": "Prof. Dr. Sezer Ilgın",
+          "title": "Dekan",
+          "email": "silgin@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1216"
+        },
+        {
+          "name": "Prof. Dr. Bahar Ceyda Süral Efeçınar",
+          "title": "Dekan Yardımcısı",
+          "email": "csural@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1314"
+        },
+        {
+          "name": "Doç. Dr. Ali Hulki Cihan",
+          "title": "Dekan Yardımcısı",
+          "email": "ahcihan@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1371"
+        },
+        {
+          "name": "Derya Kayaoğlu",
+          "title": "Fakülte Sekreteri",
+          "email": "dkayaoglu@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1346"
+        },
+        {
+          "name": "Nuray Bayram",
+          "title": "Memur",
+          "email": "nbayram@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1233"
+        }
+      ]
+    },
+    "faculty_board": {
+      "title": "Fakülte Kurulu",
+      "members": [
+        {
+          "name": "Prof. Dr. Sezer ILGIN",
+          "title": "Dekan-Başkan"
+        },
+        {
+          "name": "Prof. Dr. Ahmet Samim ÜNAN",
+          "title": "Prof.Temsilcisi(1)"
+        },
+        {
+          "name": "Prof. Dr. Bahar Ceyda SÜRAL EFEÇINAR",
+          "title": "Prof.Temsilcisi (2)"
+        },
+        {
+          "name": "Prof. Dr. Zehra AKDENİZ",
+          "title": "Prof.Temsilcisi (3)"
+        },
+        {
+          "name": "Doç. Dr. Fevzi TOPSOY",
+          "title": "Doç.Temsilcisi (1)"
+        },
+        {
+          "name": "Doç. Dr. Başak BAŞOĞLU KAPANCI",
+          "title": "Doç.Temsilcisi (2)"
+        },
+        {
+          "name": "Doç. Dr. Sinan BAYINDIR",
+          "title": "Kamu Hukuku Bölüm Başkanı"
+        },
+        {
+          "name": "Prof. Dr. Ahmet Samim ÜNAN",
+          "title": "Özel Hukuk Bölüm Başkanı"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Müzeyyen Gözde ATASAYAN BİLAL",
+          "title": "Dr.Öğr.Üyesi.Temsilcisi (1)"
+        }
+      ]
+    },
+    "faculty_admin_board": {
+      "title": "Fakülte Yönetim Kurulu",
+      "members": [
+        {
+          "name": "Prof. Dr. Sezer ILGIN",
+          "title": "Dekan-Başkan"
+        },
+        {
+          "name": "Prof. Dr. Ahmet Samim ÜNAN",
+          "title": "Prof.Temsilcisi (1)"
+        },
+        {
+          "name": "Prof. Dr. Bahar Ceyda SÜRAL EFEÇINAR",
+          "title": "Prof.Temsilcisi (2)"
+        },
+        {
+          "name": "Prof. Dr. Zehra AKDENİZ",
+          "title": "Prof.Temsilcisi (3)"
+        },
+        {
+          "name": "Doç. Dr. Fevzi TOPSOY",
+          "title": "Doç.Temsilcisi (1)"
+        },
+        {
+          "name": "Doç. Dr. Başak BAŞOĞLU KAPANCI",
+          "title": "Doç.Temsilcisi (2)"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Sevda KESKİN",
+          "title": "Dr.Öğr.Üyesi.Temsilcisi(1)"
+        }
+      ]
+    },
+    "department_heads": {
+      "title": "Bölüm Başkanları",
+      "heads": [
+        {
+          "name": "Prof. Dr. Ahmet Samim ÜNAN",
+          "department": "Özel Hukuk",
+          "email": "asunan@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1606"
+        },
+        {
+          "name": "Doç. Dr. Sinan BAYINDIR",
+          "department": "Kamu Hukuku",
+          "email": "sbayindir@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1231"
+        }
+      ]
+    },
+    "committees": {
+      "title": "Komisyon ve Kurullar",
+      "university_committees": {
+        "title": "Piri Reis Üniversitesi Kurullarındaki Görevler",
+        "committees": [
+          "Üniversite Senatosu",
+          "Üniversite Yönetim Kurulu",
+          "Üniversite Etik Kurulu",
+          "Sosyal ve Beşeri Bilimler Alanı",
+          "Üniversite Strateji Planlama Kurulu",
+          "Üniversite Öğrenci Kulüpleri Koordinasyon Kurulu"
+        ]
+      },
+      "university_commissions": {
+        "title": "Piri Reis Üniversitesi Komisyonlarındaki Görevler",
+        "commissions": [
+          "Üniversite Kalite Komisyonu",
+          "Üniversite Eğitim Öğretim Planlama Komisyonu",
+          "Üniversite Mevzuat Komisyonu",
+          "Üniversite Yayın Komisyonu"
+        ]
+      },
+      "faculty_committees": {
+        "title": "Piri Reis Üniversitesi Hukuk Fakültesi Kurul Görevleri",
+        "committees": [
+          "Fakülte Kurulu",
+          "Fakülte Yönetim Kurulu",
+          "Fakülte Danışma Kurulu",
+          "Fakülte Bölüm Kurulları",
+          "Özel Hukuk Bölüm Kurulu",
+          "Kamu Hukuku Bölüm Kurulu"
+        ]
+      },
+      "faculty_commissions": {
+        "title": "Piri Reis Üniversitesi Hukuk Fakültesi Komisyon Görevleri",
+        "commissions": [
+          "Fakülte Çift Anadal Programı Komisyonu",
+          "Fakülte Yeni Öğrenci Ders Muafiyeti ve/veya İntibakı Komisyonu",
+          "Fakülte Birim Kalite Komisyonu",
+          "Fakülte Web Sayfası Düzenleme Komisyonu",
+          "Fakülte Birim Arşiv Komisyonu"
+        ]
+      }
+    }
+  },
+  "academic_staff": {
+    "private_law": {
+      "title": "Özel Hukuk Akademik Kadrosu",
+      "members": [
+        {
+          "name": "Prof. Dr. Ahmet Samim ÜNAN",
+          "title": "Deniz Hukuku Anabilim Dalı Başkanı",
+          "email": "asunan@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1606"
+        },
+        {
+          "name": "Prof. Dr. Sezer ILGIN",
+          "title": "Deniz Hukuku Anabilim Dalı Öğretim Üyesi",
+          "email": "silgin@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1216"
+        },
+        {
+          "name": "Prof. Dr. Bahar Ceyda SÜRAL EFEÇINAR",
+          "title": "Milletlerarası Özel Hukuk Anabilim Dalı Başkanı",
+          "email": "csural@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1314"
+        },
+        {
+          "name": "Doç. Dr. Fevzi TOPSOY",
+          "title": "Deniz Hukuku Anabilim Dalı Öğretim Üyesi",
+          "email": "ftopsoy@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1658"
+        },
+        {
+          "name": "Doç. Dr. Başak BAŞOĞLU KAPANCI",
+          "title": "Medeni Hukuk Anabilim Dalı Başkanı",
+          "email": "bbasoglu@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1266"
+        },
+        {
+          "name": "Doç. Dr. Ali Hulki CİHAN",
+          "title": "Medeni Hukuk Anabilim Dalı Öğretim Üyesi",
+          "email": "ahcihan@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1371"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Metin Uğur AYTEKİN",
+          "title": "Deniz Hukuku Anabilim Dalı Öğretim Üyesi",
+          "email": "muaytekin@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1267"
+        },
+        {
+          "name": "Arş. Gör. İclal Nihal BARAÇ EVCİ",
+          "title": "Ticaret Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "nbarac@pirireis.edu.tr",
+          "phone": "0216 581 00 50 - 1275"
+        },
+        {
+          "name": "Arş. Gör. Nil İrem SARAY",
+          "title": "Deniz Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "nisaray@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1343"
+        },
+        {
+          "name": "Arş. Gör. Onur Doğan YÖRÜK",
+          "title": "Medeni Hukuk Anabilim Dalı Araştırma Görevlisi",
+          "email": "odyoruk@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1273"
+        },
+        {
+          "name": "Arş. Gör. Ümran AKCAN",
+          "title": "Deniz Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "uakcan@pirireis.edu.tr",
+          "phone": "0216 581 00 50 - 1376"
+        }
+      ]
+    },
+    "public_law": {
+      "title": "Kamu Hukuku Akademik Kadrosu",
+      "members": [
+        {
+          "name": "Doç. Dr. Sinan BAYINDIR",
+          "title": "Bölüm Başkanı, Ceza ve Ceza Muhakemesi Hukuku Anabilim Dalı Başkanı",
+          "email": "sbayindir@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1231"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Müzeyyen Gözde ATASAYAN",
+          "title": "Anayasa Hukuku Anabilim Dalı Başkanı",
+          "email": "mgatasayan@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1332"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Sevda KESKİN",
+          "title": "Milletlerarası Kamu Hukuku Anabilim Dalı Başkanı",
+          "email": "skeskin@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1330"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Onur GÜRER",
+          "title": "İdare Hukuku Anabilim Dalı Başkanı",
+          "email": "ogurer@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1315"
+        },
+        {
+          "name": "Arş. Gör. Şeyma KUŞ",
+          "title": "Milletlerarası Kamu Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "skus@pirireis.edu.tr",
+          "phone": "0216 581 00 50 - 1272"
+        },
+        {
+          "name": "Arş. Gör. Eftal GÜREL",
+          "title": "Anayasa Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "egurel@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1220"
+        },
+        {
+          "name": "Arş. Gör. Muhammet İsmet YAVUZ",
+          "title": "Ceza ve Ceza Muhakemesi Hukuku Anabilim Dalı Araştırma Görevlisi",
+          "email": "miyavuz@pirireis.edu.tr",
+          "phone": "0216 581 0050 - 1465"
+        }
+      ]
+    },
+    "part_time": {
+      "title": "Yarı Zamanlı Akademik Kadro",
+      "members": [
+        "Prof. Dr. Saip Kaya Ardıç",
+        "Prof. Dr. Oral Erdoğan",
+        "Prof. Dr. Pervin SOMER",
+        "Prof. Dr. Mehmet Oğuz Polat",
+        "Prof. Dr. Levent Kırval",
+        "Doç. Dr. Ercan Sarıcaoğlu",
+        "Doç. Dr. Orhan EROĞLU",
+        "Dr. Öğr. Üyesi Nagehan GÜRBÜZ ERSOY",
+        "Dr. Öğr. Üyesi Füsun Er",
+        "Dr. Öğr. Üyesi Hüseyin Gencer",
+        "Dr. Öğr. Üyesi Mustafa Nuri Olur",
+        "Dr. Öğr. Üyesi Funda Songur",
+        "Dr. Öğr. Üyesi Kenan Tata",
+        "Dr. Öğr. Üyesi Seyithan Güneş",
+        "Dr. Öğr. Üyesi Çağatay Çınar",
+        "Dr. Öğr. Üyesi Özge Bozkurt",
+        "Dr. Öğr. Üyesi Uğur Tülü",
+        "Dr. Öğr. Üyesi A. Turan Hocaoğlu",
+        "Dr. Öğr. Üyesi Nezih VAROL",
+        "Dr. Öğr. Gör. Mustafa Atalan",
+        "Dr. Öğr. Gör. Sertuğ SÜRENOĞLU",
+        "Öğr. Gör. Dr. Mustafa Yılmaz",
+        "Öğr. Gör. Mustafa Şems Aktuğ",
+        "Öğr. Gör. Betül Solmaz"
+      ]
+    }
+  },
+  "departments": {
+    "law": {
+      "name": "HUKUK",
+      "private_law": {
+        "title": "Özel Hukuk Bölümü",
+        "department_head_message": "Piri Reis Üniversitesi Hukuk Fakültesi bir denizcilik üniversitesi içinde yer almaktadır. Bu nedenle hukuk eğitimi deniz hukukuna özel bir ağırlık verilerek programlanmıştır. Bunun yanında özel hukukun ve kamu hukukunun bütün dersleri de çok yeterli ölçüde okutulmaktadır. Mezun olan öğrencilerimizin donatanlara, tersanelere, marinalara, limanlara, uluslararası ticaret ve deniz taşıma hukukuna vakıf hukukçulara ihtiyaç duyan ithalatçı ve ihracatçı kuruluşlara gereği gibi hizmet verebilmesinin yanında avukatlık, hakimlik, hukuk danışmanlığı, müfettişlik gibi denizcilikle bağlantılı olmayan görevleri de iyi yetişmiş hukukçular olarak layıkıyla yerine getirecek şekilde yetişmelerine özen göstermekteyiz. İyi bir ortamda öğrencilik yapmak ve yüksek düzeyde donanımlı olarak hukuk hayatına atılmak arzusundaki bütün öğrencileri üniversitemize bekleriz."
+      },
+      "public_law": {
+        "title": "Kamu Hukuku Bölümü",
+        "department_head_message": "Piri Reis Üniversitesi Hukuk Fakültesi Kamu Hukuku Bölümü, alanında yetkin öğretim üyesi kadrosuyla öğrencilerin Anayasa Hukuku, Ceza Hukuku, İdare Hukuku, Vergi Hukuku ve Uluslararası Hukuk gibi alanlarda yetkinlik kazanması amacıyla gerek teorik gerekse pratik derslerle öğrencileri hukuk mesleğine hazırlamaktadır. Özünde bireylerin devletle ve devletlerin birbirleriyle olan ilişkilerini düzenleyen kamu hukuku, hukuk öğretiminin önemli bir bölümünü oluşturmaktadır. Bu bağlamda bireylerin idareyle arasındaki uyuşmazlıkların çözümünde izlenecek yöntemler ve başvurulabilecek hukuki yollar konusunda öğrencilerin gerekli altyapıyı kazanması sağlanmaktadır. Ayrıca ülkemizin jeopolitik konumu itibariyle diğer devletlerle olan ilişkilerinin ve ülkemizin menfaatlerinin korunması hususunda uzmanlaşmış hukukçuların yetiştirilmesi amaçlanmaktadır. Bu itibarla deniz kamu hukuku alanında ülkemizin özellikle uluslararası alandaki hak ve menfaatlerini gözetebilecek hukukçu ihtiyacını karşılamayı da hedeflemektedir."
+      },
+      "dual_major": {
+        "title": "Çift Anadal Programı",
+        "content": "Hukuk Fakültesi Hukuk Bölümü Diploma Programı ile İktisadi ve İdari Bilimler Fakültesi (\"İİBF\") Uluslararası Ticaret ve İşletmecilik Bölümü, Ekonomi ve Finans Bölümü, Denizcilik İşletmeleri Yönetimi Bölümü, Lojistik Yönetimi Bölümü, Yönetim Bilişim Sistemleri Bölümü Diploma Programları arasında Çift Anadal Protokolü bulunmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Deniz Hukuku Kulübü ve Uluslararası Hukuk Kulübü olmak üzere Fakültemiz öğrencilerinin kurmuş olduğu iki öğrenci kulübümüz bulunmaktadır.",
+        "clubs": [
+          {
+            "name": "Deniz Hukuku Kulübü",
+            "founded": "Aralık 2022",
+            "members": 31,
+            "advisor": "Arş. Gör. Ümran Akcan",
+            "description": "Resmi olarak Aralık 2022 tarihinde kurulan Piri Reis Üniversitesi Deniz Hukuku Kulübü, Fakültemizin ilk hukuk kulübü olma özelliğini taşımaktadır. Kurulduğu günden bu yana başta deniz hukuku ve diğer hukuk alanlarındaki tüm güncel gelişmeleri yakından takip ederek fakültemiz öğrencilerinin mesleki ve akademik gelişimine katkıda bulunmayı amaçlamaktadır. Kulüp, deniz hukuku alanında düzenlediği seminerlerin yanı sıra, genel hukuk konularında da kapsamlı etkinlikler düzenleyerek öğrencilere geniş bir bakış açısı sunmaktadır."
+          },
+          {
+            "name": "International Law Society (Uluslararası Hukuk Kulübü)",
+            "founded": "Ağustos 2023",
+            "members": 210,
+            "advisor": "Arş. Gör. Şeyma Kuş",
+            "description": "Piri Reis Üniversitesi International Law Society (Uluslararası Hukuk Kulübü) resmi olarak Ağustos 2023 yılında kurulmuştur. Fakültemizin vizyon ve misyonlarını takip eden Uluslararası Hukuk Kulübü, temel olarak hukuk fakültesi öğrencilerinin hukuk bilgilerini uygulamaya dökmeye yardımcı faaliyetler yürütmektedir. Hukuk fakültesi öğrencilerinin münazara, moot court, tahkim gibi farazi dava yarışmaları faaliyetleri ile birlikte hem ulusal hem de uluslararası alanda deneyim kazanılmasını sağlayan Uluslararası Hukuk Kulübü aynı zamanda bilimsel ve mesleki konferanslar düzenleyerek akademisyen, hakim, savcı, avukat ve diğer hukuk mesleklerini icra eden hukukçular ile hukuk öğrencilerini bir araya getirmektedir.",
+            "achievements": "Uluslararası Hukuk Kulübü, Viyana'da 31. kez düzenlenmiş olan Willem C. Vis Uluslararası Ticari Tahkim Yarışması'nda Prof. Dr. Ceyda Süral Efeçınar, Doç. Dr. Başak Başoğlu, Arş. Gör. Onur Doğan Yörük ve Arş. Gör. İclal Nihal Baraç Evci koçluğunda fakültemiz öğrencilerinden Duru Danışkan, Eylül Nilsu Gökmen, Zeynep Özerdem ve Şerif Kerem Gündoğdu'dan oluşan takım ile fakültemizi temsil etmişlerdir."
+          }
+        ]
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Hukuk Fakültemiz, öğrencilerimize ve akademisyenlerimize uluslararası deneyimler kazandırmayı amaçlayan Erasmus+ Programı ile Avrupa'daki çeşitli üniversitelerle işbirliği yapmaktadır. Bu program, Avrupa Birliği tarafından desteklenmekte olup, yükseköğretim kalitesini artırmayı ve mezunlarımızın işgücü piyasasındaki rekabet gücünü yükseltmeyi hedeflemektedir.\nErasmus+ Programı sayesinde, öğrencilerimiz Avrupa'daki saygın hukuk fakültelerinde eğitim alabilir, farklı hukuk sistemlerini yakından tanıma fırsatı bulabilir ve akademik birikimlerini uluslararası bir çerçevede zenginleştirebilirler. Aynı zamanda, fakültemiz bu program aracılığıyla akademik personelimiz için öğretim ve araştırma faaliyetlerinde uluslararası işbirlikleri kurma olanağı sağlamaktadır.",
+        "partner_universities": [
+          "Universitatea Babeș-Bolyai (Romanya)",
+          "Università degli Studi dell'Insubria (İtalya)",
+          "Universidade de Coimbra (Portekiz)"
+        ]
+      },
+      "graduate": {
+        "title": "Lisansüstü",
+        "programs": [
+          {
+            "name": "Deniz Hukuku Tezli Yüksek Lisans Programı (Türkçe)",
+            "department": "Özel Hukuk Anabilim Dalı",
+            "established": "16.06.2021",
+            "start_date": "2021-2022 Akademik yılı güz yarıyılı"
+          },
+          {
+            "name": "Deniz Hukuku Doktora Programı (Türkçe)",
+            "department": "Özel Hukuk Anabilim Dalı",
+            "established": "03.08.2022",
+            "start_date": "2022-2023 Akademik yılı güz yarıyılı"
+          }
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "address": "Postane Mahallesi, Eflatun Sk. No:8, 34940 Tuzla/Istanbul Türkiye",
+        "email": "hukuk-dekanlik@pirireis.edu.tr",
+        "phone": "+90 216 581 0050",
+        "fax": "+90 216 581 0051"
+      },
+      "academic_program": {
+        "sections": [
+          "Güncel ders programı",
+          "Ders İçerikleri",
+          "Projeler",
+          "Farazi dava yarışmaları",
+          "Deniz Hukuk Dergisi",
+          "Yayınlar",
+          "Hukuk Fakültesi Formları",
+          "Fotoğraf- video galeri",
+          "Öğrenci görüşleri",
+          "Mezun görüşleri"
+        ]
+      }
+    }
+  }
+}

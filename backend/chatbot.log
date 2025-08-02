@@ -1,0 +1,721 @@
+2025-07-30 07:43:06,085 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:43:06,086 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:43:06,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 07:43:06,102 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:43:06,415 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 07:45:30,402 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:45:30,403 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:45:30,405 - __main__ - ERROR - Error initializing chatbot: 'module' object is not callable
+2025-07-30 07:45:30,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 07:45:30,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:48:13,655 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:48:13,656 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:48:13,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 07:48:13,670 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:48:14,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 07:48:14,660 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 07:50:03,684 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:50:03,685 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:50:03,699 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 07:50:03,699 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:50:04,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 07:50:04,607 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 07:50:59,530 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:50:59,531 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:50:59,548 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-07-30 07:50:59,550 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:51:00,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 07:51:00,341 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 07:56:35,004 - __main__ - INFO - Database initialized successfully
+2025-07-30 07:56:35,005 - __main__ - INFO - Initializing chatbot...
+2025-07-30 07:56:35,020 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-07-30 07:56:35,020 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 07:56:35,331 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 08:00:01,281 - __main__ - INFO - Database initialized successfully
+2025-07-30 08:00:01,282 - __main__ - INFO - Initializing chatbot...
+2025-07-30 08:00:01,296 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 08:00:01,296 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 08:00:01,598 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 08:01:16,690 - __main__ - INFO - Database initialized successfully
+2025-07-30 08:01:16,691 - __main__ - INFO - Initializing chatbot...
+2025-07-30 08:01:16,704 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 08:01:16,704 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 08:01:17,016 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 08:01:31,797 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:31] "GET / HTTP/1.1" 200 -
+2025-07-30 08:01:31,845 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:31] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 08:01:31,847 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:31] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 08:01:31,851 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:31] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 08:01:31,880 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:31] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 08:01:33,884 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 08:01:36,091 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:01:36,211 - __main__ - ERROR - Ask endpoint error: list index out of range
+2025-07-30 08:01:36,216 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:01:36] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-07-30 08:02:57,175 - __main__ - INFO - Database initialized successfully
+2025-07-30 08:02:57,176 - __main__ - INFO - Initializing chatbot...
+2025-07-30 08:02:57,196 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 08:02:57,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 08:02:57,437 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 08:03:09,839 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 08:03:10,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:03:10,435 - __main__ - ERROR - Ask endpoint error: list index out of range
+2025-07-30 08:03:10,439 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:03:10] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-07-30 11:12:22,505 - __main__ - INFO - Database initialized successfully
+2025-07-30 11:12:22,506 - __main__ - INFO - Initializing chatbot...
+2025-07-30 11:12:23,838 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.100.85.180:443
+2025-07-30 11:12:23,838 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 11:12:23,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:25,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:28,305 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:30,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:34,711 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:37,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:39,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:42,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:12:44,122 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 11:12:58,855 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:58] "GET / HTTP/1.1" 200 -
+2025-07-30 11:12:58,946 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:58] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 11:12:58,960 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:58] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 11:12:58,961 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:58] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 11:12:59,053 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:59] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 11:12:59,143 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:12:59] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 11:13:21,332 - __main__ - INFO - Processing question from session sess_tb3...
+2025-07-30 11:13:21,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:13:29,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:13:34,757 - __main__ - ERROR - Database error: database is locked
+2025-07-30 11:13:34,760 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:13:34] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:14:14,663 - __main__ - INFO - Processing question from session sess_tb3...
+2025-07-30 11:14:16,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:14:17,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:14:23,042 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:14:25,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:14:32,733 - __main__ - ERROR - Database error: database is locked
+2025-07-30 11:14:32,735 - werkzeug - INFO - 10.100.16.91 - - [30/Jul/2025 11:14:32] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:27:14,589 - __main__ - INFO - Database initialized successfully
+2025-07-30 08:27:14,590 - __main__ - INFO - Initializing chatbot...
+2025-07-30 08:27:14,607 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 08:27:14,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 08:27:14,947 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 08:27:28,975 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:28] "GET / HTTP/1.1" 200 -
+2025-07-30 08:27:29,010 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:29] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 08:27:29,017 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:29] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 08:27:29,022 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:29] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 08:27:29,052 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:29] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 08:27:31,396 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 08:27:33,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:27:40,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:27:40,411 - __main__ - INFO - Question successfully saved - ID: 1481
+2025-07-30 08:27:40,412 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:27:40] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:28:31,476 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 08:28:33,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:28:33,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:28:36,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:28:39,910 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:28:39,941 - __main__ - INFO - Question successfully saved - ID: 1482
+2025-07-30 08:28:39,942 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:28:39] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:29:01,378 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:01] "GET / HTTP/1.1" 200 -
+2025-07-30 08:29:01,436 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:01] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 08:29:01,442 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:01] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 08:29:01,447 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:01] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 08:29:01,498 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:01] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 08:29:20,711 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 08:29:21,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:29:28,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:29:28,408 - __main__ - INFO - Question successfully saved - ID: 1483
+2025-07-30 08:29:28,409 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:29:28] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:30:04,980 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 08:30:07,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:30:07,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:30:10,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:30:17,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:30:17,880 - __main__ - INFO - Question successfully saved - ID: 1484
+2025-07-30 08:30:17,882 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:30:17] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:32:42,433 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 08:32:44,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:32:44,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:32:47,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:32:50,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:32:50,770 - __main__ - INFO - Question successfully saved - ID: 1485
+2025-07-30 08:32:50,771 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:32:50] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:33:09,260 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 08:33:10,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:33:11,325 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:33:13,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:33:15,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:33:15,840 - __main__ - INFO - Question successfully saved - ID: 1486
+2025-07-30 08:33:15,841 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:33:15] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:51:12,315 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "GET / HTTP/1.1" 200 -
+2025-07-30 08:51:12,366 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 08:51:12,374 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 08:51:12,377 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 08:51:12,480 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 08:51:12,530 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:12] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 08:51:26,507 - __main__ - INFO - Processing question from session sess_5ia...
+2025-07-30 08:51:26,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:51:28,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:51:28,575 - __main__ - INFO - Question successfully saved - ID: 1487
+2025-07-30 08:51:28,576 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:28] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:51:37,971 - __main__ - INFO - Processing question from session sess_5ia...
+2025-07-30 08:51:38,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:51:39,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:51:40,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:51:43,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:51:43,931 - __main__ - INFO - Question successfully saved - ID: 1488
+2025-07-30 08:51:43,932 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:51:43] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:52:36,157 - __main__ - INFO - Processing question from session sess_5ia...
+2025-07-30 08:52:36,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:52:37,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:52:39,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:52:40,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:52:40,420 - __main__ - INFO - Question successfully saved - ID: 1489
+2025-07-30 08:52:40,421 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:52:40] "POST /ask HTTP/1.1" 200 -
+2025-07-30 08:52:55,075 - __main__ - INFO - Processing question from session sess_5ia...
+2025-07-30 08:52:55,918 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:52:56,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:52:57,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:53:00,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:53:00,374 - __main__ - INFO - Question successfully saved - ID: 1490
+2025-07-30 08:53:00,375 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 08:53:00] "POST /ask HTTP/1.1" 200 -
+2025-07-30 10:22:06,278 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "GET / HTTP/1.1" 200 -
+2025-07-30 10:22:06,306 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 10:22:06,331 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 10:22:06,341 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 10:22:06,498 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 10:22:06,660 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 10:22:06] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 10:22:12,916 - __main__ - INFO - Processing question from session sess_tuu...
+2025-07-30 11:17:49,363 - __main__ - INFO - Database initialized successfully
+2025-07-30 11:17:49,364 - __main__ - INFO - Initializing chatbot...
+2025-07-30 11:17:49,395 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 11:17:49,395 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 11:17:50,536 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 11:17:54,314 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:17:54] "GET / HTTP/1.1" 200 -
+2025-07-30 11:17:54,365 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:17:54] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 11:17:54,370 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:17:54] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 11:17:54,394 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:17:54] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 11:17:54,439 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:17:54] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 11:18:00,929 - __main__ - INFO - Processing question from session sess_tb3...
+2025-07-30 11:18:01,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:18:05,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:18:05,674 - __main__ - INFO - Question successfully saved - ID: 1491
+2025-07-30 11:18:05,675 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:18:05] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:18:19,694 - __main__ - INFO - Processing question from session sess_tb3...
+2025-07-30 11:18:20,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:18:22,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:18:24,553 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:18:29,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:18:30,923 - __main__ - INFO - Question successfully saved - ID: 1492
+2025-07-30 11:18:30,924 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:18:30] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:19:43,306 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:19:43] "GET / HTTP/1.1" 200 -
+2025-07-30 11:19:43,362 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:19:43] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 11:19:43,373 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:19:43] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 11:19:43,375 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:19:43] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 11:21:29,717 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "GET / HTTP/1.1" 200 -
+2025-07-30 11:21:29,809 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 11:21:29,811 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 11:21:29,817 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 11:21:29,851 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 11:21:29,905 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:29] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 11:21:34,955 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 11:21:35,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:21:37,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:21:37,268 - __main__ - INFO - Question successfully saved - ID: 1493
+2025-07-30 11:21:37,269 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:21:37] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:22:35,141 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 11:22:36,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:22:36,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:22:38,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:22:44,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:22:44,658 - __main__ - INFO - Question successfully saved - ID: 1494
+2025-07-30 11:22:44,659 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:44] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:22:45,761 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:45] "GET / HTTP/1.1" 200 -
+2025-07-30 11:22:45,911 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:45] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 11:22:45,918 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:45] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 11:22:45,947 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:45] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 11:22:45,993 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:45] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 11:22:46,176 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:22:46] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 11:23:16,820 - __main__ - INFO - Processing question from session sess_52s...
+2025-07-30 11:23:21,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:23:21,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 11:23:25,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:23:31,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 11:23:31,504 - __main__ - INFO - Question successfully saved - ID: 1495
+2025-07-30 11:23:31,505 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:23:31] "POST /ask HTTP/1.1" 200 -
+2025-07-30 11:51:51,834 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:51:51] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 11:51:51,835 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:51:51] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 11:51:51,848 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:51:51] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 11:51:52,503 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 11:51:52] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:22:16,603 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "GET / HTTP/1.1" 200 -
+2025-07-30 12:22:16,668 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:22:16,671 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:22:16,677 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:22:16,763 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:22:16,813 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:22:16] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:23:17,316 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:23:17,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:23:21,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:23:21,305 - __main__ - INFO - Question successfully saved - ID: 1496
+2025-07-30 12:23:21,306 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:23:21] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:25:26,644 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:25:28,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:25:29,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:25:32,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:25:33,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:25:34,011 - __main__ - INFO - Question successfully saved - ID: 1497
+2025-07-30 12:25:34,012 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:25:34] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:27:40,081 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:27:43,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:27:43,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:27:46,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:27:49,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:27:49,736 - __main__ - INFO - Question successfully saved - ID: 1498
+2025-07-30 12:27:49,737 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:27:49] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:29:05,893 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:29:08,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:29:08,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:29:12,494 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:29:15,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:29:15,170 - __main__ - INFO - Question successfully saved - ID: 1499
+2025-07-30 12:29:15,171 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:29:15] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:31:07,643 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:31:09,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:31:09,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:31:12,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:31:14,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:31:14,836 - __main__ - INFO - Question successfully saved - ID: 1500
+2025-07-30 12:31:14,836 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:31:14] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:43:46,678 - __main__ - INFO - Database initialized successfully
+2025-07-30 12:43:46,679 - __main__ - INFO - Initializing chatbot...
+2025-07-30 12:43:46,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 12:43:46,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:43:47,187 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 12:44:02,584 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "GET / HTTP/1.1" 200 -
+2025-07-30 12:44:02,628 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:44:02,639 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:44:02,645 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:44:02,663 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:44:02,705 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:02] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:44:11,787 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:44:12,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:44:12,927 - __main__ - ERROR - Ask endpoint error: 'SentenceTransformer' object has no attribute 'predict'
+2025-07-30 12:44:12,936 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:44:12] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-07-30 12:50:07,846 - __main__ - INFO - Database initialized successfully
+2025-07-30 12:50:07,846 - __main__ - INFO - Initializing chatbot...
+2025-07-30 12:50:07,865 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-07-30 12:50:07,866 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:50:08,222 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 12:50:13,677 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:13] "GET / HTTP/1.1" 200 -
+2025-07-30 12:50:13,706 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:13] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:50:13,710 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:13] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:50:13,713 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:13] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:50:13,747 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:13] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:50:21,929 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:50:22,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:50:25,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:50:26,003 - __main__ - INFO - Question successfully saved - ID: 1501
+2025-07-30 12:50:26,004 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:50:26] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:53:16,739 - __main__ - INFO - Database initialized successfully
+2025-07-30 12:53:16,740 - __main__ - INFO - Initializing chatbot...
+2025-07-30 12:53:16,757 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-07-30 12:53:16,758 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:53:17,096 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 12:53:21,861 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:21] "GET / HTTP/1.1" 200 -
+2025-07-30 12:53:21,893 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:21] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:53:21,897 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:21] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:53:21,901 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:21] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:53:21,934 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:21] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,250 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "GET / HTTP/1.1" 200 -
+2025-07-30 12:53:22,271 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,278 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,281 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,723 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "GET / HTTP/1.1" 200 -
+2025-07-30 12:53:22,749 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,755 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:53:22,758 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:22] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:53:30,122 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:53:30,680 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:53:30,800 - __main__ - ERROR - Ask endpoint error: 'SentenceTransformer' object has no attribute 'predict'
+2025-07-30 12:53:30,803 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:53:30] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-07-30 12:57:07,037 - __main__ - INFO - Database initialized successfully
+2025-07-30 12:57:07,038 - __main__ - INFO - Initializing chatbot...
+2025-07-30 12:57:07,055 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 12:57:07,056 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:57:07,405 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 12:57:16,395 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:16] "GET / HTTP/1.1" 200 -
+2025-07-30 12:57:16,435 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:16] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 12:57:16,439 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:16] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 12:57:16,443 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:16] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 12:57:16,480 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:16] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 12:57:18,710 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:57:19,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:57:24,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:57:24,938 - __main__ - INFO - Question successfully saved - ID: 1502
+2025-07-30 12:57:24,939 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:57:24] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:57:55,733 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:57:57,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:57:58,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:58:01,814 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:58:05,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:58:05,840 - __main__ - INFO - Question successfully saved - ID: 1503
+2025-07-30 12:58:05,841 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:58:05] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:58:26,603 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:58:28,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:58:29,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:58:33,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:58:34,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:58:34,644 - __main__ - INFO - Question successfully saved - ID: 1504
+2025-07-30 12:58:34,645 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:58:34] "POST /ask HTTP/1.1" 200 -
+2025-07-30 12:59:01,382 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 12:59:03,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:59:03,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 12:59:07,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:59:08,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 12:59:08,291 - __main__ - INFO - Question successfully saved - ID: 1505
+2025-07-30 12:59:08,292 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 12:59:08] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:06:50,250 - __main__ - INFO - Database initialized successfully
+2025-07-30 13:06:50,251 - __main__ - INFO - Initializing chatbot...
+2025-07-30 13:06:50,263 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 13:06:50,263 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 13:06:50,682 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 13:06:59,607 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:06:59] "GET / HTTP/1.1" 200 -
+2025-07-30 13:06:59,646 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:06:59] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 13:06:59,648 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:06:59] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 13:06:59,650 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:06:59] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 13:06:59,686 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:06:59] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 13:07:09,983 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:07:10,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:07:13,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:07:13,529 - __main__ - INFO - Question successfully saved - ID: 1506
+2025-07-30 13:07:13,529 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:07:13] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:23:42,296 - __main__ - INFO - Database initialized successfully
+2025-07-30 13:23:42,297 - __main__ - INFO - Initializing chatbot...
+2025-07-30 13:23:42,309 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 13:23:42,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 13:23:42,727 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 13:23:42,930 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:23:43,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:23:49,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:23:49,111 - __main__ - INFO - Question successfully saved - ID: 1507
+2025-07-30 13:23:49,113 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:23:49] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:25:01,647 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:25:03,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:25:03,613 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:25:08,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:25:13,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:25:13,144 - __main__ - INFO - Question successfully saved - ID: 1508
+2025-07-30 13:25:13,145 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:25:13] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:27:25,292 - __main__ - INFO - Database initialized successfully
+2025-07-30 13:27:25,293 - __main__ - INFO - Initializing chatbot...
+2025-07-30 13:27:25,308 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-07-30 13:27:25,308 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 13:27:25,622 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET / HTTP/1.1" 200 -
+2025-07-30 13:27:25,672 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 13:27:25,679 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 13:27:25,686 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 13:27:25,739 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 13:27:25,758 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 13:27:25,949 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 13:27:25,978 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:25] "GET / HTTP/1.1" 200 -
+2025-07-30 13:27:26,105 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:26] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 13:27:26,109 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:26] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 13:27:26,112 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:26] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 13:27:33,390 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:27:33,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:27:38,070 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:27:38,101 - __main__ - INFO - Question successfully saved - ID: 1509
+2025-07-30 13:27:38,102 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:27:38] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:28:06,122 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:28:07,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:07,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:28:10,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:13,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:13,459 - __main__ - INFO - Question successfully saved - ID: 1510
+2025-07-30 13:28:13,460 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:28:13] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:28:49,719 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:28:51,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:51,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:28:53,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:55,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:28:55,562 - __main__ - INFO - Question successfully saved - ID: 1511
+2025-07-30 13:28:55,563 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:28:55] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:31:18,133 - __main__ - INFO - Database initialized successfully
+2025-07-30 13:31:18,134 - __main__ - INFO - Initializing chatbot...
+2025-07-30 13:31:18,159 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-07-30 13:31:18,160 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 13:31:18,506 - __main__ - INFO - Chatbot initialized successfully
+2025-07-30 13:31:19,151 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:31:19] "GET / HTTP/1.1" 200 -
+2025-07-30 13:31:19,179 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:31:19] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 13:31:19,180 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:31:19] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 13:31:19,185 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:31:19] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 13:31:26,290 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:31:26,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:31:30,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:31:30,707 - __main__ - INFO - Question successfully saved - ID: 1512
+2025-07-30 13:31:30,709 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:31:30] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:32:01,034 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:32:03,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:04,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:32:06,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:09,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:09,837 - __main__ - INFO - Question successfully saved - ID: 1513
+2025-07-30 13:32:09,839 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:32:09] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:32:23,745 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:32:24,787 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:25,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:32:27,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:29,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:29,399 - __main__ - INFO - Question successfully saved - ID: 1514
+2025-07-30 13:32:29,400 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:32:29] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:32:54,228 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:32:56,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:32:56,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:32:59,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:33:01,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:33:01,455 - __main__ - INFO - Question successfully saved - ID: 1515
+2025-07-30 13:33:01,457 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:33:01] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:33:16,920 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:33:18,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:33:21,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:33:24,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:33:28,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:33:28,444 - __main__ - INFO - Question successfully saved - ID: 1516
+2025-07-30 13:33:28,445 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:33:28] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:33:58,003 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:34:01,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:01,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:34:04,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:08,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:08,448 - __main__ - INFO - Question successfully saved - ID: 1517
+2025-07-30 13:34:08,449 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:34:08] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:34:44,583 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:34:46,621 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:47,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:34:50,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:55,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:34:55,906 - __main__ - INFO - Question successfully saved - ID: 1518
+2025-07-30 13:34:55,907 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:34:55] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:35:41,560 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:35:43,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:35:43,883 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:35:46,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:35:50,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:35:50,053 - __main__ - INFO - Question successfully saved - ID: 1519
+2025-07-30 13:35:50,054 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:35:50] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:37:18,986 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:37:21,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:37:21,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:37:27,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:37:32,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:37:32,125 - __main__ - INFO - Question successfully saved - ID: 1520
+2025-07-30 13:37:32,125 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:37:32] "POST /ask HTTP/1.1" 200 -
+2025-07-30 13:38:14,450 - __main__ - INFO - Processing question from session sess_y7b...
+2025-07-30 13:38:16,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:38:16,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:38:18,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:38:22,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:38:22,941 - __main__ - INFO - Question successfully saved - ID: 1521
+2025-07-30 13:38:22,942 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 13:38:22] "POST /ask HTTP/1.1" 200 -
+2025-07-30 14:50:54,470 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:54] "GET / HTTP/1.1" 200 -
+2025-07-30 14:50:55,162 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:55] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 14:50:55,319 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:55] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 14:50:55,320 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:55] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 14:50:55,336 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:55] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 14:50:55,460 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:50:55] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-07-30 14:51:01,320 - __main__ - INFO - Processing question from session sess_tuu...
+2025-07-30 14:51:01,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 14:51:04,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 14:51:04,981 - __main__ - INFO - Question successfully saved - ID: 1522
+2025-07-30 14:51:04,982 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:04] "POST /ask HTTP/1.1" 200 -
+2025-07-30 14:51:59,611 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:59] "GET / HTTP/1.1" 200 -
+2025-07-30 14:51:59,685 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:59] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 14:51:59,781 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:59] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 14:51:59,787 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:59] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 14:51:59,812 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:51:59] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 14:52:10,601 - __main__ - INFO - Processing question from session sess_tuu...
+2025-07-30 14:52:12,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 14:52:13,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 14:52:17,105 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 14:52:20,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 14:52:20,914 - __main__ - INFO - Question successfully saved - ID: 1523
+2025-07-30 14:52:20,915 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 14:52:20] "POST /ask HTTP/1.1" 200 -
+2025-07-30 15:06:05,512 - __main__ - INFO - Processing question from session sess_tuu...
+2025-07-30 15:06:07,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:06:07,981 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 15:06:11,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:06:19,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:06:19,848 - __main__ - INFO - Question successfully saved - ID: 1524
+2025-07-30 15:06:19,849 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:06:19] "POST /ask HTTP/1.1" 200 -
+2025-07-30 15:54:14,751 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:54:14] "GET / HTTP/1.1" 200 -
+2025-07-30 15:54:14,784 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:54:14] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-07-30 15:54:14,790 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:54:14] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-07-30 15:54:14,796 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:54:14] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-07-30 15:54:14,827 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 15:54:14] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-07-30 16:06:20,965 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 16:06:20] "GET / HTTP/1.1" 200 -
+2025-07-30 16:06:20,992 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 16:06:20] "GET /assets/stylesheets/style.css HTTP/1.1" 200 -
+2025-07-30 16:06:20,999 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 16:06:20] "GET /assets/images/denizci-yunus-maskot.png HTTP/1.1" 200 -
+2025-07-30 16:06:21,022 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 16:06:21] "GET /assets/javascripts/app.js HTTP/1.1" 200 -
+2025-07-30 16:06:21,068 - werkzeug - INFO - 172.18.0.1 - - [30/Jul/2025 16:06:21] "GET /assets/images/chatbox-bg.png HTTP/1.1" 200 -
+2025-08-01 06:19:14,284 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:19:14] "GET / HTTP/1.1" 200 -
+2025-08-01 06:19:14,336 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:19:14] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 06:19:14,352 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:19:14] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 06:19:14,374 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:19:14] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 06:19:14,422 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:19:14] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 06:20:15,611 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:20:15] "GET / HTTP/1.1" 200 -
+2025-08-01 06:20:15,646 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:20:15] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 06:20:15,653 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:20:15] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 06:20:15,658 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:20:15] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 06:20:15,779 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:20:15] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 06:21:12,852 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:21:12] "GET / HTTP/1.1" 200 -
+2025-08-01 06:21:12,895 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:21:12] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 06:21:12,907 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:21:12] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 06:21:12,908 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:21:12] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 06:21:13,033 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 06:21:13] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 08:16:15,349 - __main__ - INFO - Database initialized successfully
+2025-08-01 08:16:15,349 - __main__ - INFO - Initializing chatbot...
+2025-08-01 08:16:15,379 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-08-01 08:16:15,380 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 08:16:15,598 - __main__ - INFO - Chatbot initialized successfully
+2025-08-01 08:16:23,366 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:23] "GET / HTTP/1.1" 200 -
+2025-08-01 08:16:23,440 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:23] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 08:16:23,441 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:23] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 08:16:23,450 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:23] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 08:16:23,473 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:23] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 08:16:27,894 - __main__ - INFO - Processing question from session sess_y7b...
+2025-08-01 08:16:28,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-01 08:16:28,824 - __main__ - ERROR - Ask endpoint error: 'OpenAIEmbeddings' object has no attribute 'encode'
+2025-08-01 08:16:28,831 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:16:28] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-08-01 08:17:45,478 - __main__ - INFO - Processing question from session sess_y7b...
+2025-08-01 08:17:46,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-01 08:17:46,033 - __main__ - ERROR - Ask endpoint error: 'OpenAIEmbeddings' object has no attribute 'encode'
+2025-08-01 08:17:46,040 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:17:46] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-08-01 08:18:15,419 - __main__ - INFO - Database initialized successfully
+2025-08-01 08:18:15,420 - __main__ - INFO - Initializing chatbot...
+2025-08-01 08:18:15,431 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.3:443
+2025-08-01 08:18:15,432 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-01 08:18:16,045 - __main__ - INFO - Chatbot initialized successfully
+2025-08-01 08:18:18,079 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:18] "GET / HTTP/1.1" 200 -
+2025-08-01 08:18:18,124 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:18] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 08:18:18,127 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:18] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 08:18:18,132 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:18] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 08:18:18,164 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:18] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 08:18:22,200 - __main__ - INFO - Processing question from session sess_y7b...
+2025-08-01 08:18:22,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-01 08:18:25,501 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 08:18:25,561 - __main__ - INFO - Question successfully saved - ID: 1525
+2025-08-01 08:18:25,562 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 08:18:25] "POST /ask HTTP/1.1" 200 -
+2025-08-01 10:33:40,430 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:33:40] "GET / HTTP/1.1" 200 -
+2025-08-01 10:33:40,485 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:33:40] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 10:33:40,528 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:33:40] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 10:33:40,537 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:33:40] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 10:33:40,546 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:33:40] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-01 10:33:57,340 - __main__ - INFO - Processing question from session sess_y7b...
+2025-08-01 10:33:58,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:33:59,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-01 10:34:02,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:34:03,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:34:03,640 - __main__ - INFO - Question successfully saved - ID: 1526
+2025-08-01 10:34:03,640 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:34:03] "POST /ask HTTP/1.1" 200 -
+2025-08-01 10:36:19,489 - __main__ - INFO - Processing question from session sess_y7b...
+2025-08-01 10:36:20,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:36:20,795 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-01 10:36:23,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:36:25,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-01 10:36:25,521 - __main__ - INFO - Question successfully saved - ID: 1527
+2025-08-01 10:36:25,522 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 10:36:25] "POST /ask HTTP/1.1" 200 -
+2025-08-01 13:51:03,384 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 13:51:03] "GET / HTTP/1.1" 200 -
+2025-08-01 13:51:03,423 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 13:51:03] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-01 13:51:03,433 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 13:51:03] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-01 13:51:03,446 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 13:51:03] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-01 13:51:03,469 - werkzeug - INFO - 172.18.0.1 - - [01/Aug/2025 13:51:03] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-02 07:07:22,866 - __main__ - INFO - Database initialized successfully
+2025-08-02 07:07:22,867 - __main__ - INFO - Initializing chatbot...
+2025-08-02 07:07:22,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-08-02 07:07:22,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-02 07:07:23,784 - __main__ - INFO - Chatbot initialized successfully
+2025-08-02 07:07:26,131 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "GET / HTTP/1.1" 200 -
+2025-08-02 07:07:26,192 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-02 07:07:26,193 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-02 07:07:26,218 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-02 07:07:26,234 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-02 07:07:26,304 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 07:07:26] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-02 08:13:06,227 - __main__ - INFO - Database initialized successfully
+2025-08-02 08:13:06,227 - __main__ - INFO - Initializing chatbot...
+2025-08-02 08:13:06,254 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://172.18.0.4:443
+2025-08-02 08:13:06,255 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-02 08:13:07,042 - __main__ - INFO - Chatbot initialized successfully
+2025-08-02 08:13:30,079 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "GET / HTTP/1.1" 200 -
+2025-08-02 08:13:30,144 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-02 08:13:30,146 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-02 08:13:30,151 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-02 08:13:30,177 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-02 08:13:30,254 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -

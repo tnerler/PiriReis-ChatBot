@@ -1,0 +1,804 @@
+{
+  "school_name": "Denizcilik Meslek Yüksekokulu",
+  "sections": {
+    "about": {
+      "director_message": {
+        "title": "Müdür Mesajı",
+        "content": "Yüksekokulumuz denizcilik sektörünün ihtiyaç duyduğu alanlarda yetişmiş insan kaynağını sağlamak üzere kurulduğu günden günümüze yoğun bir çalışma yürütmektedir. Bu kapsamda ülkemizin ve sektörün ihtiyacı olan stratejik meslek kollarında programlar açarak öğretim alanına öncülük etmektedir. Denizcilik sektörü, uluslararası bir alanda, ithalat ve ihracatın ana konusu ticaretin büyük bir kısmını kapsamaktadır. Bu sebeple sektördeki birçok meslek dalı uluslarası standartlara sahiptir. Yüksekokulumuz gerekli standartları sağlayıp öğrencilerini bugüne ve geleceğe hazırlamaktadır. Öğretimin yanısıra sosyal gelişim, staj, iş ve kariyer çalışmalarını öğrencilerin kurduğu kulüpler vasıtasıyla yürütüyoruz. Yabancı diller öğretimi konusunda da birçok özel çalışmalar yaparak, mezunlarımızın uluslararası işletmelerde görev yapabilecek donanıma sahip olmaları için gerekli düzeyde çalışmalar yürütülmektedir. Denizcilik kültürünün gelişmesi ve yaygın olması için kültürel faaliyetlerle şekillendirilen çalışmalarımız dünya standartlarını ülkemiz gençlerine, insanlarına sunmaktadır. Bütün deniz sevenleri ve geleceğini denizler üzerinde arayanları okulumuza bekleriz."
+      },
+      "history": {
+        "title": "Tarihçe",
+        "content": "2014 yılında kurulan ve iki yıllık ön lisans eğitimi uygulayan Denizcilik Meslek Yüksekokulu denizcilikle ilgili 11 programda ön lisans eğitimi vermektedir. Ön lisans eğitimi süresince seçkin öğretim kadrosu ile dünya genelinde modern laboratuvar ve simülatörlere sahip kampüs imkânlarıyla öğretimine devam etmektedir."
+      },
+      "mission_vision": {
+        "title": "Misyon-Vizyon",
+        "content": "Atatürk ilke ve inkılaplarını özümseyen, denizcilik örf, adet ve ananeleri çerçevesinde dünya kalitesi ve standartlarında eğitim-öğretim vermek, küresel rekabet ortamının gerektirdiği becerilere sahip, çok uluslu işletmelerde çalışabilen, takım çalışması yapabilen; özgür, girişimci, yaratıcı, araştırmacı, proje geliştirilebilen, çağdaş, kültürlü, insancıl, sosyal sorumluluk ve yurttaşlık bilincine sahip insanlar yetiştirmek misyonunu taşımaktayız.\nDünya kalitesi ve standartlarında eğitim ve öğretim vermek, araştırma yapmak ve küresel rekabet ortamında; mesleki ve akademik eğitim arasında sinerji yaratmak vizyonuna sahibiz."
+      },
+      "quality": {
+        "title": "Kalite",
+        "content": "Denizcilik Meslek Yüksek Okulu (DMYO), ISO 9001:2015 standardı ve Denizcilik Eğitimi Denetleme ve Kalite Standartları Esasları Hakkında Yönetmelik şartları ile uyumlu olacak şekilde bir Kalite Yönetim Sistemi (KYS) oluşturmuş, dokümante etmiş ve kalite süreçlerinin gereğini yerine getirmektedir. DMYO, ISO ve Ulaştırma Bakanlığı'nın düzenli denetimlerinden başarıyla geçmektedir. Dış denetçiler KYS'nin uygunluğunu, işleyişini sürekli olarak izlemekte ve etkinliğini sürekli takip etmektedirler. DMYO, KYS için gerekli standartlar kapsamında; kalite politikası, organizasyon, görev talimatları, prosedürler ve süreç yönetim şemalarını kalite süreçleri üzerinden tanımlamış ve süreç iyileştirmelerini düzenli uygulamaktadır."
+      },
+      "research": {
+        "title": "Araştırmalar",
+        "content": "Denizcilik Meslek Yüksek Okulunda bilimsel ve meslek alanıyla ilgili üniversite imkanlarıyla yürütülmekte olan BAP projeleri, Tübitak ve Sanayi ortaklı projelerin yanısıra, öğrenci projeleri de yürütülmektedir. Denizcilik endüstrisinin ihtiyacı olan alanlarda iş geliştirme, problem bulma ve çözme üzerine bilimsel çözümler üretebilen kabiliyette öğrencilerimize de mentorluk ve akademik danışmanlık çalışmaları yoğun bir şekilde yürütülmektedir. Yüksekokulumuz akademik kadrosu ve alt yapısı ile \"Deniz, Denizcilik, Uluslararası Ticaret, İşletme, Deniz Ulaştırma, Lojistik, Gastronomi, Mekatronik, Elektrik, Elektronik, Gemi Makine Sistemleri, Enerji, Yakıt, Kirlilik, Çevre, Sosyal Bilimler\" alanlarında geniş bir proje geliştirme kabiliyetine sahiptir."
+      },
+      "internationalization": {
+        "title": "Uluslararasılaşma",
+        "content": "Yüksek Okulumuzda Deniz Ulaştırma İşletme, Gemi Makineleri İşletme, Deniz ve Liman İşletmeciliği, Marina ve Yat İşletmeciliği, Mekatronik, Aşçılık programlarımız uluslararası STCW sözleşmesi kapsamında belgelendirilmektedir. Bu kapsamda yüksekokulumuz, EMSA ülke denetlemelerini başarıyla geçmiştir. Deniz Brokerliği programımız ICS standartlarına uygun ders ve içeriklerine sahip bir şekilde öğrenim görmektedir. Sualtı Teknolojileri programımız IDSA (The International Diving Schools Association) üyesidir ve IDSA standartlarına uygun öğretim yapmaktadır."
+      }
+    },
+    "management": {
+      "school_management": {
+        "title": "Yüksekokulu Yönetimi",
+        "members": [
+          {
+            "name": "Dr. Öğr. Gör. Zeki YAŞAR",
+            "title": "Müdür"
+          },
+          {
+            "name": "Öğr. Gör. Mehmet ERSAN",
+            "title": "Akademik İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Eyyub KANDEMİR",
+            "title": "İdari İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Figen ÖZGEN",
+            "title": "Yüksekokul Sekreteri"
+          },
+          {
+            "name": "Hilmi Tamer GÜNEBAKAN",
+            "title": "Sualtı Dalış Uzmanı"
+          },
+          {
+            "name": "Tevfik YÜCEL",
+            "title": "Sualtı Dalış Uzmanı"
+          },
+          {
+            "name": "Arzu BAYKARA",
+            "title": "Uzman Yardımcısı"
+          },
+          {
+            "name": "Melike PEKCAN",
+            "title": "Memur"
+          },
+          {
+            "name": "Seda UZBAY",
+            "title": "Memur"
+          }
+        ]
+      },
+      "school_board": {
+        "title": "Yüksekokul Kurulu",
+        "members": [
+          {
+            "name": "Dr. Öğr. Gör. Zeki YAŞAR",
+            "title": "Müdür"
+          },
+          {
+            "name": "Öğr. Gör. Mehmet ERSAN",
+            "title": "Akademik İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Eyyub KANDEMİR",
+            "title": "İdari İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Abdullah KÖKTÜRK",
+            "title": "Motorlu Araçlar ve Ulaştırma Teknolojileri Bölümü Başkanı"
+          },
+          {
+            "name": "Dr. Öğr. Gör. Atakan AKINCI",
+            "title": "Ulaştırma Hizmetleri Bölümü Başkanı"
+          },
+          {
+            "name": "Dr. Öğr. Gör. Sevda DEDE",
+            "title": "Yönetim ve Organizasyon Bölümü Başkanı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Pınar DEMİR",
+            "title": "Bilgisayar Teknolojileri Bölümü Başkanı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Uğur KAÇAN",
+            "title": "Otel, Lokanta ve İkram Hizmetleri Bölümü Başkanı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Refik Tanju SİRMEN",
+            "title": "Elektronik ve Otomasyon Bölümü Başkanı"
+          }
+        ]
+      },
+      "executive_board": {
+        "title": "Yüksekokul Yönetim Kurulu",
+        "members": [
+          {
+            "name": "Dr. Öğr. Gör. Zeki YAŞAR",
+            "title": "Müdür"
+          },
+          {
+            "name": "Öğr. Gör. Mehmet ERSAN",
+            "title": "Akademik İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Eyyub KANDEMİR",
+            "title": "İdari İşlerden Sorumlu Müdür Yardımcısı"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Abdullah KÖKTÜRK",
+            "title": "Üye"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Bülent Devrim ÇİFT",
+            "title": "Üye"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Pınar DEMİR",
+            "title": "Üye"
+          }
+        ]
+      },
+      "department_program_heads": {
+        "title": "Bölüm Başkanları ve Program Başkanları Sorumluları",
+        "departments": [
+          {
+            "name": "MOTORLU ARAÇLAR ve ULAŞTIRMA TEKNOLOJİLERİ BÖLÜMÜ",
+            "head": "Dr. Öğr. Üyesi Abdullah KÖKTÜRK",
+            "programs": [
+              {
+                "name": "Gemi İnşaatı Programı",
+                "responsible": "Dr. Öğr. Üyesi Bülent Devrim ÇİFT"
+              },
+              {
+                "name": "Gemi Makineleri İşletmeciliği Programı",
+                "responsible": "Öğr. Gör. Onur TANSEL"
+              },
+              {
+                "name": "Deniz Ulaştırma ve İşletme Programı",
+                "responsible": "Öğr. Gör. Rahim CONGULOĞLU"
+              },
+              {
+                "name": "Sualtı Teknolojisi Programı",
+                "responsible": "Öğr. Gör. Oğuz SARI"
+              }
+            ]
+          },
+          {
+            "name": "ULAŞTIRMA HİZMETLERİ BÖLÜMÜ",
+            "head": "Dr. Öğr. Gör. Atakan AKINCI",
+            "programs": [
+              {
+                "name": "Deniz Brokerliği Programı",
+                "responsible": "Öğr. Gör. Hatice YILMAZ"
+              },
+              {
+                "name": "Marina ve Yat İşletmeciliği Programı",
+                "responsible": "Öğr. Gör. Cem AKYOL"
+              },
+              {
+                "name": "Deniz ve Liman İşletmeciliği Programı",
+                "responsible": "Dr. Öğr. Üyesi Eyyub KANDEMİR"
+              }
+            ]
+          },
+          {
+            "name": "ELEKTRONİK VE OTOMASYON BÖLÜMÜ",
+            "head": "Dr. Öğr. Üyesi Refik Tanju SİRMEN",
+            "programs": [
+              {
+                "name": "Mekatronik Programı",
+                "responsible": "Öğr. Gör. Güray GÜNGÖR"
+              }
+            ]
+          },
+          {
+            "name": "OTEL, LOKANTA VE İKRAM HİZMETLERİ BÖLÜMÜ",
+            "head": "Dr. Öğr. Üyesi Uğur KAÇAN",
+            "programs": [
+              {
+                "name": "Aşçılık Programı",
+                "responsible": "Dr. Öğr. Üyesi Uğur KAÇAN"
+              }
+            ]
+          },
+          {
+            "name": "BİLGİSAYAR TEKNOLOJİLERİ BÖLÜMÜ",
+            "head": "Dr. Öğr. Üyesi Pınar DEMİR",
+            "programs": [
+              {
+                "name": "Bilgisayar Programcılığı Programı",
+                "responsible": "Dr. Öğr. Üyesi Pınar DEMİR"
+              }
+            ]
+          },
+          {
+            "name": "YÖNETİM VE ORGANİZASYON BÖLÜMÜ",
+            "head": "Dr. Öğr. Üyesi Tamer YALÇIN",
+            "programs": [
+              {
+                "name": "Lojistik Programı",
+                "responsible": "Dr. Öğr. Üyesi Tamer YALÇIN"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "academic_staff": {
+      "title": "Akademik Kadro",
+      "departments": {
+        "motorlu_araclar_ulastirma_teknolojileri": {
+          "name": "MOTORLU ARAÇLAR ve ULAŞTIRMA TEKNOLOJİLERİ",
+          "programs": {
+            "deniz_ulastirma_isletme": {
+              "name": "Deniz Ulaştırma ve İşletme",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Dinçer BAYER"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Murat SAKA"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Tayfun ACARER"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Tolunay KAYAARASI"},
+                {"rank": "Öğr. Gör.", "name": "Rahim CONGULOĞLU"}
+              ]
+            },
+            "gemi_makineleri_isletmeciligi": {
+              "name": "Gemi Makineleri İşletmeciliği",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Abdullah KÖKTÜRK"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Nilay GÜNDÜZ AKDOĞAN"},
+                {"rank": "Öğr. Gör.", "name": "Servet Savaş SEFİRTÜRK"},
+                {"rank": "Öğr. Gör.", "name": "Seıgo HASHIMOTO"},
+                {"rank": "Öğr. Gör.", "name": "Zafer AYDIN"}
+              ]
+            },
+            "gemi_insaati": {
+              "name": "Gemi İnşaatı",
+              "staff": [
+                {"rank": "Prof. Dr.", "name": "Şebnem HELVACIOĞLU"},
+                {"rank": "Doç Dr.", "name": "Musa KAMACI"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Bülent Devrim ÇİFT"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Emine GÜNDOĞDU İŞ"},
+                {"rank": "Öğr. Gör.", "name": "Mehmet Hakan KÖKTÜRK"},
+                {"rank": "Öğr. Gör.", "name": "Onur TANSEL"}
+              ]
+            },
+            "sualti_teknolojisi": {
+              "name": "Sualtı Teknolojisi",
+              "staff": [
+                {"rank": "Öğr. Gör.", "name": "Oğuz SARI"}
+              ]
+            }
+          }
+        },
+        "ulastirma_hizmetleri": {
+          "name": "ULAŞTIRMA HİZMETLERİ",
+          "programs": {
+            "deniz_liman_isletmeciligi": {
+              "name": "Deniz ve Liman İşletmeciliği",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Eyyub KANDEMİR"},
+                {"rank": "Dr.Öğr. Gör.", "name": "Zeki YAŞAR"},
+                {"rank": "Öğr. Gör.", "name": "Mehmet ERSAN"},
+                {"rank": "Öğr. Gör.", "name": "Berkay AKSU"}
+              ]
+            },
+            "marina_yat_isletmeciligi": {
+              "name": "Marina ve Yat İşletmeciliği",
+              "staff": [
+                {"rank": "Öğr. Gör.", "name": "Cem AKYOL"},
+                {"rank": "Öğr. Gör.", "name": "Şenol AKYOL"},
+                {"rank": "Öğr. Gör.", "name": "Öznur ŞAHİN NARDALI"},
+                {"rank": "Öğr. Gör.", "name": "Nail DOĞAN"}
+              ]
+            },
+            "deniz_brokerligi": {
+              "name": "Deniz Brokerliği",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Funda SONGUR"},
+                {"rank": "Dr.Öğr. Gör.", "name": "Atakan AKINCI"},
+                {"rank": "Öğr. Gör.", "name": "Hatice YILMAZ"},
+                {"rank": "Öğr. Gör.", "name": "Emre ATAÇ"}
+              ]
+            }
+          }
+        },
+        "elektronik_otomasyon": {
+          "name": "ELEKTRONİK VE OTOMASYON",
+          "programs": {
+            "mekatronik": {
+              "name": "Mekatronik",
+              "staff": [
+                {"rank": "Prof. Dr.", "name": "Gülşen AKIN EVİNGÜR"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Pınar DEMİR"},
+                {"rank": "Dr.Öğr.Üyesi", "name": "Mehbare DOĞRUSÖZ"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Serap HERDEM"},
+                {"rank": "Dr.Öğr. Gör.", "name": "Muzaffer EROĞLU"},
+                {"rank": "Öğr. Gör.", "name": "Güray GÜNGÖR"},
+                {"rank": "Öğr. Gör.", "name": "Zafer TOPAÇ"},
+                {"rank": "Öğr. Gör.", "name": "Rumeysa SELÇUK AKSOY"}
+              ]
+            }
+          }
+        },
+        "yonetim_organizasyon": {
+          "name": "YÖNETİM VE ORGANİZASYON",
+          "programs": {
+            "lojistik": {
+              "name": "Lojistik",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Hüseyin GENÇER"},
+                {"rank": "Dr. Öğr. Gör.", "name": "Sevda DEDE"},
+                {"rank": "Dr. Öğr. Gör.", "name": "Yeşim OCAK"},
+                {"rank": "Öğr. Gör.", "name": "Barbaros BÜYÜKSAĞNAK"}
+              ]
+            }
+          }
+        },
+        "otel_lokanta_ikram_hizmetleri": {
+          "name": "OTEL, LOKANTA VE İKRAM HİZMETLERİ",
+          "programs": {
+            "ascilik": {
+              "name": "Aşçılık",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Uğur KAÇAN"}
+              ]
+            }
+          }
+        },
+        "bilgisayar_teknolojileri": {
+          "name": "BİLGİSAYAR TEKNOLOJİLERİ",
+          "programs": {
+            "bilgisayar_programciligi": {
+              "name": "Bilgisayar Programcılığı",
+              "staff": [
+                {"rank": "Dr. Öğr. Üyesi", "name": "Refik Tanju SİRMEN"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Ayşe YAVUZ TAŞÇI"},
+                {"rank": "Dr. Öğr. Üyesi", "name": "Azime ÇETİNKAYA"},
+                {"rank": "Öğr. Gör.", "name": "Erkan AYDIN"},
+                {"rank": "Öğr. Gör.", "name": "Emre DEMİROK"}
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "programs": {
+    "logistics": {
+      "name": "Lojistik Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Lojistik, günümüzün gitgide artan rekabet ortamında var olmak ve varlıklarını sürdürmek isteyen şirketlere kârlılığı arttırmada, riskleri azaltmada ve müşteri memnuniyetini geliştirmekte yardımcı olma konusunda sürekli daha fazla önem kazanan bir sektör olarak hem günümüzün hem de geleceğin mesleği olarak görülmektedir. Bu sektörün insan kaynağı, konusuna hakim, mesleki bilgileri sağlam ve İngilizceyi mesleklerinde etkin olarak kullanabilen kişilerden oluşmaktadır.\nBu önemli sektöre ilgi duyan ve üniversite önlisans eğitimi alarak uzmanlaşıp kazançlı bir meslek sahibi olmak isteyen öğrencilerin tercih ettiği PRU DMYO \"Lojistik Programı\"nın amacı; ürün ve hizmetlerin kesintisiz akışını sağlayan ve değer katan, lojistik alanında temel düzeyde yönetim ve işletme bilgilerine sahip, İngilizce iletişim kurabilen, ulaştırma, depolama, stok yönetimi gibi lojistik faaliyetleri güncel bilgi ve iletişim teknolojilerini kullanarak verimli ve etkili şekilde uygulayabilen lojistik uzmanlar yetiştirmektir.\nLojistik programı mezunları isterlerse gerekli eğitim başarısını gösterdikleri takdirde İktisadi ve İdari Bilimler Fakültemizin Uluslararası Lojistik ve Taşımacılık programına dikey geçişle dört yıllık lisans eğitimlerini tamamlayabilirler.\nLojistik sektörünün mal ve hizmet taleplerini karşılayabilmek için diğer sektörlerle yakın ilişki içinde olmasının yanı sıra uluslararası ticaret sisteminde lojistiğin en önemli rekabet avantajı olması, mezunlara geniş bir çalışma alanı sağlamaktadır."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Jeopolitik önemi ve coğrafi konumu ile uluslararası lojistik alanında sonsuz imkanlar sunan ülkemizin bu önemli sektöründe öğrencilerimizin donanımlı ve nitelikli lojistik uzmanları olarak yetiştirmek, onları doğrudan sektöre kazandırarak başarılı birer yönetici konumuna gelmelerini sağlamak en büyük hedefimizdir. Bu maksatla kurulmuş olan programımızda yer alan dersler, teorik ve uygulamaya yönelik olarak hazırlanmış olup en son teknoloji ve öğretim teknikleri kullanılarak verilmektedir.\nSektörün öncü firmaları ile koordineli çalışmalar yaparak öğrencilerimiz için staj ve çalışma imkanları sağlayarak öğrencilerimizin lojistik ve operasyon yönetimi, taşımacılık, stok ve depolama ile malzeme, bilgi ve finansal kaynak akışının etkin ve verimli bir şekilde yönetilmesine ihtiyaç duyan tüm sektörlere insan kaynağı yetiştirmekteyiz.",
+        "author": "Dr. Öğr. Gör. Sevda DEDE",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Dr. Öğr. Üyesi Hüseyin GENÇER"},
+        {"name": "Dr. Öğr. Gör. Yeşim OCAK"},
+        {"name": "Dr. Öğr. Gör. Sevda DEDE"},
+        {"name": "Öğr. Gör. Y. Barbaros BÜYÜKSAĞNAK"}
+      ],
+      "internship": {
+        "title": "Staj",
+        "content": "DMYO Lojistik Programı öğrencileri için staj sorumluluğu, \"İşyeri Stajı\" olarak 30-60 gün uygulanacaktır.\nStaj ile ilgili tüm detaylar \"Piri Reis Üniversitesi Ön Lisans Staj Yönergesinde\" bulunmaktadır."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Piri Reis Üniversitesi öğrenci kulüpleri çalışmaları Rektörlüğe bağlı Öğrenci Kulüpleri Koordinasyon Kurulu tarafından yürütülmektedir. Piri Reis Üniversitesi, öğrencilerin ders dışındaki zamanlarını en iyi şekilde değerlendirmesini amaçlamakta ve bu konuda çalışmalar yapmaktadır. Üniversite eğitiminin ayrılmaz bir parçası olan öğrenci kulüpleri, kendi ilgi alanlarında faaliyette bulunurken paylaşmayı, kendi kararlarını oluşturmayı, sorumluluk alarak çalışma alışkanlığını kazandırıyor. Kampüsümüzde var olan kulüpler dışında öğrencilerin kendi özel ilgi alanlarına göre yeni kulüpler kurmaları teşvik edilerek sosyal sorumluluğu geliştiren, etkinlikleri ile düşünsel gelişimi sağlayan ve bireysel yaratıcılığı vurgulayan Piri Reis Üniversitesi Öğrenci Kulüpleri arasında Lojistik Kulübü de yer almaktadır."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "marina_yacht_management": {
+      "name": "Marina ve Yat İşletmeciliği Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Öğrenci Seçme Yerleştirme Sınavında TYT puanı ile giren öğrenciler 1 yıllık İngilizce Hazırlık ve 2 yıllık önlisans eğitimini takiben \"PRÜ Denizcilik Meslek Yüksekokulu Marina ve Yat İşletmeciliği (MYİ) Programı Önlisans Diploması\" alırlar. Öğrencilerin üniforma giyme zorunluluğu vardır. Marina ve Yat İşletmeciliği programının amacı, mezunlarını Yat Kaptanlığı ve Mega yatlarda güverte zabitliği görevleri ile Marina İşletmeciliğine yönelik görevlere hazırlamaktır. Akademik eğitim, dört yarıyıldan oluşmaktadır. Öğrenciler, öncelikle matematik, fizik, kimya, temel bilimsel dersleri takiben, Mega Yatlarda da görev alabilecek şekilde Seyir, Gemicilik, Yat İşletme ve yönetimi alanlarında uzmanlaşırlar. Program başarı ile tamamlandığında, öğrencilere önlisans diploması verilir. Öğrencilerimiz Dikey Geçiş Sınavına girip başarılı olmaları halinde Lisans seviyesi eğitimlerine devam edebilirler. Mezuniyet sonrasında Boyu 15 metreden büyük ticari yatlarda 3 ay süreli deniz stajını tamamladıktan sonra Gemi Adamları Sınavına (GASM) girmeye hak kazanırlar. GASM sınavında başarılı olan öğrencilerimiz 499 GT'a kadar yatlarda Yat Kaptanı olarak veya Mega Yatlarda Güverte Zabiti olarak çalışabilirler. Müfredatımız Ulaştırma ve Altyapı Bakanlığı (UAB) mevzuatına ve STCW* 2010'a tam olarak uyumludur."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sevgili Gençler,\nMarina ve Yat İşletmeciliği (MYİ) Programımız, İngilizce yeterlilikten sonra 2 yıllık bir eğitim süresini kapsamaktadır. Mezunlarımız, kısa ve yoğun bir mesleki eğitim dönemi sonunda Yatlarda ve Marinalarda çok iyi şartlarda iş bulma imkanına sahip olmaktadır. Halen mevcut öğrencilerimiz arasında başka bir daldan lisans mezunu olduğu halde programımızın sunduğu geniş iş yelpazesi nedeniyle programımızda eğitim alan arkadaşlarımız mevcuttur. Okulumuz Denizcilik sektörü ve şirketlerle yakın ilişki içerisinde bulunmaktadır. Her hafta Salı günleri \"Can Salı Buluşması\" adı altında Denizcilik şirketlerinin insan kaynakları yöneticileri ve temsilcileri okulumuza davet edilmekte öğrencilerimizle birlikte karşılıklı bilgi paylaşımı yapılmakta, öğrencilerimizin sektörü tanıması, staj için bilgi alması ve mesleğe hazırlanması sağlanmaktadır. Yine Marina ve Yat Sektörüne ilişkin Dış Konferans, Fuarlara iştirak edilerek Marina, Tersane ve Kurumsal Firmalara ziyaretler düzenlenmektedir. Bu etkinliklere katılmanız sektörü tanımak, mesleki bilgileriniz artırmak, staj yeri ve mezuniyet sonrası iş bulma olanakları açısından son derece önemlidir.\nAramıza katıldığınız sizleri kutluyor, tüm öğrencilerimize sağlık ve başarılar diliyorum.",
+        "author": "Öğr. Gör. Cem AKYOL",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Öğr. Gör. Cem AKYOL"},
+        {"name": "Öğr. Gör. Öznur ŞAHİN NARDALI"},
+        {"name": "Öğr. Gör. Şenol AKYOL"},
+        {"name": "Öğr. Gör. Nail DOĞAN"}
+      ],
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Okulumuz Denizcilik sektörü ve şirketlerle yakın ilişki içerisinde bulunmaktadır. Her hafta Salı günleri \"Can Salı Buluşması\" adı altında Denizcilik şirketlerinin insan kaynakları yöneticileri ve temsilcileri okulumuza davet edilmekte öğrencilerimizle birlikte karşılıklı bilgi paylaşımı yapılmakta, öğrencilerimizin sektörü tanıması, staj için bilgi alması ve mesleğe hazırlanması sağlanmaktadır.\nSektöre İlişkin Konferans ve Fuarlara katılarak, Marina, Tersane ve Firma Ziyaretleri yapılmaktadır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Öğrencilerimizin Eğitim Öğretim Dönemi içinde ilk yıldan sonar en az 30 günlük işyeri stajı yapmaları zorunludur.\nMezuniyeti müteakip 3 Aylık Deniz Stajı yapılması gerekmektedir."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "underwater_technology": {
+      "name": "Sualtı Teknolojisi Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Piri Reis Üniversitesi Denizcilik Meslek Yüksekokulu bünyesinde açılan ön lisans programlardan biri de Sualtı Teknolojisi Programıdır.\nProfesyonel Sualtı Adamları Yönetmeliği'nde belirtilen esaslar dâhilinde dalış, sualtı kurtarma ve sualtı teknolojileri konularında denizcilik sektörümüzün ihtiyacı olan gerekli bilgi ve beceri ile donatılmış Birinci Sınıf Dalgıç yetiştirilen programımız bir yılı hazırlık sınıfı olmak üzere toplam üç yıl sürmekte olup eğitim dilimiz İngilizcedir.\nProgram kapsamındaki eğitimler her biri kendi alanlarında yirmi yılı aşkın bilgi birikimi ve tecrübeye sahip öğretim görevlilerimiz tarafından verilmekte olup, öncelikle dershane ortamında teorik eğitimler tamamlanmakta, ardından eğitim havuzumuzda temel sualtı eğitimleri verilmekte, son olarak da bu iki eğitimde de başarılı olan arkadaşlarımız ile fiili deniz eğitimlerini tamamlamaktayız.\nProgramdan başarı ile mezun olan arkadaşlarımız SCUBA olarak bilinen tüplü dalış, Satıhtan İkmalli Hava ve Karışım Gaz dalışlarının planlaması ve icrası konularında yetkinlik kazanmaktadırlar. Ayrıca dalış hastalık ve kazalarının tanı ve tedavi yöntemleri konusunda detaylı bilgilere sahip oldukları gibi sualtı kesme ve kaynak işleri konusunda da teorik ve pratik eğitimler almaktadırlar. Okul süresince kazanmış oldukları bu yetkinliklerini, sualtı kurtarma, sualtı onarım, gemi karina kontrol ve gemi klas sörveyi gibi birçok alanda faaliyet gösteren denizcilik firmalarında çalışarak değerlendirebilecekleri gibi, sahip olacakları Basınç Odası Operatörlüğü yeteneği ile de Hiperbarik Oksijen Tedavi merkezlerinde de çalışabilmektedirler.\nÜniversitemizin Uluslararası Dalış Okulları Birliği'ne (International Diving Schools Association - IDSA) Gözlemci Üyelik (Associate Membership) işlemleri 2024 yılı içinde tamamlanmış olup; Tam Üyelik (Full Membership) çalışmalarına devam edilmektedir. Tam üyeliğin gerçekleşmesi sonrasında, mezun öğrencilerimize uluslararası geçerliliği olan dalış sertifikası da verilecektir."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sen de bu zor ama zevkli uğraşı meslek olarak seçip geleceğini şekillendirmek istersen, en iyilerin olduğu yerde, Piri Reis Üniversitesi'nde seni bekliyoruz.",
+        "author": "Öğr. Gör. Oğuz SARI",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Öğr. Gör. Oğuz SARI", "title": "Birinci Sınıf Dalgıç/2* Dalış Eğitmeni"}
+      ],
+      "internship": {
+        "title": "Staj",
+        "content": "Öğrencilerimizin mezuniyet öncesinde 30 (otuz) iş günü süreli Endüstriye Dayalı Eğitim - İşyeri Stajını tamamlamaları gerekmektedir. İstanbul ve Kocaeli Bölgelerinde bulunan Sualtı Dalış ve Kurtarma firmaları ile Hiperbarik Oksijen Tedavi merkezleri Üniversitemizden stajyer öğrenci kabul etmektedirler."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "Program kapsamında verilen dersler (ortak dersler hariç) %95 oranında mesleğe yönelik dersler olduğundan Çift Yandal/Anadal imkanı bulunmamaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Üniversitemiz bünyesinde yer alan ve Türkiye Sualtı Sporları Federasyonu tarafından resmi olarak yetkilendirilmiş Dalış Merkezimizde istekli öğrencilerimize belirlenen dönemlerde dalış eğitimleri verilmektedir. Program öğrencilerimiz ve dalış eğitimlerini tamamlayan diğer öğrencilerimiz SCUBA Dalış Kulübü'ne üye olabilmekte ve düzenlenen çeşitli dalış faaliyetlerine katılım sağlayabilmektedirler."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Yurtdışındaki üniversitelerde benzer bir program olmaması sebebiyle Erasmus imkânı bulunmamaktadır."
+      }
+    },
+    "mechatronics": {
+      "name": "Mekatronik Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Mekatronik, elektrik, elektronik, bilgisayar ve makine gibi önemli teknik dalların birleştirilmesinden oluşturulmuş bir meslektir. Mekatronik programı, sektörde mekatronik ön lisans eğitimi yanında, uzman eğitim ve öğretim akademik kadrosu ile öğrencileri gemilerde Elektro Teknik Zabiti görevine hazırlamayı amaçlar. Mekatronik programının teknik ve denizcilik dersleri, Ulaştırma Bakanlığı, STCW, IMO koşullarını yerine getirmektedir. Mesleki dersler, modern teçhizatlı laboratuvar olanakları ile zenginleştirilmiştir. Dersler laboratuvar uygulamalarıyla birlikte yapılmaktadır. Mekatronik programı başarı ile tamamlandığında öğrencilere Mekatronik ön lisans diploması verilir.\nTemel mekatronik programı, öğrencileri, seçime bağlı mikrodenetleyiciler, yapay zeka ve robot teknolojisi dersleri ile denizcilik alanında otonom ve elektrik tahrikli deniz araçları için yeni teknolojilere yöneltmektedir.",
+        "vertical_transfer": {
+          "title": "Dikey Geçiş İmkanları",
+          "programs": [
+            "Elektrik Mühendisliği",
+            "Elektrik-Elektronik Mühendisliği",
+            "Elektronik Mühendisliği",
+            "Elektronik ve Haberleşme Mühendisliği",
+            "Endüstri Mühendisliği",
+            "Endüstri ve Sistem Mühendisliği",
+            "İmalat Mühendisliği",
+            "Kontrol ve Otomasyon Mühendisliği",
+            "Makine Mühendisliği",
+            "Mekatronik Sistemler Mühendisliği",
+            "Mekatronik Mühendisliği",
+            "Uzay Mühendisliği"
+          ]
+        },
+        "career_opportunities": "Öğrencilerimiz, mezuniyetlerinden önce gerçekleştirilen kariyer günlerinde, denizcilik sektörünün öncü kuruluşları ile bir araya getirilmekte, olası iş sahaları görüşülmekte ve iş imkanları sunulmaktadır.\nPRU DMYO Mekatronik Programı mezunları, STCW 2010' a tam uyumlu olan müfredatı ile ticari gemilerde Elektro Teknik Zabiti olarak işe başlayabilmektedirler. Ayrıca, tersane, liman, denizcilik firmalarının yer hizmetlerinde ve marinalar ile denizcilik sektörü dışındaki endüstri kuruluşlarının enerji, elektronik, otomasyon, kontrol, iletişim ve otomotiv gibi alanlarında teknik hizmetler ile ilgili pozisyonlarda da teknisyen olarak çalışabilirler."
+      },
+      "program_head_message": {
+        "title": "Program Başkanının Mesajı",
+        "content": "Denizcilik sektöründe elektroteknik zabiti pozisyonunda çalışabilecek mezunlar yetiştirirken, diğer yandan denizcilik dışındaki sanayi sektörlerine de hazırlayan \"Mekatronik Programı,\" mekanik, elektrik, elektronik, bilgisayar ve yazılım alanlarının birleşim noktası olan bir disiplindir. Hemen her alanda Mekatronik Sistemlerinin kullanımı ile programdan mezun öğrencilere ihtiyaç artmaktadır. Programda amacımız, sektörün ihtiyaçlarına cevap verebilecek nitelikte mezun verebilmektir. Bu bağlamda öğrencilerimiz laboratuvarlar ile zenginleştirilmiş nitelikli dersler ile meslek hayatlarına hazırlanmaktadırlar. Mekatronik Sistemlerin kullanıldığı tüm alanlarda kariyer planı olan öğrencilerimizi programımıza bekliyoruz.",
+        "author": "Öğr. Gör. Güray GÜNGÖR",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Öğr. Gör. Güray GÜNGÖR"},
+        {"name": "Prof. Dr. Gülşen AKIN EVINGÜR"},
+        {"name": "Dr. Öğr. Üyesi Serap HERDEM"},
+        {"name": "Dr. Öğr. Üyesi Mehbare DOĞRUSÖZ"},
+        {"name": "Dr. Öğr. Üyesi Pınar DEMIR"},
+        {"name": "Dr. Öğr. Gör. Muzaffer EROĞLU"},
+        {"name": "Öğr. Gör. Rümeysa SELÇUK AKSOY"},
+        {"name": "Öğr. Gör. Zafer TOPAÇ"}
+      ],
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Eğitim süresi içerisinde yapılan Can Salı etkinliklerinde öğrenciler hem sektör profesyonelleri ile buluşmakta hem de staj ve iş olanakları elde etmektedirler. Ayrıca sektördeki firma ziyaretleri ile öğrencilerin bilgi ve tecrübelerinin artması hedeflenmektedir."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Staj eğitimin bir parçası olup, öğrenciler eğitim süresi içerisinde en az 30 gün işyeri stajı yapmak zorundadırlar."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "Denizcilik Meslek Yüksekokulu bünyesindeki ilgili programlarda çift yandal/anadal yapma olanağı bulunmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Öğrenciler, üniversite bünyesinde kurulan kulüplerde yer alarak sosyal etkinliklere katılabilmektedirler. Mekatronik Programı ile ilgili olarak Elektromobilite Kulübü bünyesinde de öğrencilerin çeşitli projelerde görev alması ve ulusal-ululararası proje yarışmalarına katılmaları hedeflenmektedir."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Yurtdışındaki üniversiteler ile öğrenci değişim imkanı bulunmaktadır."
+      }
+    },
+    "culinary_arts": {
+      "name": "Aşçılık Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Piri Reis Üniversitesi Denizcilik Meslek Yüksekokulu Aşçılık Programı, Türkiye'de %100 İngilizce eğitim veren ilk aşçılık programı olarak ulusal ve uluslararası standartlarda profesyonel aşçılar ve yönetici şefler yetiştirmeyi amaçlamaktadır. Mezunlarına \"Gemi Adamı\" belgesi de sunan program, öğrencilere uygulama ağırlıklı benzersiz bir eğitim deneyimi sunar. Bir yıl süren İngilizce hazırlık eğitiminin ardından başlayan iki yıllık (dört yarıyıl) ön lisans eğitimi, teorik ve uygulamalı derslerle desteklenmiş olup, öğrencileri modern mutfaklarda eğitim alarak yetiştirir. Gıda Bilimi ve Beslenme, Gıda Güvenliği ve Hijyen, Pasta ve Çikolata Sanatı, Türk Mutfağı, Dünya ve Deniz Mutfağı, İçecek Bilimi ve Önoloji gibi çeşitli derslerle zenginleştirilen müfredat, öğrencileri sadece karadaki işletmelerde değil, aynı zamanda ticari gemiler, mega yatlar ve kurvaziyer yolcu gemileri gibi uluslararası ortamlarda çalışabilecek donanıma sahip profesyoneller olarak hazırlar."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Değerli Öğrencilerimiz,\nPiri Reis Üniversitesi Aşçılık Programı olarak, sizleri denizcilik ve gastronomi dünyasına hazırlayan benzersiz bir eğitim yolculuğuna davet ediyoruz. Alanında uzman akademik kadromuz, modern eğitim tesislerimiz ve uygulama odaklı yaklaşımımız ile sizleri uluslararası standartlarda birer profesyonel aşçı ve yönetici şef olarak yetiştirmekten gurur duyuyoruz. Programımızın sunduğu yoğun uygulamalı zengin ders içeriği, staj olanakları ve İngilizce dil eğitimi ile kariyer yolculuğunuzda fark yaratacağınıza inanıyoruz. Aşçılık sanatını sadece bir meslek değil, bir yaşam biçimi olarak gören, yenilikçi ve yaratıcı bireyler olmanızı diliyoruz. Sizleri, denizcilik temalı Türkiye'nin tek üniversitesinde, bu heyecan verici serüvene katılmaya davet ediyoruz.",
+        "author": "Dr. Öğr. Üyesi Uğur KAÇAN",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Dr. Öğr. Üyesi Uğur KAÇAN"}
+      ],
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Workshoplar ve Uygulamalı Atölye Çalışmaları: Alanında uzman şeflerin katılımıyla düzenlenen workshoplar, öğrencilere yenilikçi teknikler öğrenme ve profesyonel mutfak deneyimi kazanma imkânı sunar. Pasta ve çikolata sanatı, moleküler gastronomi ve dünya mutfakları gibi çeşitli konularda düzenlenen uygulamalı atölyeler, öğrencilere yaratıcılıklarını geliştirme fırsatı tanır.\nGastronomi Gezileri ve Teknik Turlar: Program, öğrencilere farklı mutfak kültürlerini tanıma ve sektördeki gelişmeleri yerinde gözlemleme imkânı sunan teknik geziler düzenler. Gıda üretim tesisleri, ünlü restoranlar ve mutfak müzeleri gibi yerlere yapılan geziler, öğrencilerin teorik bilgilerini pekiştirmelerine yardımcı olur.\nKonferanslar ve Seminerler: Program, gastronomi dünyasındaki gelişmeleri yakından takip etmek ve öğrencilerin mesleki bilgilerini güncel tutmak amacıyla düzenlenen konferanslar ve seminerlerle zenginleştirilir. Ünlü şefler, gastronomi uzmanları ve sektör profesyonelleri, deneyimlerini ve sektörel bilgilerini öğrencilerle paylaşır.\nKariyer Günleri ve İşveren Buluşmaları: Sektördeki önemli restoran, otel ve gemi işletmeleriyle düzenlenen kariyer günleri, öğrencilerin iş dünyasıyla doğrudan bağlantı kurmalarını sağlar. Bu etkinlikler, öğrencilerin staj ve iş imkanları hakkında bilgi edinmeleri ve potansiyel işverenlerle tanışmaları için büyük bir fırsattır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Aşçılık Programı öğrencileri, eğitimlerinin bir parçası olarak, YÖK standartlarına uygun şekilde en az 30 gün süren işyeri stajlarını tamamlamak zorundadır. Bu stajlar, çeşitli yiyecek ve içecek işletmelerinde yapılabilmektedir. Öğrenciler, staj süreçlerinde teorik bilgilerini pratikle birleştirir, iş hayatının gerekliliklerini öğrenir ve mesleki yeterliliklerini geliştirirler. Stajlar, mezuniyet için gerekli olan pratik deneyimi sağlamakla kalmaz, aynı zamanda öğrencilerin sektördeki iş fırsatları hakkında da bilgi sahibi olmalarını sağlar. Stajlar ile ilgili daha detaylı bilgilere ve staj yönergesine üniversitemizin web sayfasından ulaşabilirsiniz."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "Piri Reis Üniversitesi Aşçılık Programı, öğrencilere mesleki bilgilerini genişletme ve farklı alanlarda uzmanlaşma imkânı sunan çift anadal ve yandal programları ile öğrenci gelişimini desteklemektedir. Bu programlar, öğrencilere ikinci bir diploma veya ek bir sertifika alma fırsatı tanıyarak kariyerlerinde önemli avantajlar sağlar."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+        "computer_programming": {
+      "name": "Bilgisayar Programcılığı Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Piri Reis Üniversitesi Bilgisayar Programcılığı programı, öğrencilerini Bilgisayar Programcısı, Bilgisayar Program Teknikeri ve Yazılım Geliştirme Uzmanı gibi pozisyonlarda çalışabilmeleri için gerekli donanımı kazandırmayı amaçlar. Bu amaçla öğrencilerimiz eğitimleri sırasında Python, C, Java ve C# programlama dilleri ile yazılım geliştirmeyi, HTML, CSS ve ASP.NET ile internet programcılığını ve SQL ile ilişkisel veritabanı programlamayı öğrenirler. Bu derslerin yanı sıra öğrencilerimiz temel Bilgisayar Bilimleri derslerinden olan \"İşletim Sistemleri\", \"Bilgisayar Ağları\", \"Veri Yapıları ve Algoritmalar\" ve \"Sistem Analizi ve Tasarımı\" derslerini ve güncel konular olan \"Veri Analitiği\" ve \"Makine Öğrenmesi\" derslerini görürler.",
+        "career_opportunities": "Bilgisayar Programcılığı Programı mezunlarımız kazandıkları yeterlilikler ile bilişim ve yazılım firmalarında, kamu ve özel şirketlerin bilgi işlem bölümlerinde çalışabilirler. Sanayi kuruluşları, lojistik firmaları, bankalar, hastaneler, sigorta şirketleri, finans kuruluşları, internet çözümleri geliştiren firmalar, bilgisayar destekli endüstriyel tasarım firmalarının ilgili bölümlerinde iş bulabilirler. Bunların yanı sıra bireysel imkânlarıyla kendi şirketlerini kurabilirler.",
+        "vertical_transfer": "Ayrıca isteyen öğrencilerimiz, Öğrenci Seçme Yerleştirme Merkezi tarafından düzenlenen Dikey Geçiş sınavına girerek Bilgisayar Bilimleri, Bilgisayar Mühendisliği, Bilgisayar ve Öğretim Teknolojileri Öğretmenliği, Bilişim Sistemleri Mühendisliği, Bilişim Sistemleri ve Teknolojileri, İstatistik, İstatistik ve Bilgisayar Bilimleri, Matematik ve Bilgisayar Bilimleri, Yazılım Mühendisliği ve Yönetim Bilişim Sistemleri Bölümlerinden lisans derecelerini alabilirler."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Piri Reis Üniversitesi Bilgisayar Programcılığı Programı, ülkemizdeki kamu ve özel kuruluşların yazılım alanında ihtiyaç duyduğu nitelikli ara eleman ihtiyacını karşılamak amacıyla 25 Mart 2015 tarihinde kurulmuştur. Programımız, Denizcilik Meslek Yüksekokulu bünyesindeki Bilgisayar Teknolojileri Bölümüne bağlı 2 senelik bir programdır. Programımız bu amaçla yalnızca yetkin teknik bilgiye sahip bireyler yetiştirmekle kalmayıp, aynı zamanda analitik düşünebilen, problem çözme yeteneği gelişmiş, güncel gelişmeleri takip edebilen, yaratıcı ve yenilikçi bireyler yetiştirmektedir. Öğrencilerimiz, güçlü bir akademik kadro ile aldıkları teorik ve uygulamalı eğitimler sonucunda sektöre donanımlı bir şekilde adım atmaktadır. Bilgisayar programcılığı alanındaki güncel gelişmeleri yakından takip eden ders içeriklerimiz sayesinde mezunlarımız, yazılım dünyasında fark yaratacak bilgi ve becerilere sahip olmaktadır.\nÖğrencilerimizin mezuniyete hak kazanabilmesi için, programın öngördüğü dersler ile 30 iş günü süreli iş yeri stajını tamamlaması ve genel akademik not ortalamasının en az 2.00 olması gerekir. Mezunlarımız, bilişim ve yazılım sektöründe geniş kariyer olanaklarına sahiptir ve kazandıkları bilgi birikimiyle çeşitli alanlarda başarılı bir kariyer yolculuğuna adım atmaktadırlar.",
+        "author": "Dr. Öğr. Üyesi Pınar Demir",
+        "title_author": "Program Sorumlusu"
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "maritime_transportation_management": {
+      "name": "Deniz Ulaştırma İşletme Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Öğrenci Seçme Yerleştirme Sınavında TYT puanı ile giren öğrenciler 1 yıllık İngilizce Hazırlık ve 2 yıllık önlisans eğitimini takiben \"PRÜ Denizcilik Meslek Yüksekokulu Deniz Ulaştırma İşletme Programı Önlisans Diploması\" alırlar. Öğrencilerin üniforma giyme zorunluluğu vardır.\nDeniz Ulaştırma ve İşletme programının amacı, mezunlarını ticaret gemilerinde güverte zabitliği görevlerine hazırlamaktır. Akademik eğitim, dört yarıyıldan oluşmaktadır. Öğrenciler, öncelikle matematik, fizik, kimya, temel mühendislik derslerini takiben, seyir ve gemicilik, yük işlemleri ve gemi yönetimi alanlarında uzmanlaşırlar. Program başarı ile tamamlandığında, öğrencilere Deniz Ulaştırma ve İşletme önlisans diploması verilir. Mezuniyet sonrasında 1 yıl süreli açık deniz stajını tamamladıktan sonra Gemi Adamları Sınavına (GASM) girmeye hak kazanırlar. GASM sınavında başarılı olan öğrencilerimiz \"Vardiya Zabiti\" olarak denizcilik firmalarında çalışabilirler. 3000GT'a kadar gemilerde vardiya zabitliği ve kaptanlık yapabilirler. Gemi Adamları Yönergesinde belirtilen şartları sağladıktan sonra uzakyol vardiya zabiti ve uzakyol kaptanı olma imkanı da bulunmaktadır.  Müfredatımız Ulaştırma ve Alptyapı Bakanlığı mevzuatına ve STCW* 2010'a tam uyumludur."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sevgili Gençler,\nDeniz Ulaştırma ve İşletme (DUI) Programımız, İngilizce yeterlilikten sonra 2 yıllık bir eğitim süresini kapsamaktadır. Mezunlarımız, oldukça kısa ve yoğun bir mesleki eğitim sonunda denizcilik sektöründe ticari gemilerde piyasaya göre çok iyi şartlarda iş imkanına sahip olmaktadır. Başarı durumu yeterli olan ve isteyen öğrencilerimiz dikey geçiş ile Üniversitelerin Deniz Ulaştırma ve İşletme Mühendisliği Bölümü dahil ilgili bölümlere geçebilmektedir. Öğrencilerimiz arasında diğer fakültelerden yatay geçiş yapanlar, veya mezun olup çalışma imkanı bulamayan ve programımızda eğitim alan arkadaşlarımız bulunmaktadır. Okulumuz Denizcilik sektörü ve şirketlerle yakın ilişki içersinde bulunmaktadır. Her hafta Salı günleri \"Can Salı Buluşması\" adı altında Denizcilik şirketlerinin insan kaynakları yöneticileri ve temsilcileri okulumuza davet edilmekte öğrencilerimizle birlikte karşılıklı bilgi paylaşımı yapılmakta, öğrencilerimizin sektörü tanıması, staj için bilgi alması ve mesleğe hazırlanması sağlanmaktadır. Açık deniz stajı sonrası okulda yapılan staj komisyonlarında öğrencilerimizin gemilerde çok başarılı oldukları ve çok cazip şartlarda iş teklifleri aldıkları görülmektedir.\nEğitime yeni başlayan öğrencilerimizi tebrik ediyor, tüm öğrencilerimize başarılar diliyorum.",
+        "author": "Öğr.Gör. Rahim ÇONGULOĞLU",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Öğr. Gör. Rahim ÇONGULOĞLU"},
+        {"name": "Dr. Öğr. Üyesi Murat SAKA"},
+        {"name": "Dr. Öğr. Üyesi Dinçer BAYER"},
+        {"name": "Dr. Öğr. Üyesi Tayfun ACARER"},
+        {"name": "Dr. Öğr. Üyesi Tolunay KAYAARASI"}
+      ],
+      "internship": {
+        "title": "Staj",
+        "content": "Öğrenim süresi içerisinde denizcilik sektöründeki işyerlerinde 1 ay süre ile işyeri stajı yapılması zorunludur."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "DUI öğrencileri üniversitede faaliyet gösteren öğrenci kulüplerinde faaliyet gösterebilmektedirler."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "maritime_brokerage": {
+      "name": "Deniz Brokerliği Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Deniz Brokerliği dünyada en saygın ve kazançlı mesleklerden biri haline gelmiştir. PRÜ DMYO'da 2016 yılında açılan bu program Türkiye'de bir ilk olup, mezunlarına çok önemli iş fırsatları sağlayacak bir eğitim sunmaktadır.  Bu programda öğrenim gören öğrenciler, deniz yolu taşımacılığı pazarına hâkim, yük ve gemi uyumunu tespit edebilen, sefer tahmin hesaplamalarını yapabilen, deniz ticareti hukukuna uygun olarak kira sözleşmelerini düzenleyebilen, temel düzeyde yönetim ve işletme bilgilerine sahip, İngilizce dilinde iletişim kurabilen nitelikli elemanlar olarak mezun olurlar.",
+        "vertical_transfer": {
+          "title": "Dikey Geçiş İmkanları",
+          "programs": [
+            "Denizcilik İşletmeleri Yönetimi",
+            "İşletme",
+            "Lojistik Yönetimi",
+            "Uluslararası Ticaret ve Finansman",
+            "Uluslararası Ticaret ve İşletmecilik",
+            "Uluslararası Ticaret ve Lojistik"
+          ],
+          "additional_info": "Mezunlarımızın ayrıca geçiş yapabilecekleri açıköğretim lisans bölümleri de bulunmaktadır. Hali hazırda uzaktan eğitim imkânı sunan üç farklı üniversitenin Çalışma Ekonomisi ve Endüstri İlişkileri, İktisat, Kamu Yönetimi, Maliye, Uluslararası İlişkiler, İşletme, Turizm İşletmeciliği, Uluslararası Ticaret ve Lojistik lisans programlarına geçiş yapılabilmektedir."
+        }
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sevgili Öğrenci Adayları,\nPiri Reis Üniversitesi Deniz Brokerliği Programı'na hoş geldiniz! Denizcilik sektörünün hızla geliştiği ve globalleştiği günümüzde, bu alanda donanımlı ve yetkin profesyonellere olan ihtiyaç her geçen gün artmaktadır. Deniz Brokerliği Programı olarak, sizlere sektörün dinamiklerine uyum sağlayabilecek, uluslararası standartlarda bir eğitim sunmayı hedefliyoruz.\nProgramımız, deniz taşımacılığı, ticaret hukuku, gemi kiralama, deniz sigortacılığı gibi geniş bir yelpazede bilgi ve beceri kazandırmayı amaçlamaktadır. Teorik eğitimin yanı sıra, denizcilik sektöründe faaliyet gösteren firmalarla olan iş birliklerimiz sayesinde, uygulamalı eğitim olanaklarına da sahip olacaksınız. Böylece mezun olduğunuzda, sektörde güçlü bir kariyer başlangıcı yapmanız mümkün olacaktır.\nDeniz Brokerliği, küresel ticaretin merkezinde yer alan ve büyük fırsatlar sunan bir meslek alanıdır. Bu programda sadece mesleki bilgi edinmekle kalmayacak, aynı zamanda gelecekteki kariyerinizde size rehberlik edecek etik değerlere, liderlik becerilerine ve iş dünyasında başarılı olmanızı sağlayacak stratejik bir bakış açısına sahip olacaksınız.\nSizi hem teorik hem de pratik olarak donanımlı bir şekilde mezun edebilecek bu programa katılmaya davet ediyoruz. Geleceğin denizcilik profesyonelleri arasında yer almak için ilk adımı atın!\nSizleri aramızda görmek için sabırsızlanıyoruz.\nSaygılarımla,",
+        "author": "Öğr. Gör Hatice YILMAZ",
+        "title_author": "Deniz Brokerliği Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Dr. Öğr. Üyesi Funda SONGUR"},
+        {"name": "Dr. Öğr. Gör. Atakan AKINCI"},
+        {"name": "Öğr. Gör. Hatice YILMAZ"},
+        {"name": "Öğr. Gör. Emre ATAÇ"}
+      ],
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Okulumuz Denizcilik sektörü ve şirketlerle yakın ilişki içeresinde bulunmaktadır. Her hafta Salı günleri \"Can Salı Buluşması\" adı altında Denizcilik şirketlerinin insan kaynakları yöneticileri ve temsilcileri okulumuza davet edilmekte, öğrencilerimizle birlikte karşılıklı bilgi paylaşımı yapılmakta, öğrencilerimizin sektörü tanıması, staj için bilgi alması ve mesleğe hazırlanması sağlanmaktadır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Deniz Brokerliği Programı öğrencileri, eğitimlerinin bir parçası olarak, YÖK standartlarına uygun şekilde en az 30 gün süren işyeri stajlarını tamamlamak zorundadır. Öğrenciler, staj süreçlerinde teorik bilgilerini pratikle birleştirir, iş hayatının gerekliliklerini öğrenir ve mesleki yeterliliklerini geliştirirler. Stajlar, mezuniyet için gerekli olan pratik deneyimi sağlamakla kalmaz, aynı zamanda öğrencilerin sektördeki iş fırsatları hakkında da bilgi sahibi olmalarını sağlar. Stajlar ile ilgili daha detaylı bilgilere ve staj yönergesine üniversitemizin web sayfasından ulaşabilirsiniz."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "maritime_port_management": {
+      "name": "Deniz ve Liman İşletmeciliği Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Deniz ve Liman İşletmeciliği programı, denizcilik ve liman sektörüne nitelikli, yetkin ve donanımlı profesyoneller kazandırmayı amaçlayan bir eğitim programıdır. Bu program, öğrencilere deniz taşımacılığı, liman operasyonları, lojistik yönetimi ve denizcilik sektörüyle ilgili geniş bir bilgi birikimi sunarak, mezunların sektörde etkin roller üstlenmelerini sağlar.\nProgramın temel amacı, öğrencilere denizcilik sektörünün operasyonel ve ticari yönlerini öğreterek onları hem ulusal hem de uluslararası düzeyde çalışma yetkinliğine sahip bireyler olarak yetiştirmektir. Eğitim müfredatı, gemi acenteciliği, liman işletmeciliği, deniz taşımacılığı, deniz sigortacılığı, gümrük işlemleri ve lojistik gibi konuları kapsamaktadır. Teorik derslerin yanı sıra, öğrencilere sektördeki pratik uygulamaları tanıma fırsatı sağlayan staj olanakları sunulmaktadır."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sevgili öğrenciler, sizlerle denizcilik sektöründe önemli birer profesyonel olma yolunda beraber yürüyecek olmaktan büyük mutluluk duyuyorum. Programımız, denizcilik sektörüne dair hem teknik hem de ticari alanlarda güçlü bir bilgi birikimi sunmayı hedeflemektedir. Sektörün dinamik yapısını göz önünde bulundurarak, size kazandıracağımız yetkinliklerin kariyer yolculuğunuzda sizlere büyük avantaj sağlayacağına inanıyorum.\nEğitim hayatınız boyunca, liman işletmeciliği, gemi acenteciliği, deniz sigortacılığı ve lojistik gibi birçok alanda bilgi sahibi olacak ve bu bilgileri pratik uygulamalarla pekiştireceksiniz. Staj imkanlarımız ve sektör temsilcileriyle yapacağınız görüşmeler, sizlere değerli tecrübeler kazandırarak iş dünyasına güçlü bir adım atmanızı sağlayacak.\nUnutmayın ki, bu bölümde edindiğiniz her bilgi ve deneyim, sizi geleceğin denizcilik sektöründe lider bir konuma getirebilir. Sizlerden beklentim, derslerinize azimle sarılarak, gelişiminize ve mesleki donanımınıza katkı sağlayacak her fırsatı değerlendirmektir.\nHep birlikte başarılı ve verimli bir eğitim-öğretim dönemi geçirmeyi diliyorum.",
+        "author": "Dr. Öğr. Üyesi Eyyub KANDEMİR",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Dr. Öğr. Gör. Zeki YAŞAR"},
+        {"name": "Dr. Öğr. Üyesi Eyyub KANDEMİR"},
+        {"name": "Öğr. Gör. Mehmet ERSAN"},
+        {"name": "Öğr. Gör. Berkay AKSU"}
+      ],
+      "news": {
+        "title": "Program Haberleri",
+        "content": "Deniz ve Liman İşletmeciliği programımız hakkında güncel haberler, etkinlikler ve duyurulara erişim sağlamak için web sayfamızı ve okulumuzun sosyal medya hesabını ziyaret edebilirsiniz. Aynı zamanda duyurular okulumuzun OİS sistemi üzerinden ve öğrencilere gönderilen e-postalar aracılığı ile duyurulmaktadır."
+      },
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Denizcilik Meslek Yüksekokulu bünyesinde, okulumuzun etkinlik alanlarında her hafta gerçekleştirilen Can Salı etkinlikleri kapsamında, denizcilik sektöründeki şirketlerin temsilcileri davet edilerek, Deniz ve Liman İşletmeciliği programında okuyan öğrencilerimizin hem sektör hakkında bilgi edinmesi hem de staj ve mezuniyet sonrası iş imkanları gibi konularda firmaların temsilcileriyle görüşüp bağlantı kurmalarına olanak sağlanmaktadır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Deniz ve Liman İşletmeciliği programı, öğrencilerin teorik bilgilerini pratikte uygulama fırsatı bulmalarını sağlamak amacıyla geniş bir staj imkanı sunmaktadır. Staj programı kapsamında öğrenciler, limanlar, denizcilik firmaları, gemi acenteleri, lojistik şirketleri ve gümrük işlemleri gibi denizcilik sektörünün farklı alanlarında deneyim kazanma fırsatına sahip olurlar.\nStaj süresince öğrenciler, liman operasyonları, gemi yükleme-boşaltma süreçleri, gemi acenteciliği faaliyetleri, deniz taşımacılığı yönetimi ve lojistik gibi konularda doğrudan tecrübe edinirler. Aynı zamanda, denizcilik sektöründeki profesyonellerle birebir çalışma imkanı bularak kariyerleri için önemli bağlantılar kurabilirler.\nProgram kapsamında zorunlu olan bu stajlar, öğrencilerin mezuniyet sonrası iş hayatına hazırlanmasına ve sektörde yer edinmesine önemli katkılar sağlar."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "DMYO içerisinde bulunan uygun programlarda çift anadal yapma imkanı bulunmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Deniz ve Liman İşletmeciliği programı, öğrencilerin akademik gelişimlerinin yanı sıra sosyal, mesleki ve kişisel gelişimlerini desteklemek amacıyla çeşitli öğrenci kulüplerini bünyesinde barındırmaktadır. Bu kulüpler, öğrencilere hem sektörel bilgilerini pratikte geliştirme fırsatı sunmakta hem de denizcilik dünyasıyla daha yakın bir temas kurmalarını sağlamaktadır. Kulüp faaliyetleri, sektörde deneyim kazanmış profesyonellerle bir araya gelmekten, sektör gezilerine ve uygulamalı çalışmalara kadar uzanan geniş bir yelpazeyi kapsamaktadır."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları aracılığıyla, yurt dışındaki üniversitelerle olan iş birliklerimiz sayesinde, hem uluslararası üniversitelerden öğrencilerin eğitim almak üzere okulumuzu ziyaret etmeleri sağlanmakta hem de bizim üniversitemizden çeşitli uluslararası eğitim kurumlarına öğrencilerin gönderilmesi mümkün hale gelmektedir. Bu programlar, öğrencilerin farklı kültürler ile etkileşimde bulunmalarına, akademik ve sosyal bakımdan zengin deneyimler elde etmelerine olanak tanıyarak, küresel bir perspektif kazanmalarını hedeflemektedir."
+      }
+    },
+    "shipbuilding": {
+      "name": "Gemi İnşaatı Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Denizcilik Meslek Yüksekokulu Gemi İnşaatı Programının amacı Ülkemiz Gemi İnşa Sanayinin ihtiyaç duyduğu ara eleman Gemi İnşa Teknikeri personeli yetiştirmektir. Gemi İnşaatı programında Bilgisayar Destekli çizim, Gemi Direnci ve Sevki, Gemi Üretim Yöntemleri gibi meslek derslerinin yanında İngilizce, Rusça, Çince gibi seçmeli derslerle öğrencilerimizi uluslararası alanda yetkin birer gemi tasarımcısı, gemi onarımcısı ve gemi üretim personeli olarak yetiştirmek gayemizdir."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Denize ve Denizciliğe gönül vermiş, Gemi İnşa Sanayimizin gelişmesine katkı sağlayacak ve Mavi Vatana daha fazla hizmetler vermek isteyen gençlerimizi Gemi İnşa Programına bekliyoruz.",
+        "author": "Dr. Öğr. Üyesi Bülent Devrim ÇİFT",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Prof. Dr. Şebnem HELVACIOĞLU"},
+        {"name": "Dr. Öğr. Üyesi Bülent Devrim ÇİFT"},
+        {"name": "Dr. Öğr. Üyesi Emine GÜNDOĞDU İŞ"},
+        {"name": "Öğr. Gör. Onur TANSEL"},
+        {"name": "Öğr. Gör. Mehmet Hakan KÖKTÜRK"}
+      ],
+      "news": {
+        "title": "Program Haberleri",
+        "content": "Program ile ilgili önemli gelişmeler web sayfamızdan ve e-posta ile duyurulmaktadır."
+      },
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Denizcilik Meslek Yüksekokulu bünyesinde akademik ders yılı içerisinde her hafta Salı günü Can SALI etkinlikleri kapsamında Gemi İnşa Sektöründe çalışan başarılı kişileri okulumuza davet ederek öğrencilerimize bilgi ve tecrübe aktarımı sağlanarak sektöre adapte olmaları sağlanmaktadır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Öğrencilerimiz gerek Can SALI etkinlikleri gerekse Deniz Ticaret Odasına kayıtlı firmalar aracılığıyla staj imkanı bulabilmektedirler."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "MYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Çeşitli Öğrenci Kulüplerimiz panayır, söyleşi ve konferans etkinlikleri düzenleyerek üniversitemizde sosyal hayatı zenginleştirmektedir."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurtdışı üniversitelerden bize ve üniversitemizden yurtdışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "marine_engineering": {
+      "name": "Gemi Makineleri İşletmeciliği Programı",
+      "about": {
+        "title": "Program Hakkında",
+        "content": "Gemi Makineleri İşletme müfredatı temel olarak öğrencileri Deniz ticaret gemilerinde makine zabiti görevlerine hazırlamayı amaçlar.\nStandartlar; Uluslararası Denizcilik Örgütü (IMO) tarafından belirlenmekte ve Gemi adamlarının Eğitim ve Belgelendirilmesi Sözleşmesi (STCW)'nde yer almaktadır.\nEğitim müfredatları, bu Uluslararası standartları ve ayrıca Ulaştırma, Denizcilik ve Haberleşme Bakanlığı ile Yükseköğretim Kurulu Başkanlığı (YÖK) tarafından belirlenmiş olan yeterlik ihtiyaçlarını karşılayacak şekilde düzenlenmiştir."
+      },
+      "program_head_message": {
+        "title": "Program Sorumlusunun Mesajı",
+        "content": "Sevgili aday öğrenciler; Mezuniyet sonrası staj yükümlülükleri yerine getirildikten sonra idarece yapılan Gemi Adamı Sınavında başarılı olanlar, 3000 kW'a kadar olan gemilerde makine zabiti olarak göreve başlayabilirler. Uzakyol seferi yapan daha büyük makine gücüne sahip gemilerde 3. veya 4. mühendis olarak görev alabilirler.\nMezunlar ticari gemi filolarının teknik elemanları olarak da iş bulabilirler. Ayrıca, Mezunlarımız arzu ederlerse karada, enerji üretim tesislerinde, Turizm ve Otelcilik sektörü teknik hizmetlerde ve Otomotiv sektöründe tekniker olarak istihdam edilmektedir.\nProgram başarı ile tamamlandığında öğrencilere Gemi Makineleri İşletme Ön Lisans Diploması verilir.",
+        "author": "Öğr. Gör. Onur TANSEL",
+        "title_author": "Program Sorumlusu"
+      },
+      "academic_staff": [
+        {"name": "Dr. Öğr. Üyesi Abdullah KÖKTÜRK"},
+        {"name": "Öğr. Gör. Zafer AYDIN"},
+        {"name": "Öğr. Gör. Seigo HASHIMOTO"},
+        {"name": "Öğr. Gör. Servet Savaş SEFİRTÜRK"},
+        {"name": "Dr. Öğr. Üyesi Nilay GÜNDÜZ AKDOĞAN"}
+      ],
+      "events": {
+        "title": "Program Etkinlikleri",
+        "content": "Eğitim öğretim yılı ders haftası süresince her hafta Salı günleri Meslek Yüksek Okulu uhdesinde icra edilen \"Cansalı\" etkinliği kapsamında sektörde hizmet veren saygın firmalar üniversiteye davet edilmekte, öğrencilerimiz ile hem bir tanışma imkanı sağlanmakta hem de mezuniyete müteakip çalışılacak alanlarda farkındalık sağlanmaktadır."
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Öğrencilerimiz Endüstriyel İşyeri staj dersi kapsamında 30 iş günü zorunlu işyeri stajlarını yaparak mezun olmaya hak kazanır. Mezuniyete müteakip ise gemi adamı olabilmek için ise, 6 ay açık deniz stajı, 3 ay Atölye Stajı ve 3 ay Bakım-Tutum stajı olmak üzere toplam 12 ay uzun staj yapması gerekmektedir."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "MYO içerisinde uygun branşlarda çift anadal programına devam etme imkanı sağlanmaktadır."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Öğrencilerimiz Üniversite bünyesindeki Denizcilik Kulübü, Elektromobilite Kulübü, Müzik Kulübü ve Dans Kulübü gibi kulüplere üye olabilir. Aktif görev alabilir."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Öğrenci değişim programları sayesinde yurt dışı üniversitelerden bize ve üniversitemizden yurt dışındaki üniversitelere öğrenci değişimi yapılabilmektedir."
+      }
+    },
+    "hybrid_electric_vehicles": {
+      "name": "Hibrid ve Elektrikli Taşıtlar Programı",
+      "note": "Aktif"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "content": ""
+  }
+}

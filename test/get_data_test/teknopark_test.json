@@ -1,0 +1,60 @@
+{
+  "title": "PRU TEKNOPARK",
+  "goals": [
+    "Üniversitede Temel Araştırma, Ar-Ge ve Ür-Ge faaliyetlerini teşvik etmek",
+    "Ar-Ge ve Ür-Ge faaliyetleri sonucunda Üniversitede üretilen bilgileri iş dünyası ve sanayinin kullanımına sunarak bu bilgilerin ticarileşmesini sağlamak",
+    "Araştırmacılar ile sanayi arasında köprü görevi görerek Üniversite-sanayi işbirliklerine aracılık etmek",
+    "Ulusal ve uluslararası proje desteklerine ve fikri ve sınai mülkiyet haklarının yönetilmesine dair danışmanlık hizmeti sunmak",
+    "Özellikle bölgesel düzeyde yenilikçi bir ekosistemin oluşmasına yönelik çalışmalar yürütmek",
+    "Araştırmacıların girişimcilik faaliyetlerini destekleyerek ekonomik ve toplumsal gelişmeye katkıda bulunmak"
+  ],
+  "research_areas": {
+    "title": "Çalışma Alanları",
+    "areas": [
+      "Gemi inşa alanında yenilikçi teknolojiler",
+      "Deniz bilimleri",
+      "Deniz işletmeciliği",
+      "Denizcilik teknolojileri",
+      "Fonksiyonel ve yenilikçi malzemeler",
+      "Nanoteknoloji"
+    ]
+  },
+  "important_links": {
+    "title": "Önemli Bağlantılar",
+    "links": [
+      {
+        "name": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu",
+        "url": "www.tubitak.gov.tr"
+      },
+      {
+        "name": "TÜBİTAK Araştırmacı Bilgi Sistemi(ARBİS)",
+        "url": "arbis.tubitak.gov.tr"
+      },
+      {
+        "name": "Sanayi ve Ticaret Bakanlığı",
+        "url": "www.sanayi.gov.tr"
+      },
+      {
+        "name": "TC Kalkınma Bakanlığı",
+        "url": "www.kalkinma.gov.tr"
+      },
+      {
+        "name": "AB Horizon 2020 Çerçeve Programı Ulusal Koordinasyon Ofisi",
+        "url": "www.h2020.org.tr"
+      },
+      {
+        "name": "İMEAK Deniz Ticaret Odası",
+        "url": "www.denizticaretodasi.org.tr"
+      },
+      {
+        "name": "GİSBİR Türkiye Gemi İnşa Sanayicileri Birliği",
+        "url": "www.gisbir.com"
+      }
+    ]
+  },
+  "metadata": {
+    "created_at": "2025-07-29 08:18:04",
+    "created_by": "tnerler",
+    "file_name": "TEKNOPARK.txt"
+  }
+}

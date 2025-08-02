@@ -1,0 +1,76 @@
+{
+  "document_title": "Piri Reis Üniversitesi Kampüs Ulaşım Bilgileri",
+  "working_hours": {
+    "days": "Pazartesi - Cuma",
+    "hours": "08:30 - 17:30"
+  },
+  "university_services": {
+    "shuttles": [
+      {
+        "location": "Kartal Metro",
+        "time": "08:00"
+      },
+      {
+        "location": "Tuzla Marmaray İstasyonu",
+        "time": "08:30 - 08:50",
+        "notes": "Ring servisi"
+      }
+    ]
+  },
+  "transportation_methods": [
+    {
+      "method_name": "Özel Araç",
+      "description": "E-5 karayolu üzerinden Tuzla yönüne ilerleyerek, Tuzla Tersaneler Bölgesi sapağından çıkıp, Postane Mahallesi istikametinde 5 dakikalık bir yolculuk sonrası kampüsümüze ulaşabilirsiniz.",
+      "duration": "5 dakika",
+      "route_instructions": "E-5 → Tuzla Tersaneler Bölgesi sapağı → Postane Mahallesi"
+    },
+    {
+      "method_name": "Marmaray",
+      "description": "Marmaray Tuzla İstasyonu'ndan indikten sonra, kampüse yürüyerek 10 dakika içerisinde ulaşabilirsiniz. İstasyon çıkışında üniversite yönlendirme tabelalarını takip edebilirsiniz.",
+      "duration": "10 dakika yürüyüş",
+      "stop_name": "Tuzla İstasyonu"
+    },
+    {
+      "method_name": "Otobüs",
+      "description": "İstanbul'un çeşitli noktalarından 130, 130A, 130Ş, E-10 numaralı otobüsler ile Tuzla'ya ulaşıp, Postane Mahallesi durağında inerek kampüsümüze ulaşabilirsiniz.",
+      "lines": ["130", "130A", "130Ş", "E-10"],
+      "stop_name": "Postane Mahallesi durağı"
+    },
+    {
+      "method_name": "Deniz Ulaşımı",
+      "description": "Tuzla İskelesi'ne yanaşan deniz otobüsleri ve vapurlar ile ulaşım sağlayabilir, iskeleden yaklaşık 15 dakikalık bir yürüyüş ile kampüsümüze varabilirsiniz.",
+      "duration": "15 dakika yürüyüş",
+      "port_name": "Tuzla İskelesi",
+      "vessel_types": ["Deniz otobüsleri", "Vapurlar"]
+    },
+    {
+      "method_name": "Havalimanından",
+      "description": "Sabiha Gökçen Havalimanı'ndan taksi ile yaklaşık 20 dakika, İstanbul Havalimanı'ndan ise yaklaşık 1,5 saat içerisinde kampüsümüze ulaşabilirsiniz.",
+      "airports": [
+        {
+          "name": "Sabiha Gökçen Havalimanı",
+          "distance": "yakın",
+          "duration": "20 dakika (taksi)"
+        },
+        {
+          "name": "İstanbul Havalimanı",
+          "distance": "uzak",
+          "duration": "1,5 saat"
+        }
+      ]
+    }
+  ],
+  "campus_location": {
+    "neighborhood": "Postane Mahallesi",
+    "district": "Tuzla",
+    "city": "İstanbul"
+  },
+  "campus_buildings": {
+    "A": "Ana Bina (Rektörlük, İdari Birimler)"
+  },
+  "metadata": {
+    "last_updated": "2025-07-25",
+    "university_name": "Piri Reis Üniversitesi",
+    "tags": ["Çalışma Saatleri", "Kampüs Haritası", "Ulaşım Bilgileri", "Özel Araç", "Marmaray", "Otobüs", "Deniz Ulaşımı", "Havalimanı", "Servis Saatleri", "Okulun Servisi"]
+  }
+}

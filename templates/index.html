@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piri Reis ChatBot</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='./img/piri_reis_logo.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ✨ Chatbot Buton -->
+    <div class="chatbot-toggle" onclick="toggleChat()">
+      <!-- 💬 Konuşma Balonu -->
+      <div class="chat-bubble" id="resize-handle">
+        Merhaba! Size nasıl yardımcı olabilirim?
+      </div>
+      <img
+        src="{{ url_for('static', filename='./maskot/denizci-yunus-maskot.png') }}"
+        alt="ChatBot Logo"
+      />
+    </div>
+
+    <!-- 📢 Chat Kutusu -->
+    <div class="chatbox" id="chatbox">
+      <button class="maximize-btn" onclick="toggleMaximize()">
+        <span id="maximize-icon">🗖</span>
+      </button>
+      <button class="close-btn" onclick="closeChatbox()">✖</button>
+      <div class="chat-header" id="resize-handle">
+        💬 PiriX - Yapay Zeka Asistanı
+        <div class="designer-link">
+          <a href="https://www.instagram.com/prubilisim/" target="_blank">
+            Designed by COMPRU
+          </a>
+        </div>
+      </div>
+      <div class="chat-messages" id="messages"></div>
+      
+      
+
+     <div class="chat-input">
+  <div class="input-wrapper">
+    <input type="text" id="user-input" placeholder="Bir şeyler yazın..." />
+    <p class="input-warning">
+       PiriX hata yapabilir. Önemli bilgileri kontrol edin.
+    </p>
+  </div>
+  <button id="send-button" onclick="sendMessage()">Gönder</button>
+</div>
+    <!-- MarkDown Efekti -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 🔹 Uygulama Javascript'i -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

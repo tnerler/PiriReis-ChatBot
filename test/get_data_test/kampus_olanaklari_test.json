@@ -1,0 +1,96 @@
+{
+  "document_title": "Piri Reis Üniversitesi Kampüs Yaşamı",
+  "document_url": "kampus-yasami",
+  "contact_phone": "+90 216 581 0050",
+  "sections": [
+    {
+      "section_title": "Kampüs Yaşamı",
+      "content": "Piri Reis Üniversitesi'nde öğrenci olmak sadece akademik eğitim almak değil, aynı zamanda sosyal, kültürel ve sportif faaliyetlerle dolu zengin bir kampüs yaşamının parçası olmak demektir."
+    },
+    {
+      "section_title": "Kampüsü Keşfet",
+      "features": [
+        "Öğrenci Kulüpleri",
+        "Sosyal Etkinlikler",
+        "Spor Tesisleri",
+        "Yemekhane",
+        "Kütüphane",
+        "Sağlık Hizmetleri",
+        "Kampüs Ulaşım"
+      ]
+    },
+    {
+      "section_title": "Kampüs Hakkında",
+      "content": [
+        "Piri Reis Üniversitesi kampüsü, İstanbul'un Tuzla ilçesinde, deniz manzaralı 80 dönümlük bir alan üzerinde kurulmuştur. Modern mimari yapısı, yeşil alanları ve teknolojik altyapısıyla öğrencilerimize konforlu bir eğitim ortamı sunmaktadır.",
+        "Kampüsümüzde akademik binaların yanı sıra, spor tesisleri, kütüphane, yemekhane, kafeteryalar, sağlık merkezi ve sosyal alanlar bulunmaktadır. Denize sıfır konumuyla öğrencilerimize eşsiz bir kampüs deneyimi yaşatmaktayız."
+      ]
+    }
+  ],
+  "campus_features": {
+    "location": {
+      "city": "İstanbul",
+      "district": "Tuzla",
+      "special_features": ["Deniz manzaralı", "Denize sıfır"]
+    },
+    "area": "80 dönüm",
+    "facilities": [
+      {
+        "name": "Akademik Binalar",
+        "description": "Eğitim ve öğretim faaliyetlerinin yürütüldüğü binalar"
+      },
+      {
+        "name": "Spor Tesisleri",
+        "description": "Çeşitli spor faaliyetleri için tesisler"
+      },
+      {
+        "name": "Kütüphane",
+        "description": "Öğrencilerin akademik kaynaklara erişebildiği merkez"
+      },
+      {
+        "name": "Yemekhane",
+        "description": "Öğrencilere yemek hizmeti sunan alan"
+      },
+      {
+        "name": "Kafeteryalar",
+        "description": "Öğrencilerin sosyalleşebileceği yiyecek-içecek alanları"
+      },
+      {
+        "name": "Sağlık Merkezi",
+        "description": "Sağlık hizmetlerinin sunulduğu birim"
+      },
+      {
+        "name": "Sosyal Alanlar",
+        "description": "Öğrencilerin vakit geçirebileceği ortak alanlar"
+      }
+    ],
+    "design_features": [
+      "Modern mimari",
+      "Yeşil alanlar",
+      "Teknolojik altyapı"
+    ]
+  },
+  "keywords": [
+    "Kampüs Yaşamı", 
+    "Sosyal Etkinlikler", 
+    "Spor Tesisleri", 
+    "Yemekhane", 
+    "Kütüphane", 
+    "Sağlık Hizmetleri", 
+    "Deniz Manzaralı", 
+    "Tuzla", 
+    "Yeşil Alanlar", 
+    "Modern Mimari", 
+    "Öğrenci Yurtları", 
+    "Teknolojik Altyapı", 
+    "Kafeteryalar", 
+    "Sağlık Merkezi", 
+    "Sosyal Alanlar"
+  ],
+  "metadata": {
+    "university_name": "Piri Reis Üniversitesi",
+    "page_type": "Aday Portalı",
+    "main_navigation": ["Anasayfa", "Fakülteler", "Araştırma", "Kampüs Yaşamı", "İletişim"],
+    "last_updated": "2025-07-25"
+  }
+}

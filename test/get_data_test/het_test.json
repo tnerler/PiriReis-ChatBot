@@ -1,0 +1,82 @@
+{
+  "program_name": "Hibrit ve Elektrikli Taşıtlar Teknolojisi",
+  "sections": {
+    "education": {
+      "title": "EĞİTİM",
+      "content": "Hibrit ve Elektrikli Taşıtlar Teknolojisi Programı, insansız, otonom ve uzaktan kumanda edilen elektrikli deniz araçlarının ve diğer elektrikli araçların üretimi, kullanımı, bakımı, tasarlanması ve geliştirilmesi konularını kapsamaktadır. Dersler Ulaştırma Bakanlığı, STCW, IMO koşullarını yerine getirmektedir. Mesleki dersler laboratuvar uygulamaları ile zenginleştirilmiştir. Program tamamlandığında öğrencilere \"Hibrit ve Elektrikli Taşıtlar Teknolojisi\" ön lisans diploması verilmektedir.",
+      "vertical_transfer": {
+        "title": "Dikey Geçiş İmkanları",
+        "content": "Bu program mezunları ÖSYM tarafından yapılan Dikey Geçiş Sınavı (DGS)'nda başarılı oldukları takdirde;",
+        "available_programs": [
+          "Elektrik Mühendisliği",
+          "Elektrik-Elektronik Mühendisliği",
+          "Elektronik Mühendisliği",
+          "Elektronik ve Haberleşme Mühendisliği",
+          "Endüstri Mühendisliği",
+          "Endüstri ve Sistem Mühendisliği",
+          "İmalat Mühendisliği",
+          "Kontrol ve Otomasyon Mühendisliği",
+          "Makine Mühendisliği",
+          "Mekatronik Sistemler Mühendisliği",
+          "Mekatronik Mühendisliği",
+          "Uzay Mühendisliği"
+        ],
+        "completion": "programlarına dikey geçiş yaparak lisans tamamlayabilirler."
+      }
+    },
+    "career_opportunities": {
+      "title": "İŞ OLANAKLARI",
+      "content": "PRU DMYO \"Hibrit ve Elektrikli Taşıtlar Teknolojisi Programı mezunları, \"Gemi Elektroteknik Zabiti\" yeterliliği ile ticari gemilerde işe başlayabilmektedirler. Ayrıca, tersane, liman, denizcilik firmalarının yer hizmetlerinde ve marinalar ile denizcilik sektörü dışındaki endüstri kuruluşlarının enerji, elektrik, elektronik, otomasyon, kontrol, iletişim, otomotiv gibi alanlarında ve savunma sanayiinde teknik hizmetler ile ilgili pozisyonlarda da çalışabilirler.",
+      "positions": [
+        {
+          "title": "Gemi Elektroteknik Zabiti",
+          "sector": "Ticari gemiler"
+        },
+        {
+          "title": "Teknik personel",
+          "sectors": [
+            "Tersaneler",
+            "Limanlar",
+            "Denizcilik firmalarının yer hizmetleri",
+            "Marinalar"
+          ]
+        },
+        {
+          "title": "Teknik hizmetler personeli",
+          "sectors": [
+            "Enerji",
+            "Elektrik",
+            "Elektronik",
+            "Otomasyon",
+            "Kontrol",
+            "İletişim",
+            "Otomotiv",
+            "Savunma sanayii"
+          ]
+        }
+      ]
+    },
+    "certifications": {
+      "compliance": [
+        "Ulaştırma Bakanlığı",
+        "STCW (Standards of Training, Certification and Watchkeeping)",
+        "IMO (International Maritime Organization)"
+      ]
+    },
+    "degree": {
+      "type": "Ön lisans",
+      "title": "Hibrit ve Elektrikli Taşıtlar Teknolojisi"
+    },
+    "focus_areas": [
+      "İnsansız deniz araçları",
+      "Otonom deniz araçları",
+      "Uzaktan kumanda edilen elektrikli deniz araçları",
+      "Elektrikli araçlar",
+      "Üretim",
+      "Kullanım",
+      "Bakım",
+      "Tasarım",
+      "Geliştirme"
+    ]
+  }
+}

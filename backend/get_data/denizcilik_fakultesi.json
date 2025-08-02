@@ -1,0 +1,611 @@
+{
+  "faculty_name": "Denizcilik Fakültesi",
+  "sections": {
+    "about": {
+      "history": {
+        "title": "Tarihçe",
+        "content": "Kuruluş kanununda yer aldığı şekilde 2009 yılında \"Denizcilik Yüksekokulu\" adına hazırlık sınıfına öğrenci alınmış, 11.05.2010 tarihli Bakanlar Kurulu kararnamesi ile Denizcilik Fakültesine dönüşerek 2010 yılı güz döneminden itibaren eğitim ve öğretime başlamıştır.\nEğitim ve öğretimin başlangıcından itibaren \"Deniz Ulaştırma İşletme Mühendisliği\" ve \"Gemi Makineleri İşletme Mühendisliği\" olarak iki bölümde eğitim ve öğretime devam etmektedir."
+      },
+      "vision_mission": {
+        "vision": {
+          "title": "Vizyon",
+          "content": "Dünya kalitesi ve standartlarında eğitim ve öğretim vermek, araştırma yapmak ve küresel rekabet ortamında; mesleki ve akademik eğitim arasında sinerji yaratmaktır."
+        },
+        "mission": {
+          "title": "Misyon",
+          "content": "Atatürk İlke ve İnkılapları doğrultusunda, Türk Denizciliğinin örf, adet ve ananeleri çerçevesinde; dünya kalitesi ve standartlarında eğitim-öğretim vermek, araştırma yaparak 21. yüzyılın küresel rekabet ortamının gerekli kılacağı meslek ve iletişim becerilerine sahip; dünyanın her yerinde çalışabilecek nitelikte, mükemmel eğitilmiş; öğrenmeyi öğrenen, özgür düşünebilen, yaratıcı ve ekip çalışması yapabilen, girişimci, kendini sürekli olarak geliştirmeyi öğrenmiş, araştırma yetenekleri gelişmiş, çağdaş, köklü ve kültürlü, insanı seven ve sayan, sosyal sorumluluk ve yurttaşlık bilincine sahip gençler yetiştirmek, ülkemiz insanına doğrudan katkıda bulunacak ulusal ve uluslararası düzeyde projeler geliştirmek; çağdaş eğitim programlarının uygulamak, bu programları belirli sayıdaki sosyal, kültürel ve insan bilimleri programları ile desteklemek ve açtığı her programı örnek alınan bir fakülte olmak Piri Reis Üniversitesi Denizcilik Fakültesi'nin özgörevidir."
+        }
+      },
+      "quality": {
+        "title": "Kalite",
+        "content": "Piri Reis Üniversitesi olarak, Denizcilik alanı başta olmak üzere eğitim ve araştırma faaliyetlerimizi uluslararası düzeyde en üst seviyede gerçekleştirmek, mezunlarımızı dünyanın her yerinde en iyi koşullarla iş bulabilecek donanıma sahip kılmak, araştırma ve geliştirme faaliyetlerimizin ülkemizin rekabet gücüne ve kalkınmasına maksimum fayda sağlamasını temin etmek, iç ve dış paydaşlarımızla iletişim halinde, süreçlerimize ve faaliyetlerimize yönelik verimliliğin iyileştirilmesinde sürekliliği ve şeffaflığı esas almaktır."
+      },
+      "research": {
+        "title": "Araştırmalar",
+        "content": ""
+      },
+      "internationalization": {
+        "title": "Uluslararasılaşma",
+        "content": ""
+      }
+    },
+    "management": {
+      "faculty_administration": {
+        "title": "Yönetim",
+        "members": [
+          {
+            "name": "Prof. Dr. Nafiz ARICA",
+            "title": "Rektör Uhdesinde"
+          },
+          {
+            "name": "Prof. Dr. C. Elif ÖZEN CANSOY",
+            "title": "Dekan Yrd."
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Cihat ASAN",
+            "title": "Dekan Yrd."
+          }
+        ]
+      },
+      "faculty_management": {
+        "title": "Fakülte Yönetimi",
+        "members": [
+          {
+            "name": "Prof. Dr. Nafiz ARICA",
+            "title": "Dekan V."
+          },
+          {
+            "name": "Prof. Dr. Ahmet TAŞDEMIR",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof. Dr. Funda YERCAN",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof. Dr. Elif ÖZEN CANSOY",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç. Dr. M. Selçuk SOLMAZ",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç. Dr. Ozan Sabahattin SARIYER",
+            "title": "Üye"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Cihat ASAN",
+            "title": "Üye (İzinli)"
+          },
+          {
+            "name": "Selvi DALKIN",
+            "title": "Fakülte Sekreteri, Raportör"
+          }
+        ]
+      },
+      "faculty_board": {
+        "title": "Fakülte Kurulu",
+        "members": [
+          {
+            "name": "Prof. Dr. Nafiz ARICA",
+            "title": "Dekan V."
+          },
+          {
+            "name": "Prof.Dr. Funda YERCAN",
+            "title": "DUİM Bşk."
+          },
+          {
+            "name": "Prof. Dr. Cüneyt EZGİ",
+            "title": "GMİM Bşk."
+          },
+          {
+            "name": "Prof. Dr. M. Ziya SÖĞÜT",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof.Dr. Ahmet TAŞDEMIR",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof.Dr. C.Elif ÖZEN CANSOY",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç.Dr. M. Selçuk SOLMAZ",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç.Dr. Ozan Sabahattin SARIYER",
+            "title": "Üye"
+          },
+          {
+            "name": "Dr.Öğr.Üyesi Cihat ASAN",
+            "title": "Üye"
+          },
+          {
+            "name": "Selvi DALKIN",
+            "title": "Fakülte Sekreteri, Raportör"
+          }
+        ]
+      },
+      "faculty_admin_board": {
+        "title": "Fakülte Yönetim Kurulu",
+        "members": [
+          {
+            "name": "Prof. Dr. Nafiz ARICA",
+            "title": "Dekan V."
+          },
+          {
+            "name": "Prof. Dr. Ahmet TAŞDEMIR",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof. Dr. Funda YERCAN",
+            "title": "Üye"
+          },
+          {
+            "name": "Prof. Dr. Elif ÖZEN CANSOY",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç. Dr. M. Selçuk SOLMAZ",
+            "title": "Üye"
+          },
+          {
+            "name": "Doç. Dr. Ozan Sabahattin SARIYER",
+            "title": "Üye"
+          },
+          {
+            "name": "Dr. Öğr. Üyesi Cihat ASAN",
+            "title": "Üye"
+          },
+          {
+            "name": "Selvi DALKIN",
+            "title": "Fakülte Sekreteri, Raportör"
+          }
+        ]
+      },
+      "department_heads": {
+        "title": "Bölüm Başkanları",
+        "heads": [
+          {
+            "name": "Prof. Dr. H. Funda YERCAN",
+            "department": "Deniz Ulaştırma İşletme Mühendisliği Bölüm Başkanı"
+          },
+          {
+            "name": "Prof. Dr. Cüneyt EZGİ",
+            "department": "Gemi Makineleri İşletme Mühendisliği Bölüm Başkanı"
+          }
+        ]
+      },
+      "commissions": {
+        "title": "Komisyon ve Kurullar",
+        "committees": [
+          {
+            "name": "ÇAP/Yandal/ DGS/Yatay Geçiş İntibak-Muafiyet Komisyonu",
+            "duim_members": [
+              {"name": "Prof. Dr. Elif ÖZEN CANSOY", "role": "Başkan"},
+              {"name": "Dr. Öğr. Üyesi Cihat ASAN"},
+              {"name": "Dr. Öğr. Üyesi Umut TAŞ"},
+              {"name": "Öğr. Gör. Şems AKTUG"}
+            ],
+            "gmim_members": [
+              {"name": "Prof. Dr. Cüneyt EZGİ", "role": "Başkan"},
+              {"name": "Prof. Dr. Ahmet TAŞDEMIR"},
+              {"name": "Doç. Dr. O. Sabahattin SARIYER"},
+              {"name": "Doç. Dr. Üyesi Kamil Özden EFES"}
+            ]
+          },
+          {
+            "name": "Öğretim Programı Komisyonu",
+            "duim_members": [
+              {"name": "Prof. Dr. Funda YERCAN", "role": "Başkan"},
+              {"name": "Prof. Dr. Elif ÖZEN CANSOY"},
+              {"name": "Dr. Öğr. Üyesi Erhan GEZGİN"}
+            ],
+            "gmim_members": [
+              {"name": "Prof. Dr. Cüneyt EZGİ", "role": "Başkan"},
+              {"name": "Prof. Dr. Ahmet TAŞDEMIR"},
+              {"name": "Doç. Dr. O. Sabahattin SARIYER"}
+            ]
+          },
+          {
+            "name": "Staj Komisyonu",
+            "duim_members": [
+              {"name": "Dr. Öğr. Üyesi Cihat ASAN", "role": "Başkan"},
+              {"name": "Öğr. Gör. Şems AKTUG"},
+              {"name": "Doç. Dr. Murat Selçuk SOLMAZ"},
+              {"name": "Dr. Öğr. Üyesi Umut TAŞ"}
+            ],
+            "gmim_members": [
+              {"name": "Prof. Dr. Ahmet TAŞDEMIR", "role": "Başkan"},
+              {"name": "Prof. Dr. Cüneyt EZGİ"},
+              {"name": "Doç. Dr. Üyesi Kamil Özden EFES"},
+              {"name": "Dr. Öğr. Üyesi Tolunay KAYAARASI"}
+            ]
+          },
+          {
+            "name": "Yabancı Uyruklu Aday Başvuru Değerlendirme Komisyonu",
+            "duim_members": [
+              {"name": "Prof. Dr. Ergün DEMİREL", "role": "Başkan"},
+              {"name": "Dr. Öğr. Üyesi Nazmi ÇESMECİ"},
+              {"name": "Dr. Öğr. Üyesi Erhan GEZGİN"},
+              {"name": "Dr. Öğr. Üyesi Oktay ÇETİN"}
+            ],
+            "gmim_members": [
+              {"name": "Prof. Dr. M. Ziya SÖĞÜT", "role": "Başkan"},
+              {"name": "Prof. Dr. M. Tahir ÖZDEN"},
+              {"name": "Doç. Dr. O. Sabahattin SARIYER"},
+              {"name": "Dr. Üyesi Kamil Özden EFES"}
+            ]
+          },
+          {
+            "name": "Strateji Planı Komisyonu",
+            "duim_members": [
+              {"name": "Prof. Dr. Ergün DEMİREL", "role": "Başkan"},
+              {"name": "Dr. Öğr. Üyesi Erhan GEZGİN"},
+              {"name": "Dr. Öğr. Üyesi Nazmi ÇESMECİ"}
+            ],
+            "gmim_members": [
+              {"name": "Prof. Dr. Ahmet TAŞDEMIR", "role": "Başkan"},
+              {"name": "Prof. Dr. Süleyman ÖZKAYNAK"},
+              {"name": "Doç. Dr. O. Sabahattin SARIYER"},
+              {"name": "Doç. Dr. Üyesi Kamil Özden EFES"}
+            ]
+          }
+        ]
+      }
+    },
+    "academic_staff": {
+      "maritime_transportation_engineering": {
+        "name": "Deniz Ulaştırma İşletme Mühendisliği",
+        "staff": [
+          {"rank": "Prof. Dr.", "name": "H.Funda YERCAN"},
+          {"rank": "Prof. Dr.", "name": "Elif Özen CANSOY"},
+          {"rank": "Prof. Dr.", "name": "Ergün DEMİREL"},
+          {"rank": "Doç. Dr.", "name": "Murat Selçuk SOLMAZ"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Cihat ASAN"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Nazmi ÇESMECİ"},
+          {"rank": "Öğr. Gör.", "name": "Mustafa Şems AKTUG"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Barış ÖZSEVER"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Umut TAŞ"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Erhan GEZGİN"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Oktay ÇETİN"},
+          {"rank": "Arş. Gör.", "name": "Ahmet Fırat USTA"},
+          {"rank": "Arş. Gör.", "name": "Hande KUL GELAL"}
+        ]
+      },
+      "marine_engineering": {
+        "name": "Gemi Makinaları İşletme Mühendisliği",
+        "staff": [
+          {"rank": "Prof. Dr.", "name": "Cüneyt EZGİ"},
+          {"rank": "Prof. Dr.", "name": "Ahmet TAŞDEMIR"},
+          {"rank": "Prof. Dr.", "name": "M.Ziya SÖĞÜT"},
+          {"rank": "Prof. Dr.", "name": "Süleyman ÖZKAYNAK"},
+          {"rank": "Prof. Dr.", "name": "M.Tahir ÖZDEN"},
+          {"rank": "Doç. Dr.", "name": "O.Sabahattin SARIYER"},
+          {"rank": "Dr. Öğr. Üyesi", "name": "Kamil Özden EFES"},
+          {"rank": "Arş. Gör.", "name": "Sinem ÖKSÜZ"},
+          {"rank": "Arş. Gör.", "name": "Osman Furkan SOLMAZ"},
+          {"rank": "Arş.Gör.", "name": "Ahmet Alp ZEMBAT"},
+          {"rank": "Arş. Gör.", "name": "Yusuf Tarık MUTLU"}
+        ]
+      }
+    }
+  },
+  "departments": {
+    "maritime_transportation_engineering": {
+      "name": "Deniz Ulaştırma İşletme Mühendisliği",
+      "about": {
+        "title": "Bölüm Hakkında",
+        "content": "Deniz Ulaştırma İşletme Mühendisliği programında 1 yıllık İngilizce hazırlık ve 4 yıllık lisans eğitimi verilmektedir. Eğitim dili zorunlu İngilizcedir. Eğitim üniformalı olarak gerçekleştirilir. Lisans eğitimini başarı ile tamamlayan mezunlar, Piri Reis Üniversitesi Denizcilik Fakültesi Deniz Ulaştırma İşletme Mühendisliği Lisans Diplomasını alırlar.\nPiri Reis Üniversitesi Denizcilik Fakültesi denizcilik programları lisans gerekleri ile Uzakyol Kaptanlığı eğitim yeterliliklerini de karşılamaktadır. Denizcilik Fakültesi Eğitim ve Öğretim Programları; Uluslararası Denizcilik Örgütü (IMO) gereklerini karşılamakta, YÖK ve Ulaştırma ve Altyapı Bakanlığı tarafından izlenmekte ve denetlenmektedir. Ders müfredatı, Gemiadamlarının Eğitim, Belgelendirme ve Vardiya Standartları Hakkında Uluslararası Sözleşmesi-1978' (International Convention on Standards of Training, Certification and Watchkeeping for Seafarers-1978, STCW-1978) 2010 düzenlemelerine tam uyumludur.\nProgramın amacı denizcilik sektöründe faaliyet gösteren kurum ve kuruluşların operasyonel ve yönetimsel ihtiyaçlarını karşılayacak nitelikli mühendisler ve ulusal / uluslararası sularda küresel denizcilik standartlarına uygun operasyonları yürütebilecek Uzakyol Vardiya Zabitleri yetiştirmektir. Program temel mühendislik derslerinin yanı sıra denizcilik işletmeleri, gemi sevk ve idaresi, deniz güveliği ve emniyeti gibi uzmanlık derslerini içermektedir. Dersler hem teorik bilgi aktarımını hem de gelişmiş simülatör merkezleri, laboratuvarlar ve atölyeler ile uygulamalı beceri gelişimini sağlayacak şekilde tasarlanmıştır.\nÖğrenciler, 6 ay Birinci Deniz Stajı ve 6 ay İkinci Deniz Stajı olmak üzere toplam 12 ay gemide staj yaparlar.\nGemiadamları ve Kılavuz Kaptanlar Yönetmeliği'ne göre Gemiadamları Sınav Merkezi tarafından yapılan ehliyet sınavında başarılı olanlar Uzakyol Kaptanlığı ehliyetini almaya hak kazanırlar. Mezunlarımız, Türk bayraklı ve yabancı bayraklı gemilerde Uzakyol Vardiya Zabiti olarak çalışmaya başlarlar. İdare tarafından belirlenen hizmet süreleri bitiminde sınavla Uzakyol Birinci Zabiti ve sonrasında da Uzakyol Kaptanı ehliyetine sahip olurlar."
+      },
+      "department_head_message": {
+        "title": "Bölüm Başkanının Mesajı",
+        "content": "Değerli Öğrenciler, Kıymetli Akademisyenler ve Sektör Temsilcileri,\nDenizcilik, tarih boyunca medeniyetlerin gelişmesinde önemli rol oynayan, ticaretin ve küresel etkileşimin temel taşlarından biri olmuştur. Bugün, dünya ticaretinin büyük bir kısmı deniz yolu ile yapılmakta ve bu sektör, yenilikçi çözümler ve sürdürülebilirlik ilkeleriyle hızla dönüşüm geçirmektedir. Deniz Ulaştırma İşletme Mühendisliği Bölümü olarak, bu dönüşümün öncüsü olacak nitelikli insan gücünü yetiştirmek temel hedefimizdir.\nBölümümüz, öğrencilere yalnızca teknik bilgi kazandırmakla kalmayıp aynı zamanda yönetimsel beceriler, problem çözme yetkinlikleri ve stratejik düşünme kabiliyetlerini de geliştiren geniş bir müfredat sunmaktadır. Günümüz denizcilik sektörünün ihtiyaçlarına cevap verebilecek, uluslararası standartlarda eğitim alan mühendisler yetiştirmenin gururunu taşıyoruz. Bu eğitim sürecinde, öğrencilerimizin uluslararası deniz taşımacılığı kurallarına ve çevresel sorumluluk bilincine sahip olmaları en önemli önceliklerimiz arasındadır.\nAynı zamanda sektörel iş birlikleri ve uygulamalı eğitimler sayesinde, öğrencilerimize teorik bilgilerini pratikte uygulama ve gerçek dünya deneyimi kazanma imkânı sunuyoruz. Mezunlarımız hem ulusal hem de uluslararası düzeyde geniş kariyer fırsatlarına sahip olacak, denizcilik sektöründe lider roller üstlenebilecek donanıma sahip olacaklardır.\nDeniz Ulaştırma İşletme Mühendisliği Bölümü, geleceğin denizcilerini yetiştirmek adına güçlü bir akademik kadro ve modern altyapı ile sizleri en iyi şekilde desteklemeye devam edecektir.\nSaygılarımla,",
+        "author": "Prof. Dr. H. Funda YERCAN",
+        "title_author": "Deniz Ulaştırma İşletme Mühendisliği Bölümü Başkanı"
+      },
+      "academic_staff": [
+        {
+          "name": "Prof. Dr. H. Funda YERCAN",
+          "title": "Bölüm Başkanı",
+          "email": "fyercan@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. C. Elif ÖZEN CANSOY",
+          "title": "Öğretim Üyesi",
+          "email": "ecansoy@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. Ergün DEMİREL",
+          "title": "Öğretim Üyesi",
+          "email": "edemirel@pirireis.edu.tr"
+        },
+        {
+          "name": "Doç. Dr. Murat Selçuk SOLMAZ",
+          "title": "Öğretim Üyesi",
+          "email": "mssolmaz@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Nazmi ÇESMECİ",
+          "title": "Öğretim Üyesi",
+          "email": "ncesmeci@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Cihat ASAN",
+          "title": "Öğretim Üyesi",
+          "email": "casan@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Barış ÖZSEVER",
+          "title": "Öğretim Üyesi",
+          "email": "bozsever@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Erhan GEZGİN",
+          "title": "Öğretim Üyesi",
+          "email": "egezgin@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Umut TAŞ",
+          "title": "Öğretim Üyesi",
+          "email": "utac@pirireis.edu.tr"
+        },
+        {
+          "name": "Dr. Öğr. Üyesi Oktay ÇETİN",
+          "title": "Öğretim Üyesi",
+          "email": "ocetin@pirireis.edu.tr"
+        },
+        {
+          "name": "Öğr. Gör. Mustafa Şems AKTUG",
+          "title": "Öğretim Görevlisi",
+          "email": "saktug@pirireis.edu.tr"
+        },
+        {
+          "name": "Arş. Gör. Ahmet Fırat USTA",
+          "title": "Araştırma Görevlisi",
+          "email": "afusta@pirireis.edu.tr"
+        }
+      ],
+      "news": {
+        "title": "Bölüm Haberleri",
+        "items": [
+          {
+            "title": "Deniz Ulaştırma İşletme Mühendisliği Bölüm Başkanımız ve Rektör Yardımcımız Prof. Dr. Funda YERCAN hayalindeki bölüm hakkında merak ettiklerini anlatıyor!",
+            "link": "https://www.youtube.com/watch?v=z5KdEWT0Qhk"
+          }
+        ]
+      },
+      "events": {
+        "title": "Bölüm Etkinlikleri",
+        "items": [
+          {
+            "title": "Deniz Ulaştırma İşletme Mühendisliği Bölümü öğrencimiz Demet, bölüm hakkındaki sorularını cevaplıyor!",
+            "link": "https://www.youtube.com/watch?v=2oFbR_kpIQg"
+          }
+        ]
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Deniz Ulaştırma İşletme Mühendisliği öğrencilerinden Gemiadamlarının Eğitim, Belgelendirme ve Vardiya Standartları Hakkında Uluslararası Sözleşmesi-1978 (International Convention on Standards of Training, Certification and Watchkeeping for Seafarers-1978, STCW-1978) 2010 düzenlemeleri gereği 6 ayı ikinci sınıfın güz dönemi Birinci Deniz Stajı ve 6 ayı üçüncü sınıfın bahar dönemi İkinci Deniz Stajı olmak üzere toplam 12 ay denizcilik fakültesi staj komisyonun onayladığı gemilerde staj yapma şartı aranmaktadır. Birinci ve İkinci Deniz Stajlarının detaylı içeriği ve uygulama esasları Piri Reis Üniversitesi Denizcilik Fakültesi Staj Yönergesinde yer almaktadır."
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "content": "Deniz Ulaştırma İşletme Mühendisliği programı, belirli akademik başarı kriterlerini karşılayan öğrencilere çift anadal veya yandal yapma imkânı sunarak hem akademik hem de kariyer gelişimlerini destekler. Bu sayede öğrenciler, denizcilik alanındaki bilgi ve becerilerini farklı disiplinlerle birleştirerek daha geniş bir uzmanlık alanı oluşturabilirler."
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Deniz Ulaştırma İşletme Mühendisliği öğrencileri, üniversitelerde denizcilik ve ulaştırma sektörüne yönelik denizcilik kulübü, yelken kulübü, gemi ve deniz teknolojileri kulübü, scuba dalış kulübü gibi öğrenci kulüplerine katılarak hem sosyal hem de mesleki anlamda kendilerini geliştirme fırsatı bulurlar. Bu kulüpler, sektördeki yenilikleri takip etmeyi, profesyonel bağlantılar kurmayı ve kişisel gelişimi teşvik eder. Piri Reis Üniversitesi öğrenci kulüpleri çalışmaları Rektörlüğe bağlı Öğrenci Kulüpleri Koordinasyon Kurulu tarafından yürütülmektedir."
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Erasmus+ programı, Avrupa'da yükseköğretimin kalitesini artırmayı amaçlayan bir Avrupa Birliği eğitim ve öğretim programıdır. Deniz Ulaştırma İşletme Mühendisliği öğrencileri, Erasmus+ programı ile Avrupa'daki denizcilik üniversitelerinde bir veya iki dönem eğitim alma fırsatı yakalayabilirler. Erasmus+ kapsamında öğrencilere, uluslararası deneyim kazanma, farklı ülkelerdeki denizcilik sektörü uygulamalarını yerinde gözlemleme ve yabancı dil becerilerini geliştirme imkânı sunulmaktadır. Erasmus+ programı başvuru ve uygulama süreçleri Piri Reis Üniversitesi Erasmus Koordinatörlüğü tarafından yürütülmektedir."
+      },
+      "graduate": {
+        "title": "Lisansüstü",
+        "content": "Denizcilik Fakültesi Deniz Ulaştırma İşletme Mühendisliği lisans programının yanı sıra, Lisansüstü Eğitim Enstitüsü bünyesinde Deniz Ulaştırma İşletme Mühendisliği (İngilizce) yüksek lisans ve doktora programları yer almaktadır. Deniz Ulaştırma İşletme Mühendisliği lisansüstü programları, önde gelen akademik kadrosuyla öğrencilere deniz taşımacılığı, lojistik yönetimi, liman işletmeciliği ve denizcilik ekonomisi gibi alanlarda derinlemesine uzmanlaşma fırsatı sunar."
+      },
+      "contact": {
+        "title": "İletişim",
+        "name": "Piri Reis Üniversitesi Denizcilik Fakültesi",
+        "department": "Deniz Ulaştırma İşletme Mühendisliği Bölümü",
+        "campus": "Piri Reis Üniversitesi Deniz Kampüsü",
+        "address": "Postane Mahallesi, Eflatun Sk. No:8, 34940 Tuzla / İSTANBUL",
+        "phone": "+90 216 581 00 50"
+      }
+    },
+    "marine_engineering": {
+      "name": "Gemi Makineleri İşletme Mühendisliği",
+      "about": {
+        "title": "Bölüm Hakkında",
+        "content": "Gemi Makineleri İşletme Mühendisliği bölümünde 1 yıllık İngilizce Hazırlık ve 4 yıllık lisans eğitimi verilmektedir. Eğitim dili zorunlu İngilizcedir. Eğitim üniformalı olarak gerçekleştirilir. Lisans eğitimini başarı ile tamamlayan mezunlar, Piri Reis Üniversitesi Denizcilik Fakültesi Gemi Makinalari İşletme Mühendisliği Lisans Diplomasını alırlar.\nPiri Reis Üniversitesi Denizcilik Fakültesi denizcilik programları lisans gerekleri ile Uzakyol Baş Mühendis eğitim yeterliliklerini de karşılamaktadır. Denizcilik Fakültesi Eğitim ve Öğretim Programları; IMO gereklerini karşılamakta, YÖK ve Ulaştırma ve Altyapı Bakanlığı tarafından izlenmekte ve denetlenmektedir. Ders müfredatı, STCW 2010'a tam uyumludur.\nProgramın amacı öğrencileri ticaret gemilerinde uzakyol vardiya mühendisi görevlerine hazırlamaktır. Öğrenciler, matematik, fizik, kimya ve temel mühendislik derslerini takiben elektrik, elektronik ve kontrol mühendisliği ile ilgili konularda uzmanlaşırlar.\nÖğrenciler, 6 ay atölyede, 6 ay gemide olmak üzere toplam 12 ay staj yaparlar.\nGemiadamlar ve Kılavuz Kaptanlar Yönetmeliği'ne göre Gemiadamları Sınav Merkezi tarafından yapılan ehliyet sınavında başarılı olanlar Uzakyol Vardiya Mühendisliği ehliyetini almaya hak kazanırlar. Türk bayraklı ve yabancı bayraklı gemilerde Uzakyol Vardiya Mühendisi (3. Mühendis) olarak çalışmaya başlarlar. İdare tarafından belirlenen hizmet süreleri bitiminde sınavla 2. Mühendis ve sonrasında da Başmühendis ehliyetine sahip olurlar."
+      },
+      "department_head_message": {
+        "title": "Bölüm Başkanının Mesajı",
+        "content": "Sayın Öğrencilerimiz, Mezunlarımız ve Değerli Paydaşlarımız,\nPiri Reis Üniversitesi Gemi Makineleri İşletme Mühendisliği Bölümü olarak sizleri selamlamaktan büyük mutluluk duyuyorum. Bölümümüz, denizcilik sektörünün dinamik ve hızla gelişen alanında, geleceğin mühendislerini yetiştirmek için büyük bir özveri ile çalışmaktadır.\nGemi makineleri işletme mühendisliği, sadece teknik bilgi değil, aynı zamanda problem çözme yeteneği, yenilikçilik ve liderlik becerileri gerektiren bir alandır. Bu bağlamda, öğrencilerimizi hem teorik hem de pratik anlamda en iyi şekilde donatmayı hedefliyoruz. Programımız, uluslararası standartlarda eğitim vermek ve sektördeki en güncel gelişmeleri takip ederek, mezunlarımızın global arenada rekabetçi olmalarını sağlamak üzerine kuruludur.\nBölümümüzün sunduğu eğitim olanakları, staj ve iş birliği fırsatları, sizleri denizcilik sektörünün liderleri olmaya hazırlamaktadır. Bu süreçte, siz değerli öğrencilerimizin ve mezunlarımızın gösterdiği çaba ve başarılar bizler için büyük bir gurur kaynağıdır.\nGelecekteki projelerinizde ve kariyer yolculuklarınızda her zaman yanınızda olduğumuzu bilmenizi isterim. Gemi makineleri işletme mühendisliği alanında yapacağınız katkılar, denizcilik sektörünün gelişimine önemli ölçüde yön verecektir.\nSizleri başarılı bir öğrenim yılı ve parlak bir gelecek için teşvik ediyor, tüm çalışmalarınızda başarılar diliyorum.\nSaygılarımla,",
+        "author": "Prof.Dr.Cüneyt EZGİ",
+        "title_author": "Bölüm Başkanı"
+      },
+      "academic_staff": [
+        {
+          "name": "Prof. Dr. Cüneyt EZGİ",
+          "title": "Bölüm Başkanı",
+          "email": "cezgi@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. Süleyman ÖZKAYNAK",
+          "title": "Öğretim Üyesi",
+          "email": "sozkaynak@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. Ahmet TAŞDEMIR",
+          "title": "Öğretim Üyesi",
+          "email": "atasdemir@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. Mehmet Ziya SÖĞÜT",
+          "title": "Öğretim Üyesi",
+          "email": "mzsogut@pirireis.edu.tr"
+        },
+        {
+          "name": "Prof. Dr. Mehmet Tahir ÖZDEN",
+          "title": "Öğretim Üyesi",
+          "email": "mtozden@pirireis.edu.tr"
+        },
+        {
+          "name": "Doç. Dr. Ozan Sabahattin SARIYER",
+          "title": "Öğretim Üyesi",
+          "email": "ossariyer@pirireis.edu.tr"
+        },
+        {
+          "name": "Doç. Dr. Kamil Özden EFES",
+          "title": "Öğretim Üyesi",
+          "email": "koefes@pirireis.edu.tr"
+        },
+        {
+          "name": "Arş. Gör. Sinem ÖKSÜZ",
+          "title": "Araştırma Görevlisi",
+          "email": "soksuz@pirireis.edu.tr"
+        },
+        {
+          "name": "Arş. Gör. Osman Furkan SOLMAZ",
+          "title": "Araştırma Görevlisi",
+          "email": "ofsolmaz@pirireis.edu.tr"
+        },
+        {
+          "name": "Arş. Gör. Yusuf Tarık MUTLU",
+          "title": "Araştırma Görevlisi",
+          "email": "ytmutlu@pirireis.edu.tr"
+        },
+        {
+          "name": "Arş. Gör. Ahmet Alp ZEMBAT",
+          "title": "Araştırma Görevlisi",
+          "email": "aazembat@pirireis.edu.tr"
+        }
+      ],
+      "news": {
+        "title": "Bölüm Haberleri",
+        "items": [
+          {
+            "title": "\"Gemiadamları ve Kılavuz Kaptanlar Yönetmeliği\" 29.08.2024 tarihli ve 32647 sayılı Resmi Gazete'de yayımlanmış olup Yönetmeliğin amacının, gemiadamları ve kılavuz kaptanların yeterlikleri, eğitimleri, sınavları, belgelendirilmeleri, sağlık durumları, elektronik kayıt işlemleri, vardiya tutmalarına ilişkin kuralları ve disiplin işlemleri ile denizcilik eğitimi veren kurum ve kuruluşlara yönelik idari işlemleri düzenlemek olduğu ifade edilmektedir.",
+            "date": "Aug 29, 2024",
+            "source": "Resmî Gazete Tarihi: 29.08.2024 Resmî Gazete Sayısı: 32647",
+            "link": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=40941&MevzuatTur=7&MevzuatTertip=5"
+          }
+        ]
+      },
+      "events": {
+        "title": "Bölüm Etkinlikleri",
+        "items": [
+          {
+            "title": "İleri Denizcilik Seminerleri: Gemilerde Su Tedavi Sistemi",
+            "date": "Mart 20, 2024",
+            "link": "https://www.pirireis.edu.tr/ileri-denizcilik-seminerleri-gemilerde-su-tedavi-sistemi/"
+          }
+        ]
+      },
+      "internship": {
+        "title": "Staj",
+        "content": "Bölüm öğrencilerinden; altı ayı (6 ay) onaylanmış bir staj defterine uygun olarak gemilerde açık deniz eğitimi ve altı ayı da (6 ay) onaylanmış staj defterine uygun olarak atölye becerilerini geliştirme eğitimi olmak üzere toplam 12 aylık onaylı uygulamalı eğitim programını başarı ile tamamlamak şartı aranmaktadır.",
+        "internship_details": [
+          {
+            "name": "Birinci Atölye Stajı",
+            "time": "Zaman: İkinci yarıyılın sonu ile üçüncü yarıyılın başı arasında",
+            "prerequisite": "Önkoşul: Workshop and Manufacturing Process dersinden en az FF almış olmak.",
+            "duration": "Ayrılan Süre: İş yeri onaylı, karada 3 ay (90 gün) veya 75 iş günü veya \"Workshop and Manufacturing Process\" dersinden başarılı oldu ise 61 işgünü.",
+            "location": "Staj Yeri: İdare tarafından çalışma izni verilen tersaneler veya tersanelerde bakımda bulunan gemiler, PRÜ ile yapılan protokol listesinde yer alan Resmi veya Özel kuruluşlara ait atölye tesisleri.\nStaj yapılacak tesiste en az bir Gemi Makineleri İşletme Mühendisi veya Makine Mühendisi bulundurulması gerekmektedir.",
+            "additional_info": "Atölye Becerilerini Geliştirme eğitiminin (staj) süresi 6 ay olup karada yapılan stajlarda her 25 gün 1 ay olarak hesaplanacaktır.\nEğitim kurumlarının ders müfredatları içinde verdikleri atölye eğitimlerinde geçirilen her 4 ders saatlik süre bir iş günü olarak hesaplanarak 6 ay süreli atölye becerilerini geliştirme eğitiminden (stajından) mahsup edilecektir.\nAtölye becerilerini geliştirme eğitimi; staj defterine uygun olarak, en az kaynak, soğuk ve sıcak şekil verme, döküm, talaşlı imalat, ölçme, mamul montajı ve konstrüksiyon, atölye işletme ve organizasyon bölümlerini içerecek şekilde gerçekleştirilecektir."
+          },
+          {
+            "name": "İkinci Atölye Stajı",
+            "time": "Zaman: Dördüncü yarıyılın sonu ile beşinci yarıyılın başı arasında.",
+            "prerequisite": "Önkoşul: Workshop and Manufacturing Process dersinden asgari ''DD'' almış olmak ve Birinci Atölye Stajını tamamlamış olmak.",
+            "duration": "Ayrılan Süre: İş yeri onaylı, karada 3 ay (90 gün) veya 75 iş günü veya gemide 3 aya (90 gün) kadar olan süre.",
+            "location": "Staj Yeri: 750 kW' den büyük ana makineye sahip gemiler, UAB tarafından çalışma izni verilen tersaneler veya tersanelerde bakımda bulunan 750 kW' den büyük gemiler, PRÜ ile yapılan protokol listesinde yer alan Resmi veya Özel kuruluşlara ait atölye tesisleri.",
+            "additional_info": "Deniz eğitimine giden öğrenciler 6 aylık deniz eğitimi sonrasında aynı ya da farklı bir gemide staj defterine uygun olarak İkinci Atölye Stajına devam edebilirler. Ancak bu süre 3 ayı geçemez. Açık Deniz Stajına çıkılmadan önce her iki staj için de ayrı ayrı başvuru yapılması ve öğrencinin her iki staj defterini de yanına alması gerekir. Açık Seniz Staj süresinin bitimine müteakip İkinci Atölye Stajına başlanabilir. Bu durumda dikkat edilmesi gereken İkinci Atölye Stajının, Açık Deniz Stajının bitiminden 1 gün sonra başlamasıdır."
+          },
+          {
+            "name": "Açık Deniz Stajı",
+            "time": "Zaman: Beşinci yarıyılın sonu ile yedinci yarıyılın başı arasında.",
+            "prerequisite": "Önkoşul: En az 90 günlük birinci atölye stajı, MRE111, MRE122, MRE212, MRE213, MRE214, MRE221, MRE223, MRE226, MRE227, MRE313, MRE315, MRE316, MRE317, STCW214, STCW215, STCW216, STCW217, STCW218, STCW219, STCW312, STCW313 derslerinden en az DD almış olmak.",
+            "duration": "Staj Süresi: 6 ay.",
+            "location": "Staj Yeri: Liman sınırları dışında çalışan 750 kW' dan büyük ana makineye sahip gemiler.Dördüncü ve beşinci dönemleri arasında öğrenciler kısa dönem atölye stajlarını tamamlayacaktır. Bu staj gemi üzerinde ve kara tesislerinde yapılabilir."
+          }
+        ]
+      },
+      "dual_major_minor": {
+        "title": "Çift Yandal/Anadal",
+        "quotas": {
+          "title": "KONTENJAN (2024-2025)",
+          "department": "Gemi Makineleri İşletme Mühendisliği",
+          "dual_major": "Çift Anadal Programına Öğrenci Kontenjanı: 3",
+          "minor": "Yandal Programına Öğrenci Kontenjanı: 5"
+        },
+        "programs": [
+          {
+            "faculty": "Mühendislik Fakültesi",
+            "department": "Gemi İnşa ve Gemi Makineleri Mühendisliği",
+            "target_faculty": "Denizcilik Fakültesi",
+            "target_department": "Gemi Makineleri İşletme Mühendisliği",
+            "dual_major": "EVET",
+            "minor": "EVET"
+          },
+          {
+            "faculty": "Mühendislik Fakültesi",
+            "department": "Makine Mühendisliği",
+            "target_faculty": "Denizcilik Fakültesi",
+            "target_department": "Gemi Makineleri İşletme Mühendisliği",
+            "dual_major": "EVET",
+            "minor": "EVET"
+          },
+          {
+            "faculty": "Denizcilik Fakültesi",
+            "department": "Deniz Ulaştırma İşletme Mühendisliği",
+            "target_faculty": "Denizcilik Fakültesi",
+            "target_department": "Gemi Makineleri İşletme Mühendisliği",
+            "dual_major": "EVET",
+            "minor": "EVET"
+          }
+        ]
+      },
+      "student_clubs": {
+        "title": "Kulüpler",
+        "content": "Piri Reis Üniversitesi öğrenci kulüpleri çalışmaları Rektörlüğe bağlı Öğrenci Kulüpleri Koordinasyon Kurulu tarafından yürütülmektedir.",
+        "link": "https://www.pirireis.edu.tr/pruda-yasam/ogrenci-kulupleri/"
+      },
+      "erasmus": {
+        "title": "Erasmus",
+        "content": "Piri Reis Üniversitesi uluslararası standartlarda bir yüksek öğretim kurumu olmayı hedeflediği için, AB Komisyonu Yürütme ajansı tarafından verilen genişletilmiş üyelik (EUCX) hakkını ilk akademik yılında kazanan Türkiye'de ilk üniversite olmuştur. Standart Erasmus üyeliğinden (EUC) farklı olan EUCX üyeliği Avrupa Birliği içinde her üniversite ile uzun dönem öğrenci, öğretim üyesi değişimi yapılabilmesine, öğrenci staj hareketliliğine, ortak Avrupa Birliği projeleri yürütülmesine olanak vermektedir. 2014 yılında Üniversitemiz bütün faaliyetleri kapsayan Erasmus+ beyannamesine hak kazanmıştır.",
+        "link": "https://aday.pirireis.edu.tr/erasmus/"
+      },
+      "graduate": {
+        "title": "Lisansüstü",
+        "content": "Piri Reis Üniversitesi Lisansüstü Eğitim Enstitüsü bünyesinde yer alan ''Gemi Makineleri İşletme Mühendisliği'' ülkemizde bu alanda açılan ilk yüksek lisans programı olup, denizcilik alanında ülkemizde önde gelen bir akademik kadroya sahiptir.\nGemi Makineleri İşletme Mühendisliği Yüksek Lisans programı, ticari ve askeri su üstü gemiler ve denizaltılar için ana ve yardımcı makine sistemlerinin tasarımı, analizi ve işletilmesi ile ilgilidir. Program, Gemi Makineleri İşletme Mühendisliğinin geliştirilmesi ilgili çok çeşitli mühendislik konularını kapsamaktadır.\nProgramımızın amacı;\nDenizci kökenli akademisyenler yetiştirerek, Gemi Makineleri İşletme Mühendisliği üzerine eğitim veren yüksek öğretim kurumlarına öğretim elemanı kazandırmak ve bu alandaki büyük açığın kapanmasına katkıda bulunmak, Denizcilik sektöründe veya profesyonel yaşamda kendisini geliştirmek, güncel bilgi birikimi ve teknolojiyi yakalamak isteyenlerin yüksek lisans çalışmaları yapmalarına imkan sağlamak, Üniversitemizdeki bilimsel araştırma faaliyetlerinin disiplinlerarası boyutta zenginleştirilmesini sağlamaktır.",
+        "link": "https://graduate.pirireis.edu.tr/gemi-makineleri-isletme-muhendisligi-ingilizce/"
+      },
+      "news_links": {
+        "title": "Haberler",
+        "items": [
+          {
+            "title": "Gemi Makineleri İşletme Mühendisliği Bölüm Başkanımız Prof. Dr. Cüneyt EZGİ, hayalindeki bölüm hakkında merak ettiklerini anlatıyor!",
+            "link": "https://www.youtube.com/watch?v=ya8zpyoo9A8"
+          },
+          {
+            "title": "Türkiye'de ilk ve tek Gemi Makinalari İşletme Mühendisliği Yüksek Lisans Programı Piri Reis Üniversitesinde!",
+            "link": "https://www.youtube.com/watch?v=nBsQPY6vmiY"
+          }
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "name": "Piri Reis Üniversitesi Denizcilik Fakültesi",
+        "department": "Gemi Makineleri İşletme Mühendisliği Bölümü",
+        "campus": "Piri Reis Üniversitesi Deniz Kampüsü",
+        "address": "Postane Mahallesi, Eflatun Sk. No:8, 34940 Tuzla / İSTANBUL",
+        "phone": "+90 216 581 00 50"
+      }
+    }
+  }
+}

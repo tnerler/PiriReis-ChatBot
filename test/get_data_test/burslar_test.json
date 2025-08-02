@@ -1,0 +1,141 @@
+{
+  "document_title": "Piri Reis Üniversitesi Burs ve İndirim Olanakları",
+  "scholarship_categories": [
+    {
+      "category_name": "Giriş Bursları",
+      "scholarships": [
+        {
+          "name": "ÖSYM-YKS Yerleştirme Bursu",
+          "description": "Üniversitenin %50 veya %100 burslu kontenjanlarına yerleşen öğrencilere, hiçbir koşul aranmaksızın öğrenim süresince karşılıksız burs verilir. Lisans programlarında 8 yarıyıl, ön lisans programlarında 4 yarıyıl süreyle geçerlidir.",
+          "eligibility": "ÖSYM-YKS yerleştirme sonuçlarına göre burslu kontenjanlara yerleşen öğrenciler",
+          "duration": "Normal öğrenim süresi (Lisans: 8 yarıyıl, Önlisans: 4 yarıyıl)",
+          "type": "öğrenim ücreti bursu"
+        },
+        {
+          "name": "Tercih İndirimi",
+          "description": "Ücretli veya %50 burslu bölümlerden herhangi birini ilk 3 tercihi arasında gösterip yerleşen öğrencilere, üniversitede öğrenim gördükleri tüm eğitim-öğretim yılları boyunca ödeyecekleri ücret üzerinden %20 oranında tercih indirimi kesintisiz olarak uygulanacaktır.",
+          "eligibility": "İlk 3 tercihinden birine yerleşen öğrenciler",
+          "discount_rate": 20,
+          "type": "indirim"
+        },
+        {
+          "name": "DGS Bursu",
+          "description": "Piri Reis Üniversitesi DMYO mezunu olan öğrencilerimiz, DGS'de lisans programlarını ilk 3 tercihine yazıp yerleştikleri takdirde %50 oranında tercih indirimi sağlanır.",
+          "eligibility": "Üniversite DMYO mezunları",
+          "discount_rate": 50,
+          "type": "indirim"
+        },
+        {
+          "name": "Yatay Geçiş Bursu",
+          "description": "Kurum içi yatay geçiş yapan öğrencilerin mevcut burs ve indirimleri korunur. Kurum dışından gelen öğrenciler için, ücretli kontenjana yerleşen öğrenciler hariç; %50 ve %100 burslu kontenjanlara yerleşmeleri durumunda %50 indirim uygulanır.",
+          "eligibility": "Yatay geçiş yapan öğrenciler",
+          "type": "indirim"
+        }
+      ]
+    },
+    {
+      "category_name": "Başarı Bursları",
+      "scholarships": [
+        {
+          "name": "YKS Başarı Sıralaması Bursu",
+          "description": "Denizcilik Fakültesi (Deniz Ulaştırma İşletme Mühendisliği ve Gemi Makineleri İşletme Mühendisliği), Mühendislik Fakültesi (Gemi İnşaatı ve Gemi Makineleri Mühendisliği), İktisadi ve İdari Bilimler Fakültesi (Denizcilik İşletmeleri Yönetimi) bölümlerine ilk 3 tercihinde yerleşen ve başarı sıralamasına giren öğrencilere nakit destek verilir. Bursun devamı için not ortalamasının 2.50'nin altına düşmemesi gerekir.",
+          "eligibility": "Belirli bölümlerde başarı sıralamasına giren öğrenciler",
+          "condition": "GPA >= 2.50",
+          "type": "nakit destek"
+        },
+        {
+          "name": "Akademik Başarı Bursu",
+          "description": "Bir öğretim yılında tüm dersleri başarıyla tamamlayan öğrencilere (Hazırlık Bölümü Hariç), not ortalamasına göre öğrenim ücretinde indirim sağlanır. Disiplin cezası almaması gerekmektedir.",
+          "eligibility": "Tüm dersleri başarıyla tamamlayan öğrenciler",
+          "condition": "Disiplin cezası olmaması",
+          "type": "indirim"
+        }
+      ]
+    },
+    {
+      "category_name": "Özel Durum Bursları",
+      "scholarships": [
+        {
+          "name": "ÇAP ve Yan Dal İndirimi",
+          "description": "Çift ana dal yapan öğrenciler, ikinci bölüm için ek ücret ödemezler. Ana daldan mezun olduktan sonra ÇAP bölümünde en fazla 2 dönem ana daldaki indirim oranı uygulanarak ücret ödemeye devam eder. İki dönem sonrasında indirim sona erer ve öğrenci kredi başına ders ücreti ödemeye başlar. Yan dal yapan öğrenciler ise ana dal eğitimleri süresince yan dal için ücret ödemezler. Mezun olduktan sonra yan dal programında en fazla 1 dönem daha ana dal indirim oranı uygulanır. Sonrasında normal ücretlendirme başlar.",
+          "eligibility": "ÇAP veya Yan Dal programı öğrencileri",
+          "type": "indirim"
+        },
+        {
+          "name": "Sporcu Öğrenci Bursu",
+          "description": "Gençlik ve Spor Bakanlığı ile Vakıf Üniversiteleri arasında imzalanan mutabakat metni uyarınca, son 4 yıl içinde başarılı olan milli sporculara %100 öğrenim ücreti indirimi yapılır. Amatör sporculara başarılarına göre %5'e kadar indirim sağlanır.",
+          "eligibility": "Milli sporcu veya amatör sporcu öğrenciler",
+          "discount_rate": "Milli sporculara %100, amatör sporculara %5'e kadar",
+          "type": "indirim"
+        },
+        {
+          "name": "Engelsiz Eğitim İndirimi",
+          "description": "Tam teşekküllü sağlık kurumundan alınan sağlık raporuna göre engel oranı %80 ve üzeri olan öğrencilere kalan öğrenim ücreti üzerinden %20 indirim uygulanır.",
+          "eligibility": "Engel oranı %80 ve üzeri olan öğrenciler",
+          "discount_rate": 20,
+          "type": "indirim"
+        },
+        {
+          "name": "Gazi-Şehit İndirimi",
+          "description": "Gazi ve şehit unvanına sahip bireyler ile çocuklarına %50 indirim sağlanır. Bu indirim öğrenim süresi boyunca geçerlidir.",
+          "eligibility": "Gaziler, şehitler ve bunların çocukları",
+          "discount_rate": 50,
+          "type": "indirim"
+        },
+        {
+          "name": "Kardeş İndirimi",
+          "description": "Üniversitede aynı anda okuyan kardeş öğrencilere her biri için %5 indirim uygulanır. Kardeşlerden biri mezun olursa indirim sona erer.",
+          "eligibility": "Aynı anda üniversitede okuyan kardeşler",
+          "discount_rate": 5,
+          "type": "indirim"
+        }
+      ]
+    },
+    {
+      "category_name": "Sektörel Burslar",
+      "scholarships": [
+        {
+          "name": "Kız Öğrenci İndirimi",
+          "description": "Denizcilik Fakültesi veya Denizcilik Meslek Yüksekokulu'nun belirli programlarında (Deniz Ulaştırma İşletme, Gemi Makineleri İşletmeciliği, Deniz ve Liman İşletmeciliği, Marina ve Yat İşletmeciliği ile Mekatronik) okuyan kız öğrencilere %10 indirim sağlanır. Bu indirim denizcilik alanındaki kız öğrencileri teşvik amaçlıdır.",
+          "eligibility": "Belirtilen denizcilik programlarındaki kız öğrenciler",
+          "discount_rate": 10,
+          "type": "indirim"
+        },
+        {
+          "name": "Denizcilik Lisesi Mezunu İndirimi",
+          "description": "Denizcilik alanından mezun olup lisans ve ön lisans programlarına tam ücretli yerleşen öğrencilere %20; %50 burslu programlara yerleşenlere ise burs oranı düşüldükten sonra kalan öğrenim ücreti üzerinden %10 indirim yapılır.",
+          "eligibility": "Denizcilik lisesi mezunları",
+          "discount_rate": "Tam ücretlilere %20, %50 burslulara %10",
+          "type": "indirim"
+        },
+        {
+          "name": "PRU ve DTO Çalışan İndirimi",
+          "description": "Üniversite ve DTO çalışanları ile eş ve çocuklarına %20 indirim sağlanır. Çalışanın görevinden ayrılması halinde indirim sona erer.",
+          "eligibility": "Üniversite ve DTO çalışanları ile ailesi",
+          "discount_rate": 20,
+          "type": "indirim"
+        },
+        {
+          "name": "DTO Üyesi İndirimi",
+          "description": "DTO üyesi olan kişiler veya çocuklarına %10 indirim uygulanır. Aktif üyelik belgesi sunulmalıdır. Genel not ortalaması 2.00'nin altında kalması ya da üyeliğin sonlanması durumunda sonraki yıl indirim sona erer.",
+          "eligibility": "DTO üyeleri ve çocukları",
+          "discount_rate": 10,
+          "condition": "GPA >= 2.00 ve aktif üyelik",
+          "type": "indirim"
+        },
+        {
+          "name": "Uzun Dönem Staj İndirimi",
+          "description": "Önceki yıl uzun dönem açık deniz stajına çıkan öğrencilere takip eden eğitim-öğretim yılında öğrenim ücretinden %33 indirim uygulanır. Son sınıf öğrencileri staja çıkabilir belgesiyle aynı yılın ücretinde %33 indirim hakkı kazanır. Dönem içinde staja çıkan 4. sınıf öğrencilerine de %33 indirim yapılır. Eğitim süresi içinde staja çıkamayan öğrenciler daha sonra staj yapmaları halinde yalnızca staj dersi kredi ücreti üzerinden %33 indirim alır. Tüm derslerini tamamlayıp yalnızca stajı kalan öğrenciler 2 kredi ücreti ödeyerek kayıt yeniler. Bu kural ilk kez staja çıkanları kapsamaz.",
+          "eligibility": "Uzun dönem açık deniz stajına çıkan öğrenciler",
+          "discount_rate": 33,
+          "type": "indirim"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "university_name": "Piri Reis Üniversitesi",
+    "last_updated": "2025-07-25",
+    "notes": "Bursların devam edebilmesi için öğrencilerin derslere düzenli katılması ve disiplin cezası almaması gerekir."
+  }
+}

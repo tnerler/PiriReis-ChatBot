@@ -1,0 +1,894 @@
+{
+  "document_title": "Piri Reis Üniversitesi 2024-2025 Bölüm Sıralamalar ve Puanları",
+  "academic_year": "2024-2025",
+  "university_name": "Piri Reis Üniversitesi",
+  "faculties": [
+    {
+      "faculty_name": "DENİZCİLİK FAKÜLTESİ",
+      "programs": [
+        {
+          "program_name": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 16,
+              "min_score": 425.23214,
+              "max_score": 433.38512,
+              "min_rank": 58422,
+              "max_rank": 51496,
+              "special_quotas": {
+                "sehit_gazi": 3,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 69,
+              "min_score": 353.89248,
+              "max_score": 416.41338,
+              "min_rank": 141743,
+              "max_rank": 66250
+            },
+            {
+              "type": "Ücretli",
+              "quota": 37,
+              "min_score": 297.19306,
+              "max_score": 346.11252,
+              "min_rank": 274585,
+              "max_rank": 154678
+            }
+          ]
+        },
+        {
+          "program_name": "Gemi Makineleri İşletme Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 14,
+              "min_score": 426.91949,
+              "max_score": 440.13717,
+              "min_rank": 56972,
+              "max_rank": 45998,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 56,
+              "min_score": 343.35549,
+              "max_score": 425.12041,
+              "min_rank": 159553,
+              "max_rank": 58536
+            },
+            {
+              "type": "Ücretli",
+              "quota": 33,
+              "min_score": 290.74888,
+              "max_score": 341.98053,
+              "min_rank": 297708,
+              "max_rank": 161983
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "HUKUK FAKÜLTESİ",
+      "programs": [
+        {
+          "program_name": "Hukuk",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 8,
+              "min_score": 407.03771,
+              "max_score": 425.91137,
+              "min_rank": 27287,
+              "max_rank": 13249,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 37,
+              "min_score": 371.44858,
+              "max_score": 405.68128,
+              "min_rank": 76686,
+              "max_rank": 28544
+            },
+            {
+              "type": "Ücretli",
+              "quota": 11,
+              "min_score": 350.94903,
+              "max_score": 370.76512,
+              "min_rank": 123582,
+              "max_rank": 77982
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ",
+      "programs": [
+        {
+          "program_name": "Uluslararası Ticaret ve İşletmecilik (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 8,
+              "min_score": 350.45829,
+              "max_score": 379.58137,
+              "min_rank": 124954,
+              "max_rank": 62361,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 29,
+              "min_score": 296.23944,
+              "max_score": 324.10152,
+              "min_rank": 375666,
+              "max_rank": 216641
+            },
+            {
+              "type": "Ücretli",
+              "quota": 21,
+              "min_score": 201.0136,
+              "max_score": 281.94041,
+              "min_rank": 1499041,
+              "max_rank": 488653
+            }
+          ]
+        },
+        {
+          "program_name": "Ekonomi ve Finans (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 4,
+              "min_score": 344.56922,
+              "max_score": 349.97589,
+              "min_rank": 141779,
+              "max_rank": 126301,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 15,
+              "min_score": 276.22584,
+              "max_score": 329.56849,
+              "min_rank": 540898,
+              "max_rank": 193507
+            },
+            {
+              "type": "Ücretli",
+              "quota": 16,
+              "min_score": 201.16259,
+              "max_score": 243.52884,
+              "min_rank": 1497333,
+              "max_rank": 916029
+            }
+          ]
+        },
+        {
+          "program_name": "Denizcilik İşletmeleri Yönetimi (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 12,
+              "min_score": 367.67283,
+              "max_score": 428.88151,
+              "min_rank": 84141,
+              "max_rank": 11661
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 45,
+              "min_score": 302.81076,
+              "max_score": 365.82605,
+              "min_rank": 331309,
+              "max_rank": 87881
+            },
+            {
+              "type": "Ücretli",
+              "quota": 36,
+              "min_score": 249.37104,
+              "max_score": 302.21882,
+              "min_rank": 839382,
+              "max_rank": 335106
+            }
+          ]
+        },
+        {
+          "program_name": "Lojistik Yönetimi (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 7,
+              "min_score": 348.26282,
+              "max_score": 361.31956,
+              "min_rank": 130994,
+              "max_rank": 97830,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 23,
+              "min_score": 283.04424,
+              "max_score": 337.79897,
+              "min_rank": 479124,
+              "max_rank": 163186
+            },
+            {
+              "type": "Ücretli",
+              "quota": 19,
+              "min_score": 200.18502,
+              "max_score": 248.75302,
+              "min_rank": 1508740,
+              "max_rank": 847428
+            }
+          ]
+        },
+        {
+          "program_name": "Yönetim Bilişim Sistemleri (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "EA",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 10,
+              "min_score": 392.90032,
+              "max_score": 449.00293,
+              "min_rank": 42932,
+              "max_rank": 4492,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 34,
+              "min_score": 311.5145,
+              "max_score": 392.53491,
+              "min_rank": 279076,
+              "max_rank": 43404
+            },
+            {
+              "type": "Ücretli",
+              "quota": 34,
+              "min_score": 227.17933,
+              "max_score": 311.06141,
+              "min_rank": 1144605,
+              "max_rank": 281719
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "MÜHENDİSLİK FAKÜLTESİ",
+      "programs": [
+        {
+          "program_name": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 12,
+              "min_score": 444.58221,
+              "max_score": 466.42087,
+              "min_rank": 42636,
+              "max_rank": 27461,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 44,
+              "min_score": 377.31297,
+              "max_score": 444.35804,
+              "min_rank": 108605,
+              "max_rank": 42790
+            },
+            {
+              "type": "Ücretli",
+              "quota": 37,
+              "min_score": 310.21255,
+              "max_score": 376.71835,
+              "min_rank": 234265,
+              "max_rank": 109345
+            }
+          ]
+        },
+        {
+          "program_name": "Makine Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 5,
+              "min_score": 405.38025,
+              "max_score": 417.93035,
+              "min_rank": 77090,
+              "max_rank": 64852,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 23,
+              "min_score": 324.5903,
+              "max_score": 385.45438,
+              "min_rank": 197649,
+              "max_rank": 98734
+            },
+            {
+              "type": "Ücretli",
+              "quota": 14,
+              "min_score": 294.00781,
+              "max_score": 312.09751,
+              "min_rank": 285775,
+              "max_rank": 228970
+            }
+          ]
+        },
+        {
+          "program_name": "Elektrik - Elektronik Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 6,
+              "min_score": 413.70677,
+              "max_score": 437.16454,
+              "min_rank": 68887,
+              "max_rank": 48372,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 26,
+              "min_score": 326.5165,
+              "max_score": 367.61967,
+              "min_rank": 193322,
+              "max_rank": 121189
+            },
+            {
+              "type": "Ücretli",
+              "quota": 16,
+              "min_score": 293.85655,
+              "max_score": 317.34193,
+              "min_rank": 286305,
+              "max_rank": 215202
+            }
+          ]
+        },
+        {
+          "program_name": "Endüstri Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 8,
+              "min_score": 411.95563,
+              "max_score": 420.09313,
+              "min_rank": 70554,
+              "max_rank": 62954,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 31,
+              "min_score": 337.98396,
+              "max_score": 397.65186,
+              "min_rank": 169601,
+              "max_rank": 85082
+            },
+            {
+              "type": "Ücretli",
+              "quota": 21,
+              "min_score": 292.50496,
+              "max_score": 332.41939,
+              "min_rank": 291116,
+              "max_rank": 180540
+            }
+          ]
+        },
+        {
+          "program_name": "Bilgisayar Mühendisliği (İngilizce)",
+          "program_type": "Lisans",
+          "point_type": "SAY",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 8,
+              "min_score": 423.54247,
+              "max_score": 444.44566,
+              "min_rank": 59912,
+              "max_rank": 42725,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 30,
+              "min_score": 348.52281,
+              "max_score": 405.5637,
+              "min_rank": 150552,
+              "max_rank": 76895
+            },
+            {
+              "type": "Ücretli",
+              "quota": 20,
+              "min_score": 290.21353,
+              "max_score": 338.84386,
+              "min_rank": 299787,
+              "max_rank": 167995
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "DENİZCİLİK MESLEK YÜKSEKOKULU",
+      "programs": [
+        {
+          "program_name": "Deniz Ulaştırma ve İşletme",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 12,
+              "min_score": 409.47213,
+              "max_score": 479.21383,
+              "min_rank": 165141,
+              "max_rank": 41701,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 47,
+              "min_score": 337.79092,
+              "max_score": 383.48513,
+              "min_rank": 497283,
+              "max_rank": 247104
+            },
+            {
+              "type": "Ücretli",
+              "quota": 31,
+              "min_score": 297.11125,
+              "max_score": 335.99088,
+              "min_rank": 920456,
+              "max_rank": 571101
+            }
+          ]
+        },
+        {
+          "program_name": "Gemi Makineleri İşletmeciliği",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 12,
+              "min_score": 381.93519,
+              "max_score": 437.63098,
+              "min_rank": 253133,
+              "max_rank": 103339,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 48,
+              "min_score": 313.13125,
+              "max_score": 396.19106,
+              "min_rank": 726780,
+              "max_rank": 203171
+            },
+            {
+              "type": "Ücretli",
+              "quota": 33,
+              "min_score": 276.54444,
+              "max_score": 348.05325,
+              "min_rank": 1215873,
+              "max_rank": 424681
+            }
+          ]
+        },
+        {
+          "program_name": "Gemi İnşaatı",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 12,
+              "min_score": 371.96038,
+              "max_score": 445.36172,
+              "min_rank": 294885,
+              "max_rank": 89894,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 43,
+              "min_score": 301.66163,
+              "max_score": 370.70074,
+              "min_rank": 861402,
+              "max_rank": 300666
+            },
+            {
+              "type": "Ücretli",
+              "quota": 33,
+              "min_score": 249.42067,
+              "max_score": 296.13939,
+              "min_rank": 1662742,
+              "max_rank": 933400
+            }
+          ]
+        },
+        {
+          "program_name": "Sualtı Teknolojisi (İngilizce)",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 2,
+              "min_score": 379.0487,
+              "max_score": 384.81808,
+              "min_rank": 264686,
+              "max_rank": 242038,
+              "special_quotas": {
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 7,
+              "min_score": 265.82125,
+              "max_score": 335.13862,
+              "min_rank": 1386037,
+              "max_rank": 517749
+            },
+            {
+              "type": "Ücretli",
+              "quota": 6,
+              "min_score": 229.2867,
+              "max_score": 286.15985,
+              "min_rank": 2025288,
+              "max_rank": 1071733
+            }
+          ]
+        },
+        {
+          "program_name": "Hibrid ve Elektrikli Araçlar Teknolojisi",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 5,
+              "special_quotas": {
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 19
+            },
+            {
+              "type": "Ücretli",
+              "quota": 15
+            }
+          ]
+        },
+        {
+          "program_name": "Mekatronik",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 11,
+              "min_score": 362.42492,
+              "max_score": 416.60054,
+              "min_rank": 341126,
+              "max_rank": 147493,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 38,
+              "min_score": 290.23985,
+              "max_score": 362.10531,
+              "min_rank": 1013857,
+              "max_rank": 342830
+            },
+            {
+              "type": "Ücretli",
+              "quota": 33,
+              "min_score": 209.95859,
+              "max_score": 281.72568,
+              "min_rank": 2377932,
+              "max_rank": 1137271
+            }
+          ]
+        },
+        {
+          "program_name": "Deniz ve Liman İşletmeciliği",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 9,
+              "min_score": 363.15285,
+              "max_score": 432.18006,
+              "min_rank": 337239,
+              "max_rank": 113828,
+              "special_quotas": {
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 36,
+              "min_score": 292.48959,
+              "max_score": 330.27656,
+              "min_rank": 982442,
+              "max_rank": 558226
+            },
+            {
+              "type": "Ücretli",
+              "quota": 23,
+              "min_score": 237.4343,
+              "max_score": 279.56121,
+              "min_rank": 1875550,
+              "max_rank": 1169404
+            }
+          ]
+        },
+        {
+          "program_name": "Marina ve Yat İşletmeciliği",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 10,
+              "min_score": 340.00194,
+              "max_score": 409.38049,
+              "min_rank": 480537,
+              "max_rank": 165380,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 35,
+              "min_score": 274.86142,
+              "max_score": 336.87561,
+              "min_rank": 1241770,
+              "max_rank": 504264
+            },
+            {
+              "type": "Ücretli",
+              "quota": 24,
+              "min_score": 232.81354,
+              "max_score": 307.12279,
+              "min_rank": 1959844,
+              "max_rank": 795182
+            }
+          ]
+        },
+        {
+          "program_name": "Lojistik",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 6,
+              "min_score": 337.22079,
+              "max_score": 363.93838,
+              "min_rank": 501599,
+              "max_rank": 333248,
+              "special_quotas": {
+                "sehit_gazi": 1,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 24,
+              "min_score": 272.66186,
+              "max_score": 329.35355,
+              "min_rank": 1276038,
+              "max_rank": 566246
+            },
+            {
+              "type": "Ücretli",
+              "quota": 17,
+              "min_score": 209.23565,
+              "max_score": 265.7161,
+              "min_rank": 2390362,
+              "max_rank": 1387759
+            }
+          ]
+        },
+        {
+          "program_name": "Bilgisayar Programcılığı",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 11,
+              "min_score": 367.92884,
+              "max_score": 383.3954,
+              "min_rank": 313645,
+              "max_rank": 247442,
+              "special_quotas": {
+                "sehit_gazi": 2,
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 37,
+              "min_score": 307.68909,
+              "max_score": 354.35992,
+              "min_rank": 788492,
+              "max_rank": 385542
+            },
+            {
+              "type": "Ücretli",
+              "quota": 36,
+              "min_score": 177.18586,
+              "max_score": 288.32895,
+              "min_rank": 2736902,
+              "max_rank": 1040729
+            }
+          ]
+        },
+        {
+          "program_name": "Deniz Brokerliği",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 8,
+              "min_score": 368.30657,
+              "max_score": 399.53177,
+              "min_rank": 311836,
+              "max_rank": 192924,
+              "special_quotas": {
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 33,
+              "min_score": 305.86988,
+              "max_score": 366.04522,
+              "min_rank": 810053,
+              "max_rank": 322907
+            },
+            {
+              "type": "Ücretli",
+              "quota": 21,
+              "min_score": 253.16745,
+              "max_score": 297.94085,
+              "min_rank": 1597975,
+              "max_rank": 909376
+            }
+          ]
+        },
+        {
+          "program_name": "Aşçılık (İngilizce)",
+          "program_type": "Önlisans",
+          "point_type": "TYT",
+          "scholarships": [
+            {
+              "type": "Tam Burslu",
+              "quota": 6,
+              "min_score": 342.30334,
+              "max_score": 357.7523,
+              "min_rank": 463854,
+              "max_rank": 366242,
+              "special_quotas": {
+                "depremzede": 1
+              }
+            },
+            {
+              "type": "%50 Burslu",
+              "quota": 26,
+              "min_score": 238.29897,
+              "max_score": 315.17525,
+              "min_rank": 1860058,
+              "max_rank": 704580
+            },
+            {
+              "type": "Ücretli",
+              "quota": 16,
+              "min_score": 177.5123,
+              "max_score": 236.94187,
+              "min_rank": 2735980,
+              "max_rank": 1884504
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_programs": 24,
+    "total_quotas": 1481,
+    "scholarship_types": ["Tam Burslu", "%50 Burslu", "Ücretli"],
+    "point_types": ["SAY", "EA", "TYT"],
+    "last_updated": "2025-07-25",
+    "data_source": "Piri Reis Üniversitesi"
+  }
+}
