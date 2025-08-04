@@ -4,33 +4,36 @@ import hashlib
 import os
 from typing import List
 import glob
-from load_documents.load_denizcilik_fakultesi import process_data as process_denizcilik_json
-from load_documents.load_dmyo import process_data as process_dmyo_json
-from load_documents.load_het import process_data as process_het_json
-from load_documents.load_hukuk import process_data as process_hukuk_json
-from load_documents.load_iibf import process_data as process_iibf_json
-from load_documents.load_kisiler import process_data as process_people_json
-from load_documents.load_muhendislik import process_data as process_muhendislik_json
-from load_documents.load_ders_koordinasyonlugu import process_data as process_ders_koordinasyonu_json       
-from load_documents.load_ek_sinav_hakki import process_data as process_ek_sinav_hakki_json
-from load_documents.load_ingilizce_hazirlik_yonetmeligi import process_data as process_ingilizce_yonetmeligi_json   
-from load_documents.load_lisans_onlisans_egitim_sinav_yonetmeligi import process_data as process_lisans_onlisans_json
-from load_documents.load_uniforma_yonetmeligi import process_data as process_uniforma_yonetmeligi_json
-from load_documents.load_erasmus_universiteleri import process_data as process_erasmus_json
-from load_documents.load_kampus_olanaklari import process_data as process_kampus_json
-from load_documents.load_siralamalar import process_data as process_siralamalar_json
-from load_documents.load_ulasim import process_data as process_ulasim_json
-from load_documents.load_burslar import process_data as process_burslar_json
-from load_documents.load_sik_sorulan_sorular import process_data as process_sik_sorulan_sorular_json
-from load_documents.load_pru_brosur import process_data as process_pru_brosur_md
-from load_documents.load_proje_ofisi_koordinatorlugu import process_data as process_proje_ofisi_json
-from load_documents.load_teknopark import process_data as process_teknopark_json
-from load_documents.load_tezsiz_yuksek_lisans import process_data as process_tezsiz_yuksek_lisans_json
-from load_documents.load_tezli_yuksek_lisans import process_data as process_tezli_yuksek_lisans_json
-from load_documents.load_doktora_programlari import process_data as process_doktora_programlari_json
-from load_documents.load_ogrenciler_icin_bilgi import process_data as process_ogrenciler_bilgi_json
-from load_documents.load_diploma_eki import process_data as process_diploma_eki_json
-
+from backend.load_documents.load_denizcilik_fakultesi import process_data as process_denizcilik_json
+from backend.load_documents.load_dmyo import process_data as process_dmyo_json
+from backend.load_documents.load_het import process_data as process_het_json
+from backend.load_documents.load_hukuk import process_data as process_hukuk_json
+from backend.load_documents.load_iibf import process_data as process_iibf_json
+from backend.load_documents.load_kisiler import process_data as process_people_json
+from backend.load_documents.load_muhendislik import process_data as process_muhendislik_json
+from backend.load_documents.load_ders_koordinasyonlugu import process_data as process_ders_koordinasyonu_json       
+from backend.load_documents.load_ek_sinav_hakki import process_data as process_ek_sinav_hakki_json
+from backend.load_documents.load_ingilizce_hazirlik_yonetmeligi import process_data as process_ingilizce_yonetmeligi_json   
+from backend.load_documents.load_lisans_onlisans_egitim_sinav_yonetmeligi import process_data as process_lisans_onlisans_json
+from backend.load_documents.load_uniforma_yonetmeligi import process_data as process_uniforma_yonetmeligi_json
+from backend.load_documents.load_erasmus_universiteleri import process_data as process_erasmus_json
+from backend.load_documents.load_kampus_olanaklari import process_data as process_kampus_json
+from backend.load_documents.load_siralamalar import process_data as process_siralamalar_json
+from backend.load_documents.load_ulasim import process_data as process_ulasim_json
+from backend.load_documents.load_burslar import process_data as process_burslar_json
+from backend.load_documents.load_sik_sorulan_sorular import process_data as process_sik_sorulan_sorular_json
+from backend.load_documents.load_pru_brosur import process_data as process_pru_brosur_md
+from backend.load_documents.load_proje_ofisi_koordinatorlugu import process_data as process_proje_ofisi_json
+from backend.load_documents.load_teknopark import process_data as process_teknopark_json
+from backend.load_documents.load_tezsiz_yuksek_lisans import process_data as process_tezsiz_yuksek_lisans_json
+from backend.load_documents.load_tezli_yuksek_lisans import process_data as process_tezli_yuksek_lisans_json
+from backend.load_documents.load_doktora_programlari import process_data as process_doktora_programlari_json
+from backend.load_documents.load_ogrenciler_icin_bilgi import process_data as process_ogrenciler_bilgi_json
+from backend.load_documents.load_diploma_eki import process_data as process_diploma_eki_json
+from backend.load_documents.load_rektor import process_data as process_rektor_json
+from backend.load_documents.load_ingilizce_hazirlik_takvim import process_data as process_ingilizce_hazirlik_takvim_json
+from backend.load_documents.load_lisans_onlisans_akademik_takvim import process_data as process_lisans_onlisans_akademik_takvim_json
+from backend.load_documents.load_lisansustu_egitim_enstitusu_akademik_takvim import process_data as process_lisansustu_egitim_enstitusu_akademik_takvim_json
 
 def compute_hash(content: str) -> str:
     """
@@ -95,6 +98,14 @@ def identify_json_type(data, file_name: str) -> str:
         return "ogrenciler_icin_bilgi"
     elif file_name_lower == "diploma_eki.json":
         return "diploma_eki"
+    elif file_name_lower == "rektor.json":
+        return "rektor"
+    elif file_name_lower == "ingilizce_hazirlik_takvim.json":
+        return "ingilizce_hazirlik_takvim"
+    elif file_name_lower == "lisans_onlisans_akademik_takvim.json": 
+        return "lisans_onlisans_akademik_takvim"
+    elif file_name_lower == "lisansustu_egitim_enstitusu_akademik_takvim.json":
+        return "lisansustu_egitim_enstitusu_akademik_takvim"
     else:
         return "unknown"
 
@@ -105,7 +116,7 @@ def load_docs() -> List[Document]:
     Handles different JSON structures appropriately.
     """
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data_dir = os.path.join(BASE_DIR, r"backend\get_data")
+    data_dir = os.path.join(BASE_DIR, r"backend/get_data")
 
     # Get all JSON files in the data directory
     json_files = glob.glob(os.path.join(data_dir, "*.json"))
@@ -175,6 +186,14 @@ def load_docs() -> List[Document]:
                 docs = process_ogrenciler_bilgi_json(data, file_name)
             elif json_type == "diploma_eki":
                 docs = process_diploma_eki_json(data, file_name)
+            elif json_type == "rektor":
+                docs = process_rektor_json(data, file_name)
+            elif json_type == "ingilizce_hazirlik_takvim":  
+                docs = process_ingilizce_hazirlik_takvim_json(data, file_name)
+            elif json_type == "lisans_onlisans_akademik_takvim":
+                docs = process_lisans_onlisans_akademik_takvim_json(data, file_name)
+            elif json_type == "lisansustu_egitim_enstitusu_akademik_takvim":
+                docs = process_lisansustu_egitim_enstitusu_akademik_takvim_json(data, file_name)
             else:
                 print(f"[WARNING] Unknown JSON structure in {file_name}, skipping...")
                 continue

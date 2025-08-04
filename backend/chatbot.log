@@ -719,3 +719,21 @@
 2025-08-02 08:13:30,151 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
 2025-08-02 08:13:30,177 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
 2025-08-02 08:13:30,254 - werkzeug - INFO - 172.18.0.1 - - [02/Aug/2025 08:13:30] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-04 09:29:23,117 - __main__ - INFO - Database initialized successfully
+2025-08-04 09:29:23,118 - __main__ - INFO - Initializing chatbot...
+2025-08-04 09:29:23,123 - __main__ - WARNING - SSL certificates not found, running in development mode
+2025-08-04 09:29:23,138 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.16.116:5000
+2025-08-04 09:29:23,138 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 09:29:23,144 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 09:29:27,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-08-04 09:29:27,136 - __main__ - ERROR - Error initializing chatbot: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************v2cA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-08-04 09:29:28,743 - __main__ - INFO - Database initialized successfully
+2025-08-04 09:29:28,744 - __main__ - INFO - Initializing chatbot...
+2025-08-04 09:29:28,759 - __main__ - WARNING - SSL certificates not found, running in development mode
+2025-08-04 09:29:28,770 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 09:29:28,771 - werkzeug - INFO -  * Debugger PIN: 137-665-641
+2025-08-04 09:29:29,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-08-04 09:29:29,332 - __main__ - ERROR - Error initializing chatbot: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************v2cA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

@@ -1,0 +1,298 @@
+[
+  {
+    "soru": "Kardeşimle aynı anda üniversitede okuyorum, bize bir indirim oluyor mu?",
+    "cevap": "Kardeş İndirimi, üniversitede aynı anda okuyan kardeş öğrencilere uygulanır. Her bir kardeş için %5 indirim sağlanır. Kardeşlerden biri mezun olursa indirim sona erer."
+  },
+  {
+    "soru": "Milli sporcuyum, üniversitede burs alabilir miyim? Amatör sporculara da var mı?",
+    "cevap": "Son 4 yıl içinde başarılı olan milli sporculara %100 öğrenim ücreti indirimi yapılır. Amatör sporculara ise başarılarına göre %5'e kadar indirim sağlanır."
+  },
+  {
+    "soru": "Denizcilik lisesinden mezunum ve %50 burslu kazandım. Ekstra bir indirim oluyor mu?",
+    "cevap": "Denizcilik lisesi mezunu bir öğrenci %50 burslu bir programa yerleşirse, burs oranı düşüldükten sonra kalan öğrenim ücreti üzerinden %10 ek indirim yapılır."
+  },
+  {
+    "soru": "Denizcilik Fakültesi’nin amacı ne?",
+    "cevap": "Vizyon: Dünya kalitesi ve standartlarında eğitim ve öğretim vermek, araştırma yapmak ve küresel rekabet ortamında mesleki ve akademik eğitim arasında sinerji yaratmaktır. Misyon: Atatürk İlke ve İnkılapları doğrultusunda, Türk Denizciliğinin örf, adet ve ananeleri çerçevesinde; çağdaş ve kaliteli eğitim vererek, araştırma yapan, iletişim becerileri gelişmiş, öğrenmeyi öğrenen, özgür düşünebilen, yaratıcı, sosyal sorumluluk ve yurttaşlık bilincine sahip gençler yetiştirmek ve ulusal/uluslararası düzeyde projeler geliştirmektir."
+  },
+  {
+    "soru": "Deniz Ulaştırma İşletme Mühendisliği bölümünde kaç ay staj var? Stajlar hangi dönemde?",
+    "cevap": "Eğitim dili zorunlu İngilizcedir. Öğrenciler 6 ay Birinci Deniz Stajı, 6 ay İkinci Deniz Stajı olmak üzere toplam 12 ay gemide staj yapmak zorundadır. Birinci Deniz Stajı ikinci sınıf güz döneminde, İkinci Deniz Stajı ise üçüncü sınıf bahar döneminde yapılır."
+  },
+  {
+    "soru": "Gemi Makineleri İşletme Mühendisliği’nde çift anadal veya yandal hakkı var mı? Hangi bölümlerle yapılabiliyor?",
+    "cevap": "Gemi Makineleri İşletme Mühendisliği bölümünde 2024-2025 akademik yılı için Çift Anadal Programı kontenjanı 3, Yandal Programı kontenjanı 5’tir. Gemi İnşa ve Gemi Makineleri Mühendisliği, Makine Mühendisliği, Deniz Ulaştırma İşletme Mühendisliği bölümleriyle çift anadal ve yandal yapılabilir."
+  },
+  {
+    "soru": "Üniversitedeki ortak derslerin ve sınavların sorumlusu kim?",
+    "cevap": "Bu derslerin yürütülmesi ve sınav programlarının koordinasyonundan Fen-Edebiyat Fakültesi Dekanlığı sorumludur."
+  },
+  {
+    "soru": "Denizcilik Fakültesi’nde temel bilim derslerinden örnek verebilir misiniz?",
+    "cevap": "MATH111 - Mathematics-I, ATAC01 - Atatürk's Principles and History of Turkish Revolution-I, CHEM115 - Chemistry"
+  },
+  {
+    "soru": "Ortak ders koordinatörü tam olarak ne yapar?",
+    "cevap": "1) Eğitim Öğretim Planlama Komisyonu ile iş birliği yaparak haftalık ders programının hazırlanması ve derslerde görev alacak öğretim elemanlarının dağılımlarını Fen-Edebiyat Fakültesi Dekanlığına bildirmek. 2) Temel bilim derslerini vermekte görevli öğretim elemanlarıyla eğitim-öğretim dönemi içerisinde ara toplantılar yaparak ortak derslerin işleyişindeki bütünlüğü ve sürekliliği sağlamak."
+  },
+  {
+    "soru": "Diploma Eki nedir, ne işe yarar?",
+    "cevap": "Diploma Eki (DE), yüksek öğretim diploması ile birlikte verilen ve alınan eğitimin seviyesini, içeriğini ve statüsünü standart bir şekilde tamamlayan bir belgedir. Uluslararası Yükseköğrenimde, mezunun aldığı akademik derece, düzeyi, içeriği ve mesleki yetkinlikler hakkında detaylı bilgi sunmak ve eğitimin diğer ülke ve eğitim sistemlerinde tanıtılmasına yardımcı olmak amacıyla verilir."
+  },
+  {
+    "soru": "Diploma eki bana ne avantaj sağlar?",
+    "cevap": "Diploma Eki sayesinde öğrenci, yurtdışında daha kolay anlaşılan ve kıyaslanabilen bir diplomaya sahip olur, akademik gelişimi ve öğrenimi boyunca kazandığı yeterliliklerin kusursuz bir tanımını elde eder, yeterliliklerinin tarafsız bir ifadesine ulaşır, iş imkânlarına veya ileri seviyedeki yurtdışı eğitim olanaklarına daha kolay erişim sağlar ve istihdam edilebilmesini destekler."
+  },
+  {
+    "soru": "Okul için diploma ekinin üniversiteye faydası ne?",
+    "cevap": "1) Akademik ve mesleki tanınmanın artmasını sağlayarak, yeterliliklerin şeffaflığını artırır. 2) Kurumun yurt dışında daha çok bilinmesini sağlar. 3) Mezunların ulusal ve uluslararası düzeyde istihdam edilebilmesini kolaylaştırır."
+  },
+  {
+    "soru": "Sualtı Teknolojisi mezunları ne iş yapıyor? Eğitim dili ne?",
+    "cevap": "Sualtı Teknolojisi Programı’nda eğitim süresi, bir yılı hazırlık olmak üzere toplam üç yıldır ve eğitim dili İngilizcedir. Mezunlar; dalış, sualtı kurtarma, sualtı kesme ve kaynak işleri, gemi karina kontrolü, gemi klas sörveyi gibi denizcilik sektöründe veya Basınç Odası Operatörlüğü yeteneği ile Hiperbarik Oksijen Tedavi merkezlerinde çalışabilirler."
+  },
+  {
+    "soru": "Lojistik Programı mezunları hangi alanlarda iş bulabilir?",
+    "cevap": "Lojistik Programı mezunları, lojistik ve operasyon yönetimi, taşımacılık, stok ve depolama, ulaştırma, depolama, stok yönetimi gibi alanlarda ve lojistik sektörüne yakın diğer sektörlerde çalışabilirler. Ayrıca, gerekli eğitim başarısını gösterdikleri takdirde İktisadi ve İdari Bilimler Fakültesi'nin Uluslararası Lojistik ve Taşımacılık programına dikey geçiş ile dört yıllık lisans eğitimlerini tamamlayabilirler."
+  },
+  {
+    "soru": "Hesaplamalı Bilim ve Mühendislik doktora programına kimler başvurabiliyor?",
+    "cevap": "\"Hesaplamalı Bilim ve Mühendislik\" doktora programı; deniz bilimleri ve teknolojisi, hesapsal malzeme bilimi, nanoteknoloji, biyoteknoloji, uygulamalı matematik, iktisadi modelleme gibi çok geniş bir alanı kapsar. Programa başvurabilecek geçmişler arasında Bilgisayar Mühendisliği, Fizik, Fizik Mühendisliği, Kimya, Kimya Mühendisliği, Moleküler Biyoloji ve Genetik, Matematik, İstatistik, Matematik Mühendisliği, Malzeme Mühendisliği, Endüstri Mühendisliği, İşletme Mühendisliği, Elektrik Elektronik Mühendisliği, Makine Mühendisliği, Çevre Mühendisliği, Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Gemi Makineleri İşletme Mühendisliği, Gemi ve Deniz Teknolojisi Mühendisliği, Deniz Ulaştırma İşletme Mühendisliği, Deniz Teknolojisi Mühendisliği, Balıkçılık Teknolojisi Mühendisliği, Meteoroloji Mühendisliği ve Mekatronik Mühendisliği bulunmaktadır."
+  },
+  {
+    "soru": "Deniz Hukuku doktora programı ne için var, hangi alanlara odaklanıyor?",
+    "cevap": "Deniz Hukuku doktora programının amacı, Türk denizcilik sektörünün hak ve menfaatlerini hem ülke düzeyinde hem de uluslararası alanda koruyabilecek ve savunabilecek nitelikte, Deniz Hukuku alanında uzman hukukçular yetiştirmektir. Programda özellikle Deniz Özel Hukuku, Deniz Ticareti Hukuku ve Deniz Kamu Hukuku (örneğin karasuları, münhasır ekonomik bölge, kıta sahanlığı, boğazlar, denizde terör ve deniz haydutluğu gibi konular) alanlarına vurgu yapılmaktadır."
+  },
+  {
+    "soru": "Deniz Ulaştırma İşletme Mühendisliği doktora programına hangi bölümlerden mezun olanlar başvurabilir? Ek bir şart var mı?",
+    "cevap": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) Doktora programına, aşağıdaki alanlardan mezun olanlar başvurabilir: Deniz Ulaştırma İşletme Mühendisliği (Güverte), Gemi Makineleri İşletme Mühendisliği, Gemi ve Deniz Teknolojisi Mühendisliği, Deniz Teknolojisi Mühendisliği, Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Gemi İnşaatı Mühendisliği, Makine Mühendisliği, Mekatronik Mühendisliği, İnşaat Mühendisliği (Ulaştırma), Deniz Harp Okulu, İşletme Mühendisliği ve Endüstri Mühendisliği. Bu alanlar dışında lisans diploması olanlar için uzakyol birinci zabiti veya uzakyol ikinci mühendisi/makinisti olarak en az iki yıl deniz tecrübesine sahip olma şartı aranmaktadır. Ayrıca, başvuru için Deniz Ulaştırma İşletme Mühendisliği veya uygunluğu Enstitü Kurulunca kabul edilecek bir programdan mezun olmak gerekmektedir."
+  },
+  {
+    "soru": "Denizcilik Fakültesi'nin Erasmus anlaşmalı olduğu ülkeler hangileri?",
+    "cevap": "Denizcilik Fakültesi'nin Erasmus kapsamında anlaşmalı olduğu ülkeler şunlardır: Letonya, Romanya, Yunanistan, Bulgaristan, Belçika, Estonya, Slovenya ve Hırvatistan."
+  },
+  {
+    "soru": "Mühendislik Fakültesi için Polonya’da hangi okullarla Erasmus var?",
+    "cevap": "Mühendislik Fakültesi için Polonya'da Erasmus kapsamında anlaşmalı olunan üniversiteler: West Pomerian University of Technology ve Politechnika Gdanska'dır."
+  },
+  {
+    "soru": "Piri Reis Üniversitesi toplam kaç ülke ile Erasmus anlaşması yaptı, örnek verir misin?",
+    "cevap": "Piri Reis Üniversitesi toplam 14 farklı ülke ile Erasmus anlaşması yapmıştır. Bu ülkelerden üçü: Almanya, Romanya ve Polonya'dır."
+  },
+  {
+    "soru": "Hibrit ve Elektrikli Taşıtlar Programı’nda mezunlar ne iş bulabiliyor? Eğitimde neler öne çıkıyor?",
+    "cevap": "Program; insansız, otonom ve uzaktan kumanda edilen elektrikli deniz araçları ile diğer elektrikli araçların üretimi, kullanımı, bakımı, tasarımı ve geliştirilmesi konularına odaklanır. Eğitimde Ulaştırma Bakanlığı, STCW ve IMO koşulları sağlanır; mesleki dersler laboratuvar uygulamalarıyla desteklenmiştir."
+  },
+  {
+    "soru": "Hibrit ve Elektrikli Taşıtlar Programı mezunları nerede çalışabilir?",
+    "cevap": "Mezunlar, 'Gemi Elektroteknik Zabiti' yeterliliği ile ticari gemilerde çalışabilir. Ayrıca tersaneler, limanlar, denizcilik firmalarının yer hizmetleri, marinalar, enerji, elektrik, elektronik, otomasyon, kontrol, iletişim, otomotiv ve savunma sanayi gibi sektörlerde teknik hizmetler personeli olarak istihdam edilebilirler."
+  },
+  {
+    "soru": "Bu programdan mezun olunca hangi lisanslara dikey geçiş yapabilirim?",
+    "cevap": "Mezunlar, Dikey Geçiş Sınavı'nda (DGS) başarılı oldukları takdirde Elektrik Mühendisliği, Elektrik-Elektronik Mühendisliği, Elektronik Mühendisliği, Elektronik ve Haberleşme Mühendisliği, Endüstri Mühendisliği, Endüstri ve Sistem Mühendisliği, İmalat Mühendisliği, Kontrol ve Otomasyon Mühendisliği, Makine Mühendisliği, Mekatronik Sistemler Mühendisliği, Mekatronik Mühendisliği ve Uzay Mühendisliği lisans programlarına geçiş yapabilirler."
+  },
+  {
+    "soru": "Hukuk Fakültesi’nde özellikle hangi alanlara ağırlık veriliyor?",
+    "cevap": "Piri Reis Üniversitesi Hukuk Fakültesi, kamu ve özel hukukun tüm alanlarında kaliteli ve üst düzeyde eğitim vermeyi amaçlamaktadır. Ayrıca, üniversitenin denizcilik ihtisas üniversitesi olması nedeniyle, temel hukuk eğitimi ile birlikte özellikle 'Deniz Hukuku' alanında uzmanlaşmaya özel önem verilmektedir."
+  },
+  {
+    "soru": "Hukuk öğrencileri hangi kulüplere katılabilir, kulüpler ne yapar?",
+    "cevap": "Hukuk Fakültesi öğrencileri, Deniz Hukuku Kulübü ve Uluslararası Hukuk Kulübü'ne (International Law Society) katılabilirler. Deniz Hukuku Kulübü, deniz hukuku ve genel hukuk alanlarında seminer ve etkinlikler düzenleyerek mesleki ve akademik gelişime katkı sağlar. Uluslararası Hukuk Kulübü ise münazara, moot court, tahkim gibi farazi dava yarışmaları, bilimsel ve mesleki konferanslar düzenleyerek öğrencilerin hem ulusal hem de uluslararası alanda deneyim kazanmalarını amaçlar."
+  },
+  {
+    "soru": "Hukuk Fakültesi Erasmus’ta hangi üniversitelerle anlaşmalı?",
+    "cevap": "Hukuk Fakültesi'nin Erasmus+ programı kapsamında anlaşmalı olduğu üç üniversite: Universitatea Babeș-Bolyai (Romanya), Università degli Studi dell'Insubria (İtalya), Universidade de Coimbra (Portekiz)'dir."
+  },
+  {
+    "soru": "İİBF’nin (İktisadi ve İdari Bilimler Fakültesi) amacı ne?",
+    "cevap": "Vizyon: Denizcilikle ilgili her alanda, eğitim ve araştırmada mükemmeli hedefleyerek, sektöre değer katan, Türkiye'de öncü ve dünya çapında saygın bir ihtisas üniversitesi olmak. Misyon: Evrensel standartlarda, öğrenci odaklı eğitim ve öğretim vererek; 21. yüzyıl yetkinliklerine sahip, liderlik vasıflarına sahip, sürdürülebilir kalkınma hedeflerini benimsemiş, denizcilik kültürünü özümsemiş, ahlaki değerleri yüksek bireyler yetiştirerek denizcilik sektörünün ihtiyaç duyduğu nitelikli insan gücünü karşılamaktır."
+  },
+  {
+    "soru": "Ekonomi ve Finans mezunu olunca CFA avantajı nedir?",
+    "cevap": "Ekonomi ve Finans Bölümü, CFA (Chartered Financial Analyst) Enstitüsü tarafından 'CFA Affiliated University' olarak kabul edilmiştir. Bu sertifika, mezunlara uluslararası geçerliliğe sahip yatırım analisti, portföy yöneticisi, finans uzmanı gibi görevlerde çalışma imkanı ve finans dünyasında yüksek gelirli, üst düzey kariyer basamaklarını hızlandırıcı avantajlar sağlar."
+  },
+  {
+    "soru": "Lojistik Yönetimi mezunları ne iş yapar?",
+    "cevap": "Lojistik Yönetimi Bölümü mezunları; lojistik ve taşımacılık firmalarında, ithalat ve ihracat şirketlerinde, yerli ve yabancı şirketlerin uluslararası ticaret departmanlarında, lojistik danışmanlık firmalarında, dağıtım, depolama ve gümrükleme sektörlerinde ve üniversitelerin ilgili akademik birimlerinde çalışabilirler."
+  },
+  {
+    "soru": "Hazırlık okuyanlar için İngilizce sınavı ne zaman?",
+    "cevap": "İngilizce Seviye Tespit Sınavı (İSTS) 01 Eylül 2025 tarihinde yapılacaktır. İngilizce Yeterlilik Sınavı (İYS) ise 03, 04 ve 05 Eylül 2025 tarihlerinde gerçekleştirilecektir."
+  },
+  {
+    "soru": "Hazırlık eğitiminde dönemler ve sınavlar ne zaman?",
+    "cevap": "Güz Yarıyılı dersleri 29 Eylül 2025’te başlar ve 09 Ocak 2026’da sona erer. Ara Sınav 20 Kasım 2025’te yapılır. Güz Yarıyılı İYS Sınavı 14-15-16 Ocak 2026 tarihlerindedir. Yarı yıl tatili 19-30 Ocak 2026’dadır. Bahar Yarıyılı dersleri 02 Şubat 2026’da başlar ve 15 Mayıs 2026’da sona erer. Ara Sınav 26 Mart 2026’da yapılır. Yıl Sonu Sınavı 20-21-22 Mayıs 2026, sonuçların ilanı ise 10 Haziran 2026’dadır."
+  },
+  {
+    "soru": "Hazırlıkta kayıt yenilemezsem ne olur?",
+    "cevap": "Her iki yarıyıl başındaki derse yazılma işlemleri internet ortamında yapılacaktır ve o tarihe kadar öğrenim ücretlerinin yatırılmış olması gerekir. Kaydını yeniletmeyen ve derse yazılmayan öğrenciler o yarıyıla ait devam hakkını kaybetmiş sayılırlar."
+  },
+  {
+    "soru": "Hazırlıkta en fazla kaç yıl kalabilirim? 2 yıl sonunda hala geçemezsem?",
+    "cevap": "İngilizce Hazırlık Bölümü'nde eğitim-öğretim süresi en az bir akademik dönem, en fazla iki yıldır. İki yıl sonunda ve takip eden eğitim-öğretim yılı başında yapılan İYS'de de başarılı olamayan öğrencilerin üniversite ile ilişiği kesilir."
+  },
+  {
+    "soru": "Hazırlıkta devamsızlık hakkı yüzde kaç?",
+    "cevap": "Öğrenciler, her dönemde ders ve uygulamaların en az %80'ine katılmak zorundadır. Devamsızlık oranı %20'yi aşan öğrenciler başarısız sayılır ve İYS'ye (İngilizce Yeterlik Sınavı) giremezler."
+  },
+  {
+    "soru": "Hazırlığı muaf geçmek için ne yapmalıyım?",
+    "cevap": "Öğrenciler, Senato tarafından kabul edilen ulusal veya uluslararası sınavların herhangi birinden istenilen puanı gösteren sonuç belgesi ibraz ederek İngilizce Hazırlık Bölümünden muaf olabilirler. Ayrıca, ortaöğretimini İngilizce konuşulan ülkelerde tamamlayanlar veya ÖSYM tarafından yapılan yabancı dil sınavından Senato tarafından belirlenen seviyede puan alanlar da muaf olabilir."
+  },
+  {
+    "soru": "Kampüs nerede, ne kadar büyük?",
+    "cevap": "Piri Reis Üniversitesi kampüsü, İstanbul'un Tuzla ilçesinde, deniz manzaralı 80 dönümlük bir alan üzerinde kurulmuştur."
+  },
+  {
+    "soru": "Kampüste bana ne gibi imkanlar var?",
+    "cevap": "Kampüs içerisinde akademik binalar, spor tesisleri, kütüphane, yemekhane, kafeteryalar, sağlık merkezi ve sosyal alanlar gibi olanaklar öğrencilere sunulmaktadır."
+  },
+  {
+    "soru": "Kampüsün mimari ve tasarımda öne çıkan yönleri nedir?",
+    "cevap": "Kampüsün fiziksel ve tasarımsal özelliklerinden üçü şunlardır: Modern mimari, yeşil alanlar ve güçlü teknolojik altyapı."
+  },
+  {
+    "soru": "Rektör kim, nasıl ulaşabilirim?",
+    "cevap": "Piri Reis Üniversitesi'nin mevcut Rektörü Prof. Dr. Nafiz Arıca'dır. İletişim bilgileri: nafiz.arica@pirireis.edu.tr, telefon: 0216 581 0050"
+  },
+  {
+    "soru": "Mütevelli Heyeti Başkanı kim?",
+    "cevap": "Mütevelli Heyeti Başkanı Tamer Kıran, Başkan Vekili ise Recep Düzgit'tir."
+  },
+  {
+    "soru": "Fen Edebiyat Fakültesi'nin senatodaki temsilcisi kim?",
+    "cevap": "Fen Edebiyat Fakültesi Temsilcisi olarak Doç. Dr. Orhan Özgür AYBAR görev yapmaktadır. Ayrıca, Prof. Dr. C. Elif ÖZEN CANSOY Fen Edebiyat Fakültesi Dekanıdır."
+  },
+  {
+    "soru": "Güz dönemi ne zaman başlıyor, ne zaman bitiyor?",
+    "cevap": "Güz Dönemi dersleri 29 Eylül 2025 tarihinde başlar ve 2 Ocak 2026 tarihinde sona erer."
+  },
+  {
+    "soru": "Bahar dönemi dersler ne zaman başlıyor?",
+    "cevap": "Bahar Dönemi için 'Otomasyon Sistemiyle Derse Yazılma' 02-06 Şubat 2026 tarihlerinde, Bahar Dönemi derslerin başlangıcı ise 9 Şubat 2026’dadır."
+  },
+  {
+    "soru": "Yaz öğretimi hangi tarihlerde?",
+    "cevap": "Yaz öğretimi 13 Temmuz – 28 Ağustos 2026 tarihleri arasında gerçekleşecektir."
+  },
+  {
+    "soru": "Azami öğrenim süresi ne kadar?",
+    "cevap": "Bir yıl süreli yabancı dil hazırlık bölümü hariç, ön lisans programlarında azami süre dört yıl; dört yıl süreli lisans programlarında yedi yıl; beş yıl süreli lisans programlarında sekiz yıl; altı yıl süreli lisans programlarında ise dokuz yıldır. Hazırlık eğitim süresi ise azami iki yıldır."
+  },
+  {
+    "soru": "Devamsızlık hakkı ne kadar? Kaçırırsam ne olur?",
+    "cevap": "Öğrenciler derslere %70, uygulama ve laboratuvarlara %80 oranında devam etmekle yükümlüdürler. Devamsızlık yükümlülüğünü yerine getirmeyen öğrenci o dersten başarısız sayılır ve devamsız notu (IA) verilir. IA notu FF notu olarak işleme alınır ve öğrenci sınavlara giremez."
+  },
+  {
+    "soru": "Mezuniyet için ortalama şartı nedir? Hangi notlar geçer?",
+    "cevap": "Mezun olabilmek için öğrencinin GNO'sunun en az 2,00 olması gerekir. Bir dersten AA, BA, BB, CB, CC notları doğrudan geçer; DC ve DD ise şartlı geçer notlardır. FD ve FF ise başarısız notlardır ve dersi tekrar almak gerekir."
+  },
+  {
+    "soru": "Lisansüstü dersler ne zaman başlıyor?",
+    "cevap": "Güz Yarıyılı'nda dersler 29 Eylül 2025 tarihinde başlar ve 2 Ocak 2026 tarihinde sona erer."
+  },
+  {
+    "soru": "Lisansüstü başvuruları ne zaman, dersler ne zaman başlıyor?",
+    "cevap": "Bahar Yarıyılı'nda lisansüstü programlara başvuru tarihleri 06 Ekim 2025 – 02 Şubat 2026 arasındadır. Dersler ise 16 Şubat 2026 tarihinde başlar."
+  },
+  {
+    "soru": "Lisansüstü eğitimde final ve bütünleme sınavları ne zaman?",
+    "cevap": "Güz Yarıyılı'nda final sınavları 15-26 Aralık 2025, bütünleme sınavları 29-30 Aralık 2025 tarihlerinde; Bahar Yarıyılı'nda final sınavları 01-12 Haziran 2026, bütünleme sınavları ise 18-26 Haziran 2026 tarihlerinde yapılacaktır."
+  },
+  {
+    "soru": "Mühendislik Fakültesi’nde hangi bölümler var?",
+    "cevap": "Piri Reis Üniversitesi Mühendislik Fakültesi; Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Makine Mühendisliği, Elektrik-Elektronik Mühendisliği, Endüstri Mühendisliği ve Bilgisayar Mühendisliği olmak üzere beş ana bölümde eğitim vermektedir."
+  },
+  {
+    "soru": "Bilgisayar Mühendisliği mezunu ne iş yapar? Eğitim dili ne?",
+    "cevap": "Bilgisayar Mühendisliği Bölümü'nün eğitim dili %100 İngilizcedir. Mezunlar; bilişim, iletişim, sağlık, enerji, otomotiv, savunma sanayi, telekomünikasyon ve finans gibi birçok sektörde bilgisayar mühendisi, yazılım mühendisi, robotik mühendisi, yapay zeka mühendisi, veri tabanı yöneticisi, veri analisti, grafik/web tasarımcısı ve bilgi teknolojileri yöneticisi (IT Manager) olarak çalışabilirler."
+  },
+  {
+    "soru": "Mühendislik öğrencileri için Erasmus hangi ülkelerde var?",
+    "cevap": "Mühendislik Fakültesi öğrencileri için Erasmus kapsamında işbirliği yapılan ülkeler ve üniversiteler arasında; İtalya (Università degli Studi di Genova, Università degli Studi di Trieste), Polonya (West Pomeranian University of Technology, Szczecin), Almanya (Bremen University of Applied Sciences), İngiltere (University of Strathclyde, Glasgow), İspanya (Universitat Politecnica De Catalunya, BarcelonaTech) ve Malezya (Universiti Malaysia Pahang) bulunmaktadır."
+  },
+  {
+    "soru": "Kampüste sağlık hizmeti var mı, acil durumda ne yapmalıyım?",
+    "cevap": "Kampüste kaza ve hastalık durumlarında ilkyardım ve tedavi hizmeti verilmektedir. Gribal enfeksiyon, alerji, mide rahatsızlıkları gibi yaygın hastalıklar için ilaçlar bulunmakta ve ilk doz temin edilmektedir. Kısa süreli istirahat gerektiren durumlarda hasta müşahede odasında kalabilir. Gerektiğinde öğrenci çevredeki hastanelere sevk edilir. Ekibimiz 1 doktor ve 2-3 hemşireden oluşmaktadır ve hafta içi 08:30-17:00 saatleri arasında hizmet verilmektedir. Acil durum hattı: 0 (216) 581 00 11"
+  },
+  {
+    "soru": "Staj başvurusunda hangi belgeler lazım?",
+    "cevap": "Başvuru sırasında gerekli belgeler: EK-1: Staj Başvuru Formu, EK-2: Nüfus Cüzdanı veya Yeni Kimlik Kartı Fotokopisi, EK-3: E-Devlet üzerinden alınacak İkametgah Belgesi, EK-4: 2 Adet Vesikalık veya Biyometrik Fotoğraf, EK-5 A/B: Denizcilik Fakültesi GMİM öğrencilerinden kara stajı yapacaklar için ilgili staj evrakları, EK-6: Gemiye Katılış Ordinosu (deniz stajı için), Staj Sigortası Sonlandırma Belgesi. Detaylı belge listesi ve formlar dosyada ve bağlantılarda mevcuttur."
+  },
+  {
+    "soru": "Kampüste hangi öğrenci kulüpleri var, sosyal medya adresleri neler?",
+    "cevap": "1. Atatürkçü Düşünce Kulübü - https://www.instagram.com/pruadk/\n2. COMPRU Bilişim Kulübü - https://www.instagram.com/prubilisim/\n3. Yelken Kulübü - https://www.instagram.com/pruyelken/"
+  },
+  {
+    "soru": "Proje Ofisi ne iş yapar?",
+    "cevap": "Proje Ofisi Koordinatörlüğü'nün temel amacı, üniversitenin bilim ve teknoloji alanında kalıcı katkılar sunmasını sağlamak, ortaya konan teknolojilerin sanayi ve topluma ulaştırılmasına destek olmak, ayrıca akademisyen, öğrenci ve mezunların girişimcilik ve yenilikçilik kültürünü geliştirmektir."
+  },
+  {
+    "soru": "Öğrenciler için hangi TÜBİTAK destekleri var?",
+    "cevap": "1. TÜBİTAK BURS – Lisans/Ön Lisans: https://tubitak.gov.tr/tr/burslar/lisans-onlisans\n2. TÜBİTAK Proje Desteği- 2209/A: https://tubitak.gov.tr/tr/burslar/lisans-onlisans/destek-programlari/2209-universite-ogrencileri-arastirma-projeleri-destekleme-programi\n3. TÜBİTAK BURS – Lisansüstü: https://tubitak.gov.tr/tr/burslar/lisansustu"
+  },
+  {
+    "soru": "Proje satın alırken bir şeye dikkat etmeli miyim?",
+    "cevap": "Satınalma işlemlerinde, üniversitenin Satın Alma Yönetmeliği esas alınır. Proje bütçesinden alım yapmadan önce mutlaka Proje Ofisi Koordinatörlüğü ile iletişime geçilmeli, gerekli kontroller yapıldıktan sonra satınalma süreci başlatılmalıdır."
+  },
+  {
+    "soru": "Okulda hangi fakülteler ve bölümler var?",
+    "cevap": "Piri Reis Üniversitesi'nde başlıca fakülteler ve programlar şunlardır:\n- Denizcilik Fakültesi (ör. Deniz Ulaştırma İşletme Mühendisliği, Gemi Makineleri İşletme Mühendisliği)\n- Denizcilik Meslek Yüksekokulu (ör. Gemi Makineleri İşletmeciliği, Sualtı Teknolojisi, Deniz ve Liman İşletmeciliği, Marina ve Yat İşletmeciliği, Deniz Brokerliği, Mekatronik, Lojistik, Bilgisayar Programcılığı, Aşçılık)\n- Hukuk Fakültesi\n- İktisadi ve İdari Bilimler Fakültesi (ör. Uluslararası Ticaret ve İşletmecilik, Ekonomi ve Finans, Denizcilik İşletmeleri Yönetimi, Lojistik Yönetimi, Yönetim Bilişim Sistemleri)\n- Mühendislik Fakültesi (Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Elektrik-Elektronik Mühendisliği, Endüstri Mühendisliği, Makine Mühendisliği, Bilgisayar Mühendisliği)\nAyrıca çeşitli lisansüstü programlar da mevcuttur."
+  },
+  {
+    "soru": "Deniz Ulaştırma İşletme Mühendisliği mezunları hangi işlerde çalışıyor?",
+    "cevap": "Mezunlar, dünyanın her yerine seyir yapan ticaret gemilerinde vardiya zabiti olarak mesleklerine başlar ve ileride uzakyol kaptanlığına kadar yükselebilirler. Ayrıca denizcilik, brokerlik, deniz sigortacılığı, insan kaynakları, liman yönetimi gibi alanlarda da çalışabilirler."
+  },
+  {
+    "soru": "Hazırlık eğitimi hangi seviyelere göre veriliyor?",
+    "cevap": "İngilizce Hazırlık eğitimi Avrupa Ortak Dil Referans Çerçevesi (CEFR) ile uyumludur ve dört seviyeden (Başlangıç, A1, A2, B1) oluşur. Öğrenciler seviye tespit sınavı ile uygun kura yerleştirilir ve her kur sekiz hafta sürer."
+  },
+  {
+    "soru": "Üniversitenin tam adı ne? Nerede, ne zaman kuruldu?",
+    "cevap": "Piri Reis Üniversitesi, 2008 yılında kurulan, denizcilik ve mühendislik alanlarında eğitim veren bir vakıf üniversitesidir. İstanbul'un Tuzla ilçesinde yer alır ve denizcilik eğitimi konusunda uzmanlaşmıştır."
+  },
+  {
+    "soru": "Okulda hangi lisans bölümleri var?",
+    "cevap": "Denizcilik Fakültesi: Deniz Ulaştırma İşletme Mühendisliği, Gemi Makineleri İşletme Mühendisliği. İktisadi ve İdari Bilimler Fakültesi: Uluslararası Ticaret ve İşletmecilik, Ekonomi ve Finans, Denizcilik İşletmeleri Yönetimi, Lojistik Yönetimi, Yönetim Bilişim Sistemleri. Mühendislik Fakültesi: Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Makine Mühendisliği, Elektrik-Elektronik Mühendisliği, Endüstri Mühendisliği, Bilgisayar Mühendisliği. Hukuk Fakültesi: Hukuk."
+  },
+  {
+    "soru": "Dersler ve eğitim dili İngilizce mi?",
+    "cevap": "Üniversitemizde öğrenim dili Fakültelerde %100 İngilizce, Denizcilik Meslek Yüksek Okulu'nda ise %30 ve %100 İngilizcedir. İngilizce yeterliliği olmayan öğrenciler için hazırlık sınıfı zorunludur. Mezunların uluslararası düzeyde iletişim ve çalışma yetkinliği kazanması hedeflenmektedir."
+  },
+  {
+    "soru": "Deniz Ulaştırma İşletme Mühendisliği’ne girenlerin geçen yılki en düşük puanı neydi?",
+    "cevap": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) bölümüne 2024-2025 yılında tam burslu olarak en düşük 425.23214 puan ve 58.422 sıralama ile, %50 burslu olarak en düşük 353.89248 puan ve 141.743 sıralama ile, ücretli olarak ise en düşük 297.19306 puan ve 274.585 sıralama ile yerleşilmiştir."
+  },
+  {
+    "soru": "Hukuk Fakültesi için geçen seneki taban puanlar neydi?",
+    "cevap": "Hukuk Fakültesi'nde tam burslu kontenjana en düşük 407.03771 puan ve 27.287 sıralama ile, %50 bursluya en düşük 371.44858 puan ve 76.686 sıralama ile, ücretliye ise en düşük 350.94903 puan ve 123.582 sıralama ile öğrenci yerleşmiştir."
+  },
+  {
+    "soru": "Bilgisayar Mühendisliği’ne burslu ve ücretli girenler kaç puan aldı?",
+    "cevap": "Bilgisayar Mühendisliği (İngilizce) bölümünde tam burslu kontenjana en düşük 423.54247 puan ve 59.912 sıralama ile, %50 bursluya en düşük 348.52281 puan ve 150.552 sıralama ile, ücretliye ise en düşük 290.21353 puan ve 299.787 sıralama ile öğrenci alınmıştır."
+  },
+  {
+    "soru": "Üniversiteye Marmaray’la nasıl gelirim?",
+    "cevap": "Marmaray ile Tuzla İstasyonu'nda indikten sonra, kampüse yürüyerek yaklaşık 10 dakikada ulaşabilirsiniz. İstasyon çıkışında üniversite yönlendirme tabelalarını takip edebilirsiniz."
+  },
+  {
+    "soru": "Ücretsiz servis var mı, nereden kalkıyor?",
+    "cevap": "Evet, üniversitenin servis hizmeti vardır. Pazartesi-Cuma günleri Kartal Metro'dan saat 08:00'de ve Tuzla Marmaray İstasyonu'ndan 08:30-08:50 saatlerinde (ring servisi) kampüse servis bulunmaktadır."
+  },
+  {
+    "soru": "Sabiha Gökçen’den kaç dakikada kampüse varırım?",
+    "cevap": "Sabiha Gökçen Havalimanı'ndan taksi ile yaklaşık 20 dakikada, İstanbul Havalimanı'ndan ise yaklaşık 1,5 saatte Piri Reis Üniversitesi kampüsüne ulaşabilirsiniz."
+  },
+  {
+    "soru": "Denizcilik bölümlerinde üniforma zorunlu mu? Kimler giymek zorunda?",
+    "cevap": "Denizcilik Fakültesi (DF) ve Denizcilik Meslek Yüksekokulu (DMYO)'nda eğitim alan lisans ve ön lisans öğrencileri için üniforma giyme zorunluluğu vardır."
+  },
+  {
+    "soru": "Üniforma kuralları neler? Erkekler/kadınlar için nelere dikkat edilmeli?",
+    "cevap": "Öğrenciler, kıyafet dönemlerine uygun olarak üniforma giymek, üniformayı temiz, ütülü ve özenli kullanmak, beden temizliğine dikkat etmek, bölüm ve sınıfa uygun alametleri kullanmak, gereksiz aksesuar (küpe, kolye, bilezik, okul ve evlilik yüzüğü dışında yüzük) takmamak zorundadır. Erkek öğrenciler bıyık ve sakal bırakamaz, kadın öğrenciler pastel tonlarda hafif makyaj yapabilir ve saçlarını düzenli toplamalıdır."
+  },
+  {
+    "soru": "Yazlık/kışlık üniforma hangi tarihlerde giyiliyor?",
+    "cevap": "Yazlık kıyafet dönemi 15 Mayıs - 15 Ekim, kışlık kıyafet dönemi 15 Ekim - 15 Mayıs tarihleri arasındadır. Üniversite Yönetim Kurulu bu tarihleri değiştirme yetkisine sahiptir."
+  }
+]

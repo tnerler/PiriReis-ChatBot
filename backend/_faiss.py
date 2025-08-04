@@ -1,10 +1,10 @@
 import faiss
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.vectorstores import FAISS
-from openai_clients import get_embedding_model
+from backend.openai_clients import get_embedding_model
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os 
-from load_docs import compute_hash
+from backend.load_docs import compute_hash
 import time
 
 

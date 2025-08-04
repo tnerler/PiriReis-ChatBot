@@ -1,0 +1,377 @@
+{
+  "document_title": "Lisansüstü Eğitim Enstitüsü Akademik Takvim",
+  "metadata": {
+    "university_name": "Piri Reis Üniversitesi",
+    "academic_year": "2025-2026",
+    "document_type": "Lisansüstü Eğitim-Öğretimine İlişkin Akademik Takvim",
+    "approval": {
+      "date": "05.03.2025",
+      "meeting_number": "2025/05",
+      "approved_by": "Üniversite Senatosu"
+    }
+  },
+  "academic_calendar": {
+    "terms": [
+      {
+        "name": "Güz Yarıyılı",
+        "events": [
+          {
+            "name": "Lisansüstü Programlara Başvuru Tarihleri",
+            "date": "26 Mayıs – 15 Eylül 2025"
+          },
+          {
+            "name": "Lisansüstü Programlara Erken Kayıt İçin Başvuru Tarihleri",
+            "date": "26 Mayıs – 30 Haziran 2025"
+          },
+          {
+            "name": "Lisansüstü Programlara Yatay Geçiş Başvuru Tarihleri",
+            "date": "26 Mayıs – 15 Eylül 2025"
+          },
+          {
+            "name": "Lisansüstü Programlara Yabancı Uyruklu Öğrenci Başvuru Tarihleri",
+            "date": "26 Mayıs – 15 Eylül 2025"
+          },
+          {
+            "name": "Yabancı Dil Seviye Tespit Sınavı ve Sonuçlarının İlanı",
+            "date": "İngilizce Hazırlık Okulu"
+          },
+          {
+            "name": "Erken Kayıt Başvuruları Değerlendirme Tarihleri",
+            "date": "14 – 18 Temmuz 2025"
+          },
+          {
+            "name": "Erken Kayıt Mülakat Tarihleri",
+            "date": "21 – 25 Temmuz 2025"
+          },
+          {
+            "name": "Erken Kayıt Mülakat Sonuçlarının İlan Tarihi",
+            "date": "28 Temmuz 2025"
+          },
+          {
+            "name": "Kayıt Başvuruları Değerlendirme Tarihleri",
+            "date": "25 Temmuz -16 Eylül 2025"
+          },
+          {
+            "name": "Kayıt Mülakat Tarihleri",
+            "date": "17 Eylül – 18 Eylül 2025"
+          },
+          {
+            "name": "Kayıt Mülakat Sonuçlarının İlan Tarihi",
+            "date": "19 Eylül 2025"
+          },
+          {
+            "name": "Yeni Öğrencilerin Kesin Kayıt Tarihi",
+            "date": "29 Temmuz – 26 Eylül 2024"
+          },
+          {
+            "name": "Derse Başlama Tarihi (14 Hafta)",
+            "date": "29 Eylül 2025"
+          },
+          {
+            "name": "Ders Bitiş Tarihi",
+            "date": "2 Ocak 2026"
+          },
+          {
+            "name": "\"Otomasyon Sistemiyle Derse Yazılma\" Tarihi",
+            "date": "22-26 Eylül 2025"
+          },
+          {
+            "name": "Ders Ekleme/Bırakma Tarihleri",
+            "date": "29 Eylül-03 Ekim 2025"
+          },
+          {
+            "name": "Dersten Çekilme Son Başvuru Tarihi",
+            "date": "14 Kasım 2025"
+          },
+          {
+            "name": "İzinli Sayılma/Kayıt Dondurma Son Başvuru Tarihi",
+            "date": "14 Kasım 2025"
+          },
+          {
+            "name": "Final Sınavları",
+            "date": "15 – 26 Aralık 2025"
+          },
+          {
+            "name": "Bütünleme Sınavları",
+            "date": "29-30 Aralık 2025"
+          },
+          {
+            "name": "Yarıyıl Sonu Final Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+            "date": "12 Ocak 2026"
+          },
+          {
+            "name": "Bütünleme Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+            "date": "19 Ocak 2026"
+          }
+        ],
+        "doctoral_program": {
+          "name": "Doktora Programı",
+          "events": [
+            {
+              "name": "Doktora Yeterlik Sınavlarına Başvuru Tarihleri",
+              "date": "08-14 Aralık 2025"
+            },
+            {
+              "name": "Doktora Yeterlik Sınav Tarihleri",
+              "date": "15-26 Aralık 2025",
+              "note": "Sınav Sonuçları yeterlik sınavını izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Tez İzleme Komite Üyelerinin Belirlenmesi ve Enstitüye Bildirilmesi",
+              "note": "Yeterlik sınavında başarılı bulunan öğrenci için ilgili anabilim dalı başkanlığı bir ay içinde bir tez izleme komitesi önerisini Enstitüye bildirir"
+            },
+            {
+              "name": "Doktora Tez Öneri Savunma Yazılı Raporun Jüriye Teslimi",
+              "note": "Tez Öneri Savunmadan 15 gün önce yazılı rapor jürilere teslim edilir",
+              "details": "Bir önceki dönemde yeterlik sınavına girenler içindir"
+            },
+            {
+              "name": "Doktora Tez Öneri Savunma Sınav Tarihleri",
+              "date": "15-26 Aralık 2025",
+              "note": "Tez Öneri Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Doktora Tezin (Tez İzleme Komite/Dönem Raporu) Komite Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci, toplantı tarihinden en az bir ay önce komite üyelerine yazılı bir rapor sunar."
+            },
+            {
+              "name": "Doktora Tez İzleme (Dönem Raporu) Tarihleri",
+              "date": "15 – 26 Aralık 2025",
+              "note": "Doktora Tez İzleme sonucu, tez izleme tarihini izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Doktora Tez Savunma Sınavı Başvuru ve Tezin Enstitüye/Jüri Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci; danışmanın tezin savunulabilir olduğuna ilişkin görüşü ile birlikte tezi,Tez danışmanı; öğrencinin tez savunma sınav jüri öneri formunu, tez savunma tarihinden en az bir ay önce enstitüye teslim eder."
+            },
+            {
+              "name": "Doktora Tez Savunma Sınav Tarihleri",
+              "date": "15 – 26 Aralık 2025",
+              "note": "Tez Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            }
+          ]
+        },
+        "masters_program": {
+          "name": "Yüksek Lisans Programı",
+          "events": [
+            {
+              "name": "Tezli Yüksek Lisans Tez Savunma Sınavı Başvuru ve Tezlerin Enstitüye/Jüri Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci, danışmanın tezin savunulabilir olduğuna ilişkin görüşü ile birlikte tezi, tez savunma tarihinden en az bir ay önce enstitüye teslim eder."
+            },
+            {
+              "name": "Tezli Yüksek Lisans Tez Savunma Sınav Tarihleri",
+              "date": "15 – 26 Aralık 2025",
+              "note": "Tez Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Tezsiz Yüksek Lisans Dönem Projelerinin Danışmanına/Enstitüye Teslim Tarihleri",
+              "date": "15 – 26 Aralık 2025"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bahar Yarıyılı",
+        "events": [
+          {
+            "name": "Lisansüstü Programlara Başvuru Tarihleri",
+            "date": "06 Ekim 2025 – 02 Şubat 2026"
+          },
+          {
+            "name": "Lisansüstü Programlara Erken Kayıt İçin Başvuru Tarihleri",
+            "date": "06 Ekim-27 Ekim 2025"
+          },
+          {
+            "name": "Lisansüstü Programlara Yatay Geçiş Başvuru Tarihleri",
+            "date": "06 Ekim 2025 – 02 Şubat 2026"
+          },
+          {
+            "name": "Lisansüstü Programlara Yabancı Uyruklu Öğrenci Başvuru Tarihleri",
+            "date": "06 Ekim 2025 – 02 Şubat 2026"
+          },
+          {
+            "name": "Yabancı Dil Seviye Tespit Sınavı ve Sonuçlarının İlanı",
+            "date": "İngilizce Hazırlık Okulu"
+          },
+          {
+            "name": "Başvuruları Değerlendirme Tarihleri",
+            "date": "03 – 04 Şubat 2026"
+          },
+          {
+            "name": "Mülakat Tarihi",
+            "date": "05-06 Şubat 2026"
+          },
+          {
+            "name": "Mülakat Sonuçlarının İlan Tarihi",
+            "date": "09 Şubat 2026"
+          },
+          {
+            "name": "Yeni Öğrencilerin Kesin Kayıt Tarihi",
+            "date": "10-13 Şubat 2026"
+          },
+          {
+            "name": "\"Otomasyon Sisteminde Derse Yazılma\" Tarihleri",
+            "date": "16-20 Şubat 2026"
+          },
+          {
+            "name": "Derse Başlama Tarihi (14 Hafta)",
+            "date": "16 Şubat 2026"
+          },
+          {
+            "name": "Ders Bitiş Tarihi",
+            "date": "29 Mayıs 2026"
+          },
+          {
+            "name": "Ders Ekleme/Bırakma Tarihleri",
+            "date": "23-26 Şubat 2026"
+          },
+          {
+            "name": "Dersten Çekilme Son Başvuru Tarihi",
+            "date": "27 Mart 2026"
+          },
+          {
+            "name": "İzinli Sayılma/Kayıt Dondurma Son Başvuru Tarihi",
+            "date": "27 Mart 2026"
+          },
+          {
+            "name": "Final Sınavları",
+            "date": "01-12 Haziran 2026"
+          },
+          {
+            "name": "Bütünleme Sınavları",
+            "date": "18-26 Haziran 2026"
+          }
+        ],
+        "doctoral_program": {
+          "name": "Doktora Programı",
+          "events": [
+            {
+              "name": "Doktora Yeterlik Sınavlarına Başvuru Tarihleri",
+              "date": "01-06 Nisan 2026"
+            },
+            {
+              "name": "Doktora Yeterlik Sınav Tarihleri",
+              "date": "20-30 Nisan 2026",
+              "note": "Sınav Sonuçları yeterlik sınavını izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Tez İzleme Komite Üyelerinin Belirlenmesi ve Enstitüye Bildirilmesi",
+              "note": "Yeterlik sınavında başarılı bulunan öğrenci için ilgili anabilim dalı başkanlığı bir ay içinde bir tez izleme komitesi önerisini Enstitüye bildirir"
+            },
+            {
+              "name": "Doktora Tez Öneri Savunma Yazılı Raporun Jüriye Teslimi",
+              "note": "Tez Öneri Savunmadan 15 gün önce yazılı rapor jürilere teslim edilir",
+              "details": "Bir önceki dönemde yeterlik sınavına girenler içindir"
+            },
+            {
+              "name": "Doktora Tez Öneri Savunma Sınav Tarihleri",
+              "date": "20-30 Nisan 2026",
+              "note": "Tez Öneri Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Doktora Tezin (Tez İzleme Komite/Dönem Raporu) Komite Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci, toplantı tarihinden en az bir ay önce komite üyelerine yazılı bir rapor sunar."
+            },
+            {
+              "name": "Doktora Tez İzleme (Dönem Raporu) Tarihleri",
+              "date": "20-30 Nisan 2026",
+              "note": "Doktora Tez İzleme sonucu, tez izleme tarihini izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Doktora Tez Savunma Sınavı Başvuru ve Tezlerin Enstitüye/Jüri Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci; danışmanın tezin savunulabilir olduğuna ilişkin görüşü ile birlikte tezi,Tez danışmanı; öğrencinin tez savunma sınav jüri öneri formunu, tez savunma tarihinden en az bir ay önce enstitüye teslim eder."
+            },
+            {
+              "name": "Doktora Tez Savunma Sınav Tarihleri",
+              "date": "20-30 Nisan 2026",
+              "note": "Doktora Tez Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            }
+          ]
+        },
+        "masters_program": {
+          "name": "Yüksek Lisans Programı",
+          "events": [
+            {
+              "name": "Tezli Yüksek Lisans Tez Savunma Sınavı Başvuru ve Tezlerin Enstitüye/Jüri Üyelerine Son Teslim Tarihi",
+              "note": "Öğrenci, danışmanın tezin savunulabilir olduğuna ilişkin görüşü ile birlikte tezi, tez savunma tarihinden en az bir ay önce enstitüye teslim eder."
+            },
+            {
+              "name": "Tezli Yüksek Lisans Tez Savunma Sınav Tarihleri",
+              "date": "20-30 Nisan 2026",
+              "note": "Tez Savunma sonucu, sınavı izleyen üç gün içinde enstitüye tutanakla bildirilir."
+            },
+            {
+              "name": "Tezsiz Yüksek Lisans Dönem Projelerinin Danışmanına/Enstitüye Teslim Tarihleri",
+              "date": "20-30 Nisan 2026"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "official_holidays": {
+    "title": "Resmi Tatiller",
+    "holidays": [
+      {
+        "name": "29 Ekim Cumhuriyet Bayramı Arefesi",
+        "date": "28 Ekim 2025"
+      },
+      {
+        "name": "29 Ekim Cumhuriyet Bayramı",
+        "date": "29 Ekim 2025"
+      },
+      {
+        "name": "Yılbaşı Tatili",
+        "date": "1 Ocak 2026"
+      },
+      {
+        "name": "Ramazan Bayramı Arefesi",
+        "date": "19 Mart 2026"
+      },
+      {
+        "name": "Ramazan Bayramı",
+        "date": "20-22 Mart 2026"
+      },
+      {
+        "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+        "date": "23 Nisan 2026"
+      },
+      {
+        "name": "Emek ve Dayanışma Günü",
+        "date": "1 Mayıs 2026"
+      },
+      {
+        "name": "Atatürk´ü Anma, Gençlik ve Spor Bayramı",
+        "date": "19 Mayıs 2026"
+      },
+      {
+        "name": "Kurban Bayramı Arefesi",
+        "date": "26 Mayıs 2026"
+      },
+      {
+        "name": "Kurban Bayramı",
+        "date": "27-30 Mayıs 2026"
+      },
+      {
+        "name": "Demokrasi ve Milli Birlik Günü",
+        "date": "15 Temmuz 2026"
+      },
+      {
+        "name": "Zafer Bayramı",
+        "date": "30 Ağustos 2026"
+      },
+      {
+        "name": "Mezuniyet Töreni",
+        "date": ""
+      }
+    ]
+  },
+  "notes": [
+    "Gerektiğinde Senato Kararı ile değişiklik yapılabilir.",
+    "Cumartesi ve Pazar günleri de ders/sınav yapılabilir."
+  ],
+  "processing_info": {
+    "processed_date": "2025-07-31 07:58:59",
+    "processed_by": "tnerler",
+    "file_name": "lisansustu_egitim_enstitusu_akademik_takvim.txt"
+  }
+}

@@ -1,13 +1,14 @@
 from flask import Flask, request, jsonify, render_template, session, make_response
-from retrieve_and_generate import build_chatbot, State
+from backend.retrieve_and_generate import build_chatbot, State
 from dotenv import load_dotenv
 import os
-import sqlite3
 import uuid
 from flask_cors import CORS
 import logging
 import traceback
 import threading
+from flask_pymongo import PyMongo
+from datetime import datetime
 
 # Logging setup
 logging.basicConfig(
@@ -23,6 +24,9 @@ logger = logging.getLogger(__name__)
 print("Script Çalışıyor")
 load_dotenv()
 
+# MongoDB connection string
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/pirix_chatbot")
+
 # Set environment variables for LangChain
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "pirix-chatbot"
@@ -37,42 +41,12 @@ CORS(app)
 secret_key = os.getenv("FLASK_SECRET_KEY", "supersecretkey")
 app.secret_key = secret_key
 
-DB_PATH = 'database/chatbot_feedback.db'
+# MongoDB
+app.config["MONGO_URI"] = MONGO_URI
+mongo = PyMongo(app)
+db = mongo.db
 
-# Ensure directory exists
-os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
-
-def init_db():
-    try:
-        conn = sqlite3.connect(DB_PATH, timeout=5)
-        cursor = conn.cursor()
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS feedback (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                session_id TEXT NOT NULL,
-                question TEXT NOT NULL,
-                answer TEXT NOT NULL,
-                feedback_type TEXT DEFAULT 'pending',
-                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-                user_ip TEXT
-            )
-        ''')
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS sessions (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                session_id TEXT UNIQUE NOT NULL,
-                user_ip TEXT,
-                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
-        conn.commit()
-        conn.close()
-        logger.info("Database initialized successfully")
-    except Exception as e:
-        logger.error(f"Error initializing database: {e}")
-        traceback.print_exc()
-
-init_db()
+# Create collections if not exist (MongoDB creates on first insert)
 
 # Create a lock for chatbot initialization
 chatbot_lock = threading.Lock()
@@ -97,7 +71,6 @@ threading.Thread(target=initialize_chatbot).start()
 
 @app.before_request
 def ensure_session_id():
-    # Check both session and cookie, create if needed
     session_id = request.cookies.get("session_id") or session.get("session_id")
     if not session_id:
         session_id = str(uuid.uuid4())
@@ -111,20 +84,17 @@ def home():
 def ask():
     try:
         global retrieve, generate
-        
-        # Ensure chatbot is initialized
+
         if retrieve is None or generate is None:
             initialize_chatbot()
-            
+
         data = request.get_json()
         question = data.get("question", "").strip()
         if not question:
             return jsonify({"error": "Soru boş olamaz."}), 400
 
-        # Get session ID from cookie or session
         user_ip = request.remote_addr
         session_id = data.get("session_id") or request.cookies.get("session_id") or session.get("session_id")
-        
         if not session_id:
             session_id = str(uuid.uuid4())
             session["session_id"] = session_id
@@ -136,30 +106,32 @@ def ask():
             "answer": ""
         }
 
-        # Retrieve and Generate
         logger.info(f"Processing question from session {session_id[:8]}...")
         retrieval_result = retrieve(state, session_id=session_id)
         state["context"] = retrieval_result["context"]
         generation_result = generate(state, session_id=session_id)
 
-        # Save to database
-        feedback_id = None
-        try:
-            conn = sqlite3.connect(DB_PATH, timeout=5)
-            cursor = conn.cursor()
-            cursor.execute('''
-                INSERT INTO feedback (session_id, question, answer, feedback_type, user_ip)
-                VALUES (?, ?, ?, ?, ?)
-            ''', (session_id, question, generation_result["answer"], 'pending', user_ip))
-            feedback_id = cursor.lastrowid
-            conn.commit()
-            conn.close()
-            logger.info(f"Question successfully saved - ID: {feedback_id}")
-        except Exception as db_e:
-            logger.error(f"Database error: {db_e}")
-            traceback.print_exc()
+        # Save to MongoDB
+        feedback_doc = {
+            "session_id": session_id,
+            "question": question,
+            "answer": generation_result["answer"],
+            "feedback_type": "pending",
+            "timestamp": datetime.utcnow(),
+            "user_ip": user_ip
+        }
+        result = db.feedback.insert_one(feedback_doc)
+        feedback_id = str(result.inserted_id)
+        logger.info(f"Question successfully saved - ID: {feedback_id}")
 
-        # Prepare response
+        # Save session info if not exists
+        if db.sessions.count_documents({"session_id": session_id}) == 0:
+            db.sessions.insert_one({
+                "session_id": session_id,
+                "user_ip": user_ip,
+                "created_at": datetime.utcnow()
+            })
+
         response_data = {
             "answer": generation_result["answer"],
             "feedback_id": feedback_id,
@@ -167,19 +139,19 @@ def ask():
             "question": question,
             "session_id": session_id
         }
-        
+
         response = make_response(jsonify(response_data))
-        
         # Set session ID cookie if not exists
         if not request.cookies.get("session_id"):
             response.set_cookie("session_id", session_id, max_age=30*24*60*60)
-            
         return response
-        
+
     except Exception as e:
         logger.error(f"Ask endpoint error: {e}")
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
+
+from bson import ObjectId
 
 @app.route("/feedback", methods=["POST"])
 def save_feedback():
@@ -197,18 +169,12 @@ def save_feedback():
         if feedback_type not in ("like", "dislike"):
             return jsonify({"error": "Geçersiz feedback türü (like/dislike olmalı)."}), 400
 
-        conn = sqlite3.connect(DB_PATH, timeout=5)
-        cursor = conn.cursor()
-        cursor.execute('''
-            UPDATE feedback 
-            SET feedback_type = ? 
-            WHERE id = ?
-        ''', (feedback_type, feedback_id))
-        updated_rows = cursor.rowcount
-        conn.commit()
-        conn.close()
+        result = db.feedback.update_one(
+            {"_id": ObjectId(feedback_id)},
+            {"$set": {"feedback_type": feedback_type}}
+        )
 
-        if updated_rows > 0:
+        if result.modified_count > 0:
             logger.info(f"Feedback updated - ID: {feedback_id}, Type: {feedback_type}")
             return jsonify({
                 "success": True,
@@ -227,22 +193,16 @@ def save_feedback():
 @app.route("/feedback-stats")
 def feedback_stats():
     try:
-        conn = sqlite3.connect(DB_PATH, timeout=5)
-        cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM feedback")
-        total_questions = cursor.fetchone()[0]
-        cursor.execute("SELECT feedback_type, COUNT(*) FROM feedback WHERE feedback_type != 'pending' GROUP BY feedback_type")
-        feedback_counts = dict(cursor.fetchall())
-        cursor.execute("SELECT COUNT(*) FROM feedback WHERE feedback_type = 'pending'")
-        pending_feedback_count = cursor.fetchone()[0]
-        cursor.execute('''
-            SELECT id, question, answer, feedback_type, timestamp 
-            FROM feedback 
-            ORDER BY timestamp DESC 
-            LIMIT 10
-        ''')
-        recent_feedback = cursor.fetchall()
-        conn.close()
+        total_questions = db.feedback.count_documents({})
+        feedback_counts = {doc['_id']: doc['count'] for doc in db.feedback.aggregate([
+            {"$match": {"feedback_type": {"$ne": "pending"}}},
+            {"$group": {"_id": "$feedback_type", "count": {"$sum": 1}}}
+        ])}
+        pending_feedback_count = db.feedback.count_documents({"feedback_type": "pending"})
+        recent_feedback = list(db.feedback.find({}, {"question": 1, "answer": 1, "feedback_type": 1, "timestamp": 1}).sort("timestamp", -1).limit(10))
+        for doc in recent_feedback:
+            doc["id"] = str(doc["_id"])
+            doc.pop("_id")
         return jsonify({
             "total_questions": total_questions,
             "feedback_counts": feedback_counts,
@@ -256,17 +216,13 @@ def feedback_stats():
 @app.route("/debug-db")
 def debug_db():
     try:
-        conn = sqlite3.connect(DB_PATH, timeout=5)
-        cursor = conn.cursor()
-        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='feedback'")
-        table_exists = cursor.fetchone()
-        cursor.execute("SELECT COUNT(*) FROM feedback")
-        total_count = cursor.fetchone()[0]
-        cursor.execute("SELECT * FROM feedback ORDER BY timestamp DESC LIMIT 5")
-        recent_records = cursor.fetchall()
-        conn.close()
+        total_count = db.feedback.count_documents({})
+        recent_records = list(db.feedback.find().sort("timestamp", -1).limit(5))
+        for doc in recent_records:
+            doc["id"] = str(doc["_id"])
+            doc.pop("_id")
         return jsonify({
-            "table_exists": table_exists is not None,
+            "collection_exists": True,
             "total_records": total_count,
             "recent_records": recent_records
         })
@@ -277,11 +233,10 @@ def debug_db():
 @app.route("/debug-feedback")
 def debug_feedback():
     try:
-        conn = sqlite3.connect(DB_PATH, timeout=5)
-        cursor = conn.cursor()
-        cursor.execute("SELECT * FROM feedback ORDER BY timestamp DESC")
-        all_feedback = cursor.fetchall()
-        conn.close()
+        all_feedback = list(db.feedback.find().sort("timestamp", -1))
+        for doc in all_feedback:
+            doc["id"] = str(doc["_id"])
+            doc.pop("_id")
         return jsonify({
             "all_feedback": all_feedback,
             "count": len(all_feedback)

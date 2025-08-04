@@ -1,0 +1,103 @@
+{
+  "document_title": "İngilizce Hazırlık Akademik Takvim",
+  "metadata": {
+    "university_name": "Piri Reis Üniversitesi",
+    "academic_year": "2025-2026",
+    "department": "İngilizce Hazırlık Bölümü",
+    "approval": {
+      "date": "05.03.2025",
+      "meeting_number": "2025/05",
+      "approved_by": "Üniversite Senatosu"
+    }
+  },
+  "pre_term_calendar": {
+    "title": "YARIYIL ÖNCESİNE AİT TAKVİM (Yeni kayıt olan öğrenciler için)",
+    "events": [
+      {
+        "name": "Yeni Öğrencilerin Kayıt-Kabul Süresi",
+        "date": "ÖSYM tarafından ilan edilecektir."
+      },
+      {
+        "name": "İngilizce Seviye Tespit Sınavı (İSTS)",
+        "date": "01 Eylül 2025"
+      },
+      {
+        "name": "İngilizce Yeterlilik Sınavı (İYS)",
+        "date": "03 – 04 – 05 Eylül 2025"
+      },
+      {
+        "name": "İSTS ve İYS Sonuçlarının İlanı",
+        "date": "17 Eylül 2025"
+      },
+      {
+        "name": "Yeni kayıtlanan Öğrenci Oryantasyon Günleri",
+        "description": "Yeni öğrencilerin oryantasyon günleri Dekanlıklar ve DMYO Müdürlüğünce ayrıca ilan edilecektir."
+      }
+    ]
+  },
+  "term_calendar": {
+    "title": "YARIYIL VE SINAVLARA AİT TAKVİM (İNGİLİZCE HAZIRLIK)",
+    "events": [
+      {
+        "name": "Hazırlık Sınıfını Tekrar Edecek Öğrenciler İçin \"Ödeme Planı Yapma ve Kayıt Yenileme\"",
+        "date": ""
+      }
+    ],
+    "terms": [
+      {
+        "name": "GÜZ YARIYILI",
+        "date_range": "29 Eylül 2025 – 16 Ocak 2026",
+        "events": [
+          {
+            "name": "Ara Sınav",
+            "date": "20 Kasım 2025"
+          },
+          {
+            "name": "Güz Dönemi Ders Bitiş Tarihi",
+            "date": "09 Ocak 2026"
+          },
+          {
+            "name": "Güz Yarıyılı İYS Sınavı",
+            "date": "14 – 15 – 16 Ocak 2026"
+          },
+          {
+            "name": "Yarı Yıl Tatili",
+            "date": "19 Ocak 2026 – 30 Ocak 2026"
+          }
+        ]
+      },
+      {
+        "name": "BAHAR YARIYILI",
+        "date_range": "02 Şubat 2026 – 15 Mayıs 2026",
+        "events": [
+          {
+            "name": "Ara Sınav",
+            "date": "26 Mart 2026"
+          },
+          {
+            "name": "Bahar Dönemi Ders Bitiş Tarihi",
+            "date": "15 Mayıs 2026"
+          },
+          {
+            "name": "Yıl Sonu Sınavı",
+            "date": "20 – 21 – 22 Mayıs 2026"
+          },
+          {
+            "name": "Yıl Sonu Sınav Sonuçları İlanı",
+            "date": "10 Haziran 2026"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Gerektiğinde Senato Kararı ile değişiklik yapılabilir.",
+    "Cumartesi ve Pazar günleri de ders/sınav yapılabilir.",
+    "Her iki yarıyıl başındaki derse yazılma işlemleri internet ortamında yapılacağından o tarihe kadar yatırılması gereken öğrenim ücretlerinin yatırılmış olması gerekir. Kaydını yeniletmeyen ve derse yazılmayanlar o yarıyıla ait devam hakkını kaybetmiş sayılırlar."
+  ],
+  "processing_info": {
+    "processed_date": "2025-07-31 07:43:15",
+    "processed_by": "tnerler",
+    "file_name": "inglilzce_hazirlik_takvim"
+  }
+}

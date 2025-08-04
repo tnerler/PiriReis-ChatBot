@@ -1,0 +1,126 @@
+{
+  "kisiselBilgiler": {
+    "unvan": "Prof. Dr.",
+    "ad": "Nafiz",
+    "soyad": "Arıca",
+    "pozisyon": "Rektör",
+    "atamaTarihi": {
+      "vekillik": "16.09.2022",
+      "asaleten": "14.03.2023"
+    },
+    "videoBaglantisi": "https://www.youtube.com/watch?v=m30IEw6YF3Y"
+  },
+  "egitimBilgileri": {
+    "lisans": {
+      "okul": "Deniz Harp Okulu",
+      "bolum": "Elektrik-Elektronik",
+      "yil": "1991"
+    },
+    "lisansustu": {
+      "okul": "ODTÜ (Orta Doğu Teknik Üniversitesi)",
+      "bolum": "Bilgisayar Mühendisliği",
+      "yuksekLisans": true,
+      "doktora": true,
+      "baslamaYili": "1995"
+    },
+    "doktoraSonrasi": {
+      "kurumlar": [
+        {
+          "kurum": "Beckman Enstitüsü Illinois Üniversitesi",
+          "yer": "Urbana-Champaign, IL",
+          "yillar": "2006-2008"
+        },
+        {
+          "kurum": "Naval Postgraduate School",
+          "yer": "Monterey, CA",
+          "bolum": "Bilişim Bilimi Bölümü",
+          "yillar": "2006-2008"
+        }
+      ]
+    }
+  },
+  "oduller": [
+    {
+      "ad": "Yılın Tezi Ödülü",
+      "kurum": "ODTÜ",
+      "yil": "1998"
+    }
+  ],
+  "isTecrubesi": [
+    {
+      "kurum": "Deniz Kuvvetleri Komutanlığı",
+      "pozisyon": "Muhabere ve Harekat Subaylığı",
+      "sure": "4 yıl",
+      "yillar": "1991-1995"
+    },
+    {
+      "kurum": "Deniz Harp Okulu",
+      "bolum": "Bilgisayar Mühendisliği Bölümü",
+      "pozisyon": ["Öğretim Üyesi", "Bölüm Başkanı"],
+      "yillar": "2004-2013"
+    },
+    {
+      "kurum": "Bahçeşehir Üniversitesi",
+      "bolum": "Mühendislik ve Doğa Bilimleri Fakültesi Bilgisayar Mühendisliği",
+      "pozisyonlar": [
+        {
+          "pozisyon": "Öğretim Üyesi",
+          "yillar": "2013-?"
+        },
+        {
+          "pozisyon": "Fen Bilimleri Enstitü Müdürü",
+          "sure": "4 yıl"
+        },
+        {
+          "pozisyon": "Mühendislik ve Doğa Bilimleri Fakültesi Dekanı"
+        }
+      ]
+    },
+    {
+      "kurum": "Piri Reis Üniversitesi",
+      "pozisyon": "Rektör",
+      "baslangic": {
+        "vekillik": "16.09.2022",
+        "asaleten": "14.03.2023"
+      }
+    }
+  ],
+  "arastirmaAlanlari": [
+    "Yapay Zeka",
+    "Makine Öğrenme",
+    "Bilgisayarla Görü",
+    "Nesne Tespit, Tanıma ve Takip",
+    "İHA (İnsansız Hava Aracı) için Yol Planlama",
+    "Yüz İfadesi Analizi"
+  ],
+  "uyelikler": [
+    "IEEE",
+    "ACM",
+    "IAMU (International Association Maritime Universities) Uluslararası Yönetim Kurulu"
+  ],
+  "sportifFaaliyetler": {
+    "kulup": "Deniz Kuvvetleri Gücü",
+    "brans": "Voleybol",
+    "sure": "25 sene",
+    "basarilar": ["5 kez Ordu Milli"]
+  },
+  "rektorMesaji": {
+    "hitap": "Değerli Piri Reis Ailesi,",
+    "paragraflar": [
+      "Üniversiteler, toplumsal gelişimin merkezinde yer alan ve geleceğe yön veren birer eğitim yuvası olmanın yanında; insanlığın refah ve mutluluğu için bilgiyi üreten, onu teknolojiyle dönüştürerek topluma sunan kurumlardır. Dolayısıyla üniversiteler; bilim, teknoloji ve toplumsal gelişimin en önemli unsurlarıdır.",
+      "Küresel rekabet ortamında hak ettiğimiz yeri alabilmek ancak nitelikli eğitim-öğretim, açık ve etkili iletişim, evrensel standartlarda akademik çalışmalar, dinamik ve esnek yönetim ile sağlanabilir.",
+      "Piri Reis Üniversitesi olarak; ülkemizin denizcilik eğitimi ve teknolojilerinin gelişiminde lider ve dünyanın saygın üniversitelerinden biri olma vizyonuyla; 21. Yüzyıl yetkinliklerine sahip, değişimi yöneten, yenilikler üreten bireyler yetiştirmeyi ve bilginin ışığında toplumumuzun dönüşümüne fayda sağlamayı amaçlıyoruz. Bu anlamda denizcilik sektörümüzün çağın geleneklerine uygun olarak dönüştürülmesinde en önemli unsur olan yetişmiş insan gücünün sektöre sunulmasının yanında deniz teknolojilerinin geliştirilmesinde aktif rol oynayacağız. Denizcilik sektörünün ihtiyaç duyduğu her alanda eğitim-öğretim, Ar-Ge ve topluma hizmet bağlamında gerekli ekosistemi tesis edeceğiz.",
+      "Adını dünyaca ünlü denizci bilgin Piri Reis'ten alan üniversitemizin uluslararası tanınırlığını ve saygınlığını yükseltmek öncelikli hedeflerimizden olacaktır. Denizcilikle ilgili her konuda Piri Reis Üniversitesi bayrağını dalgalandırarak PRU markasını yücelteceğiz."
+    ],
+    "ogrenciMesaji": {
+      "hitap": "Sevgili Öğrencilerim,",
+      "paragraflar": [
+        "Rektörünüz olarak sizlerden sadece derse girip çıkan öğrenciler olmanızı değil; düşünen, bilimsel araştırmalar yapan, projeler geliştiren, üreten; aynı zamanda sanat ve spora da ilgi gösteren çok yönlü bireyler olmanızı istiyorum.",
+        "Bundan önce olduğu gibi, bundan sonra da Cumhuriyetimizin kurucusu Mustafa Kemal Atatürk'ün \"Hayatta en hakiki mürşit ilimdir\" sözünden yola çıkarak bilimi rehber edinmenizi; sorgulayan, araştıran ve etrafını aydınlatarak ülkemize, milletimize hizmet eden sorumlu insanlar olmanızı bekliyorum.",
+        "Yetişkinliğe adım atacağınız üniversite yıllarınızın sizlere yeni arkadaşlıklar ve güzel anılarla mutluluk getirmesini diliyor; güçlü hedefler ile birlikte kaliteli, sosyal ve kültürel bir yaşam sunmasını temenni ediyorum."
+      ]
+    },
+    "kapaniş": "En içten sevgilerimle,",
+    "imza": "Piri Reis Üniversitesi Rektörü Prof. Dr. Nafiz ARICA"
+  }
+}

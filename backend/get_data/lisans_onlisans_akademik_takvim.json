@@ -1,0 +1,341 @@
+{
+  "document_title": "Lisans ve Önlisans Akademik Takvim",
+  "metadata": {
+    "university_name": "Piri Reis Üniversitesi",
+    "academic_year": "2025-2026",
+    "document_type": "Ön Lisans–Lisans Eğitim-Öğretimine İlişkin Akademik Takvim",
+    "approval": {
+      "date": "05.03.2025",
+      "meeting_number": "2025/05",
+      "approved_by": "Üniversite Senatosu"
+    }
+  },
+  "academic_calendar": {
+    "events": [
+      {
+        "name": "Yabancı Uyruklu Öğrenci Başvuru – Değerlendirme – Kesin Kayıt Tarihi",
+        "date": "24 Şubat – 30 Eylül 2025"
+      },
+      {
+        "name": "Güz Dönemi Yatay Geçiş Başvuru Tarihi",
+        "date": "04-15 Ağustos 2025"
+      },
+      {
+        "name": "Güz Dönemi Yatay Geçiş Değerlendirme Tarihi",
+        "date": "18-22 Ağustos 2025"
+      },
+      {
+        "name": "Güz Dönemi Yatay Geçiş Sonuç İlan Tarihi",
+        "date": "25 Ağustos 2025"
+      },
+      {
+        "name": "Güz Dönemi Yatay Geçiş Kesin Kayıt Tarihi",
+        "date": "26-29 Ağustos 2025"
+      },
+      {
+        "name": "Yeni Öğrencilerin Elektronik Kayıt (E-Kayıt)-Kabul Tarihi",
+        "date": "ÖSYM tarafından ilan edilecektir."
+      },
+      {
+        "name": "Yeni Öğrencilerin Kayıt-Kabul Süresi",
+        "date": "ÖSYM tarafından ilan edilecektir."
+      },
+      {
+        "name": "Güz Döneminde Açılacak Derslerin Akademik Birimler tarafından Eğitim Öğretim Planlama Koordinatörlüğüne Gönderilmesi için Son Gün",
+        "date": "15 Ağustos 2025"
+      },
+      {
+        "name": "Çift Anadal- Yandal Başvuru Tarihi",
+        "date": "01-05 Eylül 2025"
+      },
+      {
+        "name": "Mevcut Öğrenciler için Ödeme Planı Yapma ve Güz Dönemi için Kayıt Yenileme Tarihi",
+        "date": "01-12 Eylül 2025"
+      },
+      {
+        "name": "Çift Anadal- Yandal Değerlendirme Tarihi",
+        "date": "08-10 Eylül 2025"
+      },
+      {
+        "name": "Çift Anadal- Yandal Sonuç İlan Tarihi",
+        "date": "12 Eylül 2025"
+      },
+      {
+        "name": "Güz Dönemi için \"Otomasyon Sistemiyle Derse Yazılma\" Tarihi",
+        "date": "22-26 Eylül 2025"
+      },
+      {
+        "name": "Güz Dönemi Derse Başlama Tarihi (14 Hafta)",
+        "date": "29 Eylül 2025"
+      },
+      {
+        "name": "Mevcut Öğrenciler için Güz Dönemi için Ekle-Sil Tarihi",
+        "date": "29 Eylül-03 Ekim 2025"
+      },
+      {
+        "name": "Güz Dönemi için Dersten Çekilme Son Başvuru Tarihi",
+        "date": "14 Kasım 2025"
+      },
+      {
+        "name": "Güz Dönemi için İzinli Sayılma/Kayıt Dondurma Son Başvuru Tarihi",
+        "date": "14 Kasım 2025"
+      },
+      {
+        "name": "Güz Dönemi Ders Bitiş Tarihi",
+        "date": "2 Ocak 2026"
+      },
+      {
+        "name": "Güz Yarıyılı Devamsızlıktan Kalan Öğrencilerin OİS'te İlan Edilmesi",
+        "date": "2 Ocak 2026"
+      },
+      {
+        "name": "Yarıyıl Sonu Final Sınavları",
+        "date": "05-16 Ocak 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Bahar Dönemi Yatay Geçiş Başvuru Tarihi",
+        "date": "05-16 Ocak 2026"
+      },
+      {
+        "name": "Bahar Dönemi Yatay Geçiş Değerlendirme Tarihi",
+        "date": "19-23 Ocak 2026"
+      },
+      {
+        "name": "Bahar Dönemi Yatay Geçiş Sonuç İlan Tarihi",
+        "date": "28 Ocak 2026"
+      },
+      {
+        "name": "Bahar Dönemi Yatay Geçiş Kesin Kayıt Tarihi",
+        "date": "29 Ocak-04 Şubat 2026"
+      },
+      {
+        "name": "Bahar Döneminde Açılacak Derslerin Akademik Birimler tarafından Eğitim Öğretim Planlama Koordinatörlüğüne Gönderilmesi için Son Gün",
+        "date": "15 Ocak 2026"
+      },
+      {
+        "name": "Ara Tatil",
+        "date": "19-30 Ocak 2026"
+      },
+      {
+        "name": "Güz Yarıyılı Yarıyıl Sonu Final Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+        "date": "21 Ocak 2026"
+      },
+      {
+        "name": "Güz Dönemi Bütünleme Sınavı Tarihleri",
+        "date": "19-30 Ocak 2026"
+      },
+      {
+        "name": "Güz Yarıyılı Bütünleme Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+        "date": "4 Şubat 2026"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup İki Dersi Kalanlar İçin Açılacak Sınav Başvuruları",
+        "date": "5-6 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup İki Dersi Kalanlar İçin Yapılacak Sınav Tarihleri",
+        "date": "11-12 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Mezuniyet Tek Ders Sınav Notlarının Bildirilmesi İçin Son Tarih",
+        "date": "16 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup GNO 'su 2.00 'nin Altında Kalanlar İçin Açılacak Sınav Başvuruları ( Not Yükseltme )",
+        "date": "16-17 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup GNO 'su 2.00 'nin Altında Kalanlar İçin Yapılacak Sınav Tarihleri ( Not Yükseltme )",
+        "date": "19-20 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Mezuniyet Not Ortalaması Yükseltme Sınav Notlarının Bildirilmesi İçin Son Tarih",
+        "date": "23 Şubat 2026",
+        "term": "Güz"
+      },
+      {
+        "name": "Bahar Dönemi için \"Otomasyon Sistemiyle Derse Yazılma\" Tarihi",
+        "date": "02-06 Şubat 2026"
+      },
+      {
+        "name": "Bahar Dönemi Derse Başlama Tarihi (14 Hafta)",
+        "date": "9 Şubat 2026"
+      },
+      {
+        "name": "Mevcut Öğrenciler için Bahar Dönemi için Ekle-Sil Tarihi",
+        "date": "09-13 Şubat 2026"
+      },
+      {
+        "name": "Bahar Dönemi için Dersten Çekilme Son Başvuru Tarihi",
+        "date": "27 Mart 2026"
+      },
+      {
+        "name": "Bahar Dönemi için İzinli Sayılma/Kayıt Dondurma Son Başvuru Tarihi",
+        "date": "27 Mart 2026"
+      },
+      {
+        "name": "Bahar Dönemi Ders Bitiş Tarihi",
+        "date": "22 Mayıs 2026"
+      },
+      {
+        "name": "Bahar Yarıyılı Devamsızlıktan Kalan Öğrencilerin OİS'te İlan Edilmesi",
+        "date": "22 Mayıs 2026"
+      },
+      {
+        "name": "Yarıyıl Sonu Final Sınavları",
+        "date": "01-12 Haziran 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Bahar Yarıyılı Yarıyıl Sonu Final Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+        "date": "17 Haziran 2026"
+      },
+      {
+        "name": "Bahar Dönemi Bütünleme Sınavı Tarihleri",
+        "date": "15-26 Haziran 2026"
+      },
+      {
+        "name": "Bahar Yarıyılı Bütünleme Sınav Sonuçlarının OİS'e Girilmesi İçin Son Tarih",
+        "date": "1 Temmuz 2026"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup İki Dersi Kalanlar İçin Açılacak Sınav Başvuruları",
+        "date": "02-03 Temmuz 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup İki Dersi Kalanlar İçin Yapılacak Sınav Tarihi",
+        "date": "07-08 Temmuz 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Mezuniyet Tek Ders Sınav Notlarının Bildirilmesi İçin Son Tarih",
+        "date": "10 Temmuz 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup GNO 'su 2.00 'nin Altında Kalanlar İçin Açılacak Sınav Başvuruları ( Not Yükseltme )",
+        "date": "13-14 Temmuz 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Mezuniyet Aşamasında Olup GNO 'su 2.00 'nin Altında Kalanlar İçin Yapılacak Sınav Tarihleri ( Not Yükseltme )",
+        "date": "20-21 Temmuz 2026",
+        "term": "Bahar"
+      },
+      {
+        "name": "Mezuniyet Not Ortalaması Yükseltme Sınav Notlarının Bildirilmesi İçin Son Tarih",
+        "date": "24 Temmuz 2026",
+        "term": "Bahar"
+      }
+    ]
+  },
+  "summer_term": {
+    "title": "Yaz Öğretimi",
+    "date_range": "13 Temmuz – 28 Ağustos 2026",
+    "events": [
+      {
+        "name": "Ön Kayıt İşlemleri",
+        "date": "29 Haziran – 03 Temmuz 2026"
+      },
+      {
+        "name": "Açılacak Derslerin İlanı",
+        "date": "6 Temmuz 2026"
+      },
+      {
+        "name": "Derslere Kesin Kayıt İşlemleri",
+        "date": "07-10 Temmuz 2026"
+      },
+      {
+        "name": "Derslerin Başlangıcı",
+        "date": "13 Temmuz 2026"
+      },
+      {
+        "name": "Derslerin Son Günü",
+        "date": "28 Ağustos 2026"
+      },
+      {
+        "name": "Devamsızlıktan Kalan Öğrencilerin OİS'te İlan Edilmesi",
+        "date": "28 Ağustos 2026"
+      },
+      {
+        "name": "Yarıyıl Sonu Final Sınavları",
+        "date": "31 Ağustos -04 Eylül 2026"
+      }
+    ]
+  },
+  "official_holidays": {
+    "title": "Resmi Tatiller",
+    "holidays": [
+      {
+        "name": "29 Ekim Cumhuriyet Bayramı Arefesi",
+        "date": "28 Ekim 2025"
+      },
+      {
+        "name": "29 Ekim Cumhuriyet Bayramı",
+        "date": "29 Ekim 2025"
+      },
+      {
+        "name": "Yılbaşı Tatili",
+        "date": "1 Ocak 2026"
+      },
+      {
+        "name": "Ramazan Bayramı Arefesi",
+        "date": "19 Mart 2026"
+      },
+      {
+        "name": "Ramazan Bayramı",
+        "date": "20-22 Mart 2026"
+      },
+      {
+        "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+        "date": "23 Nisan 2026"
+      },
+      {
+        "name": "Emek ve Dayanışma Günü",
+        "date": "1 Mayıs 2026"
+      },
+      {
+        "name": "Atatürk´ü Anma, Gençlik ve Spor Bayramı",
+        "date": "19 Mayıs 2026"
+      },
+      {
+        "name": "Kurban Bayramı Arefesi",
+        "date": "26 Mayıs 2026"
+      },
+      {
+        "name": "Kurban Bayramı",
+        "date": "27-30 Mayıs 2026"
+      },
+      {
+        "name": "Demokrasi ve Milli Birlik Günü",
+        "date": "15 Temmuz 2026"
+      },
+      {
+        "name": "Zafer Bayramı",
+        "date": "30 Ağustos 2026"
+      },
+      {
+        "name": "Mezuniyet Töreni",
+        "date": ""
+      }
+    ]
+  },
+  "notes": [
+    "(*) Fakülte/Yüksekokullar oryantasyon yapmaları halinde, tarihleri kendileri belirleyecektir.",
+    "Gerektiğinde Senato Kararı ile değişiklik yapılabilir.",
+    "Cumartesi ve Pazar günleri de ders/sınav yapılabilir.",
+    "Her dönem başındaki derse yazılma işlemleri internet ortamında yapılacağından o tarihe kadar yatırılması gereken öğrenim ücretlerinin yatırılmış olması gerekir. Kaydını yeniletmeyen ve derse yazılmayanlar o yarıyıla ait devam hakkını kaybetmiş sayılırlar."
+  ],
+  "processing_info": {
+    "processed_date": "2025-07-31 07:48:13",
+    "processed_by": "tnerler",
+    "file_name": "lisans_onlisans_akademik_takvim.txt"
+  }
+}
