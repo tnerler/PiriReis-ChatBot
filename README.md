@@ -87,7 +87,9 @@
 
 ```
 PiriReis-ChatBot/
-├── main.py
+├── backend/
+│   ├── app.py
+│    └── ...
 ├── requirements.txt
 ├── static/
 │   ├── style.css
@@ -100,8 +102,6 @@ PiriReis-ChatBot/
 ---
 
 ## 📚 Documentation
-
-- [Project Wiki](https://github.com/tnerler/PiriReis-ChatBot/wiki) *(if available)*
 - [Issues & Discussions](https://github.com/tnerler/PiriReis-ChatBot/issues)
 
 ---
