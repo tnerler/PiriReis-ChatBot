@@ -255,4 +255,4 @@ if __name__ == "__main__":
         app.run(host="0.0.0.0", port=443, ssl_context=(crt_path, key_path))
     else:
         logger.warning("SSL certificates not found, running in development mode")
-        app.run(host="0.0.0.0", port=5000, debug=True)
+        app.run(host="0.0.0.0", port=5000, debug=False)

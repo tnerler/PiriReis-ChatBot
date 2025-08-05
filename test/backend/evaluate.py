@@ -1,9 +1,9 @@
 from ragas import SingleTurnSample, evaluate, EvaluationDataset
 from ragas.metrics import BleuScore, answer_relevancy, faithfulness, context_recall
 import json
-from test.retrieve_and_generate_test import build_chatbot  # senin build_chatbot fonksiyonun
+from test.backend.retrieve_and_generate_test import build_chatbot  # senin build_chatbot fonksiyonun
 
-def load_testset(path="test/test_data.json"):
+def load_testset(path="test/backend/test_data.json"):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 

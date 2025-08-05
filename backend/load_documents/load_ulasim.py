@@ -43,7 +43,7 @@ def process_data(data: dict, source_file: str) -> List[Document]:
     # Üniversite servis bilgileri
     university_services = data.get("university_services", {})
     if university_services:
-        full_content += "## Üniversite Servisleri\n\n"
+        full_content += "## Üniversite Servisleri (Ücretsiz)\n\n"
         shuttles = university_services.get("shuttles", [])
         for shuttle in shuttles:
             location = shuttle.get("location", "")

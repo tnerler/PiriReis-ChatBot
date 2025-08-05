@@ -12,10 +12,13 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from backend.summarizer import summarize_messages
 import time 
+from backend.clarify_question import clarify_question
+
 cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L12-v2")
 
 class State(TypedDict):
     question: str
+    clarified_question: str
     context: str
     answer: str
 
@@ -45,7 +48,7 @@ def build_chatbot():
         ),
         MessagesPlaceholder(variable_name="history"),
         HumanMessagePromptTemplate.from_template(
-            "Bağlam (Özet): {context}\n\nSoru: {question}\n\nCevap:"
+            "Bağlam:{context}\n\nSoru:{question}\n\nCevap:"
         ),
     ])
 
@@ -58,7 +61,7 @@ def build_chatbot():
         history_messages_key="history"
     )
 
-    def get_conversation_summary(history, n=5):
+    def get_conversation_summary(history, n=3):
         """Son n mesajdan ozet cikarir."""
         
         if not history.messages:
@@ -79,19 +82,13 @@ def build_chatbot():
         return summary
     
     def create_enhanced_query(current_question, history):
-        summary_start = time.time()
-        summary = get_conversation_summary(history, n=5)
-        summary_duration = round(time.time() - summary_start, 3)
-
+        summary = get_conversation_summary(history)
         if not summary:
-            print(f"\n⏱️ Özet çıkarılamadı. Süre: {summary_duration}s (mesaj yok)")
+            print("😊 Özet yok, orijinal soruyu kullanıyorum.")
             return current_question
-
-        enhanced_query = f"Özet: {summary}\n\nSoru: {current_question}"
-        print(f"\n📌 Özet: {summary}")
-        print(f"⏱️ Özet çıkarma süresi: {summary_duration}s")
-        print("📥 Enhanced Query:", enhanced_query)
-        return enhanced_query
+        clarified_question = clarify_question(summary, current_question)
+        print(f"😊 Aciklanmis Soru: {clarified_question}")
+        return clarified_question
         
      
 
@@ -106,7 +103,7 @@ def build_chatbot():
         
         
         # İlk aşama: Vektör veritabanından benzer dokümanları getir
-        results = vector_store.similarity_search_with_score(enhanced_query, k=25)
+        results = vector_store.similarity_search_with_score(enhanced_query, k=30)
         top_docs = [doc for doc, _ in results]
         
         # İkinci aşama: Cross-encoder ile dokümanları yeniden sırala
@@ -116,23 +113,21 @@ def build_chatbot():
         # Sonuçları skorlarına göre sırala ve en iyi 10'unu al
         reranked_docs = [
             doc for _, doc in sorted(zip(scores, top_docs), key=itemgetter(0), reverse=True)
-        ][:10]
+        ][:15]
 
         return {
             "context": reranked_docs,
-            "question": query
+            "question": query,  # orijinal
+            "clarified_question": enhanced_query
         }
 
     def generate(state: State, session_id: str):
         docs_content = "\n\n".join(doc.page_content for doc in state['context'])
         config = {"configurable": {"session_id": session_id}}
 
-        history = get_session_history(session_id) if session_id else ChatMessageHistory()
-        summary = get_conversation_summary(history, n=5)
         input_data = {
-            "question": state["question"],
+            "question": state.get("clarified_question", state["question"]),
             "context": docs_content,
-            "summary": summary
         }
 
         answer = chain_with_history.invoke(input_data, config=config)
