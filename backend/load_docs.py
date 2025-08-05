@@ -35,7 +35,7 @@ def load_docs() -> List[Document]:
                 data = json.load(f)
             
             file_name = os.path.basename(json_file).lower()
-            print(f"[DEBUG] Loaded {file_name}")
+            print(f"[✓] Loaded {file_name}")
 
             processor = json_processor_map.get(file_name)
             if processor is None:
@@ -64,7 +64,7 @@ def load_docs() -> List[Document]:
                 md_content = f.read()
             
             file_name = os.path.basename(md_file)
-            print(f"[DEBUG] Loaded {file_name}")
+            print(f"[✓] Loaded {file_name}")
 
             # Şimdilik sadece pru_brosur.md destekleniyor
             if "pru_brosur" in file_name.lower():

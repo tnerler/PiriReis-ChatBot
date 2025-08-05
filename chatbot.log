@@ -533,3 +533,34 @@ jinja2.exceptions.TemplateNotFound: index.html
 2025-08-05 14:36:28,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-05 14:36:28,105 - __main__ - INFO - Question successfully saved - ID: 6891ecbc4eca78a5fb53c70f
 2025-08-05 14:36:28,106 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 14:36:28] "POST /ask HTTP/1.1" 200 -
+2025-08-05 16:07:37,998 - __main__ - INFO - Initializing chatbot...
+2025-08-05 16:07:38,002 - __main__ - WARNING - SSL certificates not found, running in development mode
+2025-08-05 16:07:38,007 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.16.116:5000
+2025-08-05 16:07:38,008 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 16:07:38,047 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2025-08-05 16:07:38,047 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-08-05 16:12:55,726 - __main__ - INFO - Chatbot initialized successfully
+2025-08-05 16:14:11,605 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:11] "GET / HTTP/1.1" 200 -
+2025-08-05 16:14:11,635 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:11] "[36mGET /assets/stylesheets/style.css HTTP/1.1[0m" 304 -
+2025-08-05 16:14:11,636 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:11] "[36mGET /assets/images/denizci-yunus-maskot.png HTTP/1.1[0m" 304 -
+2025-08-05 16:14:11,638 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:11] "[36mGET /assets/javascripts/app.js HTTP/1.1[0m" 304 -
+2025-08-05 16:14:11,664 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:11] "[36mGET /assets/images/chatbox-bg.png HTTP/1.1[0m" 304 -
+2025-08-05 16:14:13,587 - __main__ - INFO - Processing question from session sess_ghh...
+2025-08-05 16:14:15,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:14:15,715 - __main__ - INFO - Question successfully saved - ID: 689203a7fb5d950a43f251b1
+2025-08-05 16:14:15,717 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:15] "POST /ask HTTP/1.1" 200 -
+2025-08-05 16:14:44,338 - __main__ - INFO - Processing question from session sess_ghh...
+2025-08-05 16:14:45,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:14:47,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:14:52,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:14:52,936 - __main__ - INFO - Question successfully saved - ID: 689203ccfb5d950a43f251b2
+2025-08-05 16:14:52,937 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:14:52] "POST /ask HTTP/1.1" 200 -
+2025-08-05 16:16:36,214 - __main__ - INFO - Processing question from session sess_ghh...
+2025-08-05 16:16:40,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:16:41,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:16:44,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 16:16:44,628 - __main__ - INFO - Question successfully saved - ID: 6892043cfb5d950a43f251b3
+2025-08-05 16:16:44,629 - werkzeug - INFO - 127.0.0.1 - - [05/Aug/2025 16:16:44] "POST /ask HTTP/1.1" 200 -
