@@ -48,7 +48,7 @@ def build_chatbot():
         query = state["question"]
 
         # Vektör veritabanından benzer dokümanları getir
-        results = vector_store.similarity_search_with_score(query, k=12)
+        results = vector_store.similarity_search_with_score(query, k=25)
         top_docs = [doc for doc, _ in results]
 
         # Cross-encoder ile yeniden sırala
@@ -57,7 +57,7 @@ def build_chatbot():
 
         reranked_docs = [
             doc for _, doc in sorted(zip(scores, top_docs), key=itemgetter(0), reverse=True)
-        ][:7]
+        ][:10]
 
         return {
             "context": reranked_docs,

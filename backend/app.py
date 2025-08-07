@@ -8,7 +8,11 @@ import logging
 import traceback
 import threading
 from flask_pymongo import PyMongo
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+import time
+
+turkey_time = timezone(timedelta(hours=3))
+timestamp = datetime.now(turkey_time).isoformat()
 
 # Logging setup
 logging.basicConfig(
@@ -103,23 +107,49 @@ def ask():
         state = {
             "question": question,
             "context": [],
+            "clarified_question": "",
             "answer": ""
         }
 
         logger.info(f"Processing question from session {session_id[:8]}...")
+
+
+        retrieve_start = time.time()
         retrieval_result = retrieve(state, session_id=session_id)
+        retrieve_end = time.time()
+        
         state["context"] = retrieval_result["context"]
+        state["clarified_question"] = retrieval_result.get("clarified_question", question)
+        retrieval_time = retrieve_end - retrieve_start
+
+
+        generate_start = time.time()
         generation_result = generate(state, session_id=session_id)
+        generate_end = time.time()
+
+        generation_time = generate_end - generate_start
+        total_time = retrieval_time + generation_time
+
+        state["answer"] = generation_result["answer"]
+
+        retrieved_contexts = [doc.page_content for doc in state["context"]]
+
 
         # Save to MongoDB
         feedback_doc = {
             "session_id": session_id,
+            "user_ip": user_ip,
+            "timestamp": timestamp,
             "question": question,
-            "answer": generation_result["answer"],
-            "feedback_type": "pending",
-            "timestamp": datetime.utcnow(),
-            "user_ip": user_ip
+            "clarified_question": state["clarified_question"],
+            "retrieved_contexts": retrieved_contexts,
+            "retrieval_time": retrieval_time,
+            "generation_time": generation_time,
+            "total_time": total_time,
+            "answer": state["answer"],
+            "feedback_type": "pending"
         }
+
         result = db.feedback.insert_one(feedback_doc)
         feedback_id = str(result.inserted_id)
         logger.info(f"Question successfully saved - ID: {feedback_id}")
@@ -129,14 +159,18 @@ def ask():
             db.sessions.insert_one({
                 "session_id": session_id,
                 "user_ip": user_ip,
-                "created_at": datetime.utcnow()
+                "created_at": timestamp
             })
 
         response_data = {
-            "answer": generation_result["answer"],
+            "answer": state["answer"],
             "feedback_id": feedback_id,
             "conversation_id": session_id,
             "question": question,
+            "clarified_question": state["clarified_question"],
+            "retrieval_time": retrieval_time,
+            "generation_time": generation_time,
+            "total_time": total_time,
             "session_id": session_id
         }
 

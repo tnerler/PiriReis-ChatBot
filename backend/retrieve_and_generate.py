@@ -87,7 +87,7 @@ def build_chatbot():
             print("😊 Özet yok, orijinal soruyu kullanıyorum.")
             return current_question
         clarified_question = clarify_question(summary, current_question)
-        print(f"😊 Aciklanmis Soru: {clarified_question}")
+        print(f"😊 Açıklanmış Soru: {clarified_question}")
         return clarified_question
         
      

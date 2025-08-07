@@ -10,7 +10,7 @@ load_dotenv()
 def get_llm():
     try:
         return init_chat_model(
-        model="gpt-4o",
+        model="gpt-3.5-turbo",
         model_provider="openai",
         api_key=os.getenv("OPENAI_API_KEY"),
         temperature=0.7,
